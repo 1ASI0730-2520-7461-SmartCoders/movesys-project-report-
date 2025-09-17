@@ -250,10 +250,69 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 # Capítulo IV: Product Design
    
 ## 4.1. Style Guidelines.
-   
+
+**Branding** 
+
+El nombre **MoveSys** surge de la combinación de “Move” (movimiento, asociado al transporte y la logística) y “Sys” (sistema, que hace referencia a la tecnología y a la gestión digital). Esta fusión refleja nuestra misión de **integrar innovación tecnológica con la operación logística**, ofreciendo una plataforma que optimiza cada etapa del transporte de carga.  
+
+Buscamos un nombre **corto, claro y fácil de recordar**, que transmita dinamismo y confianza. Al utilizar un término en inglés, logramos **alinearnos con un lenguaje universal en el sector tecnológico y logístico**, lo que nos permite proyectarnos hacia una audiencia global.  
+
+Elegir un nombre con significado refuerza la identidad de la marca y nos diferencia frente a soluciones tradicionales, facilitando que el público **identifique rápidamente nuestro propósito: digitalizar y hacer más eficiente la gestión de transporte**.  
+
+<div align="center">
+  <img width="500" alt="Logo MoveSys" src="assets/logo-movesys.jpeg" />
+</div>
+
 ### 4.1.1. General Style Guidelines.
+
+
+**Tipografía**
+
+Para **MoveSys** se eligió la tipografía **Koulen** por su estilo **moderno, audaz y con gran presencia visual**, lo que refuerza la identidad innovadora y tecnológica de la plataforma. Su diseño de **formas anchas y fuertes** transmite **solidez y confiabilidad**, valores esenciales en la gestión de transporte y logística.  
+
+A pesar de su estilo distintivo, **mantiene una buena legibilidad en titulares y elementos destacados**, ayudando a jerarquizar la información en la interfaz. Esta elección tipográfica genera un impacto visual inmediato y diferencia a MoveSys dentro del sector, a la vez que asegura **coherencia y consistencia en entornos digitales**.  
+
+<div align="center">
+  <img width="500" height="1116" alt="Branding Tipografia" src="assets/branding-tipografia.png" />
+</div>
+
+**Colores**  
+
+Se usará una paleta que refuerce la identidad de **MoveSys**, transmitiendo tecnología, confianza y solidez. El blanco **(#FFFFFF)** funciona como base principal, garantizando claridad y limpieza en la interfaz. El azul profundo **(#0E0965)** representa profesionalismo, seguridad y estabilidad, mientras que el negro **(#000000)** aporta fuerza, contraste y elegancia en los elementos clave. Como tono complementario, el azul claro/grisáceo **(#7184C4)** añade un aire moderno y tecnológico, equilibrando la composición y mejorando la legibilidad. En conjunto, esta paleta construye una experiencia visual coherente, sobria y profesional, proyectando a MoveSys como una plataforma innovadora, confiable y enfocada en la eficiencia logística.  
+
+<div align="center">
+<img width="502" height="150" alt="Color Palette" src="assets/branding-paleta-colores.png" />
+</div>
+
+**Spacing**  
+
+En la **Landing Page** y en la aplicación de **MoveSys** se utiliza un espaciado limpio y equilibrado que mejora la legibilidad, evita la sobrecarga visual y facilita la navegación. El uso estratégico de los espacios en blanco organiza el contenido, proporciona descanso visual y guía la atención del usuario hacia la información más relevante, logrando una experiencia clara, ordenada y agradable.  
+
+<div align="center">
+<img width="502" height="150" alt="Branding Spacing" src="assets/branding-spacing.png" />
+ 
+</div>
+
+**Tono de Comunicación y Lenguaje Aplicado**  
+
+El color primario de MoveSys representa la identidad visual de los operadores logísticos y técnicos de campo, transmitiendo confianza, eficiencia y profesionalismo; al interactuar con la plataforma, el usuario percibirá este tono como cercano y confiable, reflejando la relación directa con los encargados de las entregas y supervisiones. El color secundario despierta una sensación de movimiento y acción, inspirando energía, dinamismo y compromiso con el trabajo bien hecho, lo que refuerza la visión de MoveSys como una solución que conecta tecnología y eficiencia para transformar el transporte de carga. El blanco refleja orden, simplicidad y transparencia, facilitando la legibilidad y aportando claridad a la interfaz con una experiencia limpia y moderna propia de entornos tecnológicos y de gestión. El negro transmite seriedad, modernidad y autoridad, funcionando como contraste para resaltar funciones clave y elementos importantes de la plataforma. En cuanto al lenguaje, MoveSys adopta un tono profesional, directo y respetuoso, acompañado de un enfoque entusiasta y resolutivo; los mensajes, recomendaciones y experiencias dentro de la plataforma buscan motivar al usuario a tomar decisiones informadas, reforzando la confiabilidad del sistema y la eficiencia operativa. 
     
 ### 4.1.2. Web Style Guidelines.
+
+
+Desarrollaremos una aplicación adaptable a cualquier dispositivo tecnológico, garantizando que el diseño y el contenido mantengan su integridad sin distorsiones. Para lograrlo, se considerarán las particularidades de cada tipo de dispositivo, asegurando que la información esté siempre estructurada de la mejor manera y ofreciendo una experiencia consistente, accesible y optimizada para todos los usuarios.  
+
+<div align="center">
+<img width="500" height="1116" alt="Branding Responsive" src="assets/branding-responsive.png"/>
+</div>
+
+**Patrón Z**
+
+El diseño de la aplicación y la landing page seguirá el patrón Z, un esquema de lectura que guía la vista del usuario en forma de “Z”: de izquierda a derecha en la parte superior, luego en diagonal hacia abajo, y finalmente de izquierda a derecha en la parte inferior. Este patrón permite destacar primero el logo o menú principal, luego llevar la atención hacia un elemento visual central o llamado a la acción, y finalmente reforzar con información clave o botones secundarios. Con este enfoque se asegura una experiencia intuitiva, clara y efectiva, facilitando la navegación y mejorando la conversión de los usuarios.  
+<div align="center">
+ 
+<img width="500" height="1116" alt="Pattern Z" src="assets/patron-z.jpg" />
+</div>
     
 ## 4.2. Information Architecture.
     
