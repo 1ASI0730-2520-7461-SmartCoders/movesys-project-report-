@@ -228,6 +228,14 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 2.3. Needfinding.
     
 ### 2.3.1. User Personas.
+
+Segmento 1: Empresas de transporte de carga
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2520-7461-SmartCoders/movesys-project-report/d2ce4627a4c0c3b82585a4d812df3124403fdc72/assets/s1-UserPersona.png"></img>
+
+Segmento 2: Conductores de unidades de carga
+
+<img src="https://raw.githubusercontent.com/1ASI0730-2520-7461-SmartCoders/movesys-project-report/d2ce4627a4c0c3b82585a4d812df3124403fdc72/assets/s2-UserPersona.png"></img>
     
 ### 2.3.2. User Task Matrix.
 
