@@ -239,6 +239,26 @@ Segmento 2: Conductores de unidades de carga
     
 ### 2.3.2. User Task Matrix.
 
+
+| **Tareas / User Persona** | **Luis Torres (Frec.)** | **Luis Torres (Imp.)** | **Juan Pérez (Frec.)** | **Juan Pérez (Imp.)** |
+|---------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
+| Planificar rutas          | Media                   | Alta                    | N/A                     | N/A                     |
+| Coordinar entregas        | Alta                    | Alta                    | Media                   | Alta                    |
+| Registrar kilometraje     | Baja                    | Media                   | Alta                    | Alta                    |
+| Reportar combustible      | Baja                    | Media                   | Alta                    | Alta                    |
+| Consolidar datos          | Alta                    | Alta                    | N/A                     | N/A                     |
+| Generar reportes          | Alta                    | Alta                    | N/A                     | N/A                     |
+| Foto del odómetro         | N/A                     | N/A                     | Media                   | Alta                    |
+| Usar apps móviles         | Media                   | Alta                    | Alta                    | Alta                    |
+| Verificar entregas        | Media                   | Alta                    | Alta                    | Alta                    |
+| Atender reclamos          | Alta                    | Alta                    | Baja                    | Media                   |
+
+### Conclusiones
+- **Luis Torres** se enfoca en análisis y consolidación de datos, necesita reportes confiables y en tiempo real.  
+- **Juan Pérez** prioriza la ejecución en campo: registrar kilometraje, combustible y verificar entregas.  
+- La app debe equilibrar funciones de **gestión para supervisores** y de **usabilidad simple para operadores**, enfocándose en las tareas compartidas críticas: **coordinación de entregas, uso de apps móviles y verificación de entregas**.
+
+
 ### 2.3.3. User Journey Mapping.
 
 ### 2.3.4. Empathy Mapping.
