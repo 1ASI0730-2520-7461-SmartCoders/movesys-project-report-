@@ -220,6 +220,44 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 2.2. Entrevistas.
     
 ### 2.2.1. Diseño de entrevistas.
+
+
+#### Segmento Objetivo 1: Empresas de transporte de carga
+
+1.    ¿Cuál es su nombre, edad y rol en la empresa de transporte?
+2.    ¿En qué distrito vive y donde se ubican principalmente las operaciones de su empresa?
+3.    ¿Qué tipo de dispositivos utiliza más para gestionar su trabajo (PC de escritorio, laptop, tablet, smartphone)?
+4.    ¿Qué sistema operativo utiliza con mayor frecuencia (Windows, macOS, Linux)?
+5.    ¿Qué aplicaciones utiliza con más frecuencia en su día a día?
+6.    ¿Cuál es el mayor reto que enfrenta actualmente en la gestión de su flota?
+7.    ¿Cuántos vehículos administra y qué tipos de rutas realizan normalmente?
+8.    ¿Actualmente cómo llevan el control de kilometraje y combustible: en papel, Excel o software? 
+9.    ¿Qué problemas surgen al depender de registros manuales en sus operaciones diarias?
+10.	¿Qué indicadores considera más importantes al evaluar la eficiencia de su flota?
+11.	¿Qué tan complicado le resulta generar reportes de sus operaciones hoy en día? 
+12.	¿Cómo afectan los errores en el registro de datos a la planificación y los costos de su empresa?
+13.	¿Qué beneficios esperaría obtener de una plataforma digital como MoveSys?
+14.	¿Qué nivel de capacitación considera necesario para que sus trabajadores adopten una app de este tipo?
+15.	¿Cuál sería un rango de inversión razonable para implementar una solución de gestión logística como MoveSys?
+
+#### Segmento Objetivo 2: Conductores de unidades de carga
+
+1.    ¿Cuál es su nombre, edad y cuántos años lleva trabajando como chofer de transporte de carga?
+2.    ¿En qué distrito vive y desde dónde suele iniciar sus rutas?
+3.    ¿Qué tipo de dispositivo móvil usa para gestionar su trabajo (smartphone, celular básico)?
+4.    ¿Qué sistema operativo tiene su celular (Android o iOS)?
+5.    ¿Qué aplicaciones móviles utiliza con más frecuencia en su día a día?
+6.    ¿Cuánto tiempo lleva trabajando en transporte de carga y qué tipo de rutas suele cubrir?
+7.    ¿Cómo anota el kilometraje al inicio y final de un viaje? 
+8.    ¿Cómo registra el consumo de combustible durante un trayecto? 
+9.    ¿Qué dificultades tiene al llenar formularios o reportes manuales?
+10.	¿Cuánto tiempo le toma completar el registro de datos logísticos en un día normal?
+11.	¿Qué tan cómodo se sentiría usando una app en el celular para registrar sus viajes?
+12.	¿Le resultaría útil que la aplicación guarde automáticamente su ubicación y genere un historial de ruta?
+13.	¿Qué funciones cree indispensables para que la app sea realmente práctica en ruta?
+14.	¿Qué tan fácil cree que sería para usted aprender a usar MoveSys sin ayuda externa?
+15.	¿Qué incentivo lo motivaría a completar sus reportes de viaje puntualmente?
+
     
 ### 2.2.2. Registro de entrevistas.
     
