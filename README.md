@@ -256,16 +256,141 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 4.1.2. Web Style Guidelines.
     
 ## 4.2. Information Architecture.
+
+En esta sección se plantean las decisiones y fundamentos que guiarán la organización del contenido en la **Aplicación Web y Móvil**. El objetivo es garantizar que los usuarios interactúen de manera natural, intuitiva y eficiente, reduciendo la curva de aprendizaje y mejorando la experiencia general. La arquitectura propuesta se construye en base a principios de **usabilidad**, **simplicidad** y **claridad**, considerando las necesidades específicas de los usuarios: gerentes/operadores (versión web) y choferes/operadores (versión móvil).
     
 ### 4.2.1. Organization Systems.
+
+La organización del contenido en MonvSys se basa en la aplicación de distintos sistemas de organización según el tipo de usuario (gerentes y conductores) y el contexto (Landing Page, Web App y App Móvil). El objetivo es que la información sea accesible, clara y responda a las metas de cada segmento.
+
+- **Landing Page (Usuarios visitantes / potenciales clientes):**  
+  - **Organización jerárquica (visual hierarchy):** Los contenidos se estructuran en bloques descendentes: propuesta de valor → beneficios → funcionalidades → casos de uso → contacto.  
+  - **Categorización por tópicos:** Se agrupan las secciones en torno a objetivos (qué es la plataforma, cómo funciona, beneficios).  
+
+- **Web App (Gerentes / Operadores):**  
+  - **Organización jerárquica:** Dashboard principal que prioriza alertas y métricas críticas (estado de vehículos, rutas activas, eficiencia).  
+  - **Organización secuencial (step-by-step):** Para la creación de traslados y asignación de rutas, siguiendo un flujo guiado (selección de vehículo → chofer → ruta → confirmación).  
+  - **Categorización cronológica:** Historial de viajes y mantenimientos ordenado por fechas.  
+  - **Categorización por audiencia:** Distinción entre datos de choferes, vehículos y reportes para segmentar la gestión.  
+
+- **App Móvil (Conductores / Operadores):**  
+  - **Organización secuencial:** Flujo de inicio de viaje → foto del odómetro → registro de combustible → finalización del viaje.  
+  - **Organización jerárquica:** Menú principal con acciones clave en primer nivel (Iniciar viaje, Mi historial, Perfil, Soporte).  
+  - **Categorización cronológica:** Historial de viajes ordenado por fecha y estado (pendiente, en curso, completado).  
+
+**Principios aplicados:**  
+- **Jerárquico para supervisión y monitoreo:** en dashboards y vistas de control.  
+- **Secuencial para procesos críticos:** en registros de viajes, traslados y mantenimiento.  
+- **Cronológico para históricos y reportes:** permitiendo seguimiento y comparación.  
+- **Por audiencia:** separando experiencias entre gerentes (gestión global) y conductores (operación en campo).  
     
 ### 4.2.2. Labeling Systems.
+
+El sistema de etiquetado se diseña con un enfoque en **claridad y simplicidad**, evitando ambigüedades y utilizando el menor número de palabras posibles.  
+Las etiquetas se adaptan a las necesidades de cada experiencia digital (Landing Page, Web App y App Móvil), asegurando consistencia en la navegación y asociación intuitiva de contenidos.
+
+- **Landing Page:**  
+  - Inicio  
+  - Funcionalidades  
+  - Beneficios  
+  - Contacto  
+  - Sobre nosotros  
+
+- **Web App (Gerentes / Operadores):**  
+  - Inicio → Resumen de la operación diaria  
+  - Choferes → Registro y estado de conductores  
+  - Vehículos → Estado técnico, mantenimientos y alertas  
+  - Traslados y Rutas → Asignación y control de viajes  
+  - Reportes → KPIs, eficiencia y desempeño  
+  - Configuración → Ajustes, alertas automáticas, permisos  
+
+- **App Móvil (Conductores / Operadores):**  
+  - Iniciar viaje  
+  - Foto odómetro
+  - Ruta del Viaje
+  - Registro de Reporte 
+  - Finalizar viaje  
+  - Perfil  
+
+**Principios aplicados:**  
+- Uso de **palabras cortas y directas**.  
+- **Consistencia semántica** entre la Web App y la App Móvil.  
+- **Asociaciones claras**: por ejemplo, “Reportes” siempre está ligado a métricas e indicadores, mientras que “Choferes” se relaciona exclusivamente con datos personales y de licencia.  
+- En la **Landing Page**, las etiquetas son más generales y enfocadas en conversión; en la **Web/App** son más operativas y funcionales.  
+
     
 ### 4.2.3. SEO Tags and Meta Tags
+
+Para mejorar la visibilidad en buscadores y garantizar un correcto posicionamiento de la experiencia digital, se definen los siguientes metadatos principales:
+
+- **Landing Page**  
+  - Title: "MonvSys – Transporte bajo control en tiempo real"  
+  - Meta Description: "Optimiza tu operación logística con MonvSys. Control de choferes, vehículos, rutas y reportes en una sola plataforma."  
+  - Keywords: transporte, logística, monitoreo, rutas, choferes, vehículos, reportes, eficiencia  
+  - Author: Equipo MonvSys  
+
+- **Web App (Gerentes):**  
+  - Title: "MonvSys Web – Gestión de transporte y logística"  
+  - Description: "MonvSys para gerentes: control total de choferes, vehículos, traslados y KPIs en tiempo real."  
+  - Keywords: gestión logística, reportes, monitoreo, control de flotas  
+  - Author: Equipo MonvSys  
+
+- **App Móvil (Conductores):**  
+  - Title: "MonvSys Móvil – Registro de viajes y combustible"  
+  - Description: "La aplicación móvil para choferes que facilita registrar viajes, combustible y odómetro de forma rápida y segura."  
+  - Keywords: choferes, viajes, combustible, odómetro, app móvil  
+  - Author: Equipo MonvSys  
+
     
 ### 4.2.4. Searching Systems.
+
+
+El sistema de búsqueda en MoveSys ha sido diseñado para que los usuarios encuentren de forma rápida y precisa la información que necesitan, evitando que se sientan perdidos entre el volumen de datos que maneja la plataforma. La búsqueda se implementa tanto en la Web App (para gerentes y operadores) como en la App Móvil (para conductores), con funcionalidades adaptadas al contexto de uso.
+
+**Landing Page**
+- **Barra de búsqueda en la sección de Preguntas Frecuentes (FAQ):** Permite al visitante ingresar palabras clave relacionadas con dudas comunes sobre el servicio.  
+- **Sugerencias automáticas:** A medida que se escribe, el sistema muestra coincidencias con artículos o secciones de la página.  
+- **Resultados destacados:** Los resultados aparecen en formato de lista con título, breve descripción y enlace directo a la sección correspondiente.
+
+**Web Application (Gerentes/Operadores)**
+- **Barra de búsqueda global:** Disponible en la parte superior del dashboard, permite consultar datos de choferes, vehículos, rutas y reportes.  
+- **Filtros avanzados:**  
+  - Por estado del vehículo (activo, en ruta, en mantenimiento).  
+  - Por chofer (activo, suspendido, nivel de licencia).  
+  - Por rango de fechas (para rutas, mantenimientos o reportes).  
+
+**Mobile Application (Conductores/Operadores)**
+- **Búsqueda dentro del historial de viajes:** El chofer puede consultar viajes previos ingresando fecha, destino o placa del vehículo.  
+- **Filtros rápidos:**  
+  - Por estado del viaje (pendiente, en curso, finalizado).  
+  - Por fecha específica o rango de fechas.  
+- **Resultados:** Listados en formato de tarjetas con información resumida (ruta, fecha, km recorridos, estado).  
+
+**En conclusión**, los sistemas de búsqueda combinan **filtros específicos y resultados claros**, asegurando que cada tipo de usuario encuentre lo que necesita sin esfuerzo
     
 ### 4.2.5. Navigation Systems.
+
+El sistema de navegación se ha diseñado con el objetivo de guiar de manera intuitiva a los distintos tipos de usuarios —visitantes en la Landing Page, gerentes/operadores en la Web App y choferes/operadores en la App Móvil— para que puedan cumplir sus metas sin fricciones y con una experiencia satisfactoria.
+
+**Landing Page**  
+- **Menú principal fijo en la parte superior (header):** Incluye accesos a *Inicio, Sobre Nosotros, Beneficios, Características, Planes* y *Contacto*. Esto asegura que el visitante pueda recorrer la página en cualquier momento sin necesidad de volver al inicio.  
+- **Navegación secuencial (scrolling):** El diseño está pensado en bloques verticales que llevan al usuario paso a paso desde la propuesta de valor inicial (hero section) hasta la información de contacto.  
+- **Botones de acción (CTA):** Destacados con colores contrastantes para guiar al usuario hacia objetivos clave como *“Conocer más”*, *“Seleccionar plan”* o *“Enviar consulta”*.  
+- **Footer con enlaces rápidos:** Repite accesos a secciones clave y redes sociales, facilitando la navegación al final de la experiencia.
+
+**Web Application (Gerentes/Operadores)**  
+- **Menú lateral persistente (sidebar):** Permite acceso directo a secciones principales (*Dashboard, Choferes, Vehículos, Rutas, Reportes, Configuración*) manteniendo siempre la referencia jerárquica.  
+- **Dashboard con accesos rápidos:** Desde el panel inicial se integran accesos a información clave como choferes o vehículos en estado crítico.  
+- **Breadcrumbs en reportes:** Indican la ubicación exacta dentro de las secciones, evitando desorientación al navegar en profundidad.  
+- **Notificaciones visuales y alertas:** Guiarán al usuario hacia acciones prioritarias, como un vehículo que necesita mantenimiento o un viaje que está en retraso.
+
+**Mobile Application (Choferes)**  
+- **Bottom navigation:** Barra de navegación inferior con accesos a *Inicio, Historial, Perfil y Soporte*, optimizada para pantallas móviles y accesibilidad con el pulgar.  
+- **Flujo secuencial paso a paso:** La navegación guía al chofer a través de tareas específicas en orden lógico (*Iniciar viaje → Foto odómetro → Registrar combustible → Finalizar viaje*).  
+- **Botones de acción destacados:** Diseñados con gran tamaño y contraste para evitar errores en contextos de movilidad (ejemplo: *“Iniciar viaje”* o *“Registrar combustible”*).  
+- **Notificaciones push y recordatorios:** Ayudan a guiar al usuario en momentos clave del proceso (ejemplo: *“Debes cargar la foto del odómetro antes de iniciar”* o *“Registra tu combustible en este punto de la ruta”*).
+
+**En resumen**, las técnicas de navegación combinan menús fijos, CTAs estratégicos, flujos secuenciales y alertas dinámicas, garantizando que cada perfil de usuario pueda recorrer el contenido de forma eficiente y cumpla sus metas de manera intuitiva.
     
 ## 4.3. Landing Page UI Design.
     
