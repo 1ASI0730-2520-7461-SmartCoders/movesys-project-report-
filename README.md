@@ -299,6 +299,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     
 ### 4.7.1. Class Diagrams.
     
+![Class Diagram](assets/Class_Diagram.jpg)
+
 ## 4.8. Database Design.
     
 ### 4.8.1. Database Diagrams.
