@@ -596,16 +596,66 @@ Le gustaría contar con una aplicación que simplifique el trabajo, tanto para �
 ## 2.3. Needfinding.
     
 ### 2.3.1. User Personas.
+
+Segmento 1: Gestor de Flota
+
+ <img src="assets/s1-UserPersona.png"/>
+
+Segmento 2: Conductor de vehículos de transporte
+
+ <img src="assets/s2-UserPersona.png"/>
     
 ### 2.3.2. User Task Matrix.
 
+
+| **Tareas / User Persona** | **Luis Torres (Frec.)** | **Luis Torres (Imp.)** | **Juan Pérez (Frec.)** | **Juan Pérez (Imp.)** |
+|---------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
+| Planificar rutas          | Media                   | Alta                    | N/A                     | N/A                     |
+| Coordinar entregas        | Alta                    | Alta                    | Media                   | Alta                    |
+| Registrar kilometraje     | Baja                    | Media                   | Alta                    | Alta                    |
+| Reportar combustible      | Baja                    | Media                   | Alta                    | Alta                    |
+| Consolidar datos          | Alta                    | Alta                    | N/A                     | N/A                     |
+| Generar reportes          | Alta                    | Alta                    | N/A                     | N/A                     |
+| Foto del odómetro         | N/A                     | N/A                     | Media                   | Alta                    |
+| Usar apps móviles         | Media                   | Alta                    | Alta                    | Alta                    |
+| Verificar entregas        | Media                   | Alta                    | Alta                    | Alta                    |
+| Atender reclamos          | Alta                    | Alta                    | Baja                    | Media                   |
+
+### Conclusiones
+- **Luis Torres** se enfoca en análisis y consolidación de datos, necesita reportes confiables y en tiempo real.  
+- **Juan Pérez** prioriza la ejecución en campo: registrar kilometraje, combustible y verificar entregas.  
+- La app debe equilibrar funciones de **gestión para supervisores** y de **usabilidad simple para operadores**, enfocándose en las tareas compartidas críticas: **coordinación de entregas, uso de apps móviles y verificación de entregas**.
+
+
 ### 2.3.3. User Journey Mapping.
 
+Segmento 1: Gestor de Flota
+
+<img alt= "Journey Mapping Gestor_Flota" src="assets/s1_ gestor_flota.png"/>
+
+Segmento 2: Conductor de vehículos de transporte
+
+<img alt= "Journey Mapping Conductor_transporte" src="assets/s2_conductor_vehiculos_transporte.png"/>
+
 ### 2.3.4. Empathy Mapping.
-    
+
+El Empathy Mapping es una metodología que permite profundizar en la comprensión de los usuarios vinculados a la gestión de operaciones logísticas, identificando sus pensamientos, emociones, acciones y necesidades. Se organiza en apartados como: ¿Qué escucha?, ¿Qué observa?, ¿Qué piensa y siente?, ¿Qué expresa y realiza?, junto con sus frustraciones y motivaciones. Esta herramienta contribuye a que los equipos de trabajo diseñen soluciones más cercanas a las experiencias reales de los actores involucrados en la cadena logística. A continuación, se presentan los mapas de empatía de los segmentos definidos:
+
+* Gestores de flota:
+
+<img alt= "Empathy Mapping Gestor_Flota" src="assets/em_gestor_flota.png"/>
+
+* Conductores de vehículos de transporte
+
+<img alt= "Empathy Mapping Conductor_transporte" src="assets/em_conductor_vehículos_transporte.png"/>
+
 ## 2.4. Big Picture EventStorming.
-    
+
+
+
 ## 2.5. Ubiquitous Language.
+
+    
     
 # Capítulo III: Requirements Specification
   
