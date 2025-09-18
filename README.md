@@ -647,11 +647,23 @@ El sistema de navegación se ha diseñado con el objetivo de guiar de manera int
 ## 4.4. Web Applications UX/UI Design.
     
 ### 4.4.1. Web Applications Wireframes.
-    
+A coninuación se presentan algunos wireframes de nuestra app MoveSys
+
+<img alt="Wireframe login" src="assets/login_bw.png"/>  
+<img alt="Wireframe dashboard" src="assets/dashboard_bw.png"/>
+<img alt="Wireframe entregas" src="assets/entregas_bw.png"/>
+<img alt="Wireframe usuarios" src="assets/usuarios_bw.png"/>
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
-    
+<img alt="Web App Wireflow" src="assets/Web_Applications_Wireflow.jpg"/>    
+
 ### 4.4.2. Web Applications Mock-ups.
-    
+A coninuación se presentan algunos Mockups de nuestra app MoveSys 
+<img alt="Mock-ups login" src="assets/log-in.png"/>  
+<img alt="Mock-ups dashboard" src="assets/dashboard.png"/>
+<img alt="Mock-ups entregas" src="assets/entregas.png"/>
+<img alt="Mock-ups usuarios" src="assets/usuarios.png"/>
+
 ### 4.4.3. Web Applications User Flow Diagrams.
     
 ## 4.5. Web Applications Prototyping.
