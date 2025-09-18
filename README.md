@@ -142,10 +142,22 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ## 1.1. Startup Profile
 
-
+ El perfil de una startup constituye un elemento esencial para definir su identidad y trazar el rumbo de la empresa naciente. Este apartado no solo expone sus aspiraciones y los valores que guían sus acciones, sino que también muestra su propuesta diferencial y la manera en que se posiciona frente a la competencia.
+ En este espacio se presentan los aspectos clave que configuran la esencia de la startup, como su origen, las motivaciones que impulsaron su creación, el problema específico que busca resolver y cómo su enfoque innovador le brinda una ventaja en el mercado.
+ Del mismo modo, se describen sus metas a corto, mediano y largo plazo, así como las estrategias planteadas para crecer y consolidarse en su sector. Comprender estos elementos resulta fundamental para valorar el potencial del perfil de la startup y el impacto que puede generar dentro de su entorno.
 
 ### 1.1.1. Descripción de la Startup
 
+
+ MoveSys es una plataforma web innovadora creada para transformar el sector del transporte de carga, brindando una solución integral y tecnológica para la gestión de operaciones logísticas. La aplicación conecta a las empresas de transporte con herramientas inteligentes que garantizan un control detallado de cada servicio. Entre sus principales funciones se encuentran el registro automático del kilometraje, la captura de evidencia fotográfica en el momento de las entregas y la geolocalización en tiempo real. Además, la generación automática de reportes e indicadores de rendimiento facilita la toma de decisiones estratégicas, mejorando la eficiencia operativa y reduciendo costos innecesarios.
+
+ Esta propuesta está dirigida tanto a compañías de transporte que buscan fortalecer la trazabilidad de sus procesos, como a organizaciones logísticas que requieren un control exhaustivo y ágil de sus servicios. Al digitalizar y optimizar cada etapa de la operación, MoveSys promueve mayor transparencia y calidad en la entrega de productos, lo que contribuye a consolidar la confianza del cliente final.
+
+ Misión:
+ En MoveSys, nuestra misión es revolucionar la gestión del transporte de carga mediante soluciones tecnológicas inteligentes, que permitan a nuestros clientes operar con mayor eficiencia, optimizar costos y mejorar la trazabilidad de sus operaciones.
+
+ Visión:
+ Buscamos consolidarnos como referentes en innovación logística, impulsando un futuro donde el transporte de carga sea más transparente, eficiente y sostenible, con proyección de crecimiento a nivel nacional e internacional.
 
 ### 1.1.2. Perfiles de integrantes del equipo
 
@@ -153,8 +165,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 |---------------------------|---------------------------------------------------------------------------------------------------|
 | **Código del Estudiante** |                   |
 | **Carrera**               | Ingeniería de Software             |
-| **Descripción**           |   |
-| Foto                      |  |
+| **Descripción**           | Soy estudiante de Ingeniería de Software. Tendre el compromiso con mi equipo. Cuento con conocimientos en html, css, javascript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto  |
+| Foto                      | ![Integrante_Angel_Berrospi.jpg](assets/Integrante_Angel_Berrospi.jpg) |
 
 
 | **Integrante**            | **Mel Andre**                                             |
