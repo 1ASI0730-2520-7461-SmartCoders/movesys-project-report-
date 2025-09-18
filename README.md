@@ -192,12 +192,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Foto                      |<p align="center"> <img src="assets/BryanFoto.png" alt="Integrante Bryan" width="900"/></p>   |
 
 
-| **Integrante**            | **Merly**  |
+| **Integrante**            | **Merly Salon Puerta**  |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| **Código del Estudiante** |                                    |
-| **Carrera**               | Ingeniería de                      |
-| **Descripción**           |                                    |
-| Foto                      |                                    |
+| **Código del Estudiante** | u20201b772                       |
+| **Carrera**               | Ingeniería de Software                     |
+| **Descripción**           | Soy estudiante de Ingeniería de Software. Estoy dispuesta a trabajar con mie quipo esforzadamente. Cuento con conocimientos en html, css y java script, lo cual puede sumar en el desarrollo del proyecto                                |
+| Foto                      | ![Integrante_MerlySalon](assets/Integrante-Merly-Salon.jpeg)                              |
 
 ## 1.2. Solution Profile
     
