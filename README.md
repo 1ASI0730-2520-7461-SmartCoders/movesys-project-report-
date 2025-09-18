@@ -173,12 +173,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Foto                      |        |
 
 
-| **Integrante**            | **Bryan**                                             |
+| **Integrante**            | **Martinez Bryan**                                             |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| **Código del Estudiante** |                                    |
-| **Carrera**               | Ingeniería de                                                                     |
-| **Descripción**           |        |
-| Foto                      |        |
+| **Código del Estudiante** | u202316246                                   |
+| **Carrera**               | Ingeniería de Software                                                                     |
+| **Descripción**           | Soy estudiante de la carrera de ingeniería de software de la universidad Peruana de ciencias aplicadas, soy una persona comprometida y responsable, priorizo mucho mis responsabilidades y siempre trato de cumplir mis trabajos en los tiempos establecidos.       |
+| Foto                      |<div align ="center"><img src="assets/BryanFoto.png" width ="250" />   |
 
 
 | **Integrante**            | **Merly**  |
