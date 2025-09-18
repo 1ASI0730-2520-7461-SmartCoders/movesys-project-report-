@@ -270,6 +270,16 @@ Segmento 2: Conductor de vehículos de transporte
 <img alt= "Journey Mapping Conductor_transporte" src="assets/s2_conductor_vehiculos_transporte.png"/>
 
 ### 2.3.4. Empathy Mapping.
+
+El Empathy Mapping es una metodología que permite profundizar en la comprensión de los usuarios vinculados a la gestión de operaciones logísticas, identificando sus pensamientos, emociones, acciones y necesidades. Se organiza en apartados como: ¿Qué escucha?, ¿Qué observa?, ¿Qué piensa y siente?, ¿Qué expresa y realiza?, junto con sus frustraciones y motivaciones. Esta herramienta contribuye a que los equipos de trabajo diseñen soluciones más cercanas a las experiencias reales de los actores involucrados en la cadena logística. A continuación, se presentan los mapas de empatía de los segmentos definidos:
+
+* Gestores de flota:
+
+<img alt= "Empathy Mapping Gestor_Flota" src="assets/em_gestor_flota.png"/>
+
+* Conductores de vehículos de transporte
+
+<img alt= "Empathy Mapping Conductor_transporte" src="assets/em_conductor_vehículos_transporte.png"/>
     
 ## 2.4. Big Picture EventStorming.
     
