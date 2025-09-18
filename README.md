@@ -696,6 +696,8 @@ A coninuación se presentan algunos Mockups de nuestra app MoveSys
     
 ### 4.8.1. Database Diagrams.
     
+![Database Diagrams](assets/Database-Diagram.jpg)
+
 # Capítulo V: Product Implementation, Validation & Deployment
     
 ## 5.1. Software Configuration Management.
