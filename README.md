@@ -208,6 +208,21 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     
 
 ## 1.3. Segmentos objetivo.
+
+La gestión del transporte de carga enfrenta actualmente grandes desafíos debido a la persistencia de métodos manuales como el uso de formularios físicos, llamadas telefónicas y hojas de cálculo dispersas que dificultan la integración de la información. Estos procesos, además de demandar mayor tiempo operativo, limitan la trazabilidad de las operaciones, aumentan la probabilidad de errores humanos y generan sobrecostos que impactan directamente en la rentabilidad de las empresas. La ausencia de un sistema centralizado y confiable provoca duplicidad de tareas administrativas, retrasos en la coordinación logística y dificultades para dar respuesta inmediata a incidencias en el servicio.
+
+Asimismo, la falta de información en tiempo real se traduce en una toma de decisiones poco estratégica, ya que los responsables de la gestión no cuentan con datos actualizados sobre la ubicación de las unidades, el estado de las cargas o posibles contingencias en la ruta. Esta carencia de visibilidad reduce la capacidad de reacción, obstaculiza la planificación eficiente de recursos y disminuye la confianza de los clientes en la calidad del servicio prestado.
+
+Por otro lado, las empresas de transporte y operadores logísticos se encuentran bajo una presión creciente por la demanda de mayor eficiencia, transparencia y rapidez en las entregas, en un mercado cada vez más competitivo y globalizado. La digitalización se convierte en un factor diferenciador clave, no solo para mejorar la productividad, sino también para garantizar un servicio seguro, confiable y alineado a las expectativas de los clientes actuales.
+
+Por todo lo mencionado, se establecen los dos segmentos objetivos que serán abordados a lo largo del proyecto:
+
+## Segmento 1: Empresas de transporte de carga  
+Compañías que buscan digitalizar sus operaciones, reducir costos y mejorar la trazabilidad de sus servicios para ofrecer mayor confianza y eficiencia a sus clientes.  
+
+## Segmento 2: Choferes 
+Conductores y trabajadores en campo responsables de la ejecución directa de los servicios de transporte. Necesitan acceso rápido a rutas, notificaciones en tiempo real y herramientas simples de reporte para optimizar su labor diaria.  
+
     
 # Capítulo II: Requirements Elicitation & Analysis
     
