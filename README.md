@@ -1391,21 +1391,121 @@ De esta manera, el despliegue mediante GitHub Pages asegura que la landing page 
     
 ### 5.2.1.1. Sprint Planning n.
     
+En esta sección se especifica los aspectos principales del Sprint Planning Meeting.
+
+<table>
+<tr>
+    <th colspan="5">Sprint </th>
+    <th colspan="9">Sprint 1</th>
+  </tr>
+      <tr>
+    <td colspan="13">Sprint Planning Background</td>
+  </tr>
+  <tr>
+    <td colspan="5">Date</td>
+    <td colspan="8">2025-09-15</td>
+</tr>
+  <tr>
+    <td colspan="5">Time</td>
+    <td colspan="8">4:00PM</td>
+  </tr>
+  <tr>
+    <td colspan="5">Location</td>
+    <td colspan="8">Servidor de Discord del equipo</td>
+<tr>
+    <td colspan="5">Prepared By</td>
+    <td colspan="8">Andre Orellana</td>
+</tr>
+<tr>
+    <td colspan="5">Attendees (to planning meeting)</td>
+    <td colspan="8"> Merly Salon,Gabriel Espinar, Andre Rodriguez Orellana, Angel Berrospi Marin, Brayan Martinez</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint  1 Review Summary</td>
+    <td colspan="8">En esta segunda sección se planteó el mejormiento del desarrollo y estructura de la Landing page antes de subirse al repositorio.</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 1 Retrospective Summary</td>
+    <td colspan="8">En esta sesión todos los participantes, opinaron, mejoraron sus habilidades y cada uno se encargó de las mejoras dadas en la retroalimentación, también en el desarrollo de la landing y finalmente se decidió subir el landing en el último día</td>
+</tr>
+<tr>
+    <td colspan="13">Sprint Goal & User Stories</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 1 Goal</td>
+    <td colspan="8"> La meta de este Sprint 1 es la mejora tanto en planteamiento y desarrollo de la documentación y que nuestra Landing Page tenga una correcta funcionalidad para el usuario de forma amigable.  
+
+</td>
+</tr>
+<tr>
+    <td colspan="5">Sprint 1 Velocity</td>
+    <td colspan="8">velocity 6</td> 
+</tr>
+<tr>
+    <td colspan="5">Sum of Story Points</td>
+    <td colspan="8">8 story points</td>
+</tr>
+</table>
+
 ### 5.2.1.2. Aspect Leaders and Collaborators.
     
+![Aspect Leaders and Collaborators](assets/Aspect-collaborator.png)
+
 ### 5.2.1.3. Sprint Backlog n.
     
+![JIRA](assets/Collaboration_JIRA.png)
+
+![Sprint Backlog](assets/Sprint-Backlog.png)
+
 ### 5.2.1.4. Development Evidence for Sprint Review.
-    
+| Repository                                      | Branch                                          | Commit Id                                   | Commit Message                                           | Commit Message Body                                                                                                                                                 | Committed on (Day) |
+|-------------------------------------------------|-------------------------------------------------|---------------------------------------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| Guille-berrs/movesys-project-report-            | feature/startup-profile                         | 751c06f                                      | docs: Add chapter one                                    | - Startup Profile<br>- Description Profile<br>- My profile in team members<br>- My photo to assets folder                                                           | 17/09/2025        |
+| Guille-berrs/movesys-project-report-            | feature/solution-profile                        | f38da45                                      | docs: Chapter one SolutionProfile                        | - Background and Problems<br>- Lean Ux Process                                                                                                                      | 17/09/2025        |
+| Guille-berrs/movesys-project-report-            | feature/software-object-oriented-design         | d300700                                      | docs: Add chapter four Software Object-Oriented Design   | - Class Diagram<br>- Aggregate picture in file assets about Class Diagram                                                                                            | 17/09/2025        |
+| Guille-berrs/movesys-project-report-            | feature/domain-driven-software-architecture     | e5eda47                                      | docs: Add chapter four                                   | - Domain-Driven Software Architecture<br>- Aggregate pictures in file assets about Domain-Driven Software Architecture                                              | 17/09/2025        |
+| Guille-berrs/movesys-project-report-            | feature/database-design                         | f50288c                                      | docs: Add chapter four Database Design                   | - Aggregate picture in Database Diagrams<br>- Aggregate picture in file assets about Database Diagrams                                                              | 17/09/2025        |
+| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
+| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
+| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
+| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
+| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
+| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
+| merlysalon23/movesys-project-report-            | feature/web-aplication-ux/ui design             | 2f377f5e351010ee09baa4b59c98cdb8e396a2f8     | docs: added mock-ups                                    | none                                                                                                                                                               | 17/09/2025        |
+| merlysalon23/movesys-project-report-            | feature/web-aplication-ux/ui design             | 41a0ef133a4675a28b7d9ee70aa8d8dff233fb37     | docs: added web app wireflow                             | none                                                                                                                                                               | 17/09/2025        |
+| merlysalon23/landing-page                       | feature/footer                                  | c466647b58490b60cdb9a9e05889cc720a2ec16c     | feat(footer): add footer style.                         | none                                                                                                                                                               | 17/09/2025        |
+
+
 ### 5.2.1.5. Execution Evidence for Sprint Review.
     
+![Landing Page](assets/Picture-landing1.png)
+
+![Landing Page](assets/Picture-landing2.png)
+
+![Landing Page](assets/Picture-landing3.png)
+
+![Landing Page](assets/Picture-landing4.png)
+
+
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+    
+![Services Documentation Evidence for Sprint Review](assets/Evidence-Sprint-Review.png)
     
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
     
+![JIRA](assets/Collaboration_JIRA.png)
+
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
+![Team-Collaboration](assets/Team-Collaboration1.png)
+
+![Team-Collaboration](assets/Team-Collaboration2.png)
+
+![Team-Collaboration](assets/Team-Collaboration3.png)
+
 ## Conclusiones
+
+
 
 ## Bibliografía
 
