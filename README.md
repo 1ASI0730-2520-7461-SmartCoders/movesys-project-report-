@@ -1309,6 +1309,9 @@ De esta manera, el despliegue mediante GitHub Pages asegura que la landing page 
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 ## Conclusiones
+- La planificación previa es clave para el desarrollo estructurado del sistema: Durante el proceso se evidenció la necesidad de una coordinación anticipada entre las áreas de diseño, desarrollo y análisis de usuarios para alinear correctamente la funcionalidad con las necesidades reales del público objetivo.
+
+- Se requiere mayor tiempo de organización interna para segmentar correctamente: La diferenciación entre gerentes de flota y conductores permitió establecer flujos específicos para cada uno, lo cual resalta la importancia de organizar sesiones de trabajo más detalladas por segmento antes de definir la arquitectura de información final.
 
 ## Bibliografía
 
