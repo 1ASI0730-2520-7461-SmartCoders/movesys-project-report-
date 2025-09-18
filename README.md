@@ -306,8 +306,53 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 # Capítulo V: Product Implementation, Validation & Deployment
     
 ## 5.1. Software Configuration Management.
-    
+
 ### 5.1.1. Software Development Environment Configuration.
+
+En este punto detallaremos todas las herramientas de software usadas para el desarrollo de nuestro proyecto:
+
+Gestión del proyecto:
+
+- **WhatsApp**: [LINK WhatsApp](https://www.whatsapp.com)   
+  Usamos whatsapp como nuestro principal canal para comunicarnos, la coordinación de tareas, los tiempos de entrega, las nuevas ideas y brindar soporte a otros miembros que tengan dificultades.
+
+- **Jira**: [LINK Jira](https://www.atlassian.com/es/software/jira)  
+  Usamos la herramienta Jira para seguir  y evaluar el progreso y flujo de las actividades del proyecto entre todos los miembros durante todo el proceso del trabajo
+
+Diseño UX/UI del Producto:
+
+- **Figma**: [LINK Figma](https://www.figma.com/es-es/)                                                                     
+   Plataforma para crear nuestros diseños de figma principalmente los wireframes y wireflows
+
+- **UXPressia**: [LINK UXPressia](https://uxpressia.com/)                                                                     
+  Se utilizó esta herramienta para la creación del impact Mapping, Empathy Mapping y el User Journey Mapping
+
+- **Miro**: [LINK Miro](https://miro.com/es/)                                                                      
+  Se utilizó esta herramienta para la creación del impact Mapping, Empathy Mapping y el User Journey Mapping
+
+Software Development:
+
+- **Visual Studio Code**: [Mas informacion sobre Studio Code](https://code.visualstudio.com/)                                                                      
+  Entorno de desarrollo completo que permite crear aplicaciones web con HTML5, dar estilo con CSS y programar la lógica con JavaScript
+  
+- **HTML**: [Mas informacion sobre HTML](https://developer.mozilla.org/es/docs/Web/HTML)                                                                      
+  Lenguaje de marcado estándar utilizado para estructurar el contenido de páginas web y compatible con todos los navegadores modernos.
+
+- **CSS**: [Mas informacion sobre CSS](https://developer.mozilla.org/es/docs/Web/CSS)                                                                      
+  Lenguaje de hojas de estilo que define la apariencia visual de las páginas web, permitiendo controlar diseño, colores y tipografías
+
+- **JavaScript**: [Mas informacion sobre JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)                                                                      
+  Lenguaje de programación dinámico que añade interactividad y lógica a las páginas web, compatible con frameworks y librerías como React, Angular o Vue
+
+Despliegue del software:
+
+- **GIT**: [LINK Git](https://git-scm.com/)                                                                      
+  Sistema de control de versiones distribuido que permite gestionar cambios en el código, colaborar en equipo y mantener un historial completo de los proyectos de software.
+
+Documentacion del proyecto:
+
+- **GitHub**: [LINK GitHub](https://github.com/)                                                                      
+  Plataforma para alojar repositorios, colaborar y revisar contribuciones del equipo.
     
 ### 5.1.2. Source Code Management.
     
