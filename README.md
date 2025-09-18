@@ -289,14 +289,22 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     
 ### 4.6.1. Design-Level EventStorming.
     
+![Design Level EventStorming](assets/Design-Level-EventStorming.jpg)
+
 ### 4.6.2. Software Architecture Context Diagram.
     
+![Domain Context](assets/Domain-Context.png)
+
 ### 4.6.3. Software Architecture Container Diagrams.
     
+![Domain Container](assets/Domain-Container.png)
+
 ### 4.6.4. Software Architecture Components Diagrams.
     
+![Domain Components](assets/Domain-components.png)
+
 ## 4.7. Software Object-Oriented Design.
-    
+
 ### 4.7.1. Class Diagrams.
     
 ## 4.8. Database Design.
