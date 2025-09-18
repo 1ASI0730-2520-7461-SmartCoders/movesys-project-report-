@@ -388,7 +388,7 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 ![Sprint Backlog](assets/Sprint-Backlog.png)
 
 ### 5.2.1.4. Development Evidence for Sprint Review.
-    | Repository   | Branch    | Commit Id    | Commit Message  | Commit Message Body  | Committed on (Day) |
+| Repository                                      | Branch                                          | Commit Id                                   | Commit Message                                           | Commit Message Body                                                                                                                                                 | Committed on (Day) |
 |-------------------------------------------------|-------------------------------------------------|---------------------------------------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
 | Guille-berrs/movesys-project-report-            | feature/startup-profile                         | 751c06f                                      | docs: Add chapter one                                    | - Startup Profile<br>- Description Profile<br>- My profile in team members<br>- My photo to assets folder                                                           | 17/09/2025        |
 | Guille-berrs/movesys-project-report-            | feature/solution-profile                        | f38da45                                      | docs: Chapter one SolutionProfile                        | - Background and Problems<br>- Lean Ux Process                                                                                                                      | 17/09/2025        |
@@ -404,6 +404,7 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 | merlysalon23/movesys-project-report-            | feature/web-aplication-ux/ui design             | 2f377f5e351010ee09baa4b59c98cdb8e396a2f8     | docs: added mock-ups                                    | none                                                                                                                                                               | 17/09/2025        |
 | merlysalon23/movesys-project-report-            | feature/web-aplication-ux/ui design             | 41a0ef133a4675a28b7d9ee70aa8d8dff233fb37     | docs: added web app wireflow                             | none                                                                                                                                                               | 17/09/2025        |
 | merlysalon23/landing-page                       | feature/footer                                  | c466647b58490b60cdb9a9e05889cc720a2ec16c     | feat(footer): add footer style.                         | none                                                                                                                                                               | 17/09/2025        |
+
 
 ### 5.2.1.5. Execution Evidence for Sprint Review.
     
