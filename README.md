@@ -29,8 +29,6 @@
 
 # **Registro de Versiones del Informe**
 
-## Registro de versiones del informe
-
 | Versión  | Fecha | Autor | Descripción de modificación |
 |:--------:|:-----:|:-----:|-----------------------------|
 | TB1      |     18/09/2025  |   Mel Andree Orellana     | Creación de la Estructura del informe |
