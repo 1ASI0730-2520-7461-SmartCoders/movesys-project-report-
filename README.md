@@ -244,6 +244,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 3.1. User Stories.
    
 ## 3.2. Impact Mapping.
+
+* Gestor de flota
+
+<img src="assets/im_gestor_flota.png" alt="impact mapping Gestor_Flota" />
+
+* Conductores de transporte
+
+<img src="assets/im_conductor_vehiculos_transporte.png" alt="impact mapping Conductor_transporte" />
+
+
     
 ## 3.3. Product Backlog.
     
