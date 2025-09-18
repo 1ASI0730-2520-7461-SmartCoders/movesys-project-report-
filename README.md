@@ -236,6 +236,16 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ### 2.3.4. Empathy Mapping.
     
 ## 2.4. Big Picture EventStorming.
+
+* EventStorming inicial:
+
+<img alt= "EventStorming inicial" src="assets/EventStorming_Inicial.png"/>
+
+* EventStorming Final:
+
+<img alt= "EventStorming Final" src="assets/EventStorming_Final.jpg"/>
+
+
     
 ## 2.5. Ubiquitous Language.
     
