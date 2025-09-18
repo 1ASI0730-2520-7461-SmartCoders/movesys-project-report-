@@ -169,12 +169,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Foto                      | ![Integrante_Angel_Berrospi.jpg](assets/Integrante_Angel_Berrospi.jpg) |
 
 
-| **Integrante**            | **Mel Andre**                                             |
+| **Integrante**            | **Mel Andre Orellana**                                             |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| **Código del Estudiante** |                                    |
-| **Carrera**               | Ingeniería de                                                                     |
-| **Descripción**           |        |
-| Foto                      |        |
+| **Código del Estudiante** | U202116018                         |
+| **Carrera**               | Ingeniería de   Software           |
+| **Descripción**           |     Soy estudiante de Ingeniería de Software y me caracterizo por mi compromiso con el trabajo en equipo.Cuento con conocimientos en HTML, CSS, JavaScript y SQL, lo cual puede aportar al desarrollo del proyecto en las áreas de frontend y bases de datos. Además, tengo experiencia en Python, lo que me permite apoyar en tareas de programación, automatización y análisis cuando sea necesario.   |
+| Foto                      | ![Integrante_Mel Andree Orellana](assets/Integrante-Mel-Andree-Orellana.jpeg)    |
 
 
 | **Integrante**            | **Gabriel**                                             |
@@ -184,13 +184,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | **Descripción**           |        |
 | Foto                      |        |
 
-
 | **Integrante**            | **Martinez Bryan**                                             |
 |---------------------------|---------------------------------------------------------------------------------------------------|
 | **Código del Estudiante** | u202316246                                   |
 | **Carrera**               | Ingeniería de Software                                                                     |
 | **Descripción**           | Soy estudiante de la carrera de ingeniería de software de la universidad Peruana de ciencias aplicadas, soy una persona comprometida y responsable, priorizo mucho mis responsabilidades y siempre trato de cumplir mis trabajos en los tiempos establecidos.       |
-| Foto                      |<div align ="center"><img src="assets/BryanFoto.png" width ="250" />   |
+| Foto                      |<p align="center"> <img src="assets/BryanFoto.png" alt="Integrante Bryan" width="900"/></p>   |
 
 
 | **Integrante**            | **Merly**  |
