@@ -317,6 +317,33 @@ Juan Pérez, de 27 años, chofer de transporte de carga con más de dos años de
 ---  
     
 ### 2.2.3. Análisis de entrevistas.
+
+### Segmento 1: Empresas de transporte de carga
+- **Rol principal:** 100% coordina rutas, supervisa unidades y gestiona costos operativos.  
+- **Vehículos administrados:** Entre 10 y 15 camiones en rutas urbanas e interprovinciales.  
+- **Herramientas actuales:** 100% usa Excel y registros en papel; 66% complementa con WhatsApp.  
+- **Problemas comunes:**  
+  - 100% reporta errores, pérdida de datos y retrasos por registros manuales.  
+  - 66% menciona falta de información en tiempo real.  
+  - 66% señala dificultad para consolidar y generar reportes.  
+- **Indicadores valorados:** 100% prioriza consumo de combustible, kilometraje y tiempos de entrega.  
+- **Adopción de app:** 100% dispuesto a adoptarla si es intuitiva, económica y reduce carga operativa.  
+- **Presupuesto estimado:** Entre $500 y $800 mensuales por la solución digital.  
+
+### Segmento 2: Conductores de unidades de carga
+- **Experiencia:** 100% con más de 2 años en rutas locales y provinciales.  
+- **Registro actual:** 100% usa cuadernos y recibos físicos.  
+- **Uso de apps:** 100% usa WhatsApp para coordinar y Google Maps para navegación; 100% emplea fotos como evidencia.  
+- **Dificultades:**  
+  - 66% pierde papeles o recibos.  
+  - 66% afirma que completar formularios manuales es confuso o lento.  
+  - 100% invierte entre 20–30 min diarios en reportes manuales.  
+- **Preferencias:** 100% prefiere una app simple, rápida, con uso offline y registro automático de ubicación.  
+- **Funciones deseadas:** 100% solicita evidencia fotográfica y firma digital del cliente; 66% requiere historial de viajes y reportes automáticos; 66% pide registro automático de kilometraje y combustible.  
+- **Adopción de app:** 100% considera viable su uso con capacitación breve.  
+- **Incentivos:** 66% valora bonos; 100% menciona reconocimiento por reportes puntuales.  
+
+
     
 ## 2.3. Needfinding.
     
