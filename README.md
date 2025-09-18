@@ -276,7 +276,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 4.4. Web Applications UX/UI Design.
     
 ### 4.4.1. Web Applications Wireframes.
-    
+A coninuación se presentan algunos wireframes de nuestra app MoveSys
+<img alt="Wireframe login" src="assets/login_bw.png"/>   
 ### 4.4.2. Web Applications Wireflow Diagrams.
     
 ### 4.4.2. Web Applications Mock-ups.
