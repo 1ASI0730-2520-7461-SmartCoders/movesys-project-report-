@@ -314,6 +314,30 @@ Raí Beizaga, de 25 años y asistente administrativo de logística en Transporte
 **Resumen:**  
 Juan Pérez, de 27 años, chofer de transporte de carga con más de dos años de experiencia en rutas locales y provinciales, reside en San Martín de Porres e inicia la mayoría de sus recorridos desde los almacenes de Ate y Callao. Utiliza un smartphone Android de gama media para coordinar con su supervisor vía WhatsApp, guiarse con Google Maps y registrar entregas mediante fotografías. Actualmente anota el kilometraje en un cuaderno y guarda los recibos físicos de combustible, lo que implica pérdidas frecuentes de papeles, confusión en los datos y hasta 30 minutos diarios en registros manuales. Juan considera que una aplicación móvil sería muy útil siempre que sea sencilla, rápida y automática, permitiéndole registrar entregas con fotos, firmas digitales, kilometraje, consumo de combustible y mantener un historial de viajes con reportes automáticos. Se sentiría cómodo usando la app si recibe una breve capacitación inicial, y estaría motivado a completar puntualmente sus reportes si la empresa reconoce su esfuerzo con incentivos o bonos de desempeño.  
 
+---
+
+  <img width="1100px" src="assets/S2-entrevista2.jpg"/>
+
+*Entrevista 2:*  
+- *Nombres y apellidos:* Adolfo David Orellana 
+- *Edad:* 50
+- *Distrito:* Cieneguilla 
+
+- *Inicio:* 0:45  
+- *Duración:* 16:05 
+- *URL:* https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/EW9y9jkp48pIkAK8uQ0peWYBNkoEKy152gjOcLwZXVDJbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0trloz
+  
+
+*Resumen:*  
+Adolfo, 50 años.
+Cuenta con 25 años de experiencia laboral, habiendo trabajado en diversas empresas tanto en el Perú como en el extranjero. Durante su trayectoria ha conocido diferentes tecnologías implementadas en cada organización, lo que le ha permitido comprender cómo estas pueden facilitar los procesos empresariales.
+Le gustaría contar con una aplicación que simplifique el trabajo, tanto para él como para las personas encargadas de la logística. Considera que la implementación de tecnologías en el Perú aún está retrasada en comparación con otros países, como los europeos, donde su uso está mucho más desarrollado. Sin embargo, también reconoce que a veces puede resultar difícil entender un sistema si no se siguen las instrucciones adecuadas.
+
+
+
+
+
+
 ---  
     
 ### 2.2.3. Análisis de entrevistas.
