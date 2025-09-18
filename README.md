@@ -163,7 +163,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | **Integrante**            | **Angel Guillermo** |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| **Código del Estudiante** |                   |
+| **Código del Estudiante** |      U202114701              |
 | **Carrera**               | Ingeniería de Software             |
 | **Descripción**           | Soy estudiante de Ingeniería de Software. Tendre el compromiso con mi equipo. Cuento con conocimientos en html, css, javascript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto  |
 | Foto                      | ![Integrante_Angel_Berrospi.jpg](assets/Integrante_Angel_Berrospi.jpg) |
