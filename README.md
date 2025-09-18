@@ -72,7 +72,25 @@
 
 # **Project Report Collaboration Insights**
 
-URL Project Report (Github): [https://github.com/1ASI0730-2510-4370-G2-Youper/Report](https://github.com/1ASI0730-2510-4370-G2-Youper/Report)
+URL Project Report (Github): (https://github.com/1ASI0730-2520-7461-SmartCoders/movesys-project-report-)
+
+
+## TB1  
+
+Para el desarrollo del informe correspondiente a todas las entregas, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:  
+
+| Integrante              | Tareas Asignadas |
+|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Mel Andree Orellana** | Creación de la estructura del informe, incorporación del *Landing Page UI Design*, desarrollo de *General Style Guidelines* y *Web Style Guidelines*, elaboración de la sección *Information Architecture*, desarrollo de *Organization Systems*, *Labeling Systems*, *SEO Tags and Meta Tags*, *Searching Systems* y *Navigation Systems*. También se encargó de la elaboración del *Segmento Objetivo*. |
+| **Merly Salon Puerta**  | Incorporación de *Web Applications Wireframes*, *Wireflow Diagrams*, *Mock-ups* y *Prototyping*. |
+| **Angel Guillermo Berrospi** | Incorporación de *Class Diagrams* y *Database Diagram*. Desarrollo de *Software Architecture Context Diagram*, *Container Diagrams* y *Components Diagrams*. Además, participó en la redacción de *Antecedentes y problemática*, *Lean UX Canvas*, *Descripción de la Startup*, *Lean UX Process* y el desarrollo del *Sprint 1*. |
+| **Gabriel Ferran Espinar** | Ejecución del proceso de *Needfinding*, elaboración de *User Personas* y desarrollo de *User Task Matrix*. También trabajó en el *Análisis Competitivo y Estrategia*. |
+| **Bryan Felix Martinez** | Elaboración de *User Journey Mapping*, desarrollo de *Empathy Mapping*, *Glosario de Ubiquitous Language* para alinear términos del dominio, *User Stories*, *Impact Mapping* y *Product Backlog*. |
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización, garantizando el versionamiento adecuado y la integración de cada aporte individual.  
+
+
+
 
 
 ## Contenido
