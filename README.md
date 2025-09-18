@@ -355,6 +355,20 @@ Documentacion del proyecto:
   Plataforma para alojar repositorios, colaborar y revisar contribuciones del equipo.
     
 ### 5.1.2. Source Code Management.
+
+Con el fin de gestionar y ordenar las modificaciones del proyecto, se creó un repositorio en GitHub que sirvió como punto central del desarrollo. 
+
+Organizaciones:
+
+* Repositorio de GitHub: [LINK Repositorio](https://github.com/1ASI0730-2520-7461-SmartCoders)
+  
+* Landing Page: [LINK Landing Page](https://github.com/1ASI0730-2520-7461-SmartCoders/Landing-Page)
+
+Ramas principales:
+
+Develop: Rama principal de desarrollo donde se integran y prueban nuevas funcionalidades antes de pasar a producción.
+
+feature:Ramas temporales creadas a partir de develop, destinadas a implementar una funcionalidad específica o mejora en el proyecto.
     
 ### 5.1.3. Source Code Style Guide & Conventions.
     
