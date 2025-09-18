@@ -261,6 +261,14 @@ Segmento 2: Conductores de unidades de carga
 
 ### 2.3.3. User Journey Mapping.
 
+Segmento 1: Gestor de Flota
+
+<img alt= "Journey Mapping Gestor_Flota" src="assets/s1_ gestor_flota.png"/>
+
+Segmento 2: Conductor de vehículos de transporte
+
+<img alt= "Journey Mapping Conductor_transporte" src="assets/s2_conductor_vehiculos_transporte.png"/>
+
 ### 2.3.4. Empathy Mapping.
     
 ## 2.4. Big Picture EventStorming.
