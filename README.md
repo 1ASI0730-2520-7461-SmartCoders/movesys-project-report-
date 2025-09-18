@@ -270,8 +270,141 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 4.3. Landing Page UI Design.
     
 ### 4.3.1. Landing Page Wireframe.
-    
+
+ 1.  Portada  
+**Wireframe:** Muestra una imagen principal de fondo, un título grande en la parte superior, un subtítulo explicativo debajo y dos botones de acción colocados en la parte baja de la sección.  
+
+<p align="center">
+  <img src="assets/wireframe-portada.png" alt="Wireframe Portada" />
+</p>
+
+
+2. Sobre nosotros (About Us)  
+**Wireframe:** Presenta un bloque con un título en la parte superior, un párrafo descriptivo al lado izquierdo y una ilustración colocada al lado derecho.  
+
+<p align="center">
+  <img src="assets/wireframe-about-us.png" alt="Wireframe About Us" />
+</p>
+
+ 3. Beneficios  
+**Wireframe:** Se organiza en tres columnas, cada una con un icono en la parte superior, un título en el medio y una breve explicación en la parte inferior.  
+
+<p align="center">
+  <img src="assets/wireframe-benefits.png" alt="Wireframe Benefits" />
+</p>
+
+ 4. Características  
+**Wireframe:** Contiene tres bloques horizontales alineados, cada uno con un icono en la parte superior, seguido de un título y una descripción corta debajo.  
+
+<p align="center">
+  <img src="assets/wireframe-character.png" alt="Wireframe Características" />
+</p>
+
+
+
+
+ 5. Planes / Pricing  
+**Wireframe:** Muestra tres tarjetas verticales organizadas en columnas, cada tarjeta incluye el nombre del plan, el precio en la parte superior, una lista breve de beneficios y un botón de selección al final.  
+
+<p align="center">
+  <img src="assets/wireframe-pricing.png" alt="Wireframe Pricing" />
+</p> 
+
+
+ 6. Equipo  
+**Wireframe:** Se presenta en una cuadrícula de fotografías, debajo de cada foto se incluye el nombre y el rol de cada integrante del equipo.  
+
+<p align="center">
+  <img src="assets/wireframe-members.png" alt="Wireframe Members" />
+</p>
+
+
+
+7. Formulario de contacto  
+**Wireframe:** Incluye un bloque con un texto llamativo en la parte superior, un campo para ingresar el correo electrónico en el centro y un botón de envío al lado o debajo.  
+
+<p align="center">
+  <img src="assets/wirefrmae-contact.png" alt="Wireframe Contact" />
+</p>
+
+
+8. Footer  
+**Wireframe:** Está dividido en tres partes: el logo de la marca, una lista de enlaces rápidos y los íconos de redes sociales.  
+
+<p align="center">
+  <img src="assets/wireframe-footer.png" alt="Wireframe Footer" />
+</p>
+
+
 ### 4.3.2. Landing Page Mock-up.
+
+ 1. Portada  
+**Mockup:** Utiliza una foto de una trabajadora en un almacén con chaleco como fondo. El texto principal dice “Your transport under control, always in real time” y debajo se encuentran dos botones diferenciados: *Learn More* y *Contact us*.  
+
+<p align="center">
+  <img src="assets/mockup-portada.png" alt="Mockup Portada" />
+</p>  
+
+
+ 2. Sobre nosotros (About Us)  
+**Mockup:** Presenta un párrafo que explica la misión de la empresa acompañado de una ilustración de personas trabajando frente a gráficos en el lado derecho.  
+
+<p align="center">
+  <img src="assets/mockup-about-us.png" alt="Mockup About Us" />
+</p>  
+
+
+3. Beneficios  
+**Mockup:** Se destacan tres bloques con los textos *Real-time traceability*, *Operational efficiency* y *Smart decisions*. Cada bloque incluye un icono ilustrativo y una breve explicación.  
+
+<p align="center">
+  <img src="assets/mockup-benefits.png" alt="Mockup Benefits" />
+</p>  
+
+
+ 4. Características  
+**Mockup:** Presenta tres bloques con los títulos *Automated registration*, *Evidence in every delivery* y *Precise geolocation*. Cada uno está acompañado de un icono y una breve descripción.  
+
+<p align="center">
+  <img src="assets/mockuo-character.png" alt="Mockup Características" />
+</p>  
+
+
+
+5. Pricing  
+**Mockup:** Se muestran tres tarjetas con diseño diferenciado. Los planes son *Basic (PEN 30)*, *Professional (PEN 70)* y *Corporate (PEN 100)*. Cada tarjeta incluye beneficios y un botón *Select*.  
+
+<p align="center">
+  <img src="assets/mockup-pricing.png" alt="Mockup Pricing" />
+</p>  
+
+
+
+ 6. Equipo  
+**Mockup:** Presenta cinco fotos de personas con sus nombres y roles: Desarrollador, Programador, Encargado, Analista y Diseñador.  
+
+<p align="center">
+  <img src="assets/mockup-member.png" alt="Mockup Members" />
+</p>  
+
+
+7. Formulario de contacto  
+**Mockup:** Utiliza un fondo morado suave con el texto “Connect with us and discover how to optimize your logistics operations”. Incluye un campo para ingresar el correo electrónico y un botón *Send*.  
+
+<p align="center">
+  <img src="assets/mockup-contact.png" alt="Mockup Contact" />
+</p>  
+
+
+
+ 8. Footer  
+**Mockup:** Muestra el logo de MoveSys, enlaces como *Prices, Support, Terms and Conditions, Privacy Policy*, íconos de redes sociales (Facebook, Twitter, Instagram, YouTube) y la leyenda de copyright 2025.  
+
+<p align="center">
+  <img src="assets/mockup-footer.png" alt="Mockup Footer" />
+</p>  
+
+
     
 ## 4.4. Web Applications UX/UI Design.
     
