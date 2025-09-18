@@ -29,10 +29,47 @@
 
 # **Registro de Versiones del Informe**
 
-| Versión | Fecha | Autor | Descripción de modificación |
-|-----------|-----------|-----------|-----------|
-|-----------|-----------|-----------|-----------|
-|-----------|-----------|-----------|-----------|
+## Registro de versiones del informe
+
+| Versión  | Fecha | Autor | Descripción de modificación |
+|:--------:|:-----:|:-----:|-----------------------------|
+| TB1      |     18/09/2025  |   Mel Andree Orellana     | Creación de la Estructura del informe |
+|          |      18/09/2025  |    Mel Andree Orellana      | Incorporación del Landing Page UI Design |
+|          |      18/09/2025  |   Merly Salon Puerta    | Incorporación del Web Applications Wireframes |
+|          |      18/09/2025  |   Merly Salon Puerta    | Incorporación del Web Applications Wireflow Diagrams |
+|          |     18/09/2025   |    Angel Guillermo Berrospi      | Incorporación del Class Diagrams |
+|          |      18/09/2025  |   Angel Guillermo Berrospi       | Incorporación del Database Diagram |
+|          |      18/09/2025  | Merly Salon Puerta      | Incorporación del Web Applications Mock-ups |
+|          |   18/09/2025     |  Merly Salon Puerta     | Incorporación del Web Applications Mock-ups |
+|          |    18/09/2025    |    Merly Salon Puerta      | Incorporación del Web Applications Prototyping |
+|          |    18/09/2025    |   Gabriel Ferran Espinar    | Ejecución del proceso de *Needfinding* |
+|          |    18/09/2025    |  Gabriel Ferran Espinar     | Elaboración de User Personas |
+|          |    18/09/2025    |  Gabriel Ferran Espinar     | Desarrollo de User Task Matrix |
+|          |    18/09/2025    | Bryan Felix Martinez       | Elaboración del User Journey Mapping |
+|          |    18/09/2025    |  Bryan Felix Martinez       | Desarrollo del Empathy Mapping |
+|          |    18/09/2025 |   Bryan Felix Martinez        | Desarrollo del Glosario de Ubiquitous Language para alinear términos del dominio |
+|          |   18/09/2025     |   Bryan Felix Martinez       | Desarrollo de User Stories |
+|          |   18/09/2025     |  Bryan Felix Martinez       | Desarrollo de Impact Mapping |
+|          |   18/09/2025     |   Bryan Felix Martinez     | Desarrollo de Product Backlog |
+|          |   18/09/2025     |   Angel Guillermo Berrospi    | Desarrollo del Software Architecture Context Diagram |
+|          |   18/09/2025     |   Angel Guillermo Berrospi    | Desarrollo Software Architecture Container Diagrams |
+|          |   18/09/2025     |   Angel Guillermo Berrospi    | Desarrollo Software Architecture Components Diagrams |
+|          |   18/09/2025     |   Gabriel Ferran Espinar    | Desarrollo de Análisis Competitivo y Estrategia |
+|          |   18/09/2025     |   Mel Andree Orellana       | Desarrollo de General Style Guidelines |
+|          |    18/09/2025    |    Mel Andree Orellana      | Desarrollo de Web Style Guidelines |
+|          |   18/09/2025     |   Mel Andree Orellana       | Elaboración de la sección Information Architecture |
+|          |   18/09/2025     |    Mel Andree Orellana      | Desarrollo de Organization Systems |
+|          |   18/09/2025     |    Mel Andree Orellana      | Desarrollo del Labeling Systems |
+|          |   18/09/2025     |   Mel Andree Orellana       | Desarrollo de SEO Tags and Meta Tags |
+|          |   18/09/2025     |  Mel Andree Orellana        | Desarrollo del Searching Systems |
+|          |   18/09/2025     |    Mel Andree Orellana      | Desarrollo de Navigation Systems |
+|          |   18/09/2025     |   Angel Guillermo Berrospi     | Antecedentes y problemática |
+|          |   18/09/2025     |  Angel Guillermo Berrospi       | Lean UX Canvas |
+|          |   18/09/2025     |   Mel Andree Orellana     | Segmento Objetivo |
+|          |  18/09/2025      |    Angel Guillermo Berrospi     | Sprint 1 |
+|          |  18/09/2025      |  Angel Guillermo Berrospi       | Descripción de la Startup |
+|          |   18/09/2025     |  Angel Guillermo Berrospi       | Lean UX Process |
+
 
 
 # **Project Report Collaboration Insights**
