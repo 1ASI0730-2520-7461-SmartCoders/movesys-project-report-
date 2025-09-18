@@ -185,10 +185,40 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. 
 En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5. 
 
-| Criterio específico | Acciones realizadas | Conclusiones |
-| ------------------- | ------------------- | ------------ |
-| ------------------- | ------------------- | ------------ |
-| ------------------- | ------------------- | ------------ |
+## Criterio específico: Comunica oralmente con efectividad a diferentes rangos de audiencia
+
+| Acción Realizada | Participantes | Descripción |
+|------------------|---------------|-------------|
+| Creación de la Estructura del informe | Mel Andree Orellana | Presenté la estructura inicial del documento, facilitando la comprensión de las secciones y asegurando un orden lógico en la exposición del proyecto. |
+| Incorporación del Landing Page UI Design | Mel Andree Orellana | Expliqué de manera clara la propuesta de interfaz de usuario de la Landing Page, orientada a comunicar visualmente la identidad de MoveSys. |
+| Incorporación del Web Applications Wireframes y Wireflow Diagrams | Merly Salon Puerta | Expuse los wireframes y diagramas de flujo de las aplicaciones web para mostrar el recorrido de usuario y facilitar la validación con el equipo. |
+| Incorporación del Class Diagrams y Database Diagram | Angel Guillermo Berrospi | Comunicado de manera técnica y accesible los diagramas de clases y base de datos, mostrando la estructura lógica del sistema. |
+| Ejecución del proceso de Needfinding y Elaboración de User Personas | Gabriel Ferran Espinar | Presenté hallazgos de entrevistas y encuestas con usuarios, comunicando sus necesidades principales y arquetipos clave. |
+| Elaboración del User Journey Mapping y Empathy Mapping | Bryan Felix Martinez | Expuse de manera didáctica los recorridos y mapas de empatía de los usuarios, conectando hallazgos con soluciones propuestas. |
+| Desarrollo del Software Architecture Context y Container Diagram | Angel Guillermo Berrospi | Expliqué los diagramas de arquitectura de software en distintos niveles para asegurar comprensión tanto técnica como estratégica. |
+| Segmento Objetivo | Mel Andree Orellana | Presenté los segmentos de usuarios clave de MoveSys, comunicando cómo cada uno se beneficia de la solución. |
+
+**Conclusiones**  
+Las presentaciones orales del equipo Movesys permitieron transmitir hallazgos, diseños y propuestas a audiencias diversas (compañeros, docentes y potenciales usuarios), asegurando claridad técnica y estratégica. Esto fortaleció la validación temprana del proyecto y facilitó la alineación del equipo en torno a objetivos comunes.
+
+
+---
+
+## Criterio específico: Comunica por escrito con efectividad a diferentes rangos de audiencia
+
+| Acción Realizada | Participantes | Descripción |
+|------------------|---------------|-------------|
+| Desarrollo de General y Web Style Guidelines | Mel Andree Orellana | Documenté las guías de estilo generales y específicas para la web, garantizando consistencia visual y comunicativa en el proyecto. |
+| Elaboración de la sección Information Architecture, Organization, Labeling, SEO Tags, Searching y Navigation Systems | Mel Andree Orellana | Redacté y estructuré la arquitectura de información y sistemas asociados, facilitando la comprensión del diseño de contenidos. |
+| Desarrollo del Glosario de Ubiquitous Language | Bryan Felix Martinez | Generé un glosario para alinear el lenguaje del dominio entre los miembros del equipo y stakeholders, asegurando precisión en la comunicación. |
+| Desarrollo de User Stories, Impact Mapping y Product Backlog | Bryan Felix Martinez | Documenté los artefactos de gestión ágil, comunicando requerimientos y prioridades del producto de forma clara y estructurada. |
+| Desarrollo del Software Architecture Components Diagrams | Angel Guillermo Berrospi | Redacté y documenté los diagramas de componentes de la arquitectura para detallar interacciones técnicas. |
+| Desarrollo de Análisis Competitivo y Estrategia | Gabriel Ferran Espinar | Elaboré documentación escrita sobre la competencia y la estrategia, comunicando insights útiles para la toma de decisiones. |
+| Antecedentes y problemática, Lean UX Canvas y Lean UX Process | Angel Guillermo Berrospi | Redacté los apartados de investigación, contexto y metodología, comunicando de manera estructurada los fundamentos del proyecto. |
+
+**Conclusiones**  
+La comunicación escrita del equipo Movesys se distinguió por la claridad, precisión y consistencia en la documentación generada. Desde guías de estilo hasta artefactos ágiles y diagramas técnicos, la producción escrita facilitó la colaboración, la comprensión de procesos y la validación de la solución. Además, permitió mantener un registro estructurado y accesible para audiencias técnicas y no técnicas, consolidando la solidez del proyecto.
+
 
 
 # Capítulo 1: Introducción
