@@ -177,12 +177,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Foto                      | ![Integrante_Mel Andree Orellana](assets/Integrante-Mel-Andree-Orellana.jpeg)    |
 
 
-| **Integrante**            | **Gabriel**                                             |
+| **Integrante**            | **Gabriel Ferran Espinar Martínez**                                             |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| **Código del Estudiante** |                                    |
-| **Carrera**               | Ingeniería de                                                                     |
-| **Descripción**           |        |
-| Foto                      |        |
+| **Código del Estudiante** | U202310436                                   |
+| **Carrera**               | Ingeniería de Software                                                                   |
+| **Descripción**           |  Soy estudiante de la carrera de Ingeniería de Software, Me considero una persona trabajadora. Me interesa aprender constantemente en especial en áreas relacionadas a la tecnología y cuento con conocimientos en HTML, CSS, Javascript y SQL, lo cual puede servir en el desarrollo del proyecto.       |
+| Foto                      | ![Integrante_Gabriel Espinar](assets/Integrante_Gabriel_Espinar.png)       |
 
 | **Integrante**            | **Martinez Bryan**                                             |
 |---------------------------|---------------------------------------------------------------------------------------------------|
