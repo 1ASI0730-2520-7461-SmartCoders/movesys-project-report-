@@ -303,6 +303,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     
 ### 4.8.1. Database Diagrams.
     
+![Database Diagrams](assets/Database-Diagram.jpg)
+
 # Capítulo V: Product Implementation, Validation & Deployment
     
 ## 5.1. Software Configuration Management.
