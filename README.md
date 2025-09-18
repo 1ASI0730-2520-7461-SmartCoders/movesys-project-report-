@@ -192,23 +192,66 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     
 ### 1.2.1 Antecedentes y problemática
 
+ | Elemento        | Descripción                                                                                                                                                              |
+ |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+ | **Who (Quién)** | Empresas de transporte de carga, operadores logísticos, despachadores y choferes que necesitan controlar, supervisar y reportar sus operaciones de manera precisa y eficiente. |
+ | **What (Qué)**  | Plataforma web que digitaliza y automatiza la gestión logística del transporte de carga, incluyendo planificación de servicios, registro de kilometraje, consumo de combustible, evidencia fotográfica, geolocalización y generación de reportes. |
+ | **Where (Dónde)** | En oficinas de operación logística, empresas de transporte, y en campo a través de dispositivos móviles utilizados por los choferes. |
+ | **When (Cuándo)** |Durante todas las etapas del proceso logístico: planificación previa, ejecución del servicio y post-servicio (análisis e informes). |
+ | **Why (Por qué)** |Actualmente, muchas empresas gestionan sus operaciones en papel o Excel, lo cual implica errores, pérdida de información, falta de trazabilidad y un uso ineficiente de los recursos. Esto limita la capacidad de tomar decisiones basadas en datos en tiempo real y reduce la confianza del cliente.|
+ | **How (Cómo)** |A través de una plataforma digital que permite crear servicios, registrar recorridos y consumos en tiempo real, visualizar la ubicación GPS de los vehículos, y generar reportes automáticos con métricas clave para mejorar el desempeño operativo. |
+ | **How Much (Cuánto)** | El acceso a la plataforma se brinda mediante planes de suscripción    mensual, dependiendo del número de usuarios, vehículos y funcionalidades activadas por empresa. |
 
-    
 ### 1.2.2 Lean UX Process.
-    
+
 ### 1.2.2.1. Lean UX Problem Statements.
 
+ MoveSys es una plataforma diseñada para digitalizar de manera integral la gestión del transporte de carga, sustituyendo procesos manuales y aumentando la eficiencia operativa. Hoy en día, muchas empresas continúan utilizando formularios físicos, reportes en papel y hojas de cálculo, lo que ocasiona demoras, errores humanos y una baja trazabilidad en sus operaciones.
+
+ El principal reto consiste en lograr que las compañías adopten esta solución digital como una herramienta segura, fácil de usar y transformadora. Si bien la propuesta tecnológica ofrece una mejora considerable, algunas organizaciones pueden mostrar resistencia al cambio por temor a la complejidad o por su arraigo a métodos tradicionales.
+
+ La gran pregunta es: ¿Cómo podemos impulsar la adopción de MoveSys como una solución confiable, sencilla y eficaz que facilite la transformación digital en la gestión del transporte de carga y optimice los procesos logísticos?
 
 ### 1.2.2.2. Lean UX Assumptions.
 
+Contexto: Muchas organizaciones aún dependen de procesos manuales o del uso de Excel para controlar sus operaciones logísticas, lo que limita la eficiencia y dificulta la gestión.
+Assumption: Implementar una plataforma centralizada que digitalice cada etapa del proceso reducirá errores, optimizará tiempos y potenciará la productividad operativa.
+
+Contexto: La ausencia de trazabilidad en tiempo real genera poca confianza en los clientes y complica el monitoreo adecuado de las entregas.
+Assumption: Incorporar geolocalización en tiempo real y registro fotográfico durante las entregas incrementará la transparencia, reforzará la confianza del cliente y mejorará la calidad del servicio.
+
+Contexto: Los reportes elaborados manualmente consumen tiempo y recursos, lo que retrasa la obtención de información clave para la toma de decisiones.
+Assumption: Automatizar la creación de reportes con indicadores estratégicos permitirá a los gestores decidir con mayor rapidez y basarse en datos precisos.
+
+Contexto: La introducción de nuevas tecnologías suele encontrar resistencia en empresas habituadas a prácticas tradicionales.
+Assumption: Ofrecer una interfaz intuitiva, junto con capacitación y soporte continuo, facilitará la transición hacia lo digital y aumentará la adopción de la plataforma.
+
+Contexto: Los equipos de transporte y logística manejan distintos niveles de acceso y responsabilidad sobre la información.
+Assumption: Definir roles personalizados dentro de la plataforma garantizará una gestión más segura, ordenada y eficiente de datos y procesos.
 
 ### 1.2.2.3. Lean UX Hypothesis Statements.
-    
+
+ - Confiamos en que al proporcionar una plataforma digital unificada que concentre todas las operaciones logísticas, lograremos mayor eficiencia y trazabilidad en el transporte de carga.
+ Validaremos esta hipótesis cuando identifiquemos menos errores en la operación y mejoras notables en los tiempos de entrega y gestión.
+
+ - Confiamos en que al integrar geolocalización en tiempo real y evidencia fotográfica en las entregas, fortaleceremos la confianza del cliente final y aumentaremos la transparencia del servicio.
+ Sabremos que estamos en lo correcto cuando se reduzcan los reclamos y la satisfacción de los clientes muestre un incremento.
+
+ - Confiamos en que al digitalizar y automatizar los reportes con métricas clave, impulsaremos una toma de decisiones más ágil y fundamentada en datos.
+ Nuestra hipótesis se confirmará cuando los gestores puedan reaccionar más rápido y reporten mejoras en sus indicadores logísticos.
+
+ - Confiamos en que al ofrecer una interfaz intuitiva acompañada de capacitación, facilitaremos la adopción de la plataforma incluso en equipos con baja experiencia tecnológica.
+ Lo confirmaremos cuando observemos una disminución en los requerimientos de soporte técnico y un uso constante de la herramienta.
+
+ - Confiamos en que al implementar la gestión de roles y permisos diferenciados, aumentaremos la seguridad y la eficiencia interna de las operaciones.
+ Estaremos en lo cierto cuando no se registren manipulaciones indebidas de datos y los usuarios valoren la organización y control del sistema.
+
 ### 1.2.2.4. Lean UX Canvas.
-    
+
+![Lean_Product_Canvas.png](assets/Lean_Product_Canvas.png)
 
 ## 1.3. Segmentos objetivo.
-    
+
 # Capítulo II: Requirements Elicitation & Analysis
     
 ## 2.1. Competidores.
