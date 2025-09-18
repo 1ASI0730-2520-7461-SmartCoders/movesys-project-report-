@@ -690,6 +690,8 @@ A coninuación se presentan algunos Mockups de nuestra app MoveSys
 
 ### 4.7.1. Class Diagrams.
     
+![Class Diagram](assets/Class_Diagram.jpg)
+
 ## 4.8. Database Design.
     
 ### 4.8.1. Database Diagrams.
