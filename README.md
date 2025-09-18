@@ -729,6 +729,16 @@ User Stories
 | TS-05 | Administración de entregas vía API | Como desarrollador, quiero utilizar endpoints para registrar y consultar entregas desde aplicaciones móviles. | Escenario 01: Creación de entrega Dado que se proporciona información válida Cuando se envía una solicitud POST Entonces la API registra la entrega y devuelve su ID. Escenario 02: Búsqueda de entregas Dado que se desea consultar entregas por conductor Cuando se aplica un filtro correspondiente Entonces la API responde con los resultados solicitados. Escenario 03: Modificación de estado Dado que se necesita actualizar el estado de una entrega Cuando se envía una solicitud PATCH Entonces la API actualiza el estado correctamente.  |  EP-API |
    
 ## 3.2. Impact Mapping.
+
+* Gestor de flota
+
+<img src="assets/im_gestor_flota.png" alt="impact mapping Gestor_Flota" />
+
+* Conductores de transporte
+
+<img src="assets/im_conductor_vehiculos_transporte.png" alt="impact mapping Conductor_transporte" />
+
+
     
 ## 3.3. Product Backlog.
     
