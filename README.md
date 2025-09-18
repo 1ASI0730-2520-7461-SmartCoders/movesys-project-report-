@@ -1509,7 +1509,30 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 - Se requiere mayor tiempo de organización interna para segmentar correctamente: La diferenciación entre gerentes de flota y conductores permitió establecer flujos específicos para cada uno, lo cual resalta la importancia de organizar sesiones de trabajo más detalladas por segmento antes de definir la arquitectura de información final.
 
 
-
 ## Bibliografía
 
+1. Sommerville, I. (2016). *Ingeniería de Software* (10ª ed.). Pearson.  
+2. Pressman, R. S., & Maxim, B. R. (2020). *Ingeniería de Software: Un enfoque práctico* (9ª ed.). McGraw-Hill.  
+3. Preece, J., Rogers, Y., & Sharp, H. (2015). *Interaction Design: Beyond Human-Computer Interaction* (4ª ed.). Wiley.  
+4. ISO/IEC 25010:2011. *Sistemas y software de ingeniería – Requisitos de calidad de software*.  
+5. Cooper, A., Reimann, R., & Cronin, D. (2014). *About Face: The Essentials of Interaction Design* (4ª ed.). Wiley.  
+6. Pressman, R. S. (2019). *Software Engineering: A Practitioner’s Approach*. McGraw-Hill.  
+
 ## Anexos
+
+### Anexo 1: Planificación previa y coordinación
+La planificación previa fue clave para el desarrollo estructurado del sistema. Durante el proceso se evidenció la necesidad de una **coordinación anticipada entre las áreas de diseño, desarrollo y análisis de usuarios** para alinear correctamente la funcionalidad con las necesidades reales del público objetivo.
+
+### Anexo 2: Segmentación de usuarios
+Se identificaron los siguientes segmentos de usuarios principales:
+
+- **Gerentes de flota:** responsables de la supervisión y optimización de la operación.  
+- **Conductores:** encargados de la ejecución de entregas y registro de información en tiempo real.  
+
+Esta diferenciación permitió establecer **flujos específicos para cada segmento**, resaltando la importancia de organizar sesiones de trabajo más detalladas antes de definir la arquitectura de información final.
+
+### Anexo 3: Materiales adicionales
+- Diagramas de flujo de usuarios y procesos.  
+- Wireframes de la plataforma.  
+- Tablas de historias de usuario y criterios de aceptación.  
+- Capturas de la interfaz de la aplicación para cada segmento.
