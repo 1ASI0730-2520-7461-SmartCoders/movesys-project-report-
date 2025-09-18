@@ -279,11 +279,12 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 A coninuación se presentan algunos wireframes de nuestra app MoveSys
 
 <img alt="Wireframe login" src="assets/login_bw.png"/>  
-<img alt="Wireframe login" src="assets/dashboard_bw.png"/>
-<img alt="Wireframe login" src="assets/entregas_bw.png"/>
-<img alt="Wireframe login" src="assets/usuarios_bw.png"/>
+<img alt="Wireframe dashboard" src="assets/dashboard_bw.png"/>
+<img alt="Wireframe entregas" src="assets/entregas_bw.png"/>
+<img alt="Wireframe usuarios" src="assets/usuarios_bw.png"/>
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
-    
+<img alt="Web App Wireflow" src="assets/Web_Applications_Wireflow.jpg"/>    
 ### 4.4.2. Web Applications Mock-ups.
     
 ### 4.4.3. Web Applications User Flow Diagrams.
