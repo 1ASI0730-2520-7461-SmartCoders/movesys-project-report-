@@ -651,6 +651,14 @@ El Empathy Mapping es una metodología que permite profundizar en la comprensió
 
 ## 2.4. Big Picture EventStorming.
 
+* EventStorming inicial:
+
+<img alt= "EventStorming inicial" src="assets/EventStorming_Inicial.png"/>
+
+* EventStorming Final:
+
+<img alt= "EventStorming Final" src="assets/EventStorming_Final.jpg"/>
+
 
 
 ## 2.5. Ubiquitous Language.
