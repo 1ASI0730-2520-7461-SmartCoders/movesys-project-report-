@@ -280,6 +280,7 @@ A coninuación se presentan algunos wireframes de nuestra app MoveSys
 
 <img alt="Wireframe login" src="assets/login_bw.png"/>  
 <img alt="Wireframe login" src="assets/dashboard_bw.png"/>
+<img alt="Wireframe login" src="assets/entregas_bw.png"/>
 ### 4.4.2. Web Applications Wireflow Diagrams.
     
 ### 4.4.2. Web Applications Mock-ups.
