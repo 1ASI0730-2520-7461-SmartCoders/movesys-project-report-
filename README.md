@@ -371,6 +371,26 @@ Develop: Rama principal de desarrollo donde se integran y prueban nuevas funcion
 feature:Ramas temporales creadas a partir de develop, destinadas a implementar una funcionalidad específica o mejora en el proyecto.
     
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+**HTML**  
+- Declarar siempre el tipo de documento en la primera línea.  
+- Cerrar todos los elementos y mantener la correcta indentación.  
+- Usar atributos entre comillas y en minúsculas.  
+- Escribir comentarios cortos en una sola línea.  
+- Incluir atributos `alt`, `width` y `height` en las imágenes para mejorar accesibilidad y disponibilidad del contenido.  
+- Mantener un orden lógico en la estructura del documento (head, body, secciones).  
+
+**CSS**  
+- Utilizar sangría de 2 espacios (evitar tabulaciones).  
+- Escribir todo el código en minúsculas.  
+- Eliminar espacios en blanco innecesarios.  
+- Usar comentarios descriptivos para secciones importantes.  
+- Definir nombres de clases significativos y consistentes.  
+- Evitar el uso excesivo de `!important`.  
+
+**Fuentes**  
+- [W3Schools - HTML5 Syntax](https://www.w3schools.com/html/html5_syntax.asp)  
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)  
     
 ### 5.1.4. Software Deployment Configuration.
     
