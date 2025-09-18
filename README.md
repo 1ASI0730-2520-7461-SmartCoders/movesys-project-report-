@@ -238,6 +238,22 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## 2.4. Big Picture EventStorming.
     
 ## 2.5. Ubiquitous Language.
+
+El Lenguaje Ubicuo hace referencia a un vocabulario común y compartido que emplean tanto los miembros del equipo de desarrollo como los usuarios finales y demás actores vinculados al proyecto. Su propósito es garantizar una comunicación clara y consistente sobre los conceptos, términos y procesos relacionados con el desarrollo del software. A continuación, se muestra la lista de términos definidos para el desarrollo de la plataforma.
+
+* Telemetría de flota en tiempo real: Seguimiento continuo de vehículos y carga mediante GPS.
+* Registro automatizado de distancia operativa:Kilometraje digital calculado automáticamente por el sistema.
+* Documentación electrónica de entrega Evidencia digital de que la entrega se completó correctamente:
+* Validación electrónica del receptor: Confirmación digital del cliente que recibe la carga.
+* Planificación algorítmica de rutas: Cálculo de rutas optimizadas para reducir tiempo y costos.
+* Monitoreo dinámico de estado de entrega:Visualización en tiempo real del progreso de cada envío.
+* Predicción algorítmica de llegada:Estimación del tiempo de llegada basada en tráfico y rutas.
+* Alertas proactivas de incidencias: Notificaciones automáticas ante retrasos, fallas o desvíos.
+* Indicador clave de rendimiento (KPI): Métricas de desempeño de conductores, rutas y operaciones.
+* Geocerca:Zona virtual que genera alertas cuando un vehículo entra o sale de ella.
+
+
+
     
 # Capítulo III: Requirements Specification
   
