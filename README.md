@@ -741,6 +741,40 @@ User Stories
 
     
 ## 3.3. Product Backlog.
+
+| \# orden | User Story ID | Título | Descripción | Story Point (1/2/3/5/8) |
+| :---: | :---: | ----- | ----- | :---: |
+| 1 | US-13 | Registrar incidente | Como conductor, quiero informar incidentes durante la entrega para que el gestor pueda tomar acción. | 8 |
+| 2 | US-09 | Revisar rutas programadas | Como gestor, quiero ver las rutas asignadas a cada unidad para controlar su cumplimiento operativo. | 8 |
+| 3 | US-01 | Revisar entregas programadas | Como conductor, quiero visualizar las entregas asignadas del día para organizar mi jornada. | 8 |
+| 4 | US-17 | Agendar mantenimiento | Como gestor, quiero programar mantenimientos periódicos para prevenir fallas inesperadas. | 8 |
+| 5 | US-05 | Emitir informe semanal | Como gestor, quiero consultar reportes semanales de entregas para analizar el desempeño del personal. | 5 |
+| 6 | US-11 | Modificar estado de unidad | Como gestor, quiero actualizar una unidad como disponible o en mantenimiento para optimizar la gestión | 5 |
+| 7 | US-04 | Confirmar inicio de recorrido | Como conductor, quiero registrar el comienzo de mi ruta para dejar constancia de la hora de salida. | 5 |
+| 8 | US-16 | Consultar historial de incidencias | Como gestor, quiero revisar incidencias anteriores para apoyar decisiones preventivas | 5 |
+| 9 | US-12 | Revisar historial de movimientos | Como gestor, quiero consultar el historial de una unidad para dar seguimiento a su actividad. | 5 |
+| 10 | US-20 | Notificación de mantenimiento próximo | Como gestor, quiero recibir avisos de mantenimientos cercanos para prevenir retrasos. | 5 |
+| 11 | US-03 | Consultar historial de entregas | Como conductor, quiero revisar las entregas finalizadas para mantener control de mis actividades. | 5 |
+| 12 | US-16 | Consultar historial de incidencias | Como gestor, quiero revisar incidencias anteriores para apoyar decisiones preventivas | 5 |
+| 13 | US-18 | Documentar mantenimiento | Como técnico, quiero registrar el mantenimiento efectuado para dejar constancia | 3 |
+| 14 | US-07 | Comparar rendimiento de conductores | Como gestor, quiero evaluar el desempeño de los conductores para incentivar buenas prácticas. | 3 |
+| 15 | US-02 | Guardar comprobante de entrega | Como conductor, quiero registrar evidencia de las entregas completadas para que queden validadas | 3 |
+| 16 | US-15 | Aplicar filtros a incidencias | Como gestor, quiero filtrar las incidencias según su gravedad para priorizar las acciones. | 3 |
+| 17 | US-10 | Vincular unidades a rutas | Como gestor, quiero asociar unidades de transporte a rutas determinadas para gestionar la operación. | 2 |
+| 18 | US-06 | Analizar rendimiento por vehículo | Como gestor, quiero obtener el desempeño de cada unidad para apoyar decisiones de utilización. | 2 |
+| 19 | US-19 | Revisar mantenimientos programados | Como gestor, quiero ver las próximas fechas de mantenimiento para anticipar la planificación | 2 |
+| 20 | US-08 | Supervisar alertas prioritarias | Como gestor, quiero revisar las alertas críticas del sistema para responder de forma inmediata. | 1 |
+| 21 | US-24 | Revisar información de servicios | Como visitante, quiero conocer los servicios ofrecidos para determinar si se ajustan a mis necesidades. | 3 |
+| 22 | US-25 | Solicitar demostración | Como visitante, quiero inscribirme para una demostración y conocer mejor el sistema. | 5 |
+| 23 | US-22 | Contactar asistencia | Como visitante, quiero comunicarme con el soporte para aclarar dudas sobre el servicio. | 2 |
+| 24 | US-23 | Revisar planes y precios | Como visitante, quiero comparar los planes disponibles para seleccionar el que mejor se ajuste a mis necesidades. | 3 |
+| 25 | US-21 | Revisar casos de éxito | Como visitante, quiero consultar casos de éxito para conocer experiencias reales con el sistema. | 5 |
+| 26 | TS-01 | Acceso a estadísticas vía API | Como desarrollador, quiero obtener estadísticas desde la API para integrarlas en reportes externos. | 8 |
+| 27 | TS-03 | Seguridad de acceso vía API | Como desarrollador, quiero implementar autenticación para resguardar el acceso a la API. | 8 |
+| 28 | TS-02 | Administración de incidencias vía API | Como desarrollador, quiero disponer de endpoints para registrar y gestionar incidencias del sistema | 5 |
+| 29 | TS-04 | Administración de unidades vía API | Como desarrollador, quiero utilizar endpoints CRUD para gestionar unidades desde aplicaciones externas. | 5 |
+| 30 | TS-05 | Administración de entregas vía API | Como desarrollador, quiero utilizar endpoints para registrar y consultar entregas desde aplicaciones móviles. | 5 |
+
     
 # Capítulo IV: Product Design
    
