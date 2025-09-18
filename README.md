@@ -701,14 +701,117 @@ A coninuación se presentan algunos Mockups de nuestra app MoveSys
 # Capítulo V: Product Implementation, Validation & Deployment
     
 ## 5.1. Software Configuration Management.
-    
+
 ### 5.1.1. Software Development Environment Configuration.
+
+En este punto detallaremos todas las herramientas de software usadas para el desarrollo de nuestro proyecto:
+
+Gestión del proyecto:
+
+- **WhatsApp**: [LINK WhatsApp](https://www.whatsapp.com)   
+  Usamos whatsapp como nuestro principal canal para comunicarnos, la coordinación de tareas, los tiempos de entrega, las nuevas ideas y brindar soporte a otros miembros que tengan dificultades.
+
+- **Jira**: [LINK Jira](https://www.atlassian.com/es/software/jira)  
+  Usamos la herramienta Jira para seguir  y evaluar el progreso y flujo de las actividades del proyecto entre todos los miembros durante todo el proceso del trabajo
+
+Diseño UX/UI del Producto:
+
+- **Figma**: [LINK Figma](https://www.figma.com/es-es/)                                                                     
+   Plataforma para crear nuestros diseños de figma principalmente los wireframes y wireflows
+
+- **UXPressia**: [LINK UXPressia](https://uxpressia.com/)                                                                     
+  Se utilizó esta herramienta para la creación del impact Mapping, Empathy Mapping y el User Journey Mapping
+
+- **Miro**: [LINK Miro](https://miro.com/es/)                                                                      
+  Se utilizó esta herramienta para la creación del impact Mapping, Empathy Mapping y el User Journey Mapping
+
+Software Development:
+
+- **Visual Studio Code**: [Mas informacion sobre Studio Code](https://code.visualstudio.com/)                                                                      
+  Entorno de desarrollo completo que permite crear aplicaciones web con HTML5, dar estilo con CSS y programar la lógica con JavaScript
+  
+- **HTML**: [Mas informacion sobre HTML](https://developer.mozilla.org/es/docs/Web/HTML)                                                                      
+  Lenguaje de marcado estándar utilizado para estructurar el contenido de páginas web y compatible con todos los navegadores modernos.
+
+- **CSS**: [Mas informacion sobre CSS](https://developer.mozilla.org/es/docs/Web/CSS)                                                                      
+  Lenguaje de hojas de estilo que define la apariencia visual de las páginas web, permitiendo controlar diseño, colores y tipografías
+
+- **JavaScript**: [Mas informacion sobre JavaScript](https://developer.mozilla.org/es/docs/Web/JavaScript)                                                                      
+  Lenguaje de programación dinámico que añade interactividad y lógica a las páginas web, compatible con frameworks y librerías como React, Angular o Vue
+
+Despliegue del software:
+
+- **GIT**: [LINK Git](https://git-scm.com/)                                                                      
+  Sistema de control de versiones distribuido que permite gestionar cambios en el código, colaborar en equipo y mantener un historial completo de los proyectos de software.
+
+Documentacion del proyecto:
+
+- **GitHub**: [LINK GitHub](https://github.com/)                                                                      
+  Plataforma para alojar repositorios, colaborar y revisar contribuciones del equipo.
     
 ### 5.1.2. Source Code Management.
+
+Con el fin de gestionar y ordenar las modificaciones del proyecto, se creó un repositorio en GitHub que sirvió como punto central del desarrollo. 
+
+Organizaciones:
+
+* Repositorio de GitHub: [LINK Repositorio](https://github.com/1ASI0730-2520-7461-SmartCoders)
+  
+* Landing Page: [LINK Landing Page](https://github.com/1ASI0730-2520-7461-SmartCoders/Landing-Page)
+
+Ramas principales:
+
+Develop: Rama principal de desarrollo donde se integran y prueban nuevas funcionalidades antes de pasar a producción.
+
+feature:Ramas temporales creadas a partir de develop, destinadas a implementar una funcionalidad específica o mejora en el proyecto.
     
 ### 5.1.3. Source Code Style Guide & Conventions.
+
+**HTML**  
+- Declarar siempre el tipo de documento en la primera línea.  
+- Cerrar todos los elementos y mantener la correcta indentación.  
+- Usar atributos entre comillas y en minúsculas.  
+- Escribir comentarios cortos en una sola línea.  
+- Incluir atributos `alt`, `width` y `height` en las imágenes para mejorar accesibilidad y disponibilidad del contenido.  
+- Mantener un orden lógico en la estructura del documento (head, body, secciones).  
+
+**CSS**  
+- Utilizar sangría de 2 espacios (evitar tabulaciones).  
+- Escribir todo el código en minúsculas.  
+- Eliminar espacios en blanco innecesarios.  
+- Usar comentarios descriptivos para secciones importantes.  
+- Definir nombres de clases significativos y consistentes.  
+- Evitar el uso excesivo de `!important`.  
+
+**Fuentes**  
+- [W3Schools - HTML5 Syntax](https://www.w3schools.com/html/html5_syntax.asp)  
+- [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)  
     
 ### 5.1.4. Software Deployment Configuration.
+
+El despliegue de la landing page se realiza utilizando GitHub Pages, un servicio que permite alojar sitios web estáticos de manera gratuita y accesible para cualquier usuario con una cuenta en GitHub. Este mecanismo resulta ideal para proyectos académicos y profesionales, ya que no requiere infraestructura adicional ni configuraciones complejas de servidores.  
+
+### Landing page deployment  
+
+Para asegurar que el despliegue se lleve a cabo correctamente, es necesario cumplir con ciertos requisitos iniciales: contar con una cuenta personal en GitHub, disponer de un repositorio en línea donde alojar los documentos y mantener una organización coherente de los archivos del proyecto. Una vez cumplidos estos aspectos, el procedimiento seguido es el siguiente:  
+
+1. **Estructuración de archivos**: se organizan todos los elementos principales en la raíz del repositorio. Se respeta la nomenclatura estándar para facilitar la lectura y compatibilidad:  
+   - `index.html` como página inicial.  
+   - `styles.css` para la hoja de estilos.  
+   - `main.js` como archivo de scripts y funciones básicas.  
+   - Carpeta `assets/images` para almacenar imágenes y recursos gráficos.  
+
+2. **Carga en el repositorio**: los archivos preparados se versionan mediante Git. A través de un commit se registran los cambios, y con el comando push se sincronizan con el repositorio remoto en GitHub. Esto garantiza control de versiones y permite rastrear cualquier modificación en el tiempo.  
+
+3. **Configuración del despliegue**: en la sección **Settings → Pages** del repositorio se selecciona la rama principal (`main`) como fuente de publicación y se indica la carpeta raíz (root) como directorio base desde donde se servirán los archivos.  
+
+4. **Procesamiento por GitHub Pages**: al guardar la configuración, GitHub inicia automáticamente la generación del sitio. Este proceso puede tardar algunos minutos y concluye con la creación de un enlace público.  
+
+5. **Verificación del sitio**: se accede a la URL generada para comprobar que la landing page carga correctamente. En esta revisión se valida que los estilos de CSS se apliquen de forma adecuada, que los scripts de JavaScript funcionen sin errores y que todas las imágenes se visualicen desde la carpeta correspondiente.  
+
+6. **Disponibilidad pública**: una vez confirmada la publicación, el sitio queda accesible en internet a través del enlace de GitHub Pages. Esto permite que cualquier usuario con el vínculo pueda consultar la landing page, facilitando su difusión y evaluación.  
+
+De esta manera, el despliegue mediante GitHub Pages asegura que la landing page se encuentre publicada de forma sencilla, eficiente y sin necesidad de servidores adicionales, garantizando que el contenido esté disponible públicamente y pueda ser accedido en cualquier momento.  
     
 ## 5.2. Landing Page, Services & Applications Implementation.
     
