@@ -663,18 +663,24 @@ El Empathy Mapping es una metodología que permite profundizar en la comprensió
 
 ## 2.5. Ubiquitous Language.
 
-El Lenguaje Ubicuo hace referencia a un vocabulario común y compartido que emplean tanto los miembros del equipo de desarrollo como los usuarios finales y demás actores vinculados al proyecto. Su propósito es garantizar una comunicación clara y consistente sobre los conceptos, términos y procesos relacionados con el desarrollo del software. A continuación, se muestra la lista de términos definidos para el desarrollo de la plataforma.
+## 2.5. Ubiquitous Language
 
-* Telemetría de flota en tiempo real: Seguimiento continuo de vehículos y carga mediante GPS.
-* Registro automatizado de distancia operativa:Kilometraje digital calculado automáticamente por el sistema.
-* Documentación electrónica de entrega Evidencia digital de que la entrega se completó correctamente:
-* Validación electrónica del receptor: Confirmación digital del cliente que recibe la carga.
-* Planificación algorítmica de rutas: Cálculo de rutas optimizadas para reducir tiempo y costos.
-* Monitoreo dinámico de estado de entrega:Visualización en tiempo real del progreso de cada envío.
-* Predicción algorítmica de llegada:Estimación del tiempo de llegada basada en tráfico y rutas.
-* Alertas proactivas de incidencias: Notificaciones automáticas ante retrasos, fallas o desvíos.
-* Indicador clave de rendimiento (KPI): Métricas de desempeño de conductores, rutas y operaciones.
-* Geocerca:Zona virtual que genera alertas cuando un vehículo entra o sale de ella.
+El **Lenguaje Ubicuo (Ubiquitous Language)** se refiere a un vocabulario común y compartido que emplean tanto los miembros del equipo de desarrollo como los usuarios finales y demás actores vinculados al proyecto.  
+Su propósito es garantizar una comunicación clara y coherente sobre los conceptos, términos y procesos del dominio logístico en el que se desarrolla **MoveSys**.  
+A continuación, se presenta el glosario de términos definidos para el desarrollo de la plataforma.  
+
+| **Término (Inglés / Español)** | **Definición** |
+|--------------------------------|----------------|
+| **Fleet Telemetry (Telemetría de flota)** | Seguimiento continuo de vehículos y carga mediante GPS en tiempo real. |
+| **Operational Distance Tracking (Registro de distancia operativa)** | Medición automática de kilómetros recorridos por cada unidad mediante sensores y datos GPS. |
+| **Electronic Delivery Proof (Evidencia electrónica de entrega)** | Confirmación digital de que la entrega fue completada exitosamente, registrada por el sistema. |
+| **Receiver Validation (Validación de receptor)** | Aprobación digital por parte del cliente o destinatario para confirmar la recepción de la carga. |
+| **Route Planning Algorithm (Planificación de rutas)** | Cálculo optimizado de rutas considerando tráfico, distancia y tiempo para reducir costos operativos. |
+| **Shipment Monitoring (Monitoreo de envíos)** | Visualización en tiempo real del estado de cada entrega y su progreso dentro del sistema. |
+| **ETA Prediction (Predicción de hora estimada de llegada)** | Estimación dinámica de llegada basada en tráfico, velocidad promedio y condiciones de ruta. |
+| **Incident Alerts (Alertas de incidencias)** | Notificaciones automáticas ante retrasos, desvíos o eventos imprevistos durante la ruta. |
+| **Performance Indicator (Indicador de rendimiento)** | Métrica que evalúa el desempeño de conductores, rutas y operaciones logísticas. |
+| **Geofence (Geocerca)** | Zona virtual que genera alertas cuando un vehículo entra o sale del área definida. |
 
     
 # Capítulo III: Requirements Specification
