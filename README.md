@@ -229,6 +229,8 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
     
 ### 2.3.1. User Personas.
 
+A construcción de los siguientes User Personas se basa en el análisis cualitativo y cuantitativo de entrevistas realizadas a representantes de dos segmentos clave: Empresas de transporte de carga y Conductores de unidades de carga. Se han considerado características objetivas (edad, dispositivos, herramientas digitales, canales de interacción) y subjetivas (personalidad, frustraciones, expectativas, influencias) para definir arquetipos representativos. Estos artefactos permiten visualizar con claridad las necesidades, comportamientos y motivaciones de los usuarios potenciales de Storigent, facilitando el diseño de soluciones centradas en el usuario y estrategias de comunicación efectivas.
+
 Segmento 1: Gestor de Flota
 
  <img src="assets/s1-UserPersona.png"/>
