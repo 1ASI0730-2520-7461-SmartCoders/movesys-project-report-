@@ -163,34 +163,31 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 | **Integrante**            | **Angel Guillermo** |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| **Código del Estudiante** |      U202114701              |
-| **Carrera**               | Ingeniería de Software             |
-| **Descripción**           | Soy estudiante de Ingeniería de Software. Tendré el compromiso con mi equipo. Cuento con conocimientos en html, css, javascript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto  |
-| Foto                      | ![Integrante_Angel_Berrospi.jpg](assets/Integrante_Angel_Berrospi.jpg){width=200} |
+| **Código del Estudiante** | U202114701 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | Soy estudiante de Ingeniería de Software. Tendré el compromiso con mi equipo. Cuento con conocimientos en HTML, CSS, JavaScript y SQL, lo cual puede ser de ayuda en el desarrollo del proyecto. |
+| **Foto**                  | <img src="assets/Integrante_Angel_Berrospi.jpg" alt="Integrante Angel" width="200"/> |
 
-
-| **Integrante**            | **Mel Andre Orellana**                                             |
+| **Integrante**            | **Mel Andre Orellana** |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| **Código del Estudiante** | U202116018                         |
-| **Carrera**               | Ingeniería de   Software           |
-| **Descripción**           |     Soy estudiante de Ingeniería de Software y me caracterizo por mi compromiso con el trabajo en equipo. Cuento con conocimientos en HTML, CSS, JavaScript y SQL, lo cual puede aportar al desarrollo del proyecto en las áreas de frontend y bases de datos. Además, tengo experiencia en Python, lo que me permite apoyar en tareas de programación, automatización y análisis cuando sea necesario.   |
-| Foto                      | ![Integrante_Mel Andree Orellana](assets/Integrante-Mel-Andree-Orellana.jpeg){width=200}    |
+| **Código del Estudiante** | U202116018 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | Soy estudiante de Ingeniería de Software y me caracterizo por mi compromiso con el trabajo en equipo. Cuento con conocimientos en HTML, CSS, JavaScript y SQL, lo cual puede aportar al desarrollo del proyecto en las áreas de frontend y bases de datos. Además, tengo experiencia en Python, lo que me permite apoyar en tareas de programación, automatización y análisis cuando sea necesario. |
+| **Foto**                  | <img src="assets/Integrante-Mel-Andree-Orellana.jpeg" alt="Integrante Mel" width="200"/> |
 
-
-| **Integrante**            | **Gabriel Ferran Espinar Martínez**                                             |
+| **Integrante**            | **Gabriel Ferran Espinar Martínez** |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| **Código del Estudiante** | U202310436                                   |
-| **Carrera**               | Ingeniería de Software                                                                   |
-| **Descripción**           |  Soy estudiante de la carrera de Ingeniería de Software, Me considero una persona trabajadora. Me interesa aprender constantemente en especial en áreas relacionadas a la tecnología y cuento con conocimientos en HTML, CSS, Javascript y SQL, lo cual puede servir en el desarrollo del proyecto.       |
-| Foto                      | ![Integrante_Gabriel Espinar](assets/Integrante_Gabriel_Espinar.png){width=200}       |
+| **Código del Estudiante** | U202310436 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | Soy estudiante de la carrera de Ingeniería de Software. Me considero una persona trabajadora. Me interesa aprender constantemente, en especial en áreas relacionadas a la tecnología, y cuento con conocimientos en HTML, CSS, JavaScript y SQL, lo cual puede servir en el desarrollo del proyecto. |
+| **Foto**                  | <img src="assets/Integrante_Gabriel_Espinar.png" alt="Integrante Gabriel" width="200"/> |
 
-
-| **Integrante**            | **Merly Salon Puerta**  |
+| **Integrante**            | **Merly Salon Puerta** |
 |---------------------------|---------------------------------------------------------------------------------------------------|
-| **Código del Estudiante** | u20201b772                       |
-| **Carrera**               | Ingeniería de Software                     |
-| **Descripción**           | Soy estudiante de Ingeniería de Software. Estoy dispuesta a trabajar con mi equipo esforzadamente. Cuento con conocimientos en html, css y java script, lo cual puede sumar en el desarrollo del proyecto                                |
-| Foto                      | ![Integrante_MerlySalon](assets/Integrante-Merly-Salon.jpeg){width=200}                              |
+| **Código del Estudiante** | U20201B772 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | Soy estudiante de Ingeniería de Software. Estoy dispuesta a trabajar con mi equipo esforzadamente. Cuento con conocimientos en HTML, CSS y JavaScript, lo cual puede sumar en el desarrollo del proyecto. |
+| **Foto**                  | <img src="assets/Integrante-Merly-Salon.jpeg" alt="Integrante Merly" width="200"/> |
 
 ## 1.2. Solution Profile
     
