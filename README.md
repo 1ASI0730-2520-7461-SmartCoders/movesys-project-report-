@@ -31,7 +31,7 @@
 
 | Versión  | Fecha | Autor | Descripción de modificación |
 |:--------:|:-----:|:-----:|-----------------------------|
-| TB1      |     18/09/2025  |   Mel Andree Orellana     | Creación de la Estructura del informe |
+|    |     18/09/2025  |   Mel Andree Orellana     | Creación de la Estructura del informe |
 |          |      18/09/2025  |    Mel Andree Orellana      | Incorporación del Landing Page UI Design |
 |          |      18/09/2025  |   Merly Salon Puerta    | Incorporación del Web Applications Wireframes |
 |          |      18/09/2025  |   Merly Salon Puerta    | Incorporación del Web Applications Wireflow Diagrams |
@@ -197,6 +197,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | Elaboración del User Journey Mapping y Empathy Mapping | Bryan Felix Martinez | Expuse de manera didáctica los recorridos y mapas de empatía de los usuarios, conectando hallazgos con soluciones propuestas. |
 | Desarrollo del Software Architecture Context y Container Diagram | Angel Guillermo Berrospi | Expliqué los diagramas de arquitectura de software en distintos niveles para asegurar comprensión tanto técnica como estratégica. |
 | Segmento Objetivo | Mel Andree Orellana | Presenté los segmentos de usuarios clave de MoveSys, comunicando cómo cada uno se beneficia de la solución. |
+| User Persons | Merly Salon Puerta | Cree user personas para ambos segmentos |
 
 **Conclusiones**  
 Las presentaciones orales del equipo Movesys permitieron transmitir hallazgos, diseños y propuestas a audiencias diversas (compañeros, docentes y potenciales usuarios), asegurando claridad técnica y estratégica. Esto fortaleció la validación temprana del proyecto y facilitó la alineación del equipo en torno a objetivos comunes.
@@ -215,6 +216,7 @@ Las presentaciones orales del equipo Movesys permitieron transmitir hallazgos, d
 | Desarrollo del Software Architecture Components Diagrams | Angel Guillermo Berrospi | Redacté y documenté los diagramas de componentes de la arquitectura para detallar interacciones técnicas. |
 | Desarrollo de Análisis Competitivo y Estrategia | Gabriel Ferran Espinar | Elaboré documentación escrita sobre la competencia y la estrategia, comunicando insights útiles para la toma de decisiones. |
 | Antecedentes y problemática, Lean UX Canvas y Lean UX Process | Angel Guillermo Berrospi | Redacté los apartados de investigación, contexto y metodología, comunicando de manera estructurada los fundamentos del proyecto. |
+| Refactorización de User Stories | Merly Salon Puerta | Redacté nuevas user stories, modifiqué algunas de las existentes, de modo que estuvieran las más pertinentes para la continuidad del desarrollo del proyecto. |
 
 **Conclusiones**  
 La comunicación escrita del equipo Movesys se distinguió por la claridad, precisión y consistencia en la documentación generada. Desde guías de estilo hasta artefactos ágiles y diagramas técnicos, la producción escrita facilitó la colaboración, la comprensión de procesos y la validación de la solución. Además, permitió mantener un registro estructurado y accesible para audiencias técnicas y no técnicas, consolidando la solidez del proyecto.
