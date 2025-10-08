@@ -1301,11 +1301,11 @@ A coninuación se presentan algunos Mockups de nuestra app MoveSys
 
 ### 4.6.3. Software Architecture Container Diagrams.
     
-![Domain Container](assets/Domain-Container.png)
+![Domain Container](assets/Domain-Container.jpg)
 
 ### 4.6.4. Software Architecture Components Diagrams.
     
-![Domain Components](assets/Domain-components.png)
+![Domain Components](assets/Domain-Component.jpg)
 
 ## 4.7. Software Object-Oriented Design.
 
