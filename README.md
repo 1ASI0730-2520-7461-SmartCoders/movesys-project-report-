@@ -233,11 +233,11 @@ A construcción de los siguientes User Personas se basa en el análisis cualitat
 
 Segmento 1: Gestor de Flota
 
- <img src="assets/s1-UserPersona.png"/>
+ <img src="assets/user-persona-gestor-flota.png"/>
 
 Segmento 2: Conductor de vehículos de transporte
 
- <img src="assets/s2-UserPersona.png"/>
+ <img src="assets/user-persona-conductor.png"/>
     
 ### 2.3.2. User Task Matrix.
 
