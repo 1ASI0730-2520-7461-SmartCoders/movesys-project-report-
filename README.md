@@ -1316,7 +1316,7 @@ A coninuación se presentan algunos Mockups de nuestra app MoveSys
 
 ### 4.7.1. Class Diagrams.
     
-![Class Diagram](assets/Class_Diagram.jpg)
+![Class Diagram](assets/Class-Diagram.jpg)
 
 ## 4.8. Database Design.
     
