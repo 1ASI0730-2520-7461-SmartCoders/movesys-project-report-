@@ -206,45 +206,94 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 1.2.2.1. Lean UX Problem Statements.
 
- MoveSys es una plataforma diseñada para digitalizar de manera integral la gestión del transporte de carga, sustituyendo procesos manuales y aumentando la eficiencia operativa. Hoy en día, muchas empresas continúan utilizando formularios físicos, reportes en papel y hojas de cálculo, lo que ocasiona demoras, errores humanos y una baja trazabilidad en sus operaciones.
+Para empresas de transporte de carga, operadores logísticos, despachadores y choferes que actualmente gestionan sus operaciones mediante formularios físicos, hojas de cálculo y procesos manuales, MoveSys es una plataforma SaaS que digitaliza y centraliza todo el ciclo de gestión logística.
 
- El principal reto consiste en lograr que las compañías adopten esta solución digital como una herramienta segura, fácil de usar y transformadora. Si bien la propuesta tecnológica ofrece una mejora considerable, algunas organizaciones pueden mostrar resistencia al cambio por temor a la complejidad o por su arraigo a métodos tradicionales.
+Hoy en día, estos procesos manuales generan demoras, errores humanos, baja trazabilidad y un alto número de reclamos de clientes, lo cual eleva costos y reduce la confianza en el servicio.
 
- La gran pregunta es: ¿Cómo podemos impulsar la adopción de MoveSys como una solución confiable, sencilla y eficaz que facilite la transformación digital en la gestión del transporte de carga y optimice los procesos logísticos?
+La oportunidad radica en ofrecer una solución digital que integre geolocalización en tiempo real, evidencia fotográfica, automatización de reportes y gestión de roles, diferenciándose de Excel u otros sistemas fragmentados existentes.
+
+Restricciones: resistencia cultural al cambio en empresas tradicionales, presupuesto limitado en PYMES, conectividad móvil intermitente y necesidad de integración con sistemas previos.
+
+Criterios de validación: nivel de adopción activa, reducción de errores en la operación, disminución del tiempo de gestión administrativa y mejora en satisfacción del cliente.
 
 ### 1.2.2.2. Lean UX Assumptions.
 
-Contexto: Muchas organizaciones aún dependen de procesos manuales o del uso de Excel para controlar sus operaciones logísticas, lo que limita la eficiencia y dificulta la gestión.
-Assumption: Implementar una plataforma centralizada que digitalice cada etapa del proceso reducirá errores, optimizará tiempos y potenciará la productividad operativa.
+### Value assumptions
 
-Contexto: La ausencia de trazabilidad en tiempo real genera poca confianza en los clientes y complica el monitoreo adecuado de las entregas.
-Assumption: Incorporar geolocalización en tiempo real y registro fotográfico durante las entregas incrementará la transparencia, reforzará la confianza del cliente y mejorará la calidad del servicio.
+- Las empresas percibirán que MoveSys reduce errores y tiempos operativos.
+- La trazabilidad en tiempo real y la evidencia fotográfica incrementará la confianza de clientes.
 
-Contexto: Los reportes elaborados manualmente consumen tiempo y recursos, lo que retrasa la obtención de información clave para la toma de decisiones.
-Assumption: Automatizar la creación de reportes con indicadores estratégicos permitirá a los gestores decidir con mayor rapidez y basarse en datos precisos.
+#### Growth / Adoption assumptions
 
-Contexto: La introducción de nuevas tecnologías suele encontrar resistencia en empresas habituadas a prácticas tradicionales.
-Assumption: Ofrecer una interfaz intuitiva, junto con capacitación y soporte continuo, facilitará la transición hacia lo digital y aumentará la adopción de la plataforma.
+- Los gerentes adoptarán MoveSys si el valor es visible en menos de 2 semanas.
+- Las empresas recomendarán la plataforma si reduce el trabajo administrativo.
 
-Contexto: Los equipos de transporte y logística manejan distintos niveles de acceso y responsabilidad sobre la información.
-Assumption: Definir roles personalizados dentro de la plataforma garantizará una gestión más segura, ordenada y eficiente de datos y procesos.
+#### Business assumptions
+
+- Las PYMES estarán dispuestas a pagar un plan mensual por vehículo o usuario.
+- El costo de adquisición (CAC) será sostenible en relación al valor de vida del cliente (LTV).
+
+#### Technical / Feasibility assumptions
+
+- La aplicación podrá operar en zonas de baja conectividad con modo offline.
+- Se podrán integrar datos con ERP/TMS mediante APIs o archivos CSV.
+
+#### Usability assumptions
+- Conductores con poca experiencia digital podrán completar tareas básicas tras una capacitación corta (15–30 min).
+- Administradores podrán configurar roles y reportes con mínimo soporte.
+
 
 ### 1.2.2.3. Lean UX Hypothesis Statements.
 
- - Confiamos en que al proporcionar una plataforma digital unificada que concentre todas las operaciones logísticas, lograremos mayor eficiencia y trazabilidad en el transporte de carga.
- Validaremos esta hipótesis cuando identifiquemos menos errores en la operación y mejoras notables en los tiempos de entrega y gestión.
+ 1. Centralización de operaciones
+Creemos que un dashboard unificado
+Para gerentes de logística
+Resultará en detección y resolución más rápida de incidencias
+Lo que logrará reducción de tiempos operativos y penalizaciones por retraso.
+Métrica: reducción del tiempo medio de resolución 30% en piloto.
 
- - Confiamos en que al integrar geolocalización en tiempo real y evidencia fotográfica en las entregas, fortaleceremos la confianza del cliente final y aumentaremos la transparencia del servicio.
- Sabremos que estamos en lo correcto cuando se reduzcan los reclamos y la satisfacción de los clientes muestre un incremento.
+2. Geolocalización y evidencia fotográfica
+Creemos que la geolocalización en tiempo real y fotos en entregas
+Para clientes y supervisores
+Resultará en mayor trazabilidad y menos reclamos
+Lo que logrará aumento en la confianza y satisfacción del cliente.
+Métrica: reclamos reducidos 40%.
 
- - Confiamos en que al digitalizar y automatizar los reportes con métricas clave, impulsaremos una toma de decisiones más ágil y fundamentada en datos.
- Nuestra hipótesis se confirmará cuando los gestores puedan reaccionar más rápido y reporten mejoras en sus indicadores logísticos.
+3. Reportes automáticos
+Creemos que la automatización de reportes con KPIs.
+Para gestores y analistas
+Resultará en toma de decisiones más ágil y basada en datos
+Lo que logrará mayor eficiencia y reducción de errores de planificación.
+Métrica: tiempo de preparación de reportes reducido 70%.
 
- - Confiamos en que al ofrecer una interfaz intuitiva acompañada de capacitación, facilitaremos la adopción de la plataforma incluso en equipos con baja experiencia tecnológica.
- Lo confirmaremos cuando observemos una disminución en los requerimientos de soporte técnico y un uso constante de la herramienta.
+4. Onboarding y UI intuitiva
+Creemos que una interfaz intuitiva junto con soporte inicial
+Para equipos con baja experiencia tecnológica
+Resultará en adopción rápida y menor fricción
+Lo que logrará uso constante y menos tickets de soporte.
+Métrica: time-to-first-value 48h y tickets de soporte 60%.
 
- - Confiamos en que al implementar la gestión de roles y permisos diferenciados, aumentaremos la seguridad y la eficiencia interna de las operaciones.
- Estaremos en lo cierto cuando no se registren manipulaciones indebidas de datos y los usuarios valoren la organización y control del sistema.
+5. Roles y control de accesos
+Creemos que la gestión de roles personalizados y auditoría
+Para administradores de flota
+Resultará en mejor control y seguridad de datos
+Lo que logrará cumplimiento interno y confianza organizacional.
+Métrica: 0 incidentes de acceso indebido en piloto.
+
+6. Modo offline
+Creemos que el modo offline con sincronización automática
+Para conductores en zonas con baja conectividad
+Resultará en registro sin interrupciones de datos y evidencias
+Lo que logrará continuidad operativa y menos pérdida de información.
+Métrica: tasa de sincronización exitosa 98%.
+
+7. Integraciones con sistemas existentes
+Creemos que las APIs y exportaciones CSV
+Para empresas con ERP/TMS
+Resultarán en menos doble entrada de datos y errores
+Lo que logrará eficiencia y menor carga administrativa.
+Métrica: tiempo de entrada manual reducido 50%.
+
 
 ### 1.2.2.4. Lean UX Canvas.
 
