@@ -266,32 +266,422 @@ Assumption: Definir roles personalizados dentro de la plataforma garantizará un
 # Capítulo II: Requirements Elicitation & Analysis
     
 ## 2.1. Competidores.
+
+#### Drivin
+Drivin es un software TMS con presencia en Perú y Latinoamérica. Está orientado a la optimización de rutas,
+seguimiento en tiempo real y generación de indicadores logísticos. Se diferencia por su capacidad de ofrecer 
+visibilidad completa y control de operaciones para empresas con alto volumen de entregas.
+<br>
+Su propuesta de valor está orientada a empresas que buscan eficiencia en la última milla y trazabilidad de sus operaciones.
+
+#### Shipday
+Shipday es un software de gestión de entregas y courier basado en la nube. Está orientado a empresas de delivery,
+paquetería y logística de última milla que buscan digitalizar sus operaciones. Ofrece aplicaciones móviles para conductores,
+seguimiento en tiempo real de pedidos y notificaciones automáticas a los clientes.
+<br>
+Su propuesta de valor se centra en mejorar la experiencia de entrega y ofrecer visibilidad completa tanto a empresas como a usuarios finales.
+
+#### Avanzza Software
+Avanzza es una plataforma enfocada en la gestión de pedidos, rutas y flotas.
+Ofrece seguimiento en tiempo real con evidencias digitales de entrega (fotos, firmas), 
+notificaciones y comunicación directa con clientes.
+<br>
+Su propuesta de valor se centra en la visibilidad al cliente final y en la trazabilidad de las operaciones de distribución,
+permitiendo controlar las etapas de entrega, obtener comunicación total con la flota y solucionar cualquier contratiempo de inmediato.
+
     
 ### 2.1.1. Análisis competitivo.
+
+<table>
+    <tr>
+        <td colspan="6" class="section-title">
+            <h3>Competitive Analysis Landscape</h3>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">
+            ¿Por qué llevar a cabo este análisis?
+        </td>
+        <td colspan="4">
+            Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="4">
+            Analizar cómo se posiciona MoveSys frente a sus competidores en Perú en términos de características, 
+            propuesta de valor y estrategias de mercado.
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">(Productos)</td>
+<td align="center">MoveSys
+    <div style="text-align: center; margin-top: 10px;">
+    </div>
+</td>
+<td align="center">Drivin
+    <div style="text-align: center; margin-top: 10px;">
+    </div>
+</td>
+<td align="center">Shipday
+    <div style="text-align: center; margin-top: 10px;">
+    </div>
+</td>
+<td align="center">Avanzza Software
+    <div style="text-align: center; margin-top: 10px;">
+    </div>
+</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="2">Perfil</td>
+        <td>Overview</td>
+        <td rowspan="1">MoveSys es un sistema de gestión logística orientado a transporte de carga. Permite registrar y consultar entregas, supervisar unidades, programar mantenimientos y acceder a indicadores clave a través de reportes automáticos. Cuenta con API RESTful para integraciones externas.</td>
+        <td rowspan="1">Drivin es un TMS que optimiza rutas y entregas con visibilidad en tiempo real, usado en Perú y LATAM.</td>
+        <td rowspan="1">Shipday es un software de gestión de entregas y courier, enfocado en última milla, con seguimiento en tiempo real y notificaciones al cliente.</td>
+        <td rowspan="1">Avanzza gestiona pedidos, flotas y rutas con evidencias digitales y seguimiento en tiempo real.</td>
+    </tr>
+    <tr>
+        <td>Ventaja Competitiva ¿Qué valor ofreces a los clientes?</td>
+        <td rowspan="1">Automatización de rutas y entregas, control de flota, indicadores de desempeño, gestión de incidencias y mantenimientos, sitio web informativo y API RESTful para integraciones.</td>
+        <td rowspan="1">Optimización de rutas y KPIs logísticos avanzados.</td>
+        <td rowspan="1">Aplicaciones móviles para conductores, integración con plataformas de e-commerce y experiencia fluida para el cliente final.</td>
+        <td rowspan="1">Visibilidad al cliente final y trazabilidad de entregas con evidencias digitales.</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="2">Perfil de Marketing</td>
+        <td>Mercado Objetivo</td>
+        <td rowspan="1">Empresas medianas y grandes de transporte de carga, operadores logísticos y flotas que necesitan control integral de operaciones, mantenimientos e indicadores.</td>
+        <td rowspan="1">Retail, distribución y empresas con alto volumen de entregas.</td>
+        <td rowspan="1">Empresas de delivery, courier y última milla que buscan digitalizar operaciones.</td>
+        <td rowspan="1">Pymes y medianas empresas con entregas frecuentes.</td>
+    </tr>
+    <tr>
+        <td colspan="1">Estrategias de Marketing</td>
+        <td rowspan="1">Enfoque en diferenciación por eficiencia de flota y costos (combustible/mantenimiento), soporte local en Perú, integraciones IoT, API y demostraciones personalizadas.</td>
+        <td rowspan="1">Prueba gratuita/demos, casos de éxito en LATAM, marketing orientado a optimización de rutas y métricas de desempeño.</td>
+        <td rowspan="1">Marketing digital global, integraciones rápidas con e-commerce (Shopify, WooCommerce), onboarding ágil y foco en última milla.</td>
+        <td rowspan="1">Casos de éxito, comunicación al cliente final, foco en evidencias de entrega y tiempos de servicio.</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="3">Productos & Servicios</td>
+        <td>Productos & Servicios</td>
+        <td rowspan="1">Plataforma web/móvil para registro y seguimiento de entregas, monitoreo de flota, planificación de rutas, control de combustible, gestión de incidencias y mantenimientos, reportes de indicadores y API RESTful.</td>
+        <td rowspan="1">Optimización de rutas, seguimiento en tiempo real, control de vehículos y tableros de KPIs logísticos.</td>
+        <td rowspan="1">Gestión de entregas/courier, apps móviles de repartidor, tracking en tiempo real, notificaciones automáticas y portal del cliente.</td>
+        <td rowspan="1">Gestión de pedidos, rutas y flota con evidencias digitales (fotos/firmas), seguimiento en tiempo real y comunicación con clientes.</td>
+    </tr>
+    <tr>
+        <td colspan="1">Precios & Costos</td>
+        <td rowspan="1">Planes desde $500 a $800/mes según módulos y tamaño de flota.</td>
+        <td rowspan="1">Planes escalables por volumen/empresa (incluye paquetes PYME; tarifas según alcance).</td>
+        <td rowspan="1">Desde ~$29/mes en planes básicos hasta niveles avanzados para operaciones grandes.</td>
+        <td rowspan="1">Esquemas ajustados a número de usuarios/flota; tarifas según alcance del proyecto.</td>
+    </tr>
+    <tr>
+        <td colspan="1">Canales de Distribución (Web y/o Móvil)</td>
+        <td rowspan="1">Web y aplicaciones móviles (iOS/Android), integraciones GPS/IoT y API.</td>
+        <td rowspan="1">Web y móvil, integraciones con GPS/mapas y sistemas afines.</td>
+        <td rowspan="1">Web, apps móviles (iOS/Android) y APIs para integraciones con e-commerce.</td>
+        <td rowspan="1">Web y móvil con módulos de evidencia y comunicación al cliente.</td>
+    </tr>
+    <tr>
+       <td align="center" rowspan="4">Análisis SWOT</td>
+        <td>Fortalezas</td>
+        <td rowspan="1">Cobertura integral de logística de carga: flota, rutas, incidencias, mantenimientos, indicadores y API; enfoque en reducción de costos.</td>
+        <td rowspan="1">Reconocimiento en LATAM, sólidas métricas y optimización de rutas.</td>
+        <td rowspan="1">Experiencia de última milla pulida, apps móviles robustas e integraciones rápidas.</td>
+        <td rowspan="1">Visibilidad al cliente final y trazabilidad con evidencias digitales.</td>
+    </tr>
+    <tr>
+        <td colspan="1">Debilidades</td>
+        <td rowspan="1">Startup en crecimiento con menor reconocimiento de marca internacional; requiere casos de éxito locales adicionales.</td>
+        <td rowspan="1">Puede resultar costoso para pymes pequeñas; curva de adopción en operaciones complejas.</td>
+        <td rowspan="1">Enfoque en última milla; menos profundidad en gestión de transporte pesado/administrativa.</td>
+        <td rowspan="1">Cobertura limitada en módulos administrativos/financieros avanzados.</td>
+    </tr>
+    <tr>
+        <td colspan="1">Oportunidades</td>
+        <td rowspan="1">Digitalización logística en Perú, alianzas con operadores y aseguradoras, analítica predictiva (combustible/mantenimiento) e IoT.</td>
+        <td rowspan="1">Expansión en sectores con alto volumen de entregas y acuerdos regionales.</td>
+        <td rowspan="1">Crecimiento de delivery/e-commerce en LATAM; verticales B2B2C.</td>
+        <td rowspan="1">Ampliar integraciones y módulos de costos para pymes en expansión.</td>
+    </tr>
+    <tr>
+        <td colspan="1">Amenazas</td>
+        <td rowspan="1">Entrada de TMS internacionales con mayor capital; presión de precio en pymes.</td>
+        <td rowspan="1">Competencia de ERPs logísticos más completos.</td>
+        <td rowspan="1">Competidores locales de última milla con precios bajos.</td>
+        <td rowspan="1">Saturación del mercado de entregas urbanas y alta rotación de repartidores.</td>
+    </tr>
+</table>
     
 ### 2.1.2. Estrategias y tácticas frente a competidores.
+
+#### Fortalezas: Enfoque especializado en transporte de carga y gestión de flotas
+
+MoveSys se diferencia de competidores como Drivin, Shipday y Avanzza al enfocarse en el transporte de carga y no en la última milla. Ofrece control de flota, mantenimientos preventivos, gestión de incidencias y reportes automáticos con indicadores de desempeño (KPIs), además de integración mediante API RESTful.
+
+#### Táctica:
+Destacar en campañas de marketing el valor agregado de un sistema especializado en carga pesada, resaltando funcionalidades que competidores más generalistas no ofrecen, como control de mantenimientos y KPIs logísticos avanzados.
+
+#### Debilidades: Startup en etapa temprana con poca validación en el mercado
+Al ser una solución nueva, MoveSys todavía no cuenta con la misma trayectoria, base de clientes ni alianzas estratégicas que Drivin o Shipday, lo que puede generar dudas en empresas grandes.
+
+#### Táctica:
+Impulsar pilotos gratuitos o de bajo costo con empresas de transporte locales, generando casos de éxito y testimonios. Además, buscar alianzas con gremios de transporte y operadores logísticos para ganar confianza.
+
+#### Oportunidades: Necesidad de digitalización en transporte de carga en Perú
+Muchas empresas medianas y grandes en Perú aún dependen de procesos manuales o sistemas poco integrados para gestionar su transporte de carga. Esto representa un espacio desatendido que no es prioridad para software más centrados en delivery o retail.
+
+#### Táctica:
+Enfocar los esfuerzos comerciales en este nicho, generando contenido técnico (webinars, artículos, guías) y ofreciendo integraciones fáciles con ERPs o plataformas de clientes que aún no cuentan con digitalización logística avanzada.
+
+#### Amenazas: Competidores consolidados con más recursos
+Drivin, Shipday y Avanzza ya cuentan con presencia en el mercado y capacidad para ajustar precios, lanzar nuevas funcionalidades o ampliar su cobertura si perciben a MoveSys como una amenaza directa.
+
+#### Táctica:
+Adoptar una estrategia de innovación ágil, incorporando feedback de los usuarios para mejorar la plataforma rápidamente. Además, diferenciarse ofreciendo soporte técnico local 24/7 en español, un aspecto poco atendido por competidores internacionales.
     
 ## 2.2. Entrevistas.
     
 ### 2.2.1. Diseño de entrevistas.
+
+
+#### Segmento Objetivo 1: Empresas de transporte de carga
+
+1.    ¿Cuál es su nombre, edad y rol en la empresa de transporte?
+2.    ¿En qué distrito vive y donde se ubican principalmente las operaciones de su empresa?
+3.    ¿Qué tipo de dispositivos utiliza más para gestionar su trabajo (PC de escritorio, laptop, tablet, smartphone)?
+4.    ¿Qué sistema operativo utiliza con mayor frecuencia (Windows, macOS, Linux)?
+5.    ¿Qué aplicaciones utiliza con más frecuencia en su día a día?
+6.    ¿Cuál es el mayor reto que enfrenta actualmente en la gestión de su flota?
+7.    ¿Cuántos vehículos administra y qué tipos de rutas realizan normalmente?
+8.    ¿Actualmente cómo llevan el control de kilometraje y combustible: en papel, Excel o software? 
+9.    ¿Qué problemas surgen al depender de registros manuales en sus operaciones diarias?
+10.	¿Qué indicadores considera más importantes al evaluar la eficiencia de su flota?
+11.	¿Qué tan complicado le resulta generar reportes de sus operaciones hoy en día? 
+12.	¿Cómo afectan los errores en el registro de datos a la planificación y los costos de su empresa?
+13.	¿Qué beneficios esperaría obtener de una plataforma digital como MoveSys?
+14.	¿Qué nivel de capacitación considera necesario para que sus trabajadores adopten una app de este tipo?
+15.	¿Cuál sería un rango de inversión razonable para implementar una solución de gestión logística como MoveSys?
+
+#### Segmento Objetivo 2: Conductores de unidades de carga
+
+1.    ¿Cuál es su nombre, edad y cuántos años lleva trabajando como chofer de transporte de carga?
+2.    ¿En qué distrito vive y desde dónde suele iniciar sus rutas?
+3.    ¿Qué tipo de dispositivo móvil usa para gestionar su trabajo (smartphone, celular básico)?
+4.    ¿Qué sistema operativo tiene su celular (Android o iOS)?
+5.    ¿Qué aplicaciones móviles utiliza con más frecuencia en su día a día?
+6.    ¿Cuánto tiempo lleva trabajando en transporte de carga y qué tipo de rutas suele cubrir?
+7.    ¿Cómo anota el kilometraje al inicio y final de un viaje? 
+8.    ¿Cómo registra el consumo de combustible durante un trayecto? 
+9.    ¿Qué dificultades tiene al llenar formularios o reportes manuales?
+10.	¿Cuánto tiempo le toma completar el registro de datos logísticos en un día normal?
+11.	¿Qué tan cómodo se sentiría usando una app en el celular para registrar sus viajes?
+12.	¿Le resultaría útil que la aplicación guarde automáticamente su ubicación y genere un historial de ruta?
+13.	¿Qué funciones cree indispensables para que la app sea realmente práctica en ruta?
+14.	¿Qué tan fácil cree que sería para usted aprender a usar MoveSys sin ayuda externa?
+15.	¿Qué incentivo lo motivaría a completar sus reportes de viaje puntualmente?
+
     
 ### 2.2.2. Registro de entrevistas.
+
+#### Segmento objetivo #1: Compañías de transporte de carga 
+
+---
+
+  <img src="assets/S1-entrevista.png"/>
+
+**Entrevista 1:**  
+- **Nombres y apellidos:** Rodrigo Gómez 
+- **Edad:** 29 años
+- **Distrito:** San Martín de Porres
+
+- **Inicio:** 1:07 
+- **Duración:** 7:12
+- **URL:**  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114701_upc_edu_pe/Ea9HzqfEW_xKin2PIKDPPDQBnvHFCDQ2QxmlHFo18piDOg?e=15W53g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+  
+
+**Resumen:**  
+Rodrigo es un jefe de operaciones de 29 años que administra 15 camiones en rutas urbanas e interprovinciales. Su mayor reto es la falta de información en tiempo real, ya que depende de registros manuales en papel y Excel, lo que genera errores, pérdida de datos y retrasos en la planificación. Valora indicadores como consumo de combustible, kilometraje y tiempos de entrega, y espera que una solución como MoveSys le ofrezca control automatizado, reportes claros y geolocalización. Está dispuesto a invertir en una plataforma digital siempre que sea fácil de usar y reduzca costos operativos.  
+
+---
+
+  <img src="assets/S1-entrevista2.png"/>
+
+**Entrevista 2:**  
+- **Nombres y apellidos:** Raí Beizaga
+- **Edad:** 25 años
+- **Distrito:** Cercado de Lima
+
+- **Inicio:** 0:30
+- **Duración:** 5:41
+- **URL:**  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310436_upc_edu_pe/EZpNstlD9sZCleSoavzsFRQBI3gVH8kAbvrmViPStmRxZw?e=PFcMg7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**Resumen:**  
+Raí Beizaga, de 25 años y asistente administrativo de logística en Transportes Línea, reside en Cercado de Lima y apoya en la gestión de varios camiones que cubren rutas en Lima y provincias cercanas como Ica y Trujillo. Actualmente, los choferes entregan los datos de kilometraje y consumo de combustible en papel, que luego Raí transcribe manualmente en Excel, lo que ocasiona errores de cálculo, pérdida de documentos y duplicidad de trabajo. La consolidación de información puede tardar entre dos y tres días, retrasando reportes y afectando la planificación. Estos problemas generan sobrecostos en combustible, atrasos en las rutas y, en algunos casos, reclamos de clientes por discrepancias en la facturación. Raí considera prioritario contar con una plataforma digital que permita registrar automáticamente kilometraje, consumo y datos de ruta en tiempo real, reduciendo errores y tiempos de registro. Estaría dispuesto a recomendar una inversión entre USD 500 y USD 800 al mes, siempre que la solución sea sencilla de usar, requiera una curva de aprendizaje mínima y ofrezca beneficios inmediatos en eficiencia y reducción de costos.  
+
+---
+  
+#### Segmento objetivo #2: Choferes de unidades de carga  
+
+  <img src="assets/S2-entrevista.png"/>
+  
+**Entrevista 1:**  
+- **Nombres y apellidos:** Juan Pérez  
+- **Edad:** 27  
+- **Distrito:** San Martín de Porres  
+
+- **Inicio:** 0:45  
+- **Duración:** 4:56 
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b772_upc_edu_pe/ETSv6rhzDdxNkM03P9Zj_P0BSw4jGok4KFX8KBUAhJLKyg?e=dRDbjV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+**Resumen:**  
+Juan Pérez, de 27 años, chofer de transporte de carga con más de dos años de experiencia en rutas locales y provinciales, reside en San Martín de Porres e inicia la mayoría de sus recorridos desde los almacenes de Ate y Callao. Utiliza un smartphone Android de gama media para coordinar con su supervisor vía WhatsApp, guiarse con Google Maps y registrar entregas mediante fotografías. Actualmente anota el kilometraje en un cuaderno y guarda los recibos físicos de combustible, lo que implica pérdidas frecuentes de papeles, confusión en los datos y hasta 30 minutos diarios en registros manuales. Juan considera que una aplicación móvil sería muy útil siempre que sea sencilla, rápida y automática, permitiéndole registrar entregas con fotos, firmas digitales, kilometraje, consumo de combustible y mantener un historial de viajes con reportes automáticos. Se sentiría cómodo usando la app si recibe una breve capacitación inicial, y estaría motivado a completar puntualmente sus reportes si la empresa reconoce su esfuerzo con incentivos o bonos de desempeño.  
+
+---
+
+  <img width="1100px" src="assets/S2-entrevista2.jpg"/>
+
+*Entrevista 2:*  
+- *Nombres y apellidos:* Adolfo David Orellana 
+- *Edad:* 50
+- *Distrito:* Cieneguilla 
+
+- *Inicio:* 0:45  
+- *Duración:* 16:05 
+- *URL:* https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/EW9y9jkp48pIkAK8uQ0peWYBNkoEKy152gjOcLwZXVDJbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0trloz
+  
+
+*Resumen:*  
+Adolfo, 50 años.
+Cuenta con 25 años de experiencia laboral, habiendo trabajado en diversas empresas tanto en el Perú como en el extranjero. Durante su trayectoria ha conocido diferentes tecnologías implementadas en cada organización, lo que le ha permitido comprender cómo estas pueden facilitar los procesos empresariales.
+Le gustaría contar con una aplicación que simplifique el trabajo, tanto para él como para las personas encargadas de la logística. Considera que la implementación de tecnologías en el Perú aún está retrasada en comparación con otros países, como los europeos, donde su uso está mucho más desarrollado. Sin embargo, también reconoce que a veces puede resultar difícil entender un sistema si no se siguen las instrucciones adecuadas.
+
+
+
+
+
+
+---  
     
 ### 2.2.3. Análisis de entrevistas.
+
+### Segmento 1: Empresas de transporte de carga
+- **Rol principal:** 100% coordina rutas, supervisa unidades y gestiona costos operativos.  
+- **Vehículos administrados:** Entre 10 y 15 camiones en rutas urbanas e interprovinciales.  
+- **Herramientas actuales:** 100% usa Excel y registros en papel; 66% complementa con WhatsApp.  
+- **Problemas comunes:**  
+  - 100% reporta errores, pérdida de datos y retrasos por registros manuales.  
+  - 66% menciona falta de información en tiempo real.  
+  - 66% señala dificultad para consolidar y generar reportes.  
+- **Indicadores valorados:** 100% prioriza consumo de combustible, kilometraje y tiempos de entrega.  
+- **Adopción de app:** 100% dispuesto a adoptarla si es intuitiva, económica y reduce carga operativa.  
+- **Presupuesto estimado:** Entre $500 y $800 mensuales por la solución digital.  
+
+### Segmento 2: Conductores de unidades de carga
+- **Experiencia:** 100% con más de 2 años en rutas locales y provinciales.  
+- **Registro actual:** 100% usa cuadernos y recibos físicos.  
+- **Uso de apps:** 100% usa WhatsApp para coordinar y Google Maps para navegación; 100% emplea fotos como evidencia.  
+- **Dificultades:**  
+  - 66% pierde papeles o recibos.  
+  - 66% afirma que completar formularios manuales es confuso o lento.  
+  - 100% invierte entre 20–30 min diarios en reportes manuales.  
+- **Preferencias:** 100% prefiere una app simple, rápida, con uso offline y registro automático de ubicación.  
+- **Funciones deseadas:** 100% solicita evidencia fotográfica y firma digital del cliente; 66% requiere historial de viajes y reportes automáticos; 66% pide registro automático de kilometraje y combustible.  
+- **Adopción de app:** 100% considera viable su uso con capacitación breve.  
+- **Incentivos:** 66% valora bonos; 100% menciona reconocimiento por reportes puntuales.  
+
+
     
 ## 2.3. Needfinding.
     
 ### 2.3.1. User Personas.
+
+Segmento 1: Gestor de Flota
+
+ <img src="assets/s1-UserPersona.png"/>
+
+Segmento 2: Conductor de vehículos de transporte
+
+ <img src="assets/s2-UserPersona.png"/>
     
 ### 2.3.2. User Task Matrix.
 
+
+| **Tareas / User Persona** | **Luis Torres (Frec.)** | **Luis Torres (Imp.)** | **Juan Pérez (Frec.)** | **Juan Pérez (Imp.)** |
+|---------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
+| Planificar rutas          | Media                   | Alta                    | N/A                     | N/A                     |
+| Coordinar entregas        | Alta                    | Alta                    | Media                   | Alta                    |
+| Registrar kilometraje     | Baja                    | Media                   | Alta                    | Alta                    |
+| Reportar combustible      | Baja                    | Media                   | Alta                    | Alta                    |
+| Consolidar datos          | Alta                    | Alta                    | N/A                     | N/A                     |
+| Generar reportes          | Alta                    | Alta                    | N/A                     | N/A                     |
+| Foto del odómetro         | N/A                     | N/A                     | Media                   | Alta                    |
+| Usar apps móviles         | Media                   | Alta                    | Alta                    | Alta                    |
+| Verificar entregas        | Media                   | Alta                    | Alta                    | Alta                    |
+| Atender reclamos          | Alta                    | Alta                    | Baja                    | Media                   |
+
+### Conclusiones
+- **Luis Torres** se enfoca en análisis y consolidación de datos, necesita reportes confiables y en tiempo real.  
+- **Juan Pérez** prioriza la ejecución en campo: registrar kilometraje, combustible y verificar entregas.  
+- La app debe equilibrar funciones de **gestión para supervisores** y de **usabilidad simple para operadores**, enfocándose en las tareas compartidas críticas: **coordinación de entregas, uso de apps móviles y verificación de entregas**.
+
+
 ### 2.3.3. User Journey Mapping.
 
+Segmento 1: Gestor de Flota
+
+<img alt= "Journey Mapping Gestor_Flota" src="assets/s1_ gestor_flota.png"/>
+
+Segmento 2: Conductor de vehículos de transporte
+
+<img alt= "Journey Mapping Conductor_transporte" src="assets/s2_conductor_vehiculos_transporte.png"/>
+
 ### 2.3.4. Empathy Mapping.
-    
+
+El Empathy Mapping es una metodología que permite profundizar en la comprensión de los usuarios vinculados a la gestión de operaciones logísticas, identificando sus pensamientos, emociones, acciones y necesidades. Se organiza en apartados como: ¿Qué escucha?, ¿Qué observa?, ¿Qué piensa y siente?, ¿Qué expresa y realiza?, junto con sus frustraciones y motivaciones. Esta herramienta contribuye a que los equipos de trabajo diseñen soluciones más cercanas a las experiencias reales de los actores involucrados en la cadena logística. A continuación, se presentan los mapas de empatía de los segmentos definidos:
+
+* Gestores de flota:
+
+<img alt= "Empathy Mapping Gestor_Flota" src="assets/em_gestor_flota.png"/>
+
+* Conductores de vehículos de transporte
+
+<img alt= "Empathy Mapping Conductor_transporte" src="assets/em_conductor_vehículos_transporte.png"/>
+
 ## 2.4. Big Picture EventStorming.
-    
+
+* EventStorming inicial:
+
+<img alt= "EventStorming inicial" src="assets/EventStorming_Inicial.png"/>
+
+* EventStorming Final:
+
+<img alt= "EventStorming Final" src="assets/EventStorming_Final.jpg"/>
+
+
+
 ## 2.5. Ubiquitous Language.
+
+## 2.5. Ubiquitous Language
+
+El **Lenguaje Ubicuo (Ubiquitous Language)** se refiere a un vocabulario común y compartido que emplean tanto los miembros del equipo de desarrollo como los usuarios finales y demás actores vinculados al proyecto.  
+Su propósito es garantizar una comunicación clara y coherente sobre los conceptos, términos y procesos del dominio logístico en el que se desarrolla **MoveSys**.  
+A continuación, se presenta el glosario de términos definidos para el desarrollo de la plataforma.  
+
+| **Término (Inglés / Español)** | **Definición** |
+|--------------------------------|----------------|
+| **Fleet Telemetry (Telemetría de flota)** | Seguimiento continuo de vehículos y carga mediante GPS en tiempo real. |
+| **Operational Distance Tracking (Registro de distancia operativa)** | Medición automática de kilómetros recorridos por cada unidad mediante sensores y datos GPS. |
+| **Electronic Delivery Proof (Evidencia electrónica de entrega)** | Confirmación digital de que la entrega fue completada exitosamente, registrada por el sistema. |
+| **Receiver Validation (Validación de receptor)** | Aprobación digital por parte del cliente o destinatario para confirmar la recepción de la carga. |
+| **Route Planning Algorithm (Planificación de rutas)** | Cálculo optimizado de rutas considerando tráfico, distancia y tiempo para reducir costos operativos. |
+| **Shipment Monitoring (Monitoreo de envíos)** | Visualización en tiempo real del estado de cada entrega y su progreso dentro del sistema. |
+| **ETA Prediction (Predicción de hora estimada de llegada)** | Estimación dinámica de llegada basada en tráfico, velocidad promedio y condiciones de ruta. |
+| **Incident Alerts (Alertas de incidencias)** | Notificaciones automáticas ante retrasos, desvíos o eventos imprevistos durante la ruta. |
+| **Performance Indicator (Indicador de rendimiento)** | Métrica que evalúa el desempeño de conductores, rutas y operaciones logísticas. |
+| **Geofence (Geocerca)** | Zona virtual que genera alertas cuando un vehículo entra o sale del área definida. |
+
     
 # Capítulo III: Requirements Specification
   
