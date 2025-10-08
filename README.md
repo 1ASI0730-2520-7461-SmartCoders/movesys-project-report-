@@ -275,11 +275,11 @@ El Empathy Mapping es una metodología que permite profundizar en la comprensió
 
 * Gestores de flota:
 
-<img alt= "Empathy Mapping Gestor_Flota" src="assets/em_gestor_flota.png"/>
+<img alt= "Empathy Mapping Gestor_Flota" src="assets/gestor-flota.jpg"/>
 
 * Conductores de vehículos de transporte
 
-<img alt= "Empathy Mapping Conductor_transporte" src="assets/em_conductor_vehículos_transporte.png"/>
+<img alt= "Empathy Mapping Conductor_transporte" src="assets/conductor-vehiculos-transporte.jpg"/>
 
 ## 2.4. Big Picture EventStorming.
 
