@@ -1686,12 +1686,12 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 
 ### 5.2.2.5. Execution Evidence for Sprint Review. 
 
-[Front](assets/picture-front1.jpg)
-[Front](assets/picture-front2.jpg)
-[Front](assets/picture-front3.jpg)
-[Front](assets/picture-front4.jpg)
-[Front](assets/picture-front5.jpg)
-[Front](assets/picture-front6.jpg)
+![Execution Evidence for Sprint Review.](assets/picture-front1.jpg)
+![Execution Evidence for Sprint Review.](assets/picture-front2.jpg)
+![Execution Evidence for Sprint Review.](assets/picture-front3.jpg)
+![Execution Evidence for Sprint Review.](assets/picture-front4.jpg)
+![Execution Evidence for Sprint Review.](assets/picture-front5.jpg)
+![Execution Evidence for Sprint Review.](assets/picture-front6.jpg)
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
 
