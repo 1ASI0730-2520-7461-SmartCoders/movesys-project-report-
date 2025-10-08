@@ -1447,59 +1447,8 @@ De esta manera, el despliegue mediante GitHub Pages asegura que la landing page 
     
 En esta sección se especifica los aspectos principales del Sprint Planning Meeting.
 
-<table>
-<tr>
-    <th colspan="5">Sprint </th>
-    <th colspan="9">Sprint 1</th>
-  </tr>
-      <tr>
-    <td colspan="13">Sprint Planning Background</td>
-  </tr>
-  <tr>
-    <td colspan="5">Date</td>
-    <td colspan="8">2025-09-15</td>
-</tr>
-  <tr>
-    <td colspan="5">Time</td>
-    <td colspan="8">4:00PM</td>
-  </tr>
-  <tr>
-    <td colspan="5">Location</td>
-    <td colspan="8">Servidor de Discord del equipo</td>
-<tr>
-    <td colspan="5">Prepared By</td>
-    <td colspan="8">Andre Orellana</td>
-</tr>
-<tr>
-    <td colspan="5">Attendees (to planning meeting)</td>
-    <td colspan="8"> Merly Salon,Gabriel Espinar, Andre Rodriguez Orellana, Angel Berrospi Marin, Brayan Martinez</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint  1 Review Summary</td>
-    <td colspan="8">En esta segunda sección se planteó el mejormiento del desarrollo y estructura de la Landing page antes de subirse al repositorio.</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 1 Retrospective Summary</td>
-    <td colspan="8">En esta sesión todos los participantes, opinaron, mejoraron sus habilidades y cada uno se encargó de las mejoras dadas en la retroalimentación, también en el desarrollo de la landing y finalmente se decidió subir el landing en el último día</td>
-</tr>
-<tr>
-    <td colspan="13">Sprint Goal & User Stories</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 1 Goal</td>
-    <td colspan="8"> La meta de este Sprint 1 es la mejora tanto en planteamiento y desarrollo de la documentación y que nuestra Landing Page tenga una correcta funcionalidad para el usuario de forma amigable.  
+<table><tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 1</th> </tr> <tr> <td colspan="13">Sprint Planning Background</td> </tr> <tr> <td colspan="5">Date</td> <td colspan="8">2025-09-15</td> </tr> <tr> <td colspan="5">Time</td> <td colspan="8">4:00 PM</td> </tr> <tr> <td colspan="5">Location</td> <td colspan="8">Servidor de Discord del equipo</td> </tr> <tr> <td colspan="5">Prepared By</td> <td colspan="8">Andre Orellana</td> </tr> <tr> <td colspan="5">Attendees (to planning meeting)</td> <td colspan="8">Merly Salon, Gabriel Espinar, Andre Rodriguez Orellana, Angel Berrospi Marin, Brayan Martinez</td> </tr> <tr> <td colspan="5">Sprint n-1 Review Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="5">Sprint n-1 Retrospective Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="13">Sprint Goal & User Stories</td> </tr> <tr> <td colspan="5">Sprint 1 Goal</td> <td colspan="8"> <strong>"Our focus is on delivering a fully functional and user-friendly Landing Page with complete documentation.<br> We believe it delivers an engaging first impression and clear value proposition to our potential users.<br> This will be confirmed when the Landing Page is successfully deployed and accessible online, with all core sections functioning properly and documentation completed."</strong> </td> </tr> <tr> <td colspan="5">Sprint 1 Velocity</td> <td colspan="8">6</td> </tr> <tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">8 story points</td> </tr> </table>
 
-</td>
-</tr>
-<tr>
-    <td colspan="5">Sprint 1 Velocity</td>
-    <td colspan="8">velocity 6</td> 
-</tr>
-<tr>
-    <td colspan="5">Sum of Story Points</td>
-    <td colspan="8">8 story points</td>
-</tr>
-</table>
 
 ### 5.2.1.2. Aspect Leaders and Collaborators.
     
@@ -1509,7 +1458,7 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
     
 ![JIRA](assets/Collaboration_JIRA.png)
 
-![Sprint Backlog](assets/Sprint-Backlog.png)
+<table> <tr> <th colspan="2">Sprint 1</th> <th colspan="6">User Stories y Work-Items</th> </tr> <tr> <td colspan="2"><strong>User Story</strong></td> <td colspan="6"><strong>Work-Item / Task</strong></td> </tr> <tr> <td rowspan="2"><strong>US-01</strong><br>Revisar entregas programadas</td> <td rowspan="2">Como conductor, quiero revisar mis entregas programadas, para organizar mi ruta eficientemente</td> <td><strong>T-01</strong></td> <td>Diseñar pantalla de entregas</td> <td>Crear diseño sencillo de la vista con lista de entregas asignadas</td> <td>4h</td> <td>Merly</td> <td>To-do</td> </tr> <tr> <td><strong>T-02</strong></td> <td>Implementar listado de entregas</td> <td>Programar la vista que muestre entregas con horario, cliente y destino</td> <td>5h</td> <td>Brayan</td> <td>To-do</td> </tr> <tr> <td rowspan="2"><strong>US-02</strong><br>Guardar comprobante de entrega</td> <td rowspan="2">Como conductor, quiero guardar comprobantes de entrega, para evidenciar la finalización de mis servicios</td> <td><strong>T-03</strong></td> <td>Implementar carga de evidencia</td> <td>Crear función para subir archivo como comprobante</td> <td>5h</td> <td>Andre</td> <td>To-do</td> </tr> <tr> <td><strong>T-04</strong></td> <td>Guardar comprobante en base de datos</td> <td>Configurar backend para almacenar fecha, hora y ubicación del comprobante</td> <td>5h</td> <td>Gabriel</td> <td>To-do</td> </tr> <tr> <td rowspan="2"><strong>US-03</strong><br>Confirmar inicio de recorrido</td> <td rowspan="2">Como conductor, quiero confirmar el inicio de mi recorrido, para registrar el tiempo de salida</td> <td><strong>T-05</strong></td> <td>Diseñar botón de inicio de recorrido</td> <td>Crear interfaz sencilla para que el conductor marque el inicio de su ruta</td> <td>4h</td> <td>Angel</td> <td>To-do</td> </tr> <tr> <td><strong>T-06</strong></td> <td>Endpoint para guardar comprobante</td> <td>Programar API que guarde la hora de salida del conductor</td> <td>5h</td> <td>Andre</td> <td>To-do</td> </tr> </table>
 
 ### 5.2.1.4. Development Evidence for Sprint Review.
 | Repository                                      | Branch                                          | Commit Id                                   | Commit Message                                           | Commit Message Body                                                                                                                                                 | Committed on (Day) |
@@ -1556,6 +1505,210 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 ![Team-Collaboration](assets/Team-Collaboration2.png)
 
 ![Team-Collaboration](assets/Team-Collaboration3.png)
+
+## 5.2.2. Sprint 2 
+
+### 5.2.2.1. Sprint Planning 2. 
+
+<table> <tr><th colspan="5">Sprint #</th><th colspan="9">Sprint 2</th></tr><tr> <td colspan="13">Sprint Planning Background</td></tr><tr><td colspan="5">Date</td><td colspan="8">2025-10-07</td></tr><tr><td colspan="5">Time</td><td colspan="8">4:00 PM</td></tr><tr><td colspan="5">Location</td><td colspan="8">Servidor de Discord del equipo</td></tr><tr><td colspan="5">Prepared By</td><td colspan="8">Andre Orellana</td></tr><tr><td colspan="5">Attendees (to planning meeting)</td><td colspan="8">Merly Salon, Gabriel Espinar, Andre Rodriguez Orellana, Angel Berrospi Marin</td></tr><tr><td colspan="5">Sprint n-1 Review Summary</td><td colspan="8">During Sprint 1, the team successfully delivered the Landing Page and completed the initial setup of the development environment. The deployment to Vercel was achieved, and the project documentation was finalized. Minor adjustments in UI consistency were identified for future improvement.</td></tr><tr><td colspan="5">Sprint n-1 Retrospective Summary</td><td colspan="8">The team agreed that communication and task assignment worked efficiently through Discord. However, they identified the need to improve time estimation for user stories and maintain more consistent documentation updates across all modules.</td></tr><tr><td colspan="13">Sprint Goal & User Stories</td></tr><tr><td colspan="5">Sprint 2 Goal</td><td colspan="8"> <strong>"Deliver the foundational components of the MoveSys platform by designing and deploying a fully functional and responsive Landing Page that clearly communicates the product’s value proposition and guides users through registration and initial access. Additionally, complete the corresponding project documentation and ensure the environment setup (frontend, and database connections) is properly configured. Success will be achieved when the Landing Page is accessible online, visually consistent with the brand identity, includes working navigation, and the initial documentation is reviewed and validated by the team."</strong></td></tr><tr><td colspan="5">Sprint 2 Velocity</td><td colspan="8">6</td></tr><tr><td colspan="5">Sum of Story Points</td><td colspan="8">8 story points</td></tr>
+</table>
+
+
+### 5.2.2.2. Aspect Leaders and Collaborators. 
+
+![Aspect Leaders and Collaborators](assets/aspect-lider-collaboration2.jpg)
+
+### 5.2.2.3. Sprint Backlog 2. 
+
+
+
+<table><tr><th colspan="2">Sprint 2</th>
+    <th colspan="6">User Stories and Work-Items</th>
+  </tr>
+  <tr>
+    <td colspan="2"><strong>User Story</strong></td>
+    <td colspan="6"><strong>Work-Item / Task</strong></td>
+  </tr>
+
+  <!-- DASHBOARD -->
+  <tr>
+    <td rowspan="2"><strong>US-26</strong><br>Monitor daily indicators</td>
+    <td rowspan="2">As a manager, I want to visualize delivery, fleet, and performance indicators on the dashboard to track daily operations.</td>
+    <td><strong>T-01</strong></td>
+    <td>Design dashboard layout</td>
+    <td>Create responsive interface with summary cards and charts showing active deliveries, performance, and maintenance alerts.</td>
+    <td>6h</td>
+    <td>Angel</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td><strong>T-02</strong></td>
+    <td>Implement dashboard data integration (mock)</td>
+    <td>Connect dashboard components to mock data simulating backend indicators.</td>
+    <td>6h</td>
+    <td>Andre</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- USER MANAGEMENT -->
+  <tr>
+    <td rowspan="2"><strong>US-29</strong><br>Assign roles and permissions</td>
+    <td rowspan="2">As an administrator, I want to manage users, roles, and permissions to ensure secure access.</td>
+    <td><strong>T-03</strong></td>
+    <td>Design user management interface</td>
+    <td>Create the table view to list, add, and edit users with role selector dropdown.</td>
+    <td>5h</td>
+    <td>Merly</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td><strong>T-04</strong></td>
+    <td>Implement CRUD operations (frontend only)</td>
+    <td>Develop mock-based CRUD logic for users, including edit and delete features.</td>
+    <td>6h</td>
+    <td>Brayan</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- REPORTING -->
+  <tr>
+    <td rowspan="2"><strong>US-05</strong><br>Generate weekly performance reports</td>
+    <td rowspan="2">As a manager, I want to view weekly reports of deliveries to analyze staff performance.</td>
+    <td><strong>T-05</strong></td>
+    <td>Design reports view</td>
+    <td>Create a visual layout showing delivery statistics, trends, and filters by date.</td>
+    <td>5h</td>
+    <td>Gabriel</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td><strong>T-06</strong></td>
+    <td>Implement charts and filters (frontend only)</td>
+    <td>Use Recharts to display performance charts with dynamic filter selection.</td>
+    <td>6h</td>
+    <td>Andre</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- DELIVERY MANAGEMENT -->
+  <tr>
+    <td rowspan="2"><strong>US-01</strong><br>View scheduled deliveries</td>
+    <td rowspan="2">As a driver, I want to see my assigned deliveries to plan my route efficiently.</td>
+    <td><strong>T-07</strong></td>
+    <td>Design delivery management interface</td>
+    <td>Build responsive table and cards displaying delivery date, client, and destination.</td>
+    <td>5h</td>
+    <td>Gabriel</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td><strong>T-08</strong></td>
+    <td>Implement delivery list (mock)</td>
+    <td>Integrate delivery list with mock data pending backend connection.</td>
+    <td>5h</td>
+    <td>Merly</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- FUEL CONSUMPTION -->
+  <tr>
+    <td rowspan="2"><strong>US-27</strong><br>Register fuel consumption</td>
+    <td rowspan="2">As a manager, I want to register fuel usage per vehicle to control costs.</td>
+    <td><strong>T-09</strong></td>
+    <td>Design fuel consumption module</td>
+    <td>Create layout with input form for fuel amount, cost, and vehicle selection.</td>
+    <td>5h</td>
+    <td>Angel</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td><strong>T-10</strong></td>
+    <td>Implement record visualization (mock)</td>
+    <td>Build a table showing fuel consumption records and calculated efficiency.</td>
+    <td>6h</td>
+    <td>Andre</td>
+    <td>To-do</td>
+  </tr>
+
+  <!-- FLEET MANAGEMENT -->
+  <tr>
+    <td rowspan="2"><strong>US-09</strong><br>Review scheduled routes</td>
+    <td rowspan="2">As a manager, I want to view the assigned routes for each unit to ensure operational control.</td>
+    <td><strong>T-11</strong></td>
+    <td>Design fleet management view</td>
+    <td>Develop interface to list vehicles with their assigned routes and statuses.</td>
+    <td>5h</td>
+    <td>Gabriel</td>
+    <td>To-do</td>
+  </tr>
+  <tr>
+    <td><strong>T-12</strong></td>
+    <td>Implement vehicle and route components (mock)</td>
+    <td>Integrate static route and vehicle data for UI testing.</td>
+    <td>5h</td>
+    <td>Angel</td>
+    <td>To-do</td>
+  </tr>
+</table>
+
+
+### 5.2.2.4. Development Evidence for Sprint Review. 
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Day) |
+|-------------|---------|------------|----------------|----------------------|--------------------|
+| *Guille-berrs/movesys-project-report* | feature/solution-profile | e8e0a7879fba5a0c309e70ca320dd746636f9d17 | docs: Change in Lean Ux Process | - Lean Ux Problem Statements.<br>- Lean Ux Assumptions.<br>- Lean Ux Hypothesis Statements. | 08/10/2025 |
+| *Guille-berrs/movesys-project-report* | feature/domain-driven-software-architecture | 5e891aae3fafa354a41f7a1f3deea3b9c2a4bf99 | docs: Domain-Driven Software Architecture | - Delete Container Event Storming and Components.<br>- Aggregate news pictures | 08/10/2025 |
+| *Guille-berrs/movesys-project-report* | feature/needfinding | e5098f16d04f350389c44ae74f7c67af37e97bc1 | docs: updates on Empathy Mapping | - Delete images Gestor flota and Conductores de vehículos de transporte.<br>- Aggregate new pictures for Empathy Mapping | 08/10/2025 |
+| *Guille-berrs/movesys-project-report* | feature/big-picture-eventStorming | 4adce20692508d4427b9319a3364c37871ff1491 | docs: Event Storming updates | - Delete pictures about Event Storming.<br>- Aggregate new picture for Event Storming. | 08/10/2025 |
+| *Guille-berrs/movesys-project-report* | feature/software-object-oriented-design | f89cb3b9ad9e3262c1bb4eeeedb3d3f3e4c7b4a8 | docs: Changes in Software Object-Oriented Design | - Delete Class diagram.<br>- Aggregate picture for Class diagram. | 08/10/2025 |
+| *Guille-berrs/movesys-project-report* | feature/database-design | b33c54678387541cf06592b652b2409bcb8f84c3 | docs: Change in Database Design | - Aggregate new picture for Database Diagrams. | 08/10/2025 |
+| *Guille-berrs/movesys-project-report* | feature/sprint1 | 1c7a0c6 | docs: add member information for Team member profiles | — | 17/09/2025 |
+| *zzZero14/movesys-project-report-* | feature/ubiquitous-language | c1d2ecb4031b0ea7ffd8336f3425a1f5acde7534 | docs: add ubiquitous language description | — | 08/10/2025 |
+| *zzZero14/movesys-project-report-* | feature/web-applications-ux/ui-design | cedcc7d9c9fde61726940975b30299765a30c4a5 | docs: add web applications user flow diagrams | — | 08/10/2025 |
+| *zzZero14/movesys-project-report-* | feature/needfinding | 5a7bc82c0e584e8747d0909b7e4cbe2c6b7ecb02 | docs: add user task matrix description | — | 08/10/2025 |
+| *merlysalon23/movesys-project-report-* | feature/needfinding | 0dc541f4580205062b4ec92a13084c79698f9cd4 | docs: update user persons | — | 08/10/2025 |
+| *merlysalon23/movesys-project-report-* | feature/needfinding | c1a70f8b48b80aec92feb89a275273f11fc4d3b7 | add files via upload | — | 08/10/2025 |
+| *merlysalon23/landing-page* | feature/user-stories | 599bea5eba6c5725c1abf6b4d01a3cb26eab3796 | docs: update user stories | — | 07/10/2025 |
+| *melandree8/landing-page* | feature/portada | 6f660c643c8a74fdb241251e89b7e58aac0bfae4 | docs: Update section portada | — | 07/10/2025 |
+| *melandree8/landing-page* | feature/promotion | 15b8b1cc0c53e1cd833df1999d5caab041919ba5 | docs: add image promotion | — | 07/10/2025 |
+| *melandree8/landing-page* | feature/pricing | a714cbb2da9810999a2106a436606787e15ca095 | feat: add new styles for landing page pricing section | — | 03/10/2025 |
+| *melandree8/landing-page* | feature/portada | 2ad77bba6ea4439868aaa4a39810cb9af1d708fc | fix: correct folder path from 'img' to 'images' | — | 07/10/2025 |
+| *melandree8/landing-page* | feature/members | a716290c4b69e9b9a1f26426c0f38559099d4efb | chore: remove empty Team section from landing page | — | 18/09/2025 |
+| *melandree8/MoveSys-Fronted* | main | 3cb287ea12eecc1e350d35718b82f66bb579cba1 | feat: complete initial frontend structure | — | 08/10/2025 |
+| *melandree8/movesys-project-report-* | feature/ubiquitous-language | 0611bb040232e81e407372a92a98f1e151df2185 | docs: add Ubiquitous Language definitions to report | — | 18/09/2025 |
+| *melandree8/movesys-project-report-* | feature/event-storming | 61964a1395082959bda955ce435d9dc2328b0614 | docs: insert EventStorming images into report | — | 18/09/2025 |
+| *melandree8/movesys-project-report-* | feature/ubiquitous-language | 67e683082739a45297e1718530b185582a8b1651 | chore: remove EventStorming and Ubiquitous Language sections | — | 18/09/2025 |
+| *melandree8/movesys-project-report-* | feature/portada | 002cfe9fe28f5e4c8c53f7472dab464a71fb5e25 | feat: add student code section | — | 18/09/2025 |
+| *melandree8/movesys-project-report-* | feature/interview | 0303870a79df2936215a2c79a9725bf66e515276 | docs: include additional interviewee in segment 2 | — | 18/09/2025 |
+| *melandree8/movesys-project-report-* | feature/team-profile | c90d14bb5f375d673bdc39bca7c59b3a3c2eea95 | docs: add my image and information to the team section profiles | — | 17/09/2025 |
+| *melandree8/movesys-project-report-* | feature/portada | 27dddb29d2fa3ffc7e5868c3f67dd6c684808d73 | docs: add student photo to team section | — | 17/09/2025 |
+| *melandree8/movesys-project-report-* | feature/style | ec7e1af77487a6e8dbf1c0a5190caad376261199 | feat: add wireframe and mockup images folder | — | 17/09/2025 |
+
+### 5.2.2.5. Execution Evidence for Sprint Review. 
+
+[Front](assets/picture-front1.jpg)
+[Front](assets/picture-front2.jpg)
+[Front](assets/picture-front3.jpg)
+[Front](assets/picture-front4.jpg)
+[Front](assets/picture-front5.jpg)
+[Front](assets/picture-front6.jpg)
+
+### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
+
+[Visita el repositorio en GitHub](https://github.com/1ASI0730-2520-7461-SmartCoders/movesys-project-report-.git)
+
+
+![Services Documentation Evidence for Sprint Review](assets/Github-page-principal.png)
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
+
+![Software Deployment Evidence for Sprint Review](assets/Collaboration-Jira2.png)
+
+### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+![Team Collaboration Insights during Sprint](assets/historial-1.png)
+
+![Team Collaboration Insights during Sprint](assets/historial-2.png)
 
 ## Conclusiones
 - La planificación previa es clave para el desarrollo estructurado del sistema: Durante el proceso se evidenció la necesidad de una coordinación anticipada entre las áreas de diseño, desarrollo y análisis de usuarios para alinear correctamente la funcionalidad con las necesidades reales del público objetivo.
