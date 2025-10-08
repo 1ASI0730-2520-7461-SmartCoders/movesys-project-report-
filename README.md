@@ -743,16 +743,26 @@ Le gustaría contar con una aplicación que simplifique el trabajo, tanto para �
     
 ### 2.3.1. User Personas.
 
+A construcción de los siguientes User Personas se basa en el análisis cualitativo y cuantitativo de entrevistas realizadas a representantes de dos segmentos clave: Empresas de transporte de carga y Conductores de unidades de carga. Se han considerado características objetivas (edad, dispositivos, herramientas digitales, canales de interacción) y subjetivas (personalidad, frustraciones, expectativas, influencias) para definir arquetipos representativos. Estos artefactos permiten visualizar con claridad las necesidades, comportamientos y motivaciones de los usuarios potenciales de Storigent, facilitando el diseño de soluciones centradas en el usuario y estrategias de comunicación efectivas.
+
 Segmento 1: Gestor de Flota
 
- <img src="assets/s1-UserPersona.png"/>
+ <img src="assets/user-persona-gestor-flota.png"/>
 
 Segmento 2: Conductor de vehículos de transporte
 
- <img src="assets/s2-UserPersona.png"/>
+ <img src="assets/user-persona-conductor.png"/>
     
 ### 2.3.2. User Task Matrix.
 
+En esta sección se presenta el **User Task Matrix**, que concentra las tareas que los **User Persona** (que representan a cada segmento objetivo) realizan para cumplir sus objetivos.  
+Las tareas listadas **no son funciones del sistema**, sino acciones que los usuarios ya realizan en su contexto actual, antes de la existencia de MoveSys.  
+Los segmentos considerados son:
+
+- **Luis Torres:** Coordinador logístico que gestiona la planificación y seguimiento de rutas.  
+- **Juan Pérez:** Conductor de reparto responsable de registrar y ejecutar entregas.  
+
+El siguiente cuadro muestra la **frecuencia (Frec.)** y **importancia (Imp.)** que cada tarea tiene para cada usuario.
 
 | **Tareas / User Persona** | **Luis Torres (Frec.)** | **Luis Torres (Imp.)** | **Juan Pérez (Frec.)** | **Juan Pérez (Imp.)** |
 |---------------------------|-------------------------|-------------------------|-------------------------|-------------------------|
@@ -767,10 +777,11 @@ Segmento 2: Conductor de vehículos de transporte
 | Verificar entregas        | Media                   | Alta                    | Alta                    | Alta                    |
 | Atender reclamos          | Alta                    | Alta                    | Baja                    | Media                   |
 
-### Conclusiones
-- **Luis Torres** se enfoca en análisis y consolidación de datos, necesita reportes confiables y en tiempo real.  
-- **Juan Pérez** prioriza la ejecución en campo: registrar kilometraje, combustible y verificar entregas.  
-- La app debe equilibrar funciones de **gestión para supervisores** y de **usabilidad simple para operadores**, enfocándose en las tareas compartidas críticas: **coordinación de entregas, uso de apps móviles y verificación de entregas**.
+### Explicación
+Las tareas más **frecuentes e importantes** para ambos usuarios son coordinar entregas, verificar entregas y usar aplicaciones móviles, lo que evidencia la necesidad de herramientas digitales confiables y fáciles de usar.  
+**Luis Torres** se centra más en la planificación, análisis de datos y generación de reportes, mientras que **Juan Pérez** prioriza las tareas operativas como registrar kilometraje, reportar combustible y ejecutar entregas.  
+Estas diferencias reflejan sus roles dentro del flujo logístico y justifican que MoveSys ofrezca **dos experiencias diferenciadas**:  
+un **panel web** para el coordinador y una **aplicación móvil** para el conductor.
 
 
 ### 2.3.3. User Journey Mapping.
@@ -789,11 +800,11 @@ El Empathy Mapping es una metodología que permite profundizar en la comprensió
 
 * Gestores de flota:
 
-<img alt= "Empathy Mapping Gestor_Flota" src="assets/em_gestor_flota.png"/>
+<img alt= "Empathy Mapping Gestor_Flota" src="assets/gestor-flota.jpg"/>
 
 * Conductores de vehículos de transporte
 
-<img alt= "Empathy Mapping Conductor_transporte" src="assets/em_conductor_vehículos_transporte.png"/>
+<img alt= "Empathy Mapping Conductor_transporte" src="assets/conductor-vehiculos-transporte.jpg"/>
 
 ## 2.4. Big Picture EventStorming.
 
