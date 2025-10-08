@@ -1322,7 +1322,7 @@ A coninuación se presentan algunos Mockups de nuestra app MoveSys
     
 ### 4.8.1. Database Diagrams.
     
-![Database Diagrams](assets/Database-Diagram.jpg)
+![Database Diagrams](assets/database-diagram.jpg)
 
 # Capítulo V: Product Implementation, Validation & Deployment
     
