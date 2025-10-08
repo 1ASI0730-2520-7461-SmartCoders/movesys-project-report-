@@ -665,7 +665,10 @@ A coninuación se presentan algunos Mockups de nuestra app MoveSys
 <img alt="Mock-ups usuarios" src="assets/usuarios.png"/>
 
 ### 4.4.3. Web Applications User Flow Diagrams.
-    
+
+   <img src="assets/userflow1.png"/>
+  <img src="assets/userflow2.png"/>
+   
 ## 4.5. Web Applications Prototyping.
    
 ## 4.6. Domain-Driven Software Architecture.
