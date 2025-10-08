@@ -297,11 +297,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 ### 4.6.3. Software Architecture Container Diagrams.
     
-![Domain Container](assets/Domain-Container.png)
+![Domain Container](assets/Domain-Container.jpg)
 
 ### 4.6.4. Software Architecture Components Diagrams.
     
-![Domain Components](assets/Domain-components.png)
+![Domain Components](assets/Domain-Component.jpg)
 
 ## 4.7. Software Object-Oriented Design.
 
