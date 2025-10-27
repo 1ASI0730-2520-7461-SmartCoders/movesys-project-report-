@@ -1445,9 +1445,9 @@ De esta manera, el despliegue mediante GitHub Pages asegura que la landing page 
     
 ## 5.2. Landing Page, Services & Applications Implementation.
     
-## 5.2.1. Sprint n
+## 5.2.1. Sprint 1
     
-### 5.2.1.1. Sprint Planning n.
+### 5.2.1.1. Sprint Planning 1.
     
 En esta sección se especifica los aspectos principales del Sprint Planning Meeting.
 
@@ -1458,7 +1458,7 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
     
 ![Aspect Leaders and Collaborators](assets/Aspect-collaborator.png)
 
-### 5.2.1.3. Sprint Backlog n.
+### 5.2.1.3. Sprint Backlog 1.
     
 ![JIRA](assets/Collaboration_JIRA.png)
 
@@ -1524,137 +1524,145 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 
 ### 5.2.2.3. Sprint Backlog 2. 
 
-
-
-<table><tr><th colspan="2">Sprint 2</th>
-    <th colspan="6">User Stories and Work-Items</th>
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse; width:100%; text-align:center; font-family:Arial; font-size:12px;">
+  <tr>
+    <th colspan="8">Sprint # Sprint n</th>
   </tr>
   <tr>
-    <td colspan="2"><strong>User Story</strong></td>
-    <td colspan="6"><strong>Work-Item / Task</strong></td>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Points)</th>
+    <th>Assigned To</th>
+    <th>Status (To-do / In-Process / To-Review / Done)</th>
   </tr>
 
   <!-- DASHBOARD -->
   <tr>
-    <td rowspan="2"><strong>US-26</strong><br>Monitor daily indicators</td>
-    <td rowspan="2">As a manager, I want to visualize delivery, fleet, and performance indicators on the dashboard to track daily operations.</td>
+    <td rowspan="2"><strong>US-26</strong></td>
+    <td rowspan="2">Monitorear indicadores diarios</td>
     <td><strong>T-01</strong></td>
-    <td>Design dashboard layout</td>
-    <td>Create responsive interface with summary cards and charts showing active deliveries, performance, and maintenance alerts.</td>
-    <td>6h</td>
+    <td>Diseñar el layout del panel</td>
+    <td>Crear una interfaz responsiva con tarjetas y gráficos que muestren entregas activas, rendimiento y alertas de mantenimiento.</td>
+    <td>3</td>
     <td>Angel</td>
     <td>To-do</td>
   </tr>
   <tr>
     <td><strong>T-02</strong></td>
-    <td>Implement dashboard data integration (mock)</td>
-    <td>Connect dashboard components to mock data simulating backend indicators.</td>
-    <td>6h</td>
+    <td>Implementar integración de datos del panel (mock)</td>
+    <td>Conectar los componentes del panel a datos simulados que representen indicadores del backend.</td>
+    <td>5</td>
     <td>Andre</td>
     <td>To-do</td>
   </tr>
 
   <!-- USER MANAGEMENT -->
   <tr>
-    <td rowspan="2"><strong>US-29</strong><br>Assign roles and permissions</td>
-    <td rowspan="2">As an administrator, I want to manage users, roles, and permissions to ensure secure access.</td>
+    <td rowspan="2"><strong>US-29</strong></td>
+    <td rowspan="2">Asignar roles y permisos</td>
     <td><strong>T-03</strong></td>
-    <td>Design user management interface</td>
-    <td>Create the table view to list, add, and edit users with role selector dropdown.</td>
-    <td>5h</td>
+    <td>Diseñar la interfaz de gestión de usuarios</td>
+    <td>Crear la vista en tabla para listar, agregar y editar usuarios con un selector de roles desplegable.</td>
+    <td>2</td>
     <td>Merly</td>
     <td>To-do</td>
   </tr>
   <tr>
     <td><strong>T-04</strong></td>
-    <td>Implement CRUD operations (frontend only)</td>
-    <td>Develop mock-based CRUD logic for users, including edit and delete features.</td>
-    <td>6h</td>
+    <td>Implementar operaciones CRUD (solo frontend)</td>
+    <td>Desarrollar la lógica CRUD basada en datos simulados para los usuarios, incluyendo edición y eliminación.</td>
+    <td>3</td>
     <td>Brayan</td>
     <td>To-do</td>
   </tr>
 
   <!-- REPORTING -->
   <tr>
-    <td rowspan="2"><strong>US-05</strong><br>Generate weekly performance reports</td>
-    <td rowspan="2">As a manager, I want to view weekly reports of deliveries to analyze staff performance.</td>
+    <td rowspan="2"><strong>US-05</strong></td>
+    <td rowspan="2">Generar reportes semanales de rendimiento</td>
     <td><strong>T-05</strong></td>
-    <td>Design reports view</td>
-    <td>Create a visual layout showing delivery statistics, trends, and filters by date.</td>
-    <td>5h</td>
+    <td>Diseñar la vista de reportes</td>
+    <td>Crear un diseño visual que muestre estadísticas de entrega, tendencias y filtros por fecha.</td>
+    <td>2</td>
     <td>Gabriel</td>
     <td>To-do</td>
   </tr>
   <tr>
     <td><strong>T-06</strong></td>
-    <td>Implement charts and filters (frontend only)</td>
-    <td>Use Recharts to display performance charts with dynamic filter selection.</td>
-    <td>6h</td>
+    <td>Implementar gráficos y filtros (solo frontend)</td>
+    <td>Usar Recharts para mostrar gráficos de rendimiento con selección dinámica de filtros.</td>
+    <td>3</td>
     <td>Andre</td>
     <td>To-do</td>
   </tr>
 
   <!-- DELIVERY MANAGEMENT -->
   <tr>
-    <td rowspan="2"><strong>US-01</strong><br>View scheduled deliveries</td>
-    <td rowspan="2">As a driver, I want to see my assigned deliveries to plan my route efficiently.</td>
+    <td rowspan="2"><strong>US-01</strong></td>
+    <td rowspan="2">Ver entregas programadas</td>
     <td><strong>T-07</strong></td>
-    <td>Design delivery management interface</td>
-    <td>Build responsive table and cards displaying delivery date, client, and destination.</td>
-    <td>5h</td>
+    <td>Diseñar la interfaz de gestión de entregas</td>
+    <td>Construir una tabla y tarjetas responsivas que muestren la fecha de entrega, cliente y destino.</td>
+    <td>2</td>
     <td>Gabriel</td>
     <td>To-do</td>
   </tr>
   <tr>
     <td><strong>T-08</strong></td>
-    <td>Implement delivery list (mock)</td>
-    <td>Integrate delivery list with mock data pending backend connection.</td>
-    <td>5h</td>
+    <td>Implementar lista de entregas (mock)</td>
+    <td>Integrar la lista de entregas con datos simulados mientras se espera la conexión con el backend.</td>
+    <td>3</td>
     <td>Merly</td>
     <td>To-do</td>
   </tr>
 
   <!-- FUEL CONSUMPTION -->
   <tr>
-    <td rowspan="2"><strong>US-27</strong><br>Register fuel consumption</td>
-    <td rowspan="2">As a manager, I want to register fuel usage per vehicle to control costs.</td>
+    <td rowspan="2"><strong>US-27</strong></td>
+    <td rowspan="2">Registrar consumo de combustible</td>
     <td><strong>T-09</strong></td>
-    <td>Design fuel consumption module</td>
-    <td>Create layout with input form for fuel amount, cost, and vehicle selection.</td>
-    <td>5h</td>
+    <td>Diseñar el módulo de consumo de combustible</td>
+    <td>Crear el formulario de ingreso con campos para cantidad, costo y selección de vehículo.</td>
+    <td>2</td>
     <td>Angel</td>
     <td>To-do</td>
   </tr>
   <tr>
     <td><strong>T-10</strong></td>
-    <td>Implement record visualization (mock)</td>
-    <td>Build a table showing fuel consumption records and calculated efficiency.</td>
-    <td>6h</td>
+    <td>Implementar visualización de registros (mock)</td>
+    <td>Construir una tabla que muestre los registros de consumo y la eficiencia calculada.</td>
+    <td>3</td>
     <td>Andre</td>
     <td>To-do</td>
   </tr>
 
   <!-- FLEET MANAGEMENT -->
   <tr>
-    <td rowspan="2"><strong>US-09</strong><br>Review scheduled routes</td>
-    <td rowspan="2">As a manager, I want to view the assigned routes for each unit to ensure operational control.</td>
+    <td rowspan="2"><strong>US-09</strong></td>
+    <td rowspan="2">Revisar rutas programadas</td>
     <td><strong>T-11</strong></td>
-    <td>Design fleet management view</td>
-    <td>Develop interface to list vehicles with their assigned routes and statuses.</td>
-    <td>5h</td>
+    <td>Diseñar la vista de gestión de flota</td>
+    <td>Desarrollar una interfaz que liste los vehículos con sus rutas asignadas y estados.</td>
+    <td>2</td>
     <td>Gabriel</td>
     <td>To-do</td>
   </tr>
   <tr>
     <td><strong>T-12</strong></td>
-    <td>Implement vehicle and route components (mock)</td>
-    <td>Integrate static route and vehicle data for UI testing.</td>
-    <td>5h</td>
+    <td>Implementar componentes de vehículo y ruta (mock)</td>
+    <td>Integrar datos estáticos de rutas y vehículos para pruebas de interfaz.</td>
+    <td>3</td>
     <td>Angel</td>
     <td>To-do</td>
   </tr>
 </table>
-
 
 ### 5.2.2.4. Development Evidence for Sprint Review. 
 
