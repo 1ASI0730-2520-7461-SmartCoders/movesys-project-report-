@@ -22,6 +22,7 @@
     * Gabriel Ferran Espinar Martínez U202310436
     * Angel Guillermo Berrospi Marin U202114701
     * Orellana Rodriguez Mel Andree U202116018
+    * Daniel Stalin Palomino Murga U20201B253
 
 <div>
 
@@ -188,6 +189,13 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 | **Carrera**               | Ingeniería de Software |
 | **Descripción**           | Soy estudiante de Ingeniería de Software. Estoy dispuesta a trabajar con mi equipo esforzadamente. Cuento con conocimientos en HTML, CSS y JavaScript, lo cual puede sumar en el desarrollo del proyecto. |
 | **Foto**                  | <img src="assets/Integrante-Merly-Salon.jpeg" alt="Integrante Merly" width="200"/> |
+
+| **Integrante**            | **Daniel Stalin Palomino Murga** |
+|---------------------------|---------------------------------------------------------------------------------------------------|
+| **Código del Estudiante** | U20201B253 |
+| **Carrera**               | Ingeniería de Software |
+| **Descripción**           | Soy estudiante de Ingeniería de Software. Me considero una persona amable, tranquila y perseverante, cualidades que me ayudan tanto en el ámbito académico como en el trabajo en equipo. En el trabajo colaborativo, me esfuerzo por aportar ideas y respetar las ideas de mis compañeros, apoyarlos y alcanzar los objetivos en conjunto.Tengo experiencia en C++, JavaScript, HTML y CSS, Python y SQL. |
+| **Foto**                  | <img src="assets/Integrante_Daniel_Palomino.png" alt="Integrante Daniel" width="200"/> |
 
 ## 1.2. Solution Profile
     
