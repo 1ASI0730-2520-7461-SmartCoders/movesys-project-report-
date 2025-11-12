@@ -586,6 +586,96 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 
 ![Team Collaboration Insights during Sprint](assets/historial-2.png)
 
+## 5.2.3. Sprint 3 
+
+### 5.2.3.1. Sprint Planning 3. 
+
+<table> <tr><th colspan="5">Sprint #</th><th colspan="9">Sprint 3</th></tr><tr> <td colspan="13">Sprint Planning Background</td></tr><tr><td colspan="5">Date</td><td colspan="8">2025-11-06</td></tr><tr><td colspan="5">Time</td><td colspan="8">5:00 PM</td></tr><tr><td colspan="5">Location</td><td colspan="8">Servidor de Discord del equipo</td></tr><tr><td colspan="5">Prepared By</td><td colspan="8">Angel Berrospi</td></tr><tr><td colspan="5">Attendees (to planning meeting)</td><td colspan="8">Merly Salon, Gabriel Espinar, Andre Rodriguez Orellana, Angel Berrospi Marin</td></tr><tr><td colspan="5">Sprint n-3 Review Summary</td><td colspan="8">The team successfully delivered the **Landing Page** with a functional Vercel deployment. The initial environment connection to the backend database is validated. The Product Owner **accepted the delivery**, but requested minor adjustments to the registration process user experience (UX) to be more intuitive, which should be addressed in this Sprint.</td></tr><tr><td colspan="5">Sprint n-3 Retrospective Summary</td><td colspan="8">The primary opportunity for improvement identified was the **overestimation of time** in the user stories (the team committed to 8 SPs, but the Velocity is 6). It was agreed to be more conservative in the estimation for Sprint 3. **Communication remains fluid** via Discord, and internal documentation improved as planned.</td></tr><tr><td colspan="13">Sprint Goal & User Stories</td></tr><tr><td colspan="5">Sprint 3 Goal</td><td colspan="8"> <strong>""Integrate the Identity and Access (IAM) functionality with the user interface to enable the registration and authentication (login) of new users and grant secure access to the main platform Dashboard. This includes deploying the necessary UI components and validating the security of the IAM endpoints (TS01-API). Success will be measured by ensuring 5 test users can successfully complete the cycle: Register → Login → Access Dashboard without errors."</strong></td></tr><tr><td colspan="5">Sprint 3 Velocity</td><td colspan="8">6</td></tr><tr><td colspan="5">Sum of Story Points</td><td colspan="8">6 story points</td></tr>
+</table>
+
+
+### 5.2.3.2. Aspect Leaders and Collaborators. 
+
+![Aspect Leaders and Collaborators](assets/Aspect-Leaders-and-Collaborators3.png)
+
+### 5.2.3.3. Sprint Backlog 3. 
+
+
+![Jira Evidence](assets/Jira-Evidence.png)
+
+![Jira Evidence](assets/Jira-Evidence2.png)
+
+
+| **Id** | **User Story / Task Title** | **Task Description** | **Estimation (Points)** | **Assigned To** | **Status** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **US-29** | **Registration Form Implementation (Frontend)** | Build the responsive registration form fields (email, password) and necessary validation logic. | **2** | Daniel Palomino | To-do |
+| **T-02** | Integrate TS01-API POST (Registration) | Connect the registration form submission to the `/api/users` endpoint and handle success/error responses (per TS01-API Escenario 01). | | Andre Orellana | To-do |
+| **US-29** | **Login Form Implementation (Frontend)** | Build the responsive login form and implement form submission logic. | **2** | Gabriel Espinar | To-do |
+| **T-04** | Integrate TS01-API Authentication (Login) | Call the authentication endpoint, get the JWT token, and implement secure token storage (e.g., `HttpOnly cookies`). | | Andre Orellana | To-do |
+| **TS01-API** | **Develop Unit/Integration Tests (Backend)** | Write backend tests to validate **Scenario 01 (Create)** and cover security aspects like invalid credentials for the IAM endpoints. | **1** | Angel Berrospi Marin | To-do |
+| **US-26** | **Implement Routing & Auth Guard** | Configure frontend routing to protect the Dashboard route and redirect unauthorized users to the Login page. | **1** | Gabriel Espinar | To-do |
+| **T-07** | Design Minimal Dashboard Layout | Create a basic Dashboard skeleton with a navigation sidebar and a welcome message displaying the logged-in user's role/name. | | Daniel Palomino | To-do |
+| **TOTAL** | | **Total Committed Points** | **6** | | |
+
+
+### 5.2.3.4. Development Evidence for Sprint Review. 
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Day) |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| MoveSys-Backend/melandree8 | main | d67e75b | chore: backend base structure | empty | 04/11/2025 |
+| MoveSys-Backend/melandree8 | feature/shared | dca2cce | feat: add Shared module | empty | 04/11/2025 |
+| MoveSys-Backend/melandree8 | feature/reports | d7f687a | feat: add Reports module | empty | 04/11/2025 |
+| Guille-berrs/movesys-Backend | feature/fleet | 41feb32 | feat: Add fleet module | empty | 04/11/2025 |
+| Guille-berrs/movesys-Backend | feature/fuelconsumption | a618f04 | feat: Change the position of files in module fuelconsumption | empty | 08/11/2025 |
+| Guille-berrs/movesys-Backend | feature/fuelconsumption | c1e330b | feat: Add module fuel consumption | empty | 06/11/2025 |
+| MoveSys-Backend/DanielPM23 | feature/maintenance | e44bb1af912ae92e1d38b58b2fd6b4841522d1b9 | feat(maintenace): Add maintenance module | empty | 05/11/2025 |
+| zzZero14/movesys-Backend | feature/deliveries | ce042ad | feat(deliveries): add deliveries module | empty | 08/11/25 |
+
+### 5.2.3.5. Execution Evidence for Sprint Review. 
+
+![Execution Evidence for Sprint Review.](assets/picture-front1.jpg)
+![Execution Evidence for Sprint Review.](assets/picture-front2.jpg)
+![Execution Evidence for Sprint Review.](assets/picture-front3.jpg)
+![Execution Evidence for Sprint Review.](assets/picture-front4.jpg)
+![Execution Evidence for Sprint Review.](assets/picture-front5.jpg)
+![Execution Evidence for Sprint Review.](assets/picture-front6.jpg)
+![Execution Evidence for Sprint Review.](assets/swagger1.jpg)
+![Execution Evidence for Sprint Review.](assets/swagger2.jpg)
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review. 
+
+[Visita el repositorio en GitHub](https://github.com/1ASI0730-2520-7461-SmartCoders/movesys-project-report-.git)
+
+![Services Documentation Evidence for Sprint Review](assets/Github-page-principal.png)
+
+![Services Documentation Evidence for Sprint Review](assets/github-frontend.png)
+
+![Services Documentation Evidence for Sprint Review](assets/github-backend.png)
+
+
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review. 
+
+| Required Evidence | Process Detail | Suggested Screenshots |
+| :--- | :--- | :--- |
+| **Hosting Environment Setup** | **Server Resource Creation/Configuration:** The hosting service in the cloud provider (e.g., AWS EC2, Azure App Service, VPS) dedicated to the Web Service was configured. RAM/CPU requirements were specified. | Image of the Cloud Provider console showing the hosting resource (VM or Application Service) created and in the `Running` state. |
+| **Code Deployment Process** | The deployment method was defined (e.g., FTP, Git Push, JAR/WAR file). The final build of the IAM module code was uploaded and executed to expose the `/api/users` endpoint at the public URL. | Screenshot of the server's deployment log or the service control panel showing the status as `Deployed Successfully`. |
+| **Environment Variables Configuration** | Critical environment variables (e.g., **Database Connection URL**, secure JWT keys) were configured on the server for the Web Service to operate securely (without these details in the source code). | Image of the server's environment variable configuration panel (values should be obscured). |
+| **Endpoint Connectivity Test** | Verification that the Registration/Login endpoint (`/api/users`) is accessible and functional from an external tool (Postman or curl). | Screenshot from **Postman** showing a successful `POST` request to the IAM endpoint with a **201** code. |
+
+| Required Evidence | Process Detail | Suggested Screenshots |
+| :--- | :--- | :--- |
+| **Web Application Update** | The Continuous Integration/Deployment (CI/CD) pipeline was executed to build and deploy the updated version of the web application, including the Login/Registration forms and the Auth Guard logic. | Image of the CI/CD log (e.g., GitHub Actions) showing the successful *build* and *deploy* of the Frontend. |
+| **API URL Configuration** | The environment variable in the Frontend (e.g., `REACT_APP_API_URL`) was updated to point to the public URL of the deployed Web Service (Backend). | Screenshot of the Frontend's environment variable configuration file or hosting platform settings. |
+| **End-to-End Functional Test** | Visual evidence of a test user completing the full cycle: navigating to *Registration*, **consuming the Web Service** to create the account, logging in, and successfully being redirected to the **Dashboard**. | Sequence of images from the **live application** showing the successful Login form submission and the subsequent Dashboard view. |
+
+### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+![Team Collaboration Insights during Sprint](assets/historial-1.png)
+
+![Team Collaboration Insights during Sprint](assets/historial-2.png)
+
+
 ## Conclusiones
 
 
