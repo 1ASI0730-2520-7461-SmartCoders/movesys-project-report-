@@ -17,7 +17,6 @@
 
 * Integrantes
 
-    * Bryan Felix Martinez Ramos 202316246
     * Merly Salon Puerta U20201b772
     * Gabriel Ferran Espinar Martínez U202310436
     * Angel Guillermo Berrospi Marin U202114701
