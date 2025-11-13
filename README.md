@@ -79,13 +79,13 @@ URL Project Report (Github): (https://github.com/1ASI0730-2520-7461-SmartCoders/
 
 Para el desarrollo del informe correspondiente a todas las entregas, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:  
 
-| Integrante              | Tareas Asignadas |
-|--------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Mel Andree Orellana** | Creación de la estructura del informe, incorporación del *Landing Page UI Design*, desarrollo de *General Style Guidelines* y *Web Style Guidelines*, elaboración de la sección *Information Architecture*, desarrollo de *Organization Systems*, *Labeling Systems*, *SEO Tags and Meta Tags*, *Searching Systems* y *Navigation Systems*. También se encargó de la elaboración del *Segmento Objetivo*. |
-| **Merly Salon Puerta**  | Incorporación de *Web Applications Wireframes*, *Wireflow Diagrams*, *Mock-ups* y *Prototyping*. |
-| **Angel Guillermo Berrospi** | Incorporación de *Class Diagrams* y *Database Diagram*. Desarrollo de *Software Architecture Context Diagram*, *Container Diagrams* y *Components Diagrams*. Además, participó en la redacción de *Antecedentes y problemática*, *Lean UX Canvas*, *Descripción de la Startup*, *Lean UX Process* y el desarrollo del *Sprint 1*. |
-| **Gabriel Ferran Espinar** | Ejecución del proceso de *Needfinding*, elaboración de *User Personas* y desarrollo de *User Task Matrix*. También trabajó en el *Análisis Competitivo y Estrategia*. |
-| **Bryan Felix Martinez** | Elaboración de *User Journey Mapping*, desarrollo de *Empathy Mapping*, *Glosario de Ubiquitous Language* para alinear términos del dominio, *User Stories*, *Impact Mapping* y *Product Backlog*. |
+| Integrante | Tareas Asignadas |
+| :--- | :--- |
+| **Mel Andree Orellana** | Se encargó en el backend de el endpoint **Fuel Consumption** y **Report**, aparte hizo modificaciones de mejora en el backend y su conexión con la base de datos y el frontend. Creación de la estructura del informe, incorporación del *Landing Page UI Design*, desarrollo de *General Style Guidelines* y *Web Style Guidelines*, elaboración de la sección *Information Architecture*, desarrollo de *Organization Systems*, *Labeling Systems*, *SEO Tags and Meta Tags*, *Searching Systems* y *Navigation Systems*. También se encargó de la elaboración del *Segmento Objetivo*. |
+| **Gabriel Ferran Espinar** | Se encargó en el backend de el endpoint **Delivery**, también del reponte uno de los puntos de **validation interviews**. Ejecución del proceso de *Needfinding*, elaboración de *User Personas* y desarrollo de *User Task Matrix*. También trabajó en el *Análisis Competitivo y Estrategia*. |
+| **Daniel Palomino** | Se encargó de el endpoint **User**, también del reporte uno de los puntos de **validation interviews**. Incorporación de *Web Applications Wireframes*, *Wireflow Diagrams*, *Mock-ups* y *Prototyping*. |
+| **Angel Guillermo Berrospi** | Se encargó del endpoint **Fleet** y el **monitoreo del equipo**, la **comunicación** y la **organización**. Incorporación de *Class Diagrams* y *Database Diagram*. Desarrollo de *Software Architecture Context Diagram*, *Container Diagrams* y *Components Diagrams*. Además, participó en la redacción de *Antecedentes y problemática*, *Lean UX Canvas*, *Descripción de la Startup*, *Lean UX Process* y el desarrollo del *Sprint 1*. |
+
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización, garantizando el versionamiento adecuado y la integración de cada aporte individual.  
 
@@ -188,15 +188,11 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 ## Criterio específico: Comunica oralmente con efectividad a diferentes rangos de audiencia
 
 | Acción Realizada | Participantes | Descripción |
-|------------------|---------------|-------------|
-| Creación de la Estructura del informe | Mel Andree Orellana | Presenté la estructura inicial del documento, facilitando la comprensión de las secciones y asegurando un orden lógico en la exposición del proyecto. |
-| Incorporación del Landing Page UI Design | Mel Andree Orellana | Expliqué de manera clara la propuesta de interfaz de usuario de la Landing Page, orientada a comunicar visualmente la identidad de MoveSys. |
-| Incorporación del Web Applications Wireframes y Wireflow Diagrams | Merly Salon Puerta | Expuse los wireframes y diagramas de flujo de las aplicaciones web para mostrar el recorrido de usuario y facilitar la validación con el equipo. |
-| Incorporación del Class Diagrams y Database Diagram | Angel Guillermo Berrospi | Comunicado de manera técnica y accesible los diagramas de clases y base de datos, mostrando la estructura lógica del sistema. |
-| Ejecución del proceso de Needfinding y Elaboración de User Personas | Gabriel Ferran Espinar | Presenté hallazgos de entrevistas y encuestas con usuarios, comunicando sus necesidades principales y arquetipos clave. |
-| Elaboración del User Journey Mapping y Empathy Mapping | Bryan Felix Martinez | Expuse de manera didáctica los recorridos y mapas de empatía de los usuarios, conectando hallazgos con soluciones propuestas. |
-| Desarrollo del Software Architecture Context y Container Diagram | Angel Guillermo Berrospi | Expliqué los diagramas de arquitectura de software en distintos niveles para asegurar comprensión tanto técnica como estratégica. |
-| Segmento Objetivo | Mel Andree Orellana | Presenté los segmentos de usuarios clave de MoveSys, comunicando cómo cada uno se beneficia de la solución. |
+| :--- | :--- | :--- |
+| Desarrollo de Endpoints: **Fuel Consumption** y **Report** y Tareas de Documentación/Diseño | Mel Andree Orellana | Lideró el desarrollo de los endpoints de **Fuel Consumption** y **Report** en el backend. También se encargó de la **estructura del informe**, el **Landing Page UI Design** y el **Segmento Objetivo**. |
+| Desarrollo de Endpoint: **Delivery** y Tareas de Needfinding | Gabriel Ferran Espinar | Se encargó del desarrollo del endpoint **Delivery**. Presentó hallazgos de entrevistas y encuestas con usuarios, comunicando sus necesidades principales (*Needfinding*) y arquetipos clave (**User Personas**). |
+| Desarrollo de Endpoint: **User** y Tareas de Wireframing/Prototipado | Daniel Palomino | Se encargó del desarrollo del endpoint **User**. Expuso los **wireframes y diagramas de flujo** de las aplicaciones web para mostrar el recorrido de usuario y facilitar la validación con el equipo. |
+| Desarrollo de Endpoint: **Fleet** y Arquitectura del Software | Angel Guillermo Berrospi | Desarrolló el endpoint **Fleet** y se encargó del **monitoreo** del equipo. Comunicó de manera técnica y accesible los **diagramas de clases y base de datos** y los diagramas de **arquitectura de software** (Context y Container Diagram), mostrando la estructura lógica del sistema. |
 
 **Conclusiones**  
 Las presentaciones orales del equipo Movesys permitieron transmitir hallazgos, diseños y propuestas a audiencias diversas (compañeros, docentes y potenciales usuarios), asegurando claridad técnica y estratégica. Esto fortaleció la validación temprana del proyecto y facilitó la alineación del equipo en torno a objetivos comunes.
@@ -207,14 +203,11 @@ Las presentaciones orales del equipo Movesys permitieron transmitir hallazgos, d
 ## Criterio específico: Comunica por escrito con efectividad a diferentes rangos de audiencia
 
 | Acción Realizada | Participantes | Descripción |
-|------------------|---------------|-------------|
-| Desarrollo de General y Web Style Guidelines | Mel Andree Orellana | Documenté las guías de estilo generales y específicas para la web, garantizando consistencia visual y comunicativa en el proyecto. |
-| Elaboración de la sección Information Architecture, Organization, Labeling, SEO Tags, Searching y Navigation Systems | Mel Andree Orellana | Redacté y estructuré la arquitectura de información y sistemas asociados, facilitando la comprensión del diseño de contenidos. |
-| Desarrollo del Glosario de Ubiquitous Language | Bryan Felix Martinez | Generé un glosario para alinear el lenguaje del dominio entre los miembros del equipo y stakeholders, asegurando precisión en la comunicación. |
-| Desarrollo de User Stories, Impact Mapping y Product Backlog | Bryan Felix Martinez | Documenté los artefactos de gestión ágil, comunicando requerimientos y prioridades del producto de forma clara y estructurada. |
-| Desarrollo del Software Architecture Components Diagrams | Angel Guillermo Berrospi | Redacté y documenté los diagramas de componentes de la arquitectura para detallar interacciones técnicas. |
-| Desarrollo de Análisis Competitivo y Estrategia | Gabriel Ferran Espinar | Elaboré documentación escrita sobre la competencia y la estrategia, comunicando insights útiles para la toma de decisiones. |
-| Antecedentes y problemática, Lean UX Canvas y Lean UX Process | Angel Guillermo Berrospi | Redacté los apartados de investigación, contexto y metodología, comunicando de manera estructurada los fundamentos del proyecto. |
+| :--- | :--- | :--- |
+| Desarrollo de Endpoints: **Fuel Consumption** y **Report** y tareas de documentación clave | Mel Andree Orellana | **Desarrollé** los endpoints de **Fuel Consumption** y **Report** en el backend. Además, **documenté** las guías de estilo, la arquitectura de información y el segmento objetivo del proyecto, asegurando consistencia y claridad comunicativa. |
+| Desarrollo de Endpoint: **Delivery** y Tareas de Análisis Estratégico | Gabriel Ferran Espinar | **Me encargué** del endpoint **Delivery**. **Elaboré** la documentación escrita sobre el **Análisis Competitivo** y la **Estrategia**, comunicando *insights* útiles para la toma de decisiones. |
+| Desarrollo de Endpoint: **User** y Tareas de Wireframing/Prototipado | Daniel Palomino | **Me encargué** del endpoint **User**. **Documenté** los **Web Applications Wireframes**, **Wireflow Diagrams**, **Mock-ups** y **Prototyping**, facilitando la comunicación visual de la solución. |
+| Desarrollo de Endpoint: **Fleet** y Arquitectura del Software / Contexto | Angel Guillermo Berrospi | **Desarrollé** el endpoint **Fleet** y **monitoreé** el equipo. **Redacté** los diagramas de **Componentes** de la arquitectura y los apartados de **Antecedentes y problemática**, **Lean UX Canvas** y **Lean UX Process**, comunicando los fundamentos técnicos y de contexto. |
 
 **Conclusiones**  
 La comunicación escrita del equipo Movesys se distinguió por la claridad, precisión y consistencia en la documentación generada. Desde guías de estilo hasta artefactos ágiles y diagramas técnicos, la producción escrita facilitó la colaboración, la comprensión de procesos y la validación de la solución. Además, permitió mantener un registro estructurado y accesible para audiencias técnicas y no técnicas, consolidando la solidez del proyecto.
