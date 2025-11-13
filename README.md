@@ -79,12 +79,12 @@ URL Project Report (Github): (https://github.com/1ASI0730-2520-7461-SmartCoders/
 
 Para el desarrollo del informe correspondiente a todas las entregas, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:  
 
-| Integrante | Tareas Asignadas |
-| :--- | :--- |
+| Integrante | Tareas Asignadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| :--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Mel Andree Orellana** | Se encargó en el backend de el endpoint **Fuel Consumption** y **Report**, aparte hizo modificaciones de mejora en el backend y su conexión con la base de datos y el frontend. Creación de la estructura del informe, incorporación del *Landing Page UI Design*, desarrollo de *General Style Guidelines* y *Web Style Guidelines*, elaboración de la sección *Information Architecture*, desarrollo de *Organization Systems*, *Labeling Systems*, *SEO Tags and Meta Tags*, *Searching Systems* y *Navigation Systems*. También se encargó de la elaboración del *Segmento Objetivo*. |
-| **Gabriel Ferran Espinar** | Se encargó en el backend de el endpoint **Delivery**, también del reponte uno de los puntos de **validation interviews**. Ejecución del proceso de *Needfinding*, elaboración de *User Personas* y desarrollo de *User Task Matrix*. También trabajó en el *Análisis Competitivo y Estrategia*. |
-| **Daniel Palomino** | Se encargó de el endpoint **User**, también del reporte uno de los puntos de **validation interviews**. Incorporación de *Web Applications Wireframes*, *Wireflow Diagrams*, *Mock-ups* y *Prototyping*. |
-| **Angel Guillermo Berrospi** | Se encargó del endpoint **Fleet** y el **monitoreo del equipo**, la **comunicación** y la **organización**. Incorporación de *Class Diagrams* y *Database Diagram*. Desarrollo de *Software Architecture Context Diagram*, *Container Diagrams* y *Components Diagrams*. Además, participó en la redacción de *Antecedentes y problemática*, *Lean UX Canvas*, *Descripción de la Startup*, *Lean UX Process* y el desarrollo del *Sprint 1*. |
+| **Gabriel Ferran Espinar** | Se encargó en el backend de el endpoint **Delivery**, también del reponte uno de los puntos de **validation interviews**. Ejecución del proceso de *Needfinding*, elaboración de *User Personas* y desarrollo de *User Task Matrix*. También trabajó en el *Análisis Competitivo y Estrategia*.                                                                                                                                                                                                                                                                                           |
+| **Daniel Palomino** | Se encargó de el endpoint **Maintenance**, también del reporte uno de los puntos de **validation interviews**. Incorporación de *Web Applications Wireframes*, *Wireflow Diagrams*, *Mock-ups* y *Prototyping*.                                                                                                                                                                                                                                                                                                                                                                           |
+| **Angel Guillermo Berrospi** | Se encargó del endpoint **Fleet** y el **monitoreo del equipo**, la **comunicación** y la **organización**. Incorporación de *Class Diagrams* y *Database Diagram*. Desarrollo de *Software Architecture Context Diagram*, *Container Diagrams* y *Components Diagrams*. Además, participó en la redacción de *Antecedentes y problemática*, *Lean UX Canvas*, *Descripción de la Startup*, *Lean UX Process* y el desarrollo del *Sprint 1*.                                                                                                                                             |
 
 
 El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización, garantizando el versionamiento adecuado y la integración de cada aporte individual.  
@@ -1844,15 +1844,40 @@ de experiencias web y mobile, con el fin de obtener retroalimentación sobre la 
 
 
 ## 5.3.2. Registro de entrevistas.
+Se realizaron entrevista a empresas de transportes de cargas (pymes) y a conductores de unidades de cargas, quienes interactuaron con la landing page y los prototipos web/móvil del sistema MoveSys. A continuación, se resumen los puntos clave obtenidos en las entrevistas:
+**Entrevista 1:**
+- **Nombres y apellidos:** 
+- **Edad:** 27
+- **Distrito:** San Isidro
+- **Ocupación:** Jefa de operaciones en empresa de transporte de carga
+- **Inicio:** 
+- **Duración:** 
+- **URL:** 
+- **Resumen:**
+
+
+- **Entrevista 2:**
+- **Nombres y apellidos:**
+- **Edad:** 34
+- **Distrito:** Miraflores
+- **Ocupación:** Conductor de unidad de carga
+- **Inicio:**
+- **Duración:**
+- **URL:**
+- **Resumen:**
+
+
 
 ## 5.3.3. Evaluacion segun heuristicas.
 
 ## 5.4. Video About-the-Product.
 
 ## Conclusiones
-- La planificación previa es clave para el desarrollo estructurado del sistema: Durante el proceso se evidenció la necesidad de una coordinación anticipada entre las áreas de diseño, desarrollo y análisis de usuarios para alinear correctamente la funcionalidad con las necesidades reales del público objetivo.
+- Durante el proceso se evidenció que una coordinación temprana entre las áreas de diseño, desarrollo y análisis de usuarios fue clave para alinear las funcionalidades con las necesidades reales del público objetivo. Esta sinergia permitió implementar de manera integrada tanto el frontend como el backend, logrando una comunicación eficiente entre ambos y una experiencia de usuario fluida.
 
-- Se requiere mayor tiempo de organización interna para segmentar correctamente: La diferenciación entre gerentes de flota y conductores permitió establecer flujos específicos para cada uno, lo cual resalta la importancia de organizar sesiones de trabajo más detalladas por segmento antes de definir la arquitectura de información final.
+- La organización interna y la segmentación de usuarios fueron determinantes para definir la arquitectura final. La diferenciación entre gerentes de flota y conductores posibilitó establecer flujos de interacción específicos y optimizados, mejorando la usabilidad y la eficiencia del sistema. Sin embargo, se reconoció la necesidad de fortalecer las sesiones de planificación por segmentos antes del desarrollo para garantizar una arquitectura de información más precisa y escalable 
+
+- La aplicación de principios de Domain-Driven Design (DDD) fortaleció la estructura del backend. A partir de este enfoque, se identificaron los aggregates, se mejoró el diagrama de clases, y se distribuyó el trabajo del backend en bounded contexts, permitiendo una mayor claridad en la delimitación de responsabilidades y una mejor mantenibilidad del código. Este enfoque contribuyó a una arquitectura modular, facilitando la colaboración del equipo y el crecimiento futuro del sistema.
 
 
 ## Bibliografía
