@@ -1817,31 +1817,32 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 Se diseñó las entrevistas para que los usuarios de los segmentos objetivos después de interactuar con la landing page y con los prototipos
 de experiencias web y mobile, con el fin de obtener retroalimentación sobre la usabilidad, funcionalidad y satisfacción general con el sistema MoveSys.
 
-Segmento 1: Empresas de transporte de carga (pymes)
+* Segmento 1: Empresas de transporte de carga (pymes)
 
-¿Qué elementos de la landing page llamaron más tu atención al ingresar por primera vez?
-¿La información y los beneficios expuestos en la landing page son claros y relevantes para los retos de tu empresa?
-¿Cómo calificarías la facilidad de navegación y acceso a las distintas secciones (Servicios, Planes, Demo, Contacto)?
-¿El proceso de contacto y la solicitud de información te parece intuitivo y accesible para tu equipo?
-¿La sección de características (trazabilidad, evidencia fotográfica, reportes e indicadores) te parece útil para fortalecer la operación y el servicio a tus clientes?
-¿Te genera confianza la transparencia ofrecida por la plataforma tal como se presenta en la landing page?
-¿Qué tipo de información extra te gustaría ver en la página principal?
-¿Qué mejorarías en el diseño, estructura o contenido para que refleje mejor lo que tu empresa busca?
-
-
+   * ¿Qué elementos de la landing page llamaron más tu atención al ingresar por primera vez?
+   * ¿La información y los beneficios expuestos en la landing page son claros y relevantes para los retos de tu empresa?
+   * ¿Cómo calificarías la facilidad de navegación y acceso a las distintas secciones (Servicios, Planes, Demo, Contacto)?
+   * ¿El proceso de contacto y la solicitud de información te parece intuitivo y accesible para tu equipo?
+   * ¿La sección de características (trazabilidad, evidencia fotográfica, reportes e indicadores) te parece útil para fortalecer la operación y el servicio a tus clientes?
+   * ¿Te genera confianza la transparencia ofrecida por la plataforma tal como se presenta en la landing page?
+   * ¿Qué tipo de información extra te gustaría ver en la página principal?
+   * ¿Qué mejorarías en el diseño, estructura o contenido para que refleje mejor lo que tu empresa busca?
 
 
-Segmento 2: Conductores de unidades de carga
 
 
-¿Qué te llamó la atención de la landing page y qué te motivó a explorar la plataforma?
-¿La información que ves sobre las funciones para conductores te resulta clara y relevante?
-¿Te parece sencillo registrar actividades como kilometraje y entregas desde los prototipos web o móviles?
-¿La opción de envío de evidencia fotográfica durante las entregas se ve fácil de usar en la interfaz presentada?
-¿El acceso a la geolocalización en tiempo real es evidente y útil desde la landing page?
-¿Qué aspectos del diseño o estructura de la landing facilitarían tu trabajo diario?
-¿Hay alguna funcionalidad o mensaje en la landing page que te parezca innecesaria o confusa?
-¿Qué cosas mejorarías para que la plataforma web/móvil se adapte mejor a las necesidades del conductor?
+* Segmento 2: Conductores de unidades de carga
+    * ¿Qué te llamó la atención de la landing page y qué te motivó a explorar la plataforma?
+    * ¿La información que ves sobre las funciones para conductores te resulta clara y relevante?
+    * ¿Te parece sencillo registrar actividades como kilometraje y entregas desde los prototipos web o móviles?
+    * ¿La opción de envío de evidencia fotográfica durante las entregas se ve fácil de usar en la interfaz presentada?
+    * ¿El acceso a la geolocalización en tiempo real es evidente y útil desde la landing page?
+    * ¿Qué aspectos del diseño o estructura de la landing facilitarían tu trabajo diario?
+    * ¿Hay alguna funcionalidad o mensaje en la landing page que te parezca innecesaria o confusa?
+    * ¿Qué cosas mejorarías para que la plataforma web/móvil se adapte mejor a las necesidades del conductor?
+
+
+
 
 ## 5.3.2. Registro de entrevistas.
 
