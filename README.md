@@ -1870,6 +1870,147 @@ Se realizaron entrevista a empresas de transportes de cargas (pymes) y a conduct
 
 ## 5.3.3. Evaluacion segun heuristicas.
 
+## Evaluación según Heurísticas
+
+Esta sección presenta la evaluación heurística aplicada al **landing page** y la **aplicación web MoveSys**, considerando principios de **usabilidad**, **arquitectura de información** y **diseño inclusivo**.  
+El objetivo fue identificar posibles problemas de experiencia de usuario durante la interacción con las principales funcionalidades del sistema.
+
+---
+
+### SITE O APP A EVALUAR:
+**MoveSys** — Plataforma web para la gestión de operaciones logísticas y control de flota.
+
+---
+
+### TAREAS A EVALUAR:
+
+El alcance de esta evaluación incluyó la revisión de la usabilidad de las siguientes tareas:
+
+1. Visualizar métricas generales desde el **Dashboard**.
+2. Registrar y monitorear **Entregas**.
+3. Administrar **Usuarios** (gerentes y conductores).
+4. Gestionar la **Flota** (asignación, estado y disponibilidad de vehículos).
+5. Registrar y analizar el **Consumo de Combustible**.
+6. Registrar y programar **Mantenimientos** de unidades.
+7. Generar **Reportes** operativos y de rendimiento.
+8. Explorar la información de la **Landing Page** (beneficios, características y contacto).
+
+No se evaluaron en esta versión:
+- Integraciones externas con APIs de rastreo GPS.
+- Módulos de facturación o pagos automatizados.
+- Funcionalidades móviles o notificaciones push.
+
+---
+
+### ESCALA DE SEVERIDAD
+
+| Nivel | Descripción |
+|-------|--------------|
+| **1** | Problema superficial, de baja frecuencia o impacto mínimo. |
+| **2** | Problema menor, afecta levemente la experiencia; prioridad baja de corrección. |
+| **3** | Problema mayor, frecuente o confuso para el usuario; requiere corrección prioritaria. |
+| **4** | Problema muy grave; impide completar la tarea o interrumpe el flujo. |
+
+---
+
+### TABLA RESUMEN DE PROBLEMAS
+
+| # | Problema detectado | Escala de Severidad | Heurística/Principio Violado |
+|---|--------------------|---------------------|------------------------------|
+| 1 | En el **Dashboard**, algunos indicadores no tienen etiquetas claras o tooltip explicativo. | 2 | Usabilidad: Visibilidad del estado del sistema |
+| 2 | En la **Gestión de Flota**, el botón de editar vehículo no es intuitivo (ícono ambiguo). | 3 | Usabilidad: Consistencia y estándares |
+| 3 | En **Entregas**, no existe un mensaje de confirmación clara tras registrar una entrega. | 3 | Usabilidad: Retroalimentación inmediata |
+| 4 | En **Usuarios**, los campos de creación carecen de validación visual de errores. | 3 | Usabilidad: Prevención de errores |
+| 5 | En **Consumo de Combustible**, el usuario no puede exportar los datos fácilmente. | 2 | Arquitectura de Información: Accesibilidad de información |
+| 6 | En **Mantenimiento**, no hay un acceso rápido para regresar al panel principal. | 2 | Usabilidad: Control y libertad del usuario |
+| 7 | En **Reportes**, los gráficos no tienen contraste suficiente para personas con baja visión. | 2 | Inclusive Design: Proporciona experiencias comparables |
+| 8 | En la **Landing Page**, la sección de contacto no confirma visualmente el envío del formulario. | 3 | Usabilidad: Retroalimentación del sistema |
+| 9 | El menú principal de la landing no se fija (sticky) al hacer scroll, lo que dificulta la navegación. | 2 | Arquitectura de Información: Findability |
+
+---
+
+### DESCRIPCIÓN DE PROBLEMAS Y RECOMENDACIONES
+
+**PROBLEMA #1: Falta de etiquetas descriptivas en el Dashboard**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Visibilidad del estado del sistema  
+**Descripción:** Algunos indicadores presentan solo valores numéricos sin descripción contextual.  
+**Recomendación:** Añadir etiquetas o tooltips explicativos al pasar el cursor sobre cada métrica.
+
+---
+
+**PROBLEMA #2: Ícono de edición poco claro en Gestión de Flota**  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Consistencia y estándares  
+**Descripción:** El botón de edición usa un símbolo poco familiar para los usuarios.  
+**Recomendación:** Sustituirlo por un ícono universal (por ejemplo, el lápiz ️) o texto descriptivo.
+
+---
+
+**PROBLEMA #3: Falta de retroalimentación tras registrar una entrega**  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Retroalimentación inmediata  
+**Descripción:** El sistema no muestra un mensaje que confirme la entrega registrada con éxito.  
+**Recomendación:** Mostrar un modal o alerta confirmando la acción, con opción de “Ver entrega”.
+
+---
+
+**PROBLEMA #4: Campos sin validación visual en Usuarios**  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Prevención de errores  
+**Descripción:** Al dejar campos vacíos o incorrectos, no se muestran mensajes de error visibles.  
+**Recomendación:** Implementar validaciones en tiempo real y resaltar los campos en color rojo.
+
+---
+
+**PROBLEMA #5: Exportación limitada en Consumo de Combustible**  
+**Severidad:** 2  
+**Heurística violada:** Arquitectura de Información – Accesibilidad  
+**Descripción:** Los datos de consumo no pueden descargarse en formatos comunes (CSV, PDF).  
+**Recomendación:** Incluir opción de exportación en diferentes formatos para análisis externo.
+
+---
+
+**PROBLEMA #6: Navegación limitada en Mantenimiento**  
+**Severidad:** 2  
+**Heurística violada:** Usabilidad – Control y libertad del usuario  
+**Descripción:** No existe un botón de retorno rápido al panel general o módulo anterior.  
+**Recomendación:** Añadir un botón “Volver al Dashboard” o un breadcrumb superior.
+
+---
+
+**PROBLEMA #7: Contraste bajo en Reportes**  
+**Severidad:** 2  
+**Heurística violada:** Inclusive Design – Experiencias comparables  
+**Descripción:** Algunos gráficos tienen colores con bajo contraste que dificultan su lectura.  
+**Recomendación:** Aumentar contraste y permitir modos accesibles (alto contraste o modo oscuro).
+
+---
+
+**PROBLEMA #8: Sin confirmación en formulario de contacto (Landing Page)**  
+**Severidad:** 3  
+**Heurística violada:** Usabilidad – Retroalimentación del sistema  
+**Descripción:** Al enviar el formulario, no se muestra un mensaje de confirmación visible.  
+**Recomendación:** Añadir un mensaje “Tu solicitud ha sido enviada exitosamente”.
+
+---
+
+**PROBLEMA #9: Menú no fijo en la Landing Page**  
+**Severidad:** 2  
+**Heurística violada:** Arquitectura de Información – Findability  
+**Descripción:** Al desplazarse hacia abajo, el menú desaparece, dificultando el acceso a secciones.  
+**Recomendación:** Implementar un menú sticky para mejorar la navegación continua.
+
+---
+
+### Conclusión de la Evaluación Heurística
+
+En general, la aplicación **MoveSys** presenta una estructura clara y funcional, con una arquitectura bien organizada por módulos.  
+Sin embargo, se identifican oportunidades de mejora en **retroalimentación visual, accesibilidad y consistencia de navegación** que, al ser atendidas, optimizarán significativamente la experiencia del usuario y la percepción profesional del producto.
+
+---
+
+
 ## 5.4. Video About-the-Product.
 
 ## Conclusiones
