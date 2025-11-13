@@ -176,6 +176,11 @@ El proceso de colaboración en el informe se realizó mediante commits constante
     -  [5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-Services-Documentation-Evidence-for-Sprint-Review)
     -  [5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-Software-Deployment-Evidence-for-Sprint-Review)
     -  [5.2.1.8. Team Collaboration Insights during Sprint](#5218-Team-Collaboration-Insights-during-Sprint)
+    - [5.3. Validation Interviews](#53-validation-interviews)
+    - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
+    - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
+    - [5.3.3. Evaluaciones segun heurística](#533-evaluaciones-segun-heurística)
+    - [5.4. Video About-the-Product](#54-video-about-the-product)
     -  [Conclusiones](#Conclusiones)
     -  [Bibliografía](#Bibliografía)
     -  [Anexos](#Anexos)
@@ -1799,11 +1804,50 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
 
+
+
 ![Team Collaboration Insights during Sprint](assets/historial-backend1.png)
 
 ![Team Collaboration Insights during Sprint](assets/historial-backend2.png)
 
 ![Team Collaboration Insights during Sprint](assets/historial-backend3.png)
+
+## 5.3. Validation Interviews.
+## 5.3.1. Diseño de entrevistas.
+Se diseñó las entrevistas para que los usuarios de los segmentos objetivos después de interactuar con la landing page y con los prototipos
+de experiencias web y mobile, con el fin de obtener retroalimentación sobre la usabilidad, funcionalidad y satisfacción general con el sistema MoveSys.
+
+Segmento 1: Empresas de transporte de carga (pymes)
+
+¿Qué elementos de la landing page llamaron más tu atención al ingresar por primera vez?
+¿La información y los beneficios expuestos en la landing page son claros y relevantes para los retos de tu empresa?
+¿Cómo calificarías la facilidad de navegación y acceso a las distintas secciones (Servicios, Planes, Demo, Contacto)?
+¿El proceso de contacto y la solicitud de información te parece intuitivo y accesible para tu equipo?
+¿La sección de características (trazabilidad, evidencia fotográfica, reportes e indicadores) te parece útil para fortalecer la operación y el servicio a tus clientes?
+¿Te genera confianza la transparencia ofrecida por la plataforma tal como se presenta en la landing page?
+¿Qué tipo de información extra te gustaría ver en la página principal?
+¿Qué mejorarías en el diseño, estructura o contenido para que refleje mejor lo que tu empresa busca?
+
+
+
+
+Segmento 2: Conductores de unidades de carga
+
+
+¿Qué te llamó la atención de la landing page y qué te motivó a explorar la plataforma?
+¿La información que ves sobre las funciones para conductores te resulta clara y relevante?
+¿Te parece sencillo registrar actividades como kilometraje y entregas desde los prototipos web o móviles?
+¿La opción de envío de evidencia fotográfica durante las entregas se ve fácil de usar en la interfaz presentada?
+¿El acceso a la geolocalización en tiempo real es evidente y útil desde la landing page?
+¿Qué aspectos del diseño o estructura de la landing facilitarían tu trabajo diario?
+¿Hay alguna funcionalidad o mensaje en la landing page que te parezca innecesaria o confusa?
+¿Qué cosas mejorarías para que la plataforma web/móvil se adapte mejor a las necesidades del conductor?
+
+## 5.3.2. Registro de entrevistas.
+
+## 5.3.3. Evaluacion segun heuristicas.
+
+## 5.4. Video About-the-Product.
 
 ## Conclusiones
 - La planificación previa es clave para el desarrollo estructurado del sistema: Durante el proceso se evidenció la necesidad de una coordinación anticipada entre las áreas de diseño, desarrollo y análisis de usuarios para alinear correctamente la funcionalidad con las necesidades reales del público objetivo.
