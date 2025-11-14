@@ -1852,26 +1852,44 @@ de experiencias web y mobile, con el fin de obtener retroalimentación sobre la 
 
 ## 5.3.2. Registro de entrevistas.
 Se realizaron entrevista a empresas de transportes de cargas (pymes) y a conductores de unidades de cargas, quienes interactuaron con la landing page y los prototipos web/móvil del sistema MoveSys. A continuación, se resumen los puntos clave obtenidos en las entrevistas:
+
+* Segmento 1: Empresas de transporte de carga (pymes)
+  
 **Entrevista 1:**
-- **Nombres y apellidos:** 
-- **Edad:** 27
-- **Distrito:** San Isidro
+<img src="assets/ES1-1.png"/>
+- **Nombres y apellidos:** Zenia Murga Figeroa
+- **Edad:** 25
+- **Distrito:** Santa Anita
 - **Ocupación:** Jefa de operaciones en empresa de transporte de carga
-- **Inicio:** 
-- **Duración:** 
-- **URL:** 
-- **Resumen:**
+- **Inicio:** 00 minuto
+- **Duración:** 5 minutos
+- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b253_upc_edu_pe/IQD_cSxC8jshSbG6Od29R2vhAQOCwBlzFoo0GUd4YbRxVqE?e=2xzuZZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+
+
+* Segmento 2: Conductores de unidades de carga
+  
+- **Entrevista 1:**
+  <img src="assets/ES2-1.png"/>
+ - **Nombres y apellidos:**
+ - **Edad:** 24
+ - **Distrito:** Miraflores
+ - **Ocupación:** Conductor de unidad de carga
+ - **Inicio:** 00 minuto
+ - **Duración:** 4 minutos
+ - **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b253_upc_edu_pe/IQDd9MAULw0STYvPKnJIJOtjAdBFFImV45VtqTFZcn78goQ?e=murjxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 
 - **Entrevista 2:**
-- **Nombres y apellidos:**
-- **Edad:** 34
-- **Distrito:** Miraflores
-- **Ocupación:** Conductor de unidad de carga
-- **Inicio:**
-- **Duración:**
-- **URL:**
-- **Resumen:**
+  <img src="assets/ES2-2.png"/>
+ - **Nombres y apellidos:** Dante Palomino Murga
+ - **Edad:** 32
+ - **Distrito:** Santa Anita
+ - **Ocupación:** Conductor de unidad de carga
+ - **Inicio:** 00 minuto
+ - **Duración:** 5 minutos
+ - **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b253_upc_edu_pe/IQAjGeXI5UGmT7PUINA_HbTgAfshzVn_DeGY8w323sSymWQ?e=1yZWv1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
 
 
 
