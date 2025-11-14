@@ -2038,6 +2038,10 @@ Sin embargo, se identifican oportunidades de mejora en **retroalimentación visu
 
 ## 5.4. Video About-the-Product.
 
+<img src="assets/about-the-product.png"/>
+
+Enlace del video:https://youtu.be/pHDVkNrEIK8 
+
 ## Conclusiones
 - Durante el proceso se evidenció que una coordinación temprana entre las áreas de diseño, desarrollo y análisis de usuarios fue clave para alinear las funcionalidades con las necesidades reales del público objetivo. Esta sinergia permitió implementar de manera integrada tanto el frontend como el backend, logrando una comunicación eficiente entre ambos y una experiencia de usuario fluida.
 
