@@ -16,10 +16,10 @@
 
 * Integrantes
 
-    * Gabriel Ferran Espinar Martínez U202310436
-    * Angel Guillermo Berrospi Marin U202114701
-    * Orellana Rodriguez Mel Andree U202116018
-    * Daniel Stalin Palomino Murga U20201B253
+    * U202310436 Ferran Espinar Martínez 
+    * U202114701 Guillermo Berrospi Marin 
+    * U202116018 Rodriguez Mel Andree 
+    * U20201B253 Stalin Palomino Murga 
 
 <div>
 
