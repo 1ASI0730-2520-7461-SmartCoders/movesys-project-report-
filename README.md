@@ -606,9 +606,9 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 ![Jira Evidence](assets/Jira-Evidence2.png)
 
 
-| **Id** | **User Story / Task Title** | **Task Description** | **Estimation (Points)** | **Assigned To** | **Status** |
+| **Id** | **User Story / Task Title** | **Task Description** | **Estimation hours** | **Assigned To** | **Status** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **US-29** | **Registration Form Implementation (Frontend)** | Build the responsive registration form fields (email, password) and necessary validation logic. | **2** | Daniel Palomino | To-do |
+| **US-29** | **Registration Form Implementation (Frontend)** | Build the responsive registration form fields (email, password) and necessary validation logic. | **3** | Daniel Palomino | To-do |
 | **T-02** | Integrate TS01-API POST (Registration) | Connect the registration form submission to the `/api/users` endpoint and handle success/error responses (per TS01-API Escenario 01). | | Andre Orellana | To-do |
 | **US-29** | **Login Form Implementation (Frontend)** | Build the responsive login form and implement form submission logic. | **2** | Gabriel Espinar | To-do |
 | **T-04** | Integrate TS01-API Authentication (Login) | Call the authentication endpoint, get the JWT token, and implement secure token storage (e.g., `HttpOnly cookies`). | | Andre Orellana | To-do |
@@ -658,18 +658,7 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review. 
 
-| Required Evidence | Process Detail | Suggested Screenshots |
-| :--- | :--- | :--- |
-| **Hosting Environment Setup** | **Server Resource Creation/Configuration:** The hosting service in the cloud provider (e.g., AWS EC2, Azure App Service, VPS) dedicated to the Web Service was configured. RAM/CPU requirements were specified. | Image of the Cloud Provider console showing the hosting resource (VM or Application Service) created and in the `Running` state. |
-| **Code Deployment Process** | The deployment method was defined (e.g., FTP, Git Push, JAR/WAR file). The final build of the IAM module code was uploaded and executed to expose the `/api/users` endpoint at the public URL. | Screenshot of the server's deployment log or the service control panel showing the status as `Deployed Successfully`. |
-| **Environment Variables Configuration** | Critical environment variables (e.g., **Database Connection URL**, secure JWT keys) were configured on the server for the Web Service to operate securely (without these details in the source code). | Image of the server's environment variable configuration panel (values should be obscured). |
-| **Endpoint Connectivity Test** | Verification that the Registration/Login endpoint (`/api/users`) is accessible and functional from an external tool (Postman or curl). | Screenshot from **Postman** showing a successful `POST` request to the IAM endpoint with a **201** code. |
 
-| Required Evidence | Process Detail | Suggested Screenshots |
-| :--- | :--- | :--- |
-| **Web Application Update** | The Continuous Integration/Deployment (CI/CD) pipeline was executed to build and deploy the updated version of the web application, including the Login/Registration forms and the Auth Guard logic. | Image of the CI/CD log (e.g., GitHub Actions) showing the successful *build* and *deploy* of the Frontend. |
-| **API URL Configuration** | The environment variable in the Frontend (e.g., `REACT_APP_API_URL`) was updated to point to the public URL of the deployed Web Service (Backend). | Screenshot of the Frontend's environment variable configuration file or hosting platform settings. |
-| **End-to-End Functional Test** | Visual evidence of a test user completing the full cycle: navigating to *Registration*, **consuming the Web Service** to create the account, logging in, and successfully being redirected to the **Dashboard**. | Sequence of images from the **live application** showing the successful Login form submission and the subsequent Dashboard view. |
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
 
