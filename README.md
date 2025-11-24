@@ -618,6 +618,39 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 | **TOTAL** | | **Total Committed Points** | **6** | | |
 
 
+
+
+<div align="center">
+    <table>
+        <tr>
+            <th colspan="1">Sprint #</th>
+            <th colspan="7">Sprint 1</th>
+        </tr>
+        <tr>
+            <th colspan="2">User Story</th>
+            <th colspan="6">Work-Item / Task</th>
+        </tr>
+        <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Estimation (Hours)</th>
+            <th>Assigned To</th>
+            <th>Status (To-Do / In-Process / To-Review / Done)</th>
+        </tr>
+        <tr>
+            <td>US01</td>
+            <td>Información general y beneficios</td>
+            <td>T01</td>
+            <td>Diseñar vista principal</td>
+            <td>Crear una sección principal donde presentamos nuestro producto</td>
+            <td>2</td>
+            <td>Palomino</td>
+            <td>Done</td>
+        </tr>
+
 ### 5.2.3.4. Development Evidence for Sprint Review. 
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Day) |
