@@ -4,9 +4,8 @@
 ![Logo Banner](assets/Banner-UPC.png)
 
 ## Universidad Peruana de Ciencias Aplicadas
-### Ingeniería de Software 💻
-### Séptimo Ciclo
-### Curso: Aplicaciones Web (1ASI0730)
+### Ingeniería de Software - 2025-20
+### Curso: Aplicaciones Web - 1ASI0730
 ### NRC: 7461
 ### Docente: Ángel Augusto Velásquez Núñez
 ### Startup: SmartCoders
@@ -17,7 +16,6 @@
 
 * Integrantes
 
-    * Merly Salon Puerta U20201b772
     * Gabriel Ferran Espinar Martínez U202310436
     * Angel Guillermo Berrospi Marin U202114701
     * Orellana Rodriguez Mel Andree U202116018
@@ -95,8 +93,8 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 ## Contenido
 
-- [✨ Informe Trabajo Final ✨](#-informe-trabajo-final-)
-    - [Universidad Peruana de Ciencias Aplicadas 🎓](#universidad-peruana-de-ciencias-aplicadas-)
+- [Informe Trabajo Final ](#-informe-trabajo-final-)
+    - [Universidad Peruana de Ciencias Aplicadas ](#universidad-peruana-de-ciencias-aplicadas-)
     - [Registro de versiones del Informe](#registro-de-versiones-del-informe)
     - [Project Report Collaboration Insights](#project-report-collaboration-insights)
     - [Contenido](#contenido)
@@ -117,7 +115,7 @@ El proceso de colaboración en el informe se realizó mediante commits constante
     - [2.1. Competidores](#21-competidores)
     - [2.1.1. Análisis competitivo](#211-análisis-competitivo)
     - [2.1.2. Estrategias y tácticas frente a competidores](#212-estrategias-y-tácticas-frente-a-competidores)
-    - [2.2. Entrevistas 📝](#22-entrevistas-)
+    - [2.2. Entrevistas ](#22-entrevistas-)
     - [2.2.1. Diseño de entrevistas](#221-diseño-de-entrevistas)
     - [2.2.2. Registro de entrevistas](#222-registro-de-entrevistas)
     - [2.2.3. Análisis de entrevistas](#223-análisis-de-entrevistas)
@@ -895,7 +893,7 @@ El Lenguaje Ubicuo hace referencia a un vocabulario común y compartido que empl
     
 ## 3.3. Product Backlog.
 
-| \# orden | User Story ID | Título                                | Descripción | Story Point (1/2/3/5/8) |
+| \# orden | User Story ID | Título                                | Descripción | Story Points |
 | :---: | :---: |---------------------------------------| ----- | :---: |
 | 1 | US-13 | Registrar incidente                   | Como conductor, quiero informar incidentes durante la entrega para que el gestor pueda tomar acción. | 8 |
 | 2 | US-09 | Revisar rutas programadas             | Como gestor, quiero ver las rutas asignadas a cada unidad para controlar su cumplimiento operativo. | 8 |
