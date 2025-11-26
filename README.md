@@ -274,7 +274,7 @@ En el siguiente cuadro se describe las acciones realizadas y enunciados de concl
 
 - **Inicio:** 1:07 
 - **Duración:** 7:12
-- **URL:**  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114701_upc_edu_pe/Ea9HzqfEW_xKin2PIKDPPDQBnvHFCDQ2QxmlHFo18piDOg?e=15W53g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **URL:** [Entrevista-de-Rodrigo]( https://upcedupe-my.sharepoint.com/:v:/g/personal/u202114701_upc_edu_pe/Ea9HzqfEW_xKin2PIKDPPDQBnvHFCDQ2QxmlHFo18piDOg?e=15W53g&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
   
 
 **Resumen:**  
@@ -291,8 +291,9 @@ Rodrigo es un jefe de operaciones de 29 años que administra 15 camiones en ruta
 
 - **Inicio:** 0:30
 - **Duración:** 5:41
-- **URL:**  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310436_upc_edu_pe/EZpNstlD9sZCleSoavzsFRQBI3gVH8kAbvrmViPStmRxZw?e=PFcMg7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
+- **URL:** [Entrevista-de-Rai](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202310436_upc_edu_pe/EZpNstlD9sZCleSoavzsFRQBI3gVH8kAbvrmViPStmRxZw?e=PFcMg7&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  
+  
 **Resumen:**  
 Raí Beizaga, de 25 años y asistente administrativo de logística en Transportes Línea, reside en Cercado de Lima y apoya en la gestión de varios camiones que cubren rutas en Lima y provincias cercanas como Ica y Trujillo. Actualmente, los choferes entregan los datos de kilometraje y consumo de combustible en papel, que luego Raí transcribe manualmente en Excel, lo que ocasiona errores de cálculo, pérdida de documentos y duplicidad de trabajo. La consolidación de información puede tardar entre dos y tres días, retrasando reportes y afectando la planificación. Estos problemas generan sobrecostos en combustible, atrasos en las rutas y, en algunos casos, reclamos de clientes por discrepancias en la facturación. Raí considera prioritario contar con una plataforma digital que permita registrar automáticamente kilometraje, consumo y datos de ruta en tiempo real, reduciendo errores y tiempos de registro. Estaría dispuesto a recomendar una inversión entre USD 500 y USD 800 al mes, siempre que la solución sea sencilla de usar, requiera una curva de aprendizaje mínima y ofrezca beneficios inmediatos en eficiencia y reducción de costos.  
 
@@ -309,7 +310,8 @@ Raí Beizaga, de 25 años y asistente administrativo de logística en Transporte
 
 - **Inicio:** 0:45  
 - **Duración:** 4:56 
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b772_upc_edu_pe/ETSv6rhzDdxNkM03P9Zj_P0BSw4jGok4KFX8KBUAhJLKyg?e=dRDbjV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **URL:** [Entrevista-de-Juan](https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b772_upc_edu_pe/ETSv6rhzDdxNkM03P9Zj_P0BSw4jGok4KFX8KBUAhJLKyg?e=dRDbjV&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  
 
 **Resumen:**  
 Juan Pérez, de 27 años, chofer de transporte de carga con más de dos años de experiencia en rutas locales y provinciales, reside en San Martín de Porres e inicia la mayoría de sus recorridos desde los almacenes de Ate y Callao. Utiliza un smartphone Android de gama media para coordinar con su supervisor vía WhatsApp, guiarse con Google Maps y registrar entregas mediante fotografías. Actualmente anota el kilometraje en un cuaderno y guarda los recibos físicos de combustible, lo que implica pérdidas frecuentes de papeles, confusión en los datos y hasta 30 minutos diarios en registros manuales. Juan considera que una aplicación móvil sería muy útil siempre que sea sencilla, rápida y automática, permitiéndole registrar entregas con fotos, firmas digitales, kilometraje, consumo de combustible y mantener un historial de viajes con reportes automáticos. Se sentiría cómodo usando la app si recibe una breve capacitación inicial, y estaría motivado a completar puntualmente sus reportes si la empresa reconoce su esfuerzo con incentivos o bonos de desempeño.  
@@ -325,7 +327,9 @@ Juan Pérez, de 27 años, chofer de transporte de carga con más de dos años de
 
 - *Inicio:* 0:45  
 - *Duración:* 16:05 
-- *URL:* https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/EW9y9jkp48pIkAK8uQ0peWYBNkoEKy152gjOcLwZXVDJbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0trloz
+- *URL:* [Entrevista-de-Adolfo](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/EW9y9jkp48pIkAK8uQ0peWYBNkoEKy152gjOcLwZXVDJbw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=0trloz)
+
+
   
 
 *Resumen:*  
