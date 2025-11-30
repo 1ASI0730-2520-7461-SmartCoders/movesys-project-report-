@@ -4,8 +4,7 @@
 ![Logo Banner](assets/Banner-UPC.png)
 
 ## Universidad Peruana de Ciencias Aplicadas
-### Ingeniería de Software - 2025-20
-### Curso: Aplicaciones Web - 1ASI0730
+
 ### NRC: 7461
 ### Docente: Ángel Augusto Velásquez Núñez
 ### Startup: SmartCoders
@@ -26,6 +25,7 @@
 ### Septiembre 2025
 
 # **Registro de Versiones del Informe**
+
 
 | Versión  | Fecha | Autor | Descripción de modificación |
 |:--------:|:-----:|:-----:|-----------------------------|
@@ -65,6 +65,22 @@
 |          |  18/09/2025      |    Angel Guillermo Berrospi     | Sprint 1 |
 |          |  18/09/2025      |  Angel Guillermo Berrospi       | Descripción de la Startup |
 |          |   18/09/2025     |  Angel Guillermo Berrospi       | Lean UX Process |
+| TP1      |   09/10/2025     |   Mel Andree Orellana Rodriguez       | Implementación del módulo Fuel Consumption en el frontend |
+|          |   09/10/2025     |   Mel Andree Orellana Rodriguez       | Implementación del módulo Reporting en el frontend |
+|          |   10/10/2025     |   Mel Andree Orellana Rodriguez       | Desarrollo de vistas y componentes para gestión de consumo de combustible |
+|          |   10/10/2025     |   Mel Andree Orellana Rodriguez       | Desarrollo de vistas y componentes para reportes y análisis |
+|          |   11/10/2025     |   Mel Andree Orellana Rodriguez       | Configuración de servicios API para Fuel Consumption en el frontend |
+|          |   11/10/2025     |   Mel Andree Orellana Rodriguez       | Configuración de servicios API para Report en el frontend |
+|          |   12/10/2025     |   Mel Andree Orellana Rodriguez       | Implementación de store y state management para Fuel Consumption |
+|          |   12/10/2025     |   Mel Andree Orellana Rodriguez       | Implementación de store y state management para Reporting |
+|          |   13/10/2025     |   Mel Andree Orellana Rodriguez       | Mejoras en la integración del frontend con el backend |
+|          |   13/10/2025     |   Mel Andree Orellana Rodriguez       | Optimización de componentes frontend y mejoras en la experiencia de usuario |
+| TB2      |   06/11/2025     |   Mel Andree Orellana Rodriguez       | Implementación del endpoint Fuel Consumption en el backend |
+|          |   06/11/2025     |   Mel Andree Orellana Rodriguez       | Implementación del endpoint Report en el backend |
+|          |   07/11/2025     |   Mel Andree Orellana Rodriguez       | Modificaciones de mejora en el backend y conexión con la base de datos |
+|          |   08/11/2025     |   Mel Andree Orellana Rodriguez       | Mejoras en la integración del backend con el frontend |
+| TF1      |   04/12/2025     |   Mel Andree Orellana Rodriguez       | Corrección de bugs y mejoras en la funcionalidad del frontend |
+|          |   05/12/2025     |   Mel Andree Orellana Rodriguez       | Refactorización de código frontend para mejor mantenibilidad |
 
 
 
