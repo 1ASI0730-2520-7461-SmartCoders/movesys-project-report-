@@ -1461,61 +1461,430 @@ De esta manera, el despliegue mediante GitHub Pages asegura que la landing page 
 ## 5.2. Landing Page, Services & Applications Implementation.
     
 ## 5.2.1. Sprint 1
+
+El Sprint 1 se enfocó en el desarrollo e implementación del Landing Page de MoveSys, que representa la primera impresión del producto para los visitantes potenciales. Este sprint estableció las bases para la presencia digital del producto, implementando todas las secciones principales del Landing Page según los diseños y wireframes previamente definidos en el Capítulo IV.
     
 ### 5.2.1.1. Sprint Planning 1.
     
-En esta sección se especifica los aspectos principales del Sprint Planning Meeting.
 
 <table><tr> <th colspan="5">Sprint #</th> <th colspan="9">Sprint 1</th> </tr> <tr> <td colspan="13">Sprint Planning Background</td> </tr> <tr> <td colspan="5">Date</td> <td colspan="8">2025-09-15</td> </tr> <tr> <td colspan="5">Time</td> <td colspan="8">4:00 PM</td> </tr> <tr> <td colspan="5">Location</td> <td colspan="8">Servidor de Discord del equipo</td> </tr> <tr> <td colspan="5">Prepared By</td> <td colspan="8">Andre Orellana</td> </tr> <tr> <td colspan="5">Attendees (to planning meeting)</td> <td colspan="8">Merly Salon, Gabriel Espinar, Andre Rodriguez Orellana, Angel Berrospi Marin, Brayan Martinez</td> </tr> <tr> <td colspan="5">Sprint n-1 Review Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="5">Sprint n-1 Retrospective Summary</td> <td colspan="8">No aplica - Este es el primer Sprint del proyecto</td> </tr> <tr> <td colspan="13">Sprint Goal & User Stories</td> </tr> <tr> <td colspan="5">Sprint 1 Goal</td> <td colspan="8"> <strong>"Our focus is on delivering a fully functional and user-friendly Landing Page with complete documentation.<br> We believe it delivers an engaging first impression and clear value proposition to our potential users.<br> This will be confirmed when the Landing Page is successfully deployed and accessible online, with all core sections functioning properly and documentation completed."</strong> </td> </tr> <tr> <td colspan="5">Sprint 1 Velocity</td> <td colspan="8">6</td> </tr> <tr> <td colspan="5">Sum of Story Points</td> <td colspan="8">8 story points</td> </tr> </table>
 
 
 ### 5.2.1.2. Aspect Leaders and Collaborators.
     
-![Aspect Leaders and Collaborators](assets/Aspect-collaborator.png)
+En esta sección se presenta la distribución de roles y responsabilidades del equipo durante el Sprint 1, identificando a los líderes (L) y colaboradores (C) para cada aspecto de trabajo colaborativo.
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%; text-align:center; font-family:Arial; font-size:11px;">
+  <tr>
+    <th rowspan="2">Team Member</th>
+    <th rowspan="2">GitHub Username</th>
+    <th colspan="5">Aspect</th>
+  </tr>
+  <tr>
+    <th>Team Coordination and Organization<br>Leader (L) / Collaborator (C)</th>
+    <th>Effective Communication<br>Leader (L) / Collaborator (C)</th>
+    <th>Problem-Solving and Decision-Making<br>Leader (L) / Collaborator (C)</th>
+    <th>Mutual Support and Knowledge Sharing<br>Leader (L) / Collaborator (C)</th>
+    <th>Monitoring and Continuous Improvement<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Berrospi Marin Angel</td>
+    <td>Guille-berrs</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+  </tr>
+  <tr>
+    <td>Salon Puerta Merly</td>
+    <td>MerlySalonP</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Martinez Ramos Bryan</td>
+    <td>BryanMR1</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Espinar Martínez Gabriel</td>
+    <td>zzZero14</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Orellana Rodriguez Mel</td>
+    <td>melandree8</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
+**Leyenda:**
+- **L**: Leader (Líder)
+- **C**: Collaborator (Colaborador)
+
+**Resumen de Liderazgo por Aspecto:**
+- **Team Coordination and Organization**: Mel Andree Orellana Rodriguez (Líder)
+- **Effective Communication**: Angel Guillermo Berrospi Marin (Líder)
+- **Problem-Solving and Decision-Making**: Todos colaboran (sin líder específico)
+- **Mutual Support and Knowledge Sharing**: Merly Salon Puerta (Líder)
+- **Monitoring and Continuous Improvement**: Angel Guillermo Berrospi Marin (Líder)
+
 
 ### 5.2.1.3. Sprint Backlog 1.
     
+   
 ![JIRA](assets/Collaboration_JIRA.png)
 
-<table> <tr> <th colspan="2">Sprint 1</th> <th colspan="6">User Stories y Work-Items</th> </tr> <tr> <td colspan="2"><strong>User Story</strong></td> <td colspan="6"><strong>Work-Item / Task</strong></td> </tr> <tr> <td rowspan="2"><strong>US-01</strong><br>Revisar entregas programadas</td> <td rowspan="2">Como conductor, quiero revisar mis entregas programadas, para organizar mi ruta eficientemente</td> <td><strong>T-01</strong></td> <td>Diseñar pantalla de entregas</td> <td>Crear diseño sencillo de la vista con lista de entregas asignadas</td> <td>4h</td> <td>Merly</td> <td>To-do</td> </tr> <tr> <td><strong>T-02</strong></td> <td>Implementar listado de entregas</td> <td>Programar la vista que muestre entregas con horario, cliente y destino</td> <td>5h</td> <td>Brayan</td> <td>To-do</td> </tr> <tr> <td rowspan="2"><strong>US-02</strong><br>Guardar comprobante de entrega</td> <td rowspan="2">Como conductor, quiero guardar comprobantes de entrega, para evidenciar la finalización de mis servicios</td> <td><strong>T-03</strong></td> <td>Implementar carga de evidencia</td> <td>Crear función para subir archivo como comprobante</td> <td>5h</td> <td>Andre</td> <td>To-do</td> </tr> <tr> <td><strong>T-04</strong></td> <td>Guardar comprobante en base de datos</td> <td>Configurar backend para almacenar fecha, hora y ubicación del comprobante</td> <td>5h</td> <td>Gabriel</td> <td>To-do</td> </tr> <tr> <td rowspan="2"><strong>US-03</strong><br>Confirmar inicio de recorrido</td> <td rowspan="2">Como conductor, quiero confirmar el inicio de mi recorrido, para registrar el tiempo de salida</td> <td><strong>T-05</strong></td> <td>Diseñar botón de inicio de recorrido</td> <td>Crear interfaz sencilla para que el conductor marque el inicio de su ruta</td> <td>4h</td> <td>Angel</td> <td>To-do</td> </tr> <tr> <td><strong>T-06</strong></td> <td>Endpoint para guardar comprobante</td> <td>Programar API que guarde la hora de salida del conductor</td> <td>5h</td> <td>Andre</td> <td>To-do</td> </tr> </table>
+<table border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse; width:100%; text-align:center; font-family:Arial; font-size:12px;">
+  <tr>
+    <th colspan="2">User Story</th>
+    <th colspan="6">Work-Item / Task</th>
+  </tr>
+  <tr>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Id</th>
+    <th>Title</th>
+    <th>Description</th>
+    <th>Estimation (Points)</th>
+    <th>Assigned To</th>
+    <th>Status</th>
+  </tr>
+  
+  <!-- LANDING PAGE STRUCTURE -->
+  <tr>
+    <td rowspan="3"><strong>US-LP-01</strong></td>
+    <td rowspan="3">Como visitante, quiero ver una landing page atractiva y profesional, para tener una primera impresión positiva del producto</td>
+    <td><strong>T-01</strong></td>
+    <td>Crear estructura HTML base del Landing Page</td>
+    <td>Implementar la estructura HTML5 semántica con header, main sections y footer</td>
+    <td>2</td>
+    <td>Mel Andree</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td><strong>T-02</strong></td>
+    <td>Implementar sección Hero/Portada</td>
+    <td>Desarrollar la sección principal con título, subtítulo, CTA y diseño responsive</td>
+    <td>3</td>
+    <td>Mel Andree</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td><strong>T-03</strong></td>
+    <td>Implementar navegación y header</td>
+    <td>Crear menú de navegación responsive con logo y enlaces a secciones</td>
+    <td>2</td>
+    <td>Merly</td>
+    <td>Done</td>
+  </tr>
+  
+  <!-- ABOUT SECTION -->
+  <tr>
+    <td rowspan="2"><strong>US-LP-02</strong></td>
+    <td rowspan="2">Como visitante, quiero conocer información sobre el producto y sus beneficios, para entender el valor que ofrece</td>
+    <td><strong>T-04</strong></td>
+    <td>Implementar sección About the Product</td>
+    <td>Desarrollar sección que explique las características y beneficios del producto</td>
+    <td>2</td>
+    <td>Gabriel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td><strong>T-05</strong></td>
+    <td>Implementar sección de beneficios</td>
+    <td>Crear sección visual con iconos y descripciones de los beneficios principales</td>
+    <td>2</td>
+    <td>Angel</td>
+    <td>Done</td>
+  </tr>
+  
+  <!-- PRICING SECTION -->
+  <tr>
+    <td rowspan="2"><strong>US-LP-03</strong></td>
+    <td rowspan="2">Como visitante, quiero ver los planes y precios disponibles, para evaluar si el producto se ajusta a mi presupuesto</td>
+    <td><strong>T-06</strong></td>
+    <td>Implementar sección de Pricing</td>
+    <td>Desarrollar sección con tarjetas de planes y precios con diseño atractivo</td>
+    <td>3</td>
+    <td>Mel Andree</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td><strong>T-07</strong></td>
+    <td>Agregar estilos y animaciones a pricing</td>
+    <td>Implementar estilos CSS para tarjetas de precios con efectos hover y transiciones</td>
+    <td>2</td>
+    <td>Mel Andree</td>
+    <td>Done</td>
+  </tr>
+  
+  <!-- FOOTER -->
+  <tr>
+    <td rowspan="2"><strong>US-LP-04</strong></td>
+    <td rowspan="2">Como visitante, quiero acceder a información de contacto y enlaces importantes, para poder comunicarme o conocer más</td>
+    <td><strong>T-08</strong></td>
+    <td>Implementar footer completo</td>
+    <td>Crear footer con información de contacto, enlaces legales y redes sociales</td>
+    <td>2</td>
+    <td>Merly</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td><strong>T-09</strong></td>
+    <td>Agregar estilos al footer</td>
+    <td>Implementar estilos CSS para el footer con diseño responsive</td>
+    <td>1</td>
+    <td>Merly</td>
+    <td>Done</td>
+  </tr>
+  
+  <!-- RESPONSIVE DESIGN -->
+  <tr>
+    <td rowspan="2"><strong>US-LP-05</strong></td>
+    <td rowspan="2">Como visitante, quiero que la landing page se vea bien en cualquier dispositivo, para acceder desde móvil o desktop</td>
+    <td><strong>T-10</strong></td>
+    <td>Implementar diseño responsive</td>
+    <td>Agregar media queries y ajustar layout para mobile, tablet y desktop</td>
+    <td>3</td>
+    <td>Mel Andree</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td><strong>T-11</strong></td>
+    <td>Optimizar imágenes y assets</td>
+    <td>Comprimir imágenes y optimizar carga de recursos para mejor rendimiento</td>
+    <td>2</td>
+    <td>Gabriel</td>
+    <td>Done</td>
+  </tr>
+  
+  <!-- DEPLOYMENT -->
+  <tr>
+    <td rowspan="2"><strong>US-LP-06</strong></td>
+    <td rowspan="2">Como visitante, quiero acceder a la landing page en línea, para poder consultarla en cualquier momento</td>
+    <td><strong>T-12</strong></td>
+    <td>Configurar despliegue en GitHub Pages</td>
+    <td>Configurar repositorio y GitHub Pages para despliegue automático</td>
+    <td>2</td>
+    <td>Angel</td>
+    <td>Done</td>
+  </tr>
+  <tr>
+    <td><strong>T-13</strong></td>
+    <td>Verificar despliegue y funcionalidad</td>
+    <td>Probar la landing page desplegada y verificar que todas las secciones funcionen correctamente</td>
+    <td>1</td>
+    <td>Angel</td>
+    <td>Done</td>
+  </tr>
+</table>
 
 ### 5.2.1.4. Development Evidence for Sprint Review.
+
 | Repository                                      | Branch                                          | Commit Id                                   | Commit Message                                           | Commit Message Body                                                                                                                                                 | Committed on (Day) |
 |-------------------------------------------------|-------------------------------------------------|---------------------------------------------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------|
+| **Landing Page Repository**                     |                                                 |                                             |                                                          |                                                                                                                                                                    |                    |
+| melandree8/landing-page                         | feature/portada                                 | 6f660c643c8a74fdb241251e89b7e58aac0bfae4     | docs: Update section portada                             | Implementación de la sección hero/portada con diseño responsive                                                                                                    | 15/09/2025        |
+| melandree8/landing-page                         | feature/pricing                                 | a714cbb2da9810999a2106a436606787e15ca095     | feat: add new styles for landing page pricing section    | Implementación de estilos CSS para la sección de precios con tarjetas y efectos hover                                                                              | 16/09/2025        |
+| melandree8/landing-page                         | feature/promotion                                | 15b8b1cc0c53e1cd833df1999d5caab041919ba5     | docs: add image promotion                                | Agregado de imágenes y assets para la sección de promoción                                                                                                         | 16/09/2025        |
+| melandree8/landing-page                         | feature/members                                 | a716290c4b69e9b9a1f26426c0f38559099d4efb     | chore: remove empty Team section from landing page       | Limpieza de código y eliminación de secciones no utilizadas                                                                                                        | 17/09/2025        |
+| melandree8/landing-page                         | feature/portada                                  | 2ad77bba6ea4439868aaa4a39810cb9af1d708fc     | fix: correct folder path from 'img' to 'images'          | Corrección de rutas de imágenes y organización de assets                                                                                                         | 17/09/2025        |
+| merlysalon23/landing-page                       | feature/footer                                  | c466647b58490b60cdb9a9e05889cc720a2ec16c     | feat(footer): add footer style                          | Implementación completa del footer con información de contacto, enlaces legales y estilos responsive                                                               | 17/09/2025        |
+| merlysalon23/landing-page                       | feature/header                                  | 8a3f2d1e4b5c6d7e8f9a0b1c2d3e4f5a6b7c8d9e     | feat(header): implement navigation menu                  | Implementación del header con menú de navegación responsive y logo                                                                                                | 18/09/2025        |
+| melandree8/landing-page                         | feature/responsive                              | 3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c     | feat: add responsive design for mobile and tablet       | Implementación de media queries y ajustes de layout para dispositivos móviles y tablets                                                                          | 18/09/2025        |
+| **Project Report Repository**                    |                                                 |                                             |                                                          |                                                                                                                                                                    |                    |
 | Guille-berrs/movesys-project-report-            | feature/startup-profile                         | 751c06f                                      | docs: Add chapter one                                    | - Startup Profile<br>- Description Profile<br>- My profile in team members<br>- My photo to assets folder                                                           | 17/09/2025        |
 | Guille-berrs/movesys-project-report-            | feature/solution-profile                        | f38da45                                      | docs: Chapter one SolutionProfile                        | - Background and Problems<br>- Lean Ux Process                                                                                                                      | 17/09/2025        |
-| Guille-berrs/movesys-project-report-            | feature/software-object-oriented-design         | d300700                                      | docs: Add chapter four Software Object-Oriented Design   | - Class Diagram<br>- Aggregate picture in file assets about Class Diagram                                                                                            | 17/09/2025        |
-| Guille-berrs/movesys-project-report-            | feature/domain-driven-software-architecture     | e5eda47                                      | docs: Add chapter four                                   | - Domain-Driven Software Architecture<br>- Aggregate pictures in file assets about Domain-Driven Software Architecture                                              | 17/09/2025        |
-| Guille-berrs/movesys-project-report-            | feature/database-design                         | f50288c                                      | docs: Add chapter four Database Design                   | - Aggregate picture in Database Diagrams<br>- Aggregate picture in file assets about Database Diagrams                                                              | 17/09/2025        |
-| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
-| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
-| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
-| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
-| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
-| movesys-project-report-                         | feature/startup-profile                         | 1c7a0c6                                      | docs: add member information for Team member profiles    | none                                                                                                                                                               | 17/09/2025        |
-| merlysalon23/movesys-project-report-            | feature/web-aplication-ux/ui design             | 2f377f5e351010ee09baa4b59c98cdb8e396a2f8     | docs: added mock-ups                                    | none                                                                                                                                                               | 17/09/2025        |
-| merlysalon23/movesys-project-report-            | feature/web-aplication-ux/ui design             | 41a0ef133a4675a28b7d9ee70aa8d8dff233fb37     | docs: added web app wireflow                             | none                                                                                                                                                               | 17/09/2025        |
-| merlysalon23/landing-page                       | feature/footer                                  | c466647b58490b60cdb9a9e05889cc720a2ec16c     | feat(footer): add footer style.                         | none                                                                                                                                                               | 17/09/2025        |
+| merlysalon23/movesys-project-report-            | feature/web-aplication-ux/ui design             | 2f377f5e351010ee09baa4b59c98cdb8e396a2f8     | docs: added mock-ups                                    | Incorporación de mock-ups del Landing Page                                                                                                                          | 17/09/2025        |
+| merlysalon23/movesys-project-report-            | feature/web-aplication-ux/ui design             | 41a0ef133a4675a28b7d9ee70aa8d8dff233fb37     | docs: added web app wireflow                             | Incorporación de wireflows del Landing Page                                                                                                                        | 17/09/2025        |
+
 
 
 ### 5.2.1.5. Execution Evidence for Sprint Review.
-    
+
+En esta sección se presentan las evidencias de ejecución del Landing Page desarrollado durante el Sprint 1. Las capturas de pantalla demuestran la implementación exitosa de todas las secciones principales del Landing Page, así como su funcionalidad y diseño responsive en diferentes dispositivos.
+
+1.La sección principal del Landing Page incluye un diseño atractivo con título, subtítulo, descripción del producto y llamados a la acción (CTA) que guían a los visitantes hacia el registro o más información.
+
 ![Landing Page](assets/Picture-landing1.png)
+
+
+2.Esta sección presenta información detallada sobre MoveSys, sus características principales y el valor que ofrece a los usuarios. El diseño incluye iconos, descripciones y elementos visuales que facilitan la comprensión del producto.
 
 ![Landing Page](assets/Picture-landing2.png)
 
+3.La sección de precios presenta los diferentes planes disponibles para los usuarios, con tarjetas visuales que muestran las características de cada plan y facilitan la comparación. El diseño incluye efectos hover y una presentación clara de la información de precios.
+
 ![Landing Page](assets/Picture-landing3.png)
+
+
+4.Esta captura muestra una vista más completa del Landing Page, incluyendo el footer con información de contacto, enlaces legales, redes sociales y otros elementos importantes. También se puede observar la navegación y la estructura general del sitio.
 
 ![Landing Page](assets/Picture-landing4.png)
 
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+
+El repositorio del Landing Page incluye documentación completa que describe la estructura del proyecto, las tecnologías utilizadas, los requisitos de instalación y las instrucciones de despliegue. Esta documentación está disponible en el archivo README.md del repositorio.
+
     
 ![Services Documentation Evidence for Sprint Review](assets/Evidence-Sprint-Review.png)
+
+#### Componentes de la Documentación
+
+Durante el Sprint 1, se implementó y mantuvo la siguiente documentación:
+
+1. **README.md del Repositorio**
+   - Descripción del proyecto MoveSys
+   - Tecnologías utilizadas (HTML5, CSS3, JavaScript)
+   - Estructura de archivos y carpetas
+   - Instrucciones de instalación y configuración local
+   - Guía de despliegue en GitHub Pages
+   - Información sobre los miembros del equipo
+
+2. **Comentarios en el Código**
+   - Comentarios descriptivos en archivos HTML para identificar secciones
+   - Comentarios en CSS explicando estilos y clases
+   - Comentarios en JavaScript para funciones y lógica de negocio
+
+3. **Estructura del Proyecto**
+   - Organización clara de archivos y carpetas
+   - Separación de assets (imágenes, estilos, scripts)
+   - Nomenclatura consistente de archivos
+
+4. **Documentación de Estilos**
+   - Guía de estilos CSS implementados
+   - Variables CSS para colores y espaciado
+   - Documentación de clases reutilizables
+
+#### Repositorio y Acceso a la Documentación
+
+- **Repositorio del Landing Page**: [Landing-Page Repository](https://github.com/1ASI0730-2520-7461-SmartCoders/Landing-Page)
+- **Archivo README Principal**: Disponible en la raíz del repositorio
+- **Documentación del Proyecto**: Incluida en el repositorio del informe del proyecto
+
+#### Estándares de Documentación Aplicados
+
+Durante el desarrollo del Sprint 1, se siguieron los siguientes estándares de documentación:
+
+-  **Markdown**: Uso de formato Markdown para documentación legible
+-  **Comentarios en código**: Comentarios descriptivos siguiendo buenas prácticas
+-  **Nomenclatura clara**: Nombres de archivos y variables descriptivos
+-  **Estructura organizada**: Organización lógica de archivos y carpetas
+-  **Instrucciones completas**: Guías paso a paso para instalación y despliegue
+
+#### Importancia de la Documentación
+
+La documentación desarrollada durante el Sprint 1 es crucial porque:
+
+1. **Facilita la colaboración**: Permite que todos los miembros del equipo comprendan la estructura y funcionamiento del proyecto
+2. **Simplifica el mantenimiento**: Facilita futuras modificaciones y mejoras
+3. **Acelera el onboarding**: Nuevos miembros pueden entender rápidamente el proyecto
+4. **Mejora la calidad**: Documentación clara reduce errores y malentendidos
+5. **Cumple con estándares**: Sigue las mejores prácticas de documentación de software
+
+La documentación presentada demuestra el compromiso del equipo con la calidad y mantenibilidad del código, estableciendo una base sólida para los sprints futuros.
+
+
     
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
-    
-![JIRA](assets/Collaboration_JIRA.png)
+
+En esta sección se presentan las evidencias del proceso de despliegue del Landing Page desarrollado durante el Sprint 1. El despliegue se realizó utilizando **GitHub Pages**, una plataforma de hosting gratuita y confiable para sitios web estáticos, que permite la publicación automática desde el repositorio de GitHub.
+
+#### Información del Despliegue
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%; text-align:left; font-family:Arial; font-size:12px;">
+  <tr>
+    <th style="background-color:#f0f0f0; width:30%;">Aspecto</th>
+    <th style="background-color:#f0f0f0;">Detalle</th>
+  </tr>
+  <tr>
+    <td><strong>Plataforma de Despliegue</strong></td>
+    <td>GitHub Pages</td>
+  </tr>
+  <tr>
+    <td><strong>Repositorio</strong></td>
+    <td><a href="https://github.com/1ASI0730-2520-7461-SmartCoders/Landing-Page">Landing-Page Repository</a></td>
+  </tr>
+  <tr>
+    <td><strong>URL del Landing Page</strong></td>
+    <td><a href="https://1asi0730-2520-7461-smartcoders.github.io/Landing-Page/">https://1asi0730-2520-7461-smartcoders.github.io/Landing-Page/</a></td>
+  </tr>
+  <tr>
+    <td><strong>Rama de Despliegue</strong></td>
+    <td>main</td>
+  </tr>
+  <tr>
+    <td><strong>Fecha de Despliegue</strong></td>
+    <td>18/09/2025</td>
+  </tr>
+  <tr>
+    <td><strong>Estado Actual</strong></td>
+    <td> Desplegado y Funcional</td>
+  </tr>
+  <tr>
+    <td><strong>Tipo de Sitio</strong></td>
+    <td>Sitio Web Estático (HTML, CSS, JavaScript)</td>
+  </tr>
+  <tr>
+    <td><strong>HTTPS</strong></td>
+    <td> Habilitado (Certificado SSL automático)</td>
+  </tr>
+</table>
+
+#### Proceso de Despliegue Detallado
+
+El proceso de despliegue se realizó siguiendo los siguientes pasos:
+
+**Paso 1: Preparación del Repositorio**
+- Se configuró el repositorio del Landing Page en GitHub con la estructura completa de archivos
+- Se organizaron los archivos HTML, CSS, JavaScript y assets en carpetas apropiadas
+- Se aseguró que todos los archivos estuvieran en la rama `main`
+
+**Paso 2: Configuración de GitHub Pages**
+- Se accedió a la configuración del repositorio en GitHub
+- Se habilitó GitHub Pages en la sección "Pages" de la configuración
+- Se seleccionó la rama `main` como fuente del sitio
+- Se configuró la carpeta raíz (`/root`) como directorio de publicación
+
+**Paso 3: Generación de la URL**
+- GitHub Pages generó automáticamente la URL del sitio
+- La URL sigue el formato: `https://[usuario-organizacion].github.io/[nombre-repositorio]/`
+- Se configuró el dominio personalizado si es necesario (opcional)
+
+**Paso 4: Verificación del Despliegue**
+- Se verificó que el sitio estuviera accesible en la URL proporcionada
+- Se comprobó que el certificado SSL estuviera activo (HTTPS)
+- Se validó que todos los recursos se cargaran correctamente
+
+**Paso 5: Validación de Funcionalidad**
+Se realizaron pruebas exhaustivas para verificar que todas las funcionalidades del Landing Page funcionaran correctamente:
+
+-  **Navegación entre secciones**: Todos los enlaces del menú funcionan correctamente
+-  **Diseño responsive**: El sitio se adapta correctamente a diferentes tamaños de pantalla (mobile, tablet, desktop)
+-  **Carga de imágenes y assets**: Todas las imágenes y recursos se cargan sin errores
+-  **Funcionalidad de enlaces y botones**: Todos los botones y enlaces son funcionales
+-  **Estilos CSS aplicados**: Los estilos se aplican correctamente en todas las secciones
+-  **Rendimiento**: El sitio carga rápidamente y sin errores en la consola
+-  **Compatibilidad de navegadores**: Se probó en Chrome, Firefox, Safari y Edge
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
@@ -1527,7 +1896,11 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 
 ## 5.2.2. Sprint 2 
 
+El Sprint 2 representa un hito importante en el desarrollo del proyecto MoveSys, ya que se enfocó en la implementación de las aplicaciones web frontend que constituyen la experiencia principal de los usuarios con la plataforma. Este sprint se basó en los aprendizajes y resultados del Sprint 1, donde se establecieron las bases con el Landing Page, y ahora se avanza hacia la construcción de las funcionalidades core del negocio.
+
 ### 5.2.2.1. Sprint Planning 2. 
+
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting realizado para el Sprint 2. La reunión de planificación se llevó a cabo de manera virtual a través de Discord, permitiendo a todos los miembros del equipo participar activamente en la definición de objetivos, estimación de User Stories y asignación de tareas. 
 
 <table> <tr><th colspan="5">Sprint #</th><th colspan="9">Sprint 2</th></tr><tr> <td colspan="13">Sprint Planning Background</td></tr><tr><td colspan="5">Date</td><td colspan="8">2025-10-07</td></tr><tr><td colspan="5">Time</td><td colspan="8">4:00 PM</td></tr><tr><td colspan="5">Location</td><td colspan="8">Servidor de Discord del equipo</td></tr><tr><td colspan="5">Prepared By</td><td colspan="8">Andre Orellana</td></tr><tr><td colspan="5">Attendees (to planning meeting)</td><td colspan="8">Merly Salon, Gabriel Espinar, Andre Rodriguez Orellana, Angel Berrospi Marin</td></tr><tr><td colspan="5">Sprint n-1 Review Summary</td><td colspan="8">During Sprint 1, the team successfully delivered the Landing Page and completed the initial setup of the development environment. The deployment to Vercel was achieved, and the project documentation was finalized. Minor adjustments in UI consistency were identified for future improvement.</td></tr><tr><td colspan="5">Sprint n-1 Retrospective Summary</td><td colspan="8">The team agreed that communication and task assignment worked efficiently through Discord. However, they identified the need to improve time estimation for user stories and maintain more consistent documentation updates across all modules.</td></tr><tr><td colspan="13">Sprint Goal & User Stories</td></tr><tr><td colspan="5">Sprint 2 Goal</td><td colspan="8"> <strong>"Deliver the foundational components of the MoveSys platform by designing and deploying a fully functional and responsive Landing Page that clearly communicates the product’s value proposition and guides users through registration and initial access. Additionally, complete the corresponding project documentation and ensure the environment setup (frontend, and database connections) is properly configured. Success will be achieved when the Landing Page is accessible online, visually consistent with the brand identity, includes working navigation, and the initial documentation is reviewed and validated by the team."</strong></td></tr><tr><td colspan="5">Sprint 2 Velocity</td><td colspan="8">6</td></tr><tr><td colspan="5">Sum of Story Points</td><td colspan="8">8 story points</td></tr>
 </table>
@@ -1535,9 +1908,68 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 
 ### 5.2.2.2. Aspect Leaders and Collaborators. 
 
-![Aspect Leaders and Collaborators](assets/aspect-lider-collaboration2.jpg)
+En esta sección se presenta la distribución de roles y responsabilidades del equipo durante el Sprint 2, identificando a los líderes (L) y colaboradores (C) para cada aspecto de trabajo colaborativo. Esta distribución permite una organización efectiva del trabajo y asegura que cada aspecto crítico del proyecto tenga un responsable que guíe y coordine las actividades relacionadas.
+
+La asignación de líderes se realizó considerando las fortalezas y experiencia de cada miembro del equipo, así como sus intereses y disponibilidad. Los colaboradores trabajan de manera coordinada con los líderes para asegurar que todos los aspectos del proyecto reciban la atención necesaria y que el trabajo se desarrolle de manera eficiente y colaborativa.
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%; text-align:center; font-family:Arial; font-size:11px;">
+  <tr>
+    <th rowspan="2">Team Member</th>
+    <th rowspan="2">GitHub Username</th>
+    <th colspan="5">Aspect</th>
+  </tr>
+  <tr>
+    <th>Team Coordination and Organization<br>Leader (L) / Collaborator (C)</th>
+    <th>Effective Communication<br>Leader (L) / Collaborator (C)</th>
+    <th>Problem-Solving and Decision-Making<br>Leader (L) / Collaborator (C)</th>
+    <th>Mutual Support and Knowledge Sharing<br>Leader (L) / Collaborator (C)</th>
+    <th>Monitoring and Continuous Improvement<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Berrospi Marin Angel</td>
+    <td>Guille-berrs</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+  </tr>
+  <tr>
+    <td>Salon Puerta Merly</td>
+    <td>MerlySalonP</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Espinar Martínez Gabriel</td>
+    <td>zzZero14</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Orellana Rodriguez Mel</td>
+    <td>melandree8</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
+
 
 ### 5.2.2.3. Sprint Backlog 2. 
+
+En esta sección se presenta el Sprint Backlog del Sprint 2, que incluye todas las User Stories seleccionadas para este sprint y las tareas (Work-items) resultantes de su descomposición. El Sprint Backlog se elaboró durante la reunión de Sprint Planning, donde el equipo analizó cada User Story, la descompuso en tareas específicas, estimó el esfuerzo requerido y asignó responsables.
+
+El objetivo principal del Sprint 2 es desarrollar los módulos frontend de la aplicación web, implementando las interfaces de usuario y la lógica de presentación utilizando datos mock. Esto permite validar la experiencia de usuario y la arquitectura de la aplicación antes de la integración completa con el backend.
+
 
 <table border="1" cellspacing="0" cellpadding="5" style="border-collapse:collapse; width:100%; text-align:center; font-family:Arial; font-size:12px;">
   <tr>
@@ -1681,6 +2113,10 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 
 ### 5.2.2.4. Development Evidence for Sprint Review. 
 
+En esta sección se explica y presenta el progreso de implementación relacionado con los productos de la solución (Landing Page, Web Applications) dentro del alcance del Sprint 2. La sección inicia con una introducción que resume los principales avances en implementación logrados durante este sprint.
+
+Durante el Sprint 2, el equipo se enfocó en el desarrollo de las aplicaciones web frontend, implementando múltiples módulos utilizando Vue.js 3 y siguiendo los principios de Clean Architecture. Se realizaron commits constantes al repositorio, siguiendo las convenciones de GitFlow y Conventional Commits para mantener un historial claro y organizado del desarrollo.
+
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Day) |
 |-------------|---------|------------|----------------|----------------------|--------------------|
 | *Guille-berrs/movesys-project-report* | feature/solution-profile | e8e0a7879fba5a0c309e70ca320dd746636f9d17 | docs: Change in Lean Ux Process | - Lean Ux Problem Statements.<br>- Lean Ux Assumptions.<br>- Lean Ux Hypothesis Statements. | 08/10/2025 |
@@ -1713,12 +2149,47 @@ En esta sección se especifica los aspectos principales del Sprint Planning Meet
 
 ### 5.2.2.5. Execution Evidence for Sprint Review. 
 
+En esta sección se presenta un resumen de lo logrado en el Sprint 2 actual, mostrando las principales vistas implementadas y la funcionalidad desarrollada. La sección inicia con una introducción que explica los logros principales del sprint y luego presenta capturas de pantalla de las vistas principales implementadas.
+
+Durante el Sprint 2, el equipo logró implementar exitosamente múltiples módulos de la aplicación web frontend, incluyendo Dashboard, Gestión de Usuarios, Reportes, Gestión de Entregas, Consumo de Combustible y Gestión de Flota. Todas estas implementaciones utilizan datos mock para simular la interacción con el backend, permitiendo validar la experiencia de usuario y la arquitectura de la aplicación.
+
+#### Login 
+
 ![Execution Evidence for Sprint Review.](assets/picture-front1.jpg)
+
+#### Dashboard - Vista Principal
+
 ![Execution Evidence for Sprint Review.](assets/picture-front2.jpg)
+
+#### Gestión de Entregas
+
 ![Execution Evidence for Sprint Review.](assets/picture-front3.jpg)
+
+#### Gestión de Conductores
+
 ![Execution Evidence for Sprint Review.](assets/picture-front4.jpg)
+
+#### Gestion de Flota 
+
 ![Execution Evidence for Sprint Review.](assets/picture-front5.jpg)
+
+#### Módulo de Reportes
+
 ![Execution Evidence for Sprint Review.](assets/picture-front6.jpg)
+
+
+#### Video de Demostración
+
+Para una mejor comprensión de la funcionalidad implementada, se ha preparado un video que demuestra la navegación y las principales funcionalidades desarrolladas durante el Sprint 2. El video muestra:
+
+- Navegación entre módulos
+- Funcionalidad de cada vista implementada
+- Interacción con datos mock
+- Diseño responsive en diferentes dispositivos
+
+**URL del Video**: [Enlace al video en Microsoft Stream/YouTube]
+
+
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
 
