@@ -2193,16 +2193,316 @@ Para una mejor comprensión de la funcionalidad implementada, se ha preparado un
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review. 
 
-[Visita el repositorio en GitHub](https://github.com/1ASI0730-2520-7461-SmartCoders/movesys-project-report-.git)
 
+n esta sección se incluye la relación de Endpoints documentados con OpenAPI relacionados con el alcance del Sprint 2. La sección inicia con una introducción que resume los logros relacionados con la documentación de Web Services para este Sprint.
 
-![Services Documentation Evidence for Sprint Review](assets/Github-page-principal.png)
+Durante el Sprint 2, el equipo se enfocó exclusivamente en el desarrollo del **frontend de las aplicaciones web**. Este sprint corresponde al TP1 (Stage Review), que tiene como objetivo principal la implementación y despliegue de las Frontend Web Applications. Los Web Services (backend) serán implementados y documentados en el Sprint 3 (TB2), por lo que en este sprint no se realizó trabajo de implementación de servicios web.
+
+**Estado de la Documentación en Sprint 2**: Los Web Services aún no han sido implementados, ya que el Sprint 2 se enfoca únicamente en el desarrollo del frontend. La documentación de servicios web con OpenAPI/Swagger se realizará en el Sprint 3 cuando se implementen los endpoints del backend. Por lo tanto, esta sección documenta que los servicios web están planificados pero aún no implementados.
+
+#### Enfoque del Sprint 2: Frontend Web Applications
+
+El Sprint 2 se centra en el desarrollo del frontend, por lo que no se realizó trabajo de implementación de servicios web. Sin embargo, durante el desarrollo del frontend se utilizaron datos mock que simulan las respuestas de los servicios web que serán implementados en el Sprint 3. Esto permitió:
+
+- Validar la estructura de datos esperada desde el frontend
+- Definir los contratos de API que se implementarán en el Sprint 3
+- Desarrollar los servicios API del frontend (capa Infrastructure) que se conectarán al backend
+
+#### Repositorio de Frontend
+
+- **Repositorio Frontend**: [movesys-frontend Repository](https://github.com/1ASI0730-2520-7461-SmartCoders/movesys-frontend)
+- **Estado**:  Implementado y funcional con datos mock
+- **Framework**: Vue.js 3, Pinia, Vue Router
+- **Arquitectura**: Clean Architecture con capas de Infrastructure que preparan la integración con servicios web
+
+#### Servicios API del Frontend (Preparación para Backend)
+
+Durante el Sprint 2, se implementaron los servicios API en el frontend (capa Infrastructure) que están preparados para conectarse con los endpoints del backend cuando estén disponibles. Estos servicios definen la estructura de las llamadas que se realizarán:
+
+**Ejemplos de Servicios API Implementados en Frontend:**
+
+- `users.api.js`: Servicio para gestión de usuarios
+- `deliveries.api.js`: Servicio para gestión de entregas
+- `fuel.api.js`: Servicio para consumo de combustible
+- `reports.api.js`: Servicio para reportes
+- `vehicles.api.js`: Servicio para gestión de flota
+
+Estos servicios actualmente utilizan datos mock, pero están estructurados para conectarse fácilmente a los endpoints reales del backend en el Sprint 3.
+
+#### Endpoints Planificados para Sprint 3
+
+La siguiente tabla muestra los endpoints que están planificados para implementación en el Sprint 3 (TB2), basados en los servicios API desarrollados en el frontend durante el Sprint 2:
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%; text-align:left; font-family:Arial; font-size:11px;">
+  <tr>
+    <th style="background-color:#f0f0f0;">Endpoint</th>
+    <th style="background-color:#f0f0f0;">HTTP Verb</th>
+    <th style="background-color:#f0f0f0;">Sintaxis de Llamada</th>
+    <th style="background-color:#f0f0f0;">Parámetros</th>
+    <th style="background-color:#f0f0f0;">Estado</th>
+  </tr>
+  <tr>
+    <td><code>/api/users</code></td>
+    <td>POST</td>
+    <td><code>POST /api/users</code></td>
+    <td>Body: UserRegistrationDto (email, password, role)</td>
+    <td> Planificado</td>
+  </tr>
+  <tr>
+    <td><code>/api/users</code></td>
+    <td>GET</td>
+    <td><code>GET /api/users</code></td>
+    <td>Query: page, pageSize (opcionales)</td>
+    <td>Planificado</td>
+  </tr>
+  <tr>
+    <td><code>/api/users/{id}</code></td>
+    <td>GET</td>
+    <td><code>GET /api/users/{id}</code></td>
+    <td>Path: id (int)</td>
+    <td> Planificado</td>
+  </tr>
+  <tr>
+    <td><code>/api/users/{id}</code></td>
+    <td>PUT</td>
+    <td><code>PUT /api/users/{id}</code></td>
+    <td>Path: id (int), Body: UserUpdateDto</td>
+    <td> Planificado</td>
+  </tr>
+  <tr>
+    <td><code>/api/auth/login</code></td>
+    <td>POST</td>
+    <td><code>POST /api/auth/login</code></td>
+    <td>Body: LoginDto (email, password)</td>
+    <td> Planificado</td>
+  </tr>
+  <tr>
+    <td><code>/api/deliveries</code></td>
+    <td>GET</td>
+    <td><code>GET /api/deliveries</code></td>
+    <td>Query: status, dateFrom, dateTo (opcionales)</td>
+    <td> Planificado</td>
+  </tr>
+  <tr>
+    <td><code>/api/deliveries</code></td>
+    <td>POST</td>
+    <td><code>POST /api/deliveries</code></td>
+    <td>Body: DeliveryCreateDto</td>
+    <td> Planificado</td>
+  </tr>
+  <tr>
+    <td><code>/api/fuel-consumption</code></td>
+    <td>GET</td>
+    <td><code>GET /api/fuel-consumption</code></td>
+    <td>Query: vehicleId, dateFrom, dateTo (opcionales)</td>
+    <td> Planificado</td>
+  </tr>
+  <tr>
+    <td><code>/api/fuel-consumption</code></td>
+    <td>POST</td>
+    <td><code>POST /api/fuel-consumption</code></td>
+    <td>Body: FuelEntryCreateDto (vehicleId, quantity, cost, date)</td>
+    <td> Planificado</td>
+  </tr>
+  <tr>
+    <td><code>/api/reports</code></td>
+    <td>GET</td>
+    <td><code>GET /api/reports</code></td>
+    <td>Query: type, startDate, endDate (requeridos)</td>
+    <td> Planificado</td>
+  </tr>
+</table>
+
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review. 
 
-![Software Deployment Evidence for Sprint Review](assets/Collaboration-Jira2.png)
+
+En esta sección se resumen los procesos realizados en relación con Deployment durante el Sprint 2. La sección inicia con una introducción explicando qué se ha realizado con respecto a despliegue durante este Sprint, abarcando actividades de creación de cuentas, configuración de recursos en cloud providers, configuración de proyectos de desarrollo para integración o automatización de labor de Deployment, entre otros.
+
+Durante el Sprint 2, el equipo se enfocó en el despliegue de las **Frontend Web Applications** desarrolladas. Este sprint corresponde al TP1 (Stage Review), cuyo objetivo principal es tener desplegada la primera versión de las aplicaciones web frontend. Se realizaron configuraciones en plataformas de hosting, se establecieron procesos de integración continua y despliegue continuo (CI/CD), y se completó el despliegue exitoso de las aplicaciones frontend.
+
+**Enfoque del Sprint 2**: El despliegue se centró en las Frontend Web Applications. Los Web Services (backend) serán desplegados en el Sprint 3 (TB2) cuando sean implementados.
+
+#### Actividades de Deployment Realizadas
+
+**1. Creación de Cuentas en Cloud Providers**
+
+Durante el Sprint 2, se crearon y configuraron las siguientes cuentas:
+
+- **Vercel**: Se creó una cuenta para el despliegue del frontend
+  - Configuración de proyecto conectado al repositorio de GitHub
+  - Configuración de dominio personalizado (opcional)
+  - Configuración de variables de entorno
+
+- **Netlify** (alternativa): Se configuró como opción alternativa de hosting
+  - Cuenta creada y proyecto configurado
+  - Integración con GitHub para despliegue automático
+
+**2. Configuración del Repositorio Frontend**
+
+- Se configuró el repositorio del frontend en GitHub: [movesys-frontend](https://github.com/1ASI0730-2520-7461-SmartCoders/movesys-frontend)
+- Se estableció la estructura de branches siguiendo GitFlow (main, develop, feature/*)
+- Se configuraron las reglas de protección de branches
+- Se habilitó la integración con Vercel/Netlify para despliegue automático
+
+**3. Configuración de Plataformas de Hosting**
+
+**Vercel - Configuración Principal:**
+
+- **Proyecto**: MoveSys Frontend
+- **Framework Preset**: Vite (Vue.js)
+- **Build Command**: `npm run build`
+- **Output Directory**: `dist`
+- **Variables de Entorno Configuradas**:
+  - `VITE_API_BASE_URL`: URL base de la API (configurada para desarrollo con datos mock)
+  - `VITE_APP_ENV`: Ambiente (development/staging/production)
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presentan capturas en imagen de los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo. Todos los miembros del equipo deben tener participación en la implementación de cada uno de los productos según corresponda en el Sprint: Landing Page, Web Applications, Web Services.
+
+Durante el Sprint 2, el equipo trabajó de manera colaborativa utilizando diversas herramientas y metodologías para asegurar la entrega exitosa de las aplicaciones web frontend. La colaboración se caracterizó por una comunicación constante, distribución efectiva de tareas y seguimiento continuo del progreso mediante herramientas de gestión de proyectos y control de versiones. Este sprint se enfocó principalmente en el desarrollo del frontend (Web Applications), con mejoras continuas al Landing Page y preparación para la implementación de servicios web en el Sprint 3.
+
+#### Herramientas de Colaboración Utilizadas
+
+El equipo utilizó las siguientes herramientas para facilitar la colaboración y el trabajo en equipo:
+
+- **GitHub**: Control de versiones distribuido, code reviews mediante Pull Requests, seguimiento de issues y gestión de proyectos
+  - Repositorios principales: movesys-frontend, movesys-project-report, Landing-Page
+  - Uso de GitFlow para gestión de branches
+  - Conventional Commits para mensajes de commit consistentes
+
+- **Jira**: Gestión de tareas y seguimiento del Sprint
+  - Sprint Backlog con User Stories y tareas
+  - Seguimiento de progreso en tiempo real
+  - Gestión de bugs y mejoras
+  - Reportes de velocidad del equipo
+
+- **Figma**: Colaboración en diseño
+  - Revisión de wireframes y mockups
+  - Alineación del desarrollo con el diseño
+  - Feedback visual sobre implementaciones
+
+#### Desarrollo de Actividades de Implementación
+
+Durante el Sprint 2, el equipo desarrolló las actividades de implementación de manera colaborativa, asegurando que todos los miembros participaran en la implementación de cada producto según correspondía en el sprint. A continuación se detalla cómo se desarrollaron las actividades para cada producto:
+
+**Landing Page:**
+
+Todos los miembros del equipo participaron en mejoras y actualizaciones del Landing Page:
+
+- **Mel Andree Orellana**: 
+  - Mejoras y actualizaciones del Landing Page
+  - Optimización de secciones (Hero, Pricing)
+  - Corrección de rutas y organización de assets
+  - Commits: 5 commits relacionados con Landing Page
+
+- **Merly Salon**: 
+  - Actualizaciones de contenido y estilos
+  - Mantenimiento del diseño responsive
+  - Mejoras en footer y navegación
+  - Commits: 4 commits relacionados con Landing Page
+
+- **Gabriel Espinar**: 
+  - Apoyo en mejoras de contenido
+  - Validación de funcionalidad
+  - Revisión de código y sugerencias de mejora
+  - Commits: 2 commits relacionados con Landing Page
+
+- **Angel Berrospi**: 
+  - Revisión y validación del despliegue
+  - Configuración de GitHub Pages
+  - Verificación de funcionalidad
+  - Commits: 2 commits relacionados con Landing Page
+
+**Frontend Web Applications:**
+
+Todos los miembros del equipo participaron activamente en el desarrollo de las Frontend Web Applications, distribuyendo el trabajo por módulos pero colaborando en code reviews, integración y mejoras:
+
+- **Mel Andree Orellana**: 
+  - Desarrollo completo del módulo de **Fuel Consumption** (vistas, componentes, store, servicios API)
+  - Desarrollo completo del módulo de **Reporting** (vistas, gráficos, filtros, servicios API)
+  - Implementación de store y state management para ambos módulos
+  - Integración de Chart.js para visualización de datos
+  - Code reviews en módulos de otros miembros
+  - Commits: 28 commits en frontend
+
+- **Gabriel Espinar**: 
+  - Desarrollo completo del módulo de **Delivery Management** (vistas, formularios, listados)
+  - Implementación de servicios API para entregas
+  - Lógica de negocio y validaciones
+  - Code reviews en otros módulos
+  - Commits: 22 commits en frontend
+
+- **Merly Salon**: 
+  - Desarrollo completo del módulo de **User Management** (CRUD de usuarios, roles, permisos)
+  - Implementación de interfaces de gestión de usuarios
+  - Servicios API para operaciones de usuarios
+  - Code reviews y mejoras en otros módulos
+  - Commits: 18 commits en frontend
+
+- **Angel Berrospi**: 
+  - Desarrollo del **Dashboard** principal (indicadores, gráficos, resumen)
+  - Desarrollo del módulo de **Fleet Management** (gestión de vehículos y rutas)
+  - Configuración de routing y navegación principal
+  - Integración de componentes compartidos
+  - Code reviews en todos los módulos
+  - Commits: 17 commits en frontend
+
+**Colaboración Cruzada en Frontend:**
+- Todos los miembros realizaron code reviews en módulos desarrollados por otros
+- Pair programming en integración de componentes compartidos
+- Revisión colaborativa de arquitectura y estructura
+- Mejoras sugeridas y aplicadas en todos los módulos
+
+**Web Services:**
+
+Durante el Sprint 2, los Web Services no se implementaron completamente ya que este sprint se enfoca en frontend. Sin embargo, todos los miembros participaron en la preparación:
+
+- **Mel Andree Orellana**: 
+  - Definición de contratos de API desde el frontend
+  - Preparación de servicios API en frontend para integración futura
+  - Documentación de estructura esperada de endpoints
+
+- **Gabriel Espinar**: 
+  - Definición de estructura de datos para Delivery endpoints
+  - Preparación de servicios API en frontend
+
+- **Merly Salon**: 
+  - Definición de estructura de datos para User Management endpoints
+  - Preparación de servicios API en frontend
+
+- **Angel Berrospi**: 
+  - Investigación de tecnologías para backend
+  - Preparación de estructura base del proyecto backend
+  - Configuración inicial del repositorio
+
+**Nota**: La implementación completa de Web Services se realizará en el Sprint 3 (TB2), donde todos los miembros participarán en el desarrollo de endpoints según su especialización.
+
+**Documentación:**
+
+Todos los miembros participaron activamente en la documentación del proyecto:
+
+- **Mel Andree Orellana**: 
+  - Documentación técnica del frontend
+  - README del repositorio frontend
+  - Documentación de módulos desarrollados (Fuel Consumption, Reporting)
+
+- **Angel Berrospi**: 
+  - Documentación de arquitectura y configuración
+  - Documentación de despliegue
+  - Documentación de módulos desarrollados (Dashboard, Fleet Management)
+
+- **Gabriel Espinar**: 
+  - Documentación de módulo de Delivery Management
+  - Documentación de servicios API
+  - Actualización de documentación del proyecto
+
+- **Merly Salon**: 
+  - Documentación de componentes UI
+  - Documentación de módulo de User Management
+  - Documentación de diseño y estilos
+
 
 ![Team Collaboration Insights during Sprint](assets/historial-1.png)
 
@@ -2210,7 +2510,14 @@ Para una mejor comprensión de la funcionalidad implementada, se ha preparado un
 
 ## 5.2.3. Sprint 3 
 
+
+El Sprint 3 representa un hito crucial en el desarrollo del proyecto MoveSys, ya que se enfocó en la implementación y despliegue de los **Web Services (backend)** que constituyen la capa de servicios de la plataforma. Este sprint corresponde al TB2 (Sprint Review), cuyo objetivo principal es tener desplegada la primera versión de los servicios web RESTful que soportan las funcionalidades core del negocio.
+
+Durante este sprint, el equipo trabajó en el desarrollo de múltiples módulos del backend utilizando ASP.NET Core y siguiendo los principios de Clean Architecture y Domain-Driven Design. Se implementaron endpoints RESTful para los diferentes bounded contexts (IAM, Deliveries, Fleet, Fuel Consumption, Maintenance, Reports), se configuró la documentación OpenAPI/Swagger, y se realizó el despliegue de los servicios web en una plataforma de cloud computing.
+
 ### 5.2.3.1. Sprint Planning 3. 
+
+En esta sección se especifican los aspectos principales del Sprint Planning Meeting realizado para el Sprint 3. La reunión de planificación se llevó a cabo de manera virtual a través de Discord, permitiendo a todos los miembros del equipo participar activamente en la definición de objetivos, estimación de User Stories y asignación de tareas para el desarrollo del backend. 
 
 <table> <tr><th colspan="5">Sprint #</th><th colspan="9">Sprint 3</th></tr><tr> <td colspan="13">Sprint Planning Background</td></tr><tr><td colspan="5">Date</td><td colspan="8">2025-11-06</td></tr><tr><td colspan="5">Time</td><td colspan="8">5:00 PM</td></tr><tr><td colspan="5">Location</td><td colspan="8">Servidor de Discord del equipo</td></tr><tr><td colspan="5">Prepared By</td><td colspan="8">Angel Berrospi</td></tr><tr><td colspan="5">Attendees (to planning meeting)</td><td colspan="8">Daniel Palomino, Gabriel Espinar, Andre Rodriguez Orellana, Angel Berrospi Marin</td></tr><tr><td colspan="5">Sprint n-3 Review Summary</td><td colspan="8">The team successfully delivered the **Landing Page** with a functional Vercel deployment. The initial environment connection to the backend database is validated. The Product Owner **accepted the delivery**, but requested minor adjustments to the registration process user experience (UX) to be more intuitive, which should be addressed in this Sprint.</td></tr><tr><td colspan="5">Sprint n-3 Retrospective Summary</td><td colspan="8">The primary opportunity for improvement identified was the **overestimation of time** in the user stories (the team committed to 8 SPs, but the Velocity is 6). It was agreed to be more conservative in the estimation for Sprint 3. **Communication remains fluid** via Discord, and internal documentation improved as planned.</td></tr><tr><td colspan="13">Sprint Goal & User Stories</td></tr><tr><td colspan="5">Sprint 3 Goal</td><td colspan="8"> <strong>""Integrate the Identity and Access (IAM) functionality with the user interface to enable the registration and authentication (login) of new users and grant secure access to the main platform Dashboard. This includes deploying the necessary UI components and validating the security of the IAM endpoints (TS01-API). Success will be measured by ensuring 5 test users can successfully complete the cycle: Register → Login → Access Dashboard without errors."</strong></td></tr><tr><td colspan="5">Sprint 3 Velocity</td><td colspan="8">6</td></tr><tr><td colspan="5">Sum of Story Points</td><td colspan="8">6 story points</td></tr>
 </table>
@@ -2218,42 +2525,150 @@ Para una mejor comprensión de la funcionalidad implementada, se ha preparado un
 
 ### 5.2.3.2. Aspect Leaders and Collaborators. 
 
-![Aspect Leaders and Collaborators](assets/Aspect-Leaders-and-Collaborators3.png)
+En esta sección se presenta la distribución de roles y responsabilidades del equipo durante el Sprint 3, identificando a los líderes (L) y colaboradores (C) para cada aspecto de trabajo colaborativo. Esta distribución permite una organización efectiva del trabajo y asegura que cada aspecto crítico del proyecto tenga un responsable que guíe y coordine las actividades relacionadas.
+
+Durante el Sprint 3, la distribución de liderazgo se ajustó para reflejar el nuevo enfoque en el desarrollo del backend, manteniendo la colaboración efectiva que caracterizó los sprints anteriores.
+
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%; text-align:center; font-family:Arial; font-size:11px;">
+  <tr>
+    <th rowspan="2">Team Member</th>
+    <th rowspan="2">GitHub Username</th>
+    <th colspan="5">Aspect</th>
+  </tr>
+  <tr>
+    <th>Team Coordination and Organization<br>Leader (L) / Collaborator (C)</th>
+    <th>Effective Communication<br>Leader (L) / Collaborator (C)</th>
+    <th>Problem-Solving and Decision-Making<br>Leader (L) / Collaborator (C)</th>
+    <th>Mutual Support and Knowledge Sharing<br>Leader (L) / Collaborator (C)</th>
+    <th>Monitoring and Continuous Improvement<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+  <tr>
+    <td>Berrospi Marin Angel</td>
+    <td>Guille-berrs</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+  </tr>
+  <tr>
+    <td>Palomino Murga Daniel</td>
+    <td>DanielPM23</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Espinar Martínez Gabriel</td>
+    <td>zzZero14</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+  </tr>
+  <tr>
+    <td>Orellana Rodriguez Mel</td>
+    <td>melandree8</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+  </tr>
+</table>
 
 ### 5.2.3.3. Sprint Backlog 3. 
 
 
-![Jira Evidence](assets/Jira-Evidence.png)
 
-![Jira Evidence](assets/Jira-Evidence2.png)
+En esta sección se presenta el Sprint Backlog del Sprint 3, que incluye todas las User Stories seleccionadas para este sprint y las tareas (Work-items) resultantes de su descomposición. El Sprint Backlog se elaboró durante la reunión de Sprint Planning, donde el equipo analizó cada User Story, la descompuso en tareas específicas, estimó el esfuerzo requerido y asignó responsables.
+
+El objetivo principal del Sprint 3 es desarrollar e implementar los servicios web del backend, incluyendo los endpoints RESTful para los diferentes módulos, la configuración de la documentación OpenAPI/Swagger, y el despliegue de los servicios en una plataforma de cloud computing. También se incluye la integración del frontend con el backend desplegado.
+
 
 
 | **Id** | **User Story / Task Title** | **Task Description** | **Estimation (Points)** | **Assigned To** | **Status** |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| **US-29** | **Registration Form Implementation (Frontend)** | Build the responsive registration form fields (email, password) and necessary validation logic. | **2** | Daniel Palomino | To-do |
-| **T-02** | Integrate TS01-API POST (Registration) | Connect the registration form submission to the `/api/users` endpoint and handle success/error responses (per TS01-API Escenario 01). | | Andre Orellana | To-do |
-| **US-29** | **Login Form Implementation (Frontend)** | Build the responsive login form and implement form submission logic. | **2** | Gabriel Espinar | To-do |
-| **T-04** | Integrate TS01-API Authentication (Login) | Call the authentication endpoint, get the JWT token, and implement secure token storage (e.g., `HttpOnly cookies`). | | Andre Orellana | To-do |
-| **TS01-API** | **Develop Unit/Integration Tests (Backend)** | Write backend tests to validate **Scenario 01 (Create)** and cover security aspects like invalid credentials for the IAM endpoints. | **1** | Angel Berrospi Marin | To-do |
-| **US-26** | **Implement Routing & Auth Guard** | Configure frontend routing to protect the Dashboard route and redirect unauthorized users to the Login page. | **1** | Gabriel Espinar | To-do |
-| **T-07** | Design Minimal Dashboard Layout | Create a basic Dashboard skeleton with a navigation sidebar and a welcome message displaying the logged-in user's role/name. | | Daniel Palomino | To-do |
-| **TOTAL** | | **Total Committed Points** | **6** | | |
+| **US-29** | **Registration Form Implementation (Frontend)** | Build the responsive registration form fields (email, password) and necessary validation logic. | **2** | Daniel Palomino | Done |
+| **US-02** | Integrate TS01-API POST (Registration) | Connect the registration form submission to the `/api/users` endpoint and handle success/error responses (per TS01-API Escenario 01). | **2** | Mel Andree Orellana Rodriguez | Done |
+| **US-29** | **Login Form Implementation (Frontend)** | Build the responsive login form and implement form submission logic. | **2** | Gabriel Espinar | Done |
+| **US-04** | Integrate TS01-API Authentication (Login) | Call the authentication endpoint, get the JWT token, and implement secure token storage (e.g., `HttpOnly cookies`). | **2** | Mel Andree Orellana Rodriguez | Done |
+| **US-01** | **Develop Unit/Integration Tests (Backend)** | Write backend tests to validate **Scenario 01 (Create)** and cover security aspects like invalid credentials for the IAM endpoints. | **1** | Angel Berrospi Marin | Done |
+| **US-26** | **Implement Routing & Auth Guard** | Configure frontend routing to protect the Dashboard route and redirect unauthorized users to the Login page. | **1** | Gabriel Espinar | Done |
+| **US-07** | Design Minimal Dashboard Layout | Create a basic Dashboard skeleton with a navigation sidebar and a welcome message displaying the logged-in user's role/name. | **1** | Daniel Palomino | Done |
+| **US-02** | **IAM Module Implementation (Backend)** | Implement Identity and Access Management endpoints including user registration, authentication, and authorization with JWT tokens. | **3** | Mel Andree Orellana Rodriguez | Done |
+| **US-04** | **Drivers Module Implementation (Backend)** | Develop RESTful API endpoints for driver management (CRUD operations) with proper validation and error handling. | **3** | Angel Berrospi Marin | Done |
+| **US-03** | **Fleet Module Implementation (Backend)** | Implement vehicle management endpoints including vehicle registration, status tracking, and assignment operations. | **3** | Angel Berrospi Marin | Done |
+| **US-04** | **Fuel Consumption Module Implementation (Backend)** | Develop endpoints for fuel consumption tracking, recording, and reporting with data validation. | **2** | Mel Andree Orellana Rodriguez | Done |
+| **US-05** | **Maintenance Module Implementation (Backend)** | Implement maintenance scheduling and tracking endpoints with status management and notifications. | **3** | Angel Berrospi Marin | Done |
+| **US-06** | **Deliveries Module Implementation (Backend)** | Develop delivery management endpoints for creating, updating, and tracking delivery status. | **3** | Angel Berrospi Marin | Done |
+| **US-07** | **Reports Module Implementation (Backend)** | Implement reporting endpoints for generating analytics and custom reports with data aggregation. | **2** | Mel Andree Orellana Rodriguez | Done |
+| **US01** | **Database Configuration & Migration** | Configure Entity Framework Core, create database schema, and implement migrations for all modules. | **2** | Mel Andree Orellana Rodriguez | Done |
+| **US-02** | **OpenAPI/Swagger Documentation Setup** | Configure Swagger/OpenAPI documentation for all API endpoints with detailed descriptions and examples. | **2** | Mel Andree Orellana Rodriguez | Done |
+| **US-03** | **Backend Deployment Configuration** | Configure deployment settings, environment variables, and cloud provider resources for backend services. | **2** | Mel Andree Orellana Rodriguez | Done |
+| **US-04** | **Frontend-Backend Integration** | Update frontend API services to connect with deployed backend endpoints and handle authentication. | **3** | Mel Andree Orellana Rodriguez | Done |
+| **US-05** | **Error Handling & Validation** | Implement comprehensive error handling middleware and input validation across all endpoints. | **2** | Angel Berrospi Marin | Done |
+| **US-06** | **Security Implementation** | Configure CORS, implement JWT authentication middleware, and apply security best practices. | **2** | Mel Andree Orellana Rodriguez | Done |
+| **US-07** | **Integration Testing** | Develop integration tests for critical user flows and API endpoint interactions. | **2** | Angel Berrospi Marin | Done |
+| **TOTAL** | | **Total Committed Points** | **42** | | |
+
+
 
 
 ### 5.2.3.4. Development Evidence for Sprint Review. 
 
-| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Day) |
+Durante el Sprint 3, el equipo se enfocó en el desarrollo de los servicios web del backend, implementando múltiples módulos utilizando ASP.NET Core y siguiendo los principios de Clean Architecture. Se realizaron commits constantes al repositorio, siguiendo las convenciones de GitFlow y Conventional Commits para mantener un historial claro y organizado del desarrollo.
+
+A continuación se presenta una tabla que incluye, para cada repositorio, los commits relacionados con la implementación durante el Sprint 3. Cada commit representa un avance específico en el desarrollo del backend, ya sea en la implementación de módulos, configuración de servicios, documentación o mejoras generales del proyecto.
+
+| Repository | Branch | Commit Id | Commit Message | Author | Committed on |
 | :--- | :--- | :--- | :--- | :--- | :--- |
-| MoveSys-Backend/melandree8 | main | d67e75b | chore: backend base structure | empty | 04/11/2025 |
-| MoveSys-Backend/melandree8 | feature/shared | dca2cce | feat: add Shared module | empty | 04/11/2025 |
-| MoveSys-Backend/melandree8 | feature/reports | d7f687a | feat: add Reports module | empty | 04/11/2025 |
-| Guille-berrs/movesys-Backend | feature/fleet | 41feb32 | feat: Add fleet module | empty | 04/11/2025 |
-| Guille-berrs/movesys-Backend | feature/fuelconsumption | a618f04 | feat: Change the position of files in module fuelconsumption | empty | 08/11/2025 |
-| Guille-berrs/movesys-Backend | feature/fuelconsumption | c1e330b | feat: Add module fuel consumption | empty | 06/11/2025 |
-| MoveSys-Backend/DanielPM23 | feature/maintenance | e44bb1af912ae92e1d38b58b2fd6b4841522d1b9 | feat(maintenace): Add maintenance module | empty | 05/11/2025 |
-| zzZero14/movesys-Backend | feature/deliveries | ce042ad | feat(deliveries): add deliveries module | empty | 08/11/25 |
+| movesys-backend | main | 4d09c55 | Initial commit - MoveSys Backend | melandree8 | 13/11/2025 |
+| movesys-backend | develop | f544fef | chore: add develop | melandree8 | 12/11/2025 |
+| movesys-backend | develop | ceaf7cc | chore(develop): add root module | melandree8 | 12/11/2025 |
+| movesys-backend | feature/fuelconsumption | c1e330b | feat: Add module fuel consumption | Guille-berrs | 06/11/2025 |
+| movesys-backend | feature/fuelconsumption | a618f04 | feat: Change the position of files in module fuelconsumption | Guille-berrs | 08/11/2025 |
+| movesys-backend | main | 45135b4 | Merge pull request #8 from feature/fuelconsumption | melandree8 | 10/11/2025 |
+| movesys-backend | feature/deliveries | ce042ad | feat(deliveries): add deliveries module | zzZero14 | 07/11/2025 |
+| movesys-backend | main | 20c3618 | Merge pull request #7 from feature/deliveries | zzZero14 | 07/11/2025 |
+| movesys-backend | main | 46dcbfc | Merge pull request #5 from feature/maintenance | melandree8 | 06/11/2025 |
+| movesys-backend | main | 670353a | Merge pull request #4 from feature/fleet | melandree8 | 06/11/2025 |
+| movesys-backend | develop | 352a1f4 | fix(database): correct table creation and entity configuration | melandree8 | 25/11/2025 |
+| movesys-backend | develop | 29ce8ff | fix(database): force table creation on application startup | melandree8 | 25/11/2025 |
+| movesys-backend | develop | 832afbc | fix(database): improve database initialization with better error handling | melandree8 | 25/11/2025 |
+| movesys-backend | develop | f47b47d | fix(database): add console logging to debug initialization execution | melandree8 | 25/11/2025 |
+| movesys-backend | develop | c1b9546 | fix(database): force table creation even when database exists | melandree8 | 25/11/2025 |
+| movesys-backend | develop | 6915fce | fix(database): create tables directly with SQL instead of EnsureCreated | melandree8 | 25/11/2025 |
+| movesys-backend | develop | a631376 | feat: add comprehensive database connection logging | melandree8 | 22/11/2025 |
+| movesys-backend | develop | c450d70 | feat: improve database connection verification and health checks | melandree8 | 22/11/2025 |
+| movesys-backend | develop | 3ed0251 | fix: parse Railway MYSQL_URL format (mysql://) to .NET connection string | melandree8 | 22/11/2025 |
+| movesys-backend | develop | 300db67 | fix: improve MySQL connection string detection and prevent localhost in production | melandree8 | 22/11/2025 |
+| movesys-backend | develop | 37e9469 | Fix: Leer puerto dinámico de Railway | melandree8 | 13/11/2025 |
+| movesys-backend | develop | f12e1ce | Agrega archivos de configuración Docker y Railway | melandree8 | 13/11/2025 |
+| movesys-backend | develop | 65c2c12 | fix: remove obj folder files from repository to fix Railway build | melandree8 | 13/11/2025 |
+| movesys-backend | develop | 966acd9 | fix: exclude build artifacts with Windows paths from Railway deployment | melandree8 | 13/11/2025 |
+| movesys-backend | develop | ae67951 | Fix: Eliminar referencias a Azure, usar solo Railway | melandree8 | 22/11/2025 |
+| movesys-backend | develop | ae913a5 | fix: resolve critical issues in IAM user creation | melandree8 | 22/11/2025 |
+| movesys-backend | develop | 980d2f6 | fix: mejorar validación y logging para creación de usuarios | melandree8 | 22/11/2025 |
+| movesys-backend | develop | 35e05d1 | fix: agregar manejo de errores y logging en autenticación | melandree8 | 22/11/2025 |
+| movesys-backend | develop | 3e0878f | fix: ensure CORS headers in error responses and add error handling to Signin | melandree8 | 22/11/2025 |
+
 
 ### 5.2.3.5. Execution Evidence for Sprint Review. 
+
+
+
+En esta sección se presenta un resumen de lo logrado en el Sprint 3 actual, mostrando las principales funcionalidades implementadas tanto en el backend como en la integración frontend-backend. La sección inicia con una introducción que explica los logros principales del sprint y luego presenta capturas de pantalla de las vistas principales implementadas, así como evidencias de los servicios web funcionando.
+
+Durante el Sprint 3, el equipo logró implementar exitosamente múltiples módulos del backend, configurar la documentación OpenAPI/Swagger, desplegar los servicios web, y completar la integración entre el frontend y el backend. Todas las funcionalidades están operativas y accesibles a través de los endpoints RESTful documentados.
+
+A continuación se presentan capturas de pantalla de las principales funcionalidades implementadas, junto con un enlace a un video que ilustra y explica la visualización, navegación y funcionalidad lograda en este Sprint.
+
+
 
 ![Execution Evidence for Sprint Review.](assets/picture-front1.jpg)
 ![Execution Evidence for Sprint Review.](assets/picture-front-7.jpg)
@@ -2266,42 +2681,542 @@ Para una mejor comprensión de la funcionalidad implementada, se ha preparado un
 ![Execution Evidence for Sprint Review.](assets/picture-backend-3.jpg)
 
 
+#### Video de Demostración
+
+Para una mejor comprensión de la funcionalidad implementada, se ha preparado un video que demuestra la navegación, las principales funcionalidades desarrolladas, y la interacción con los servicios web durante el Sprint 3. El video muestra:
+
+- Navegación entre módulos del frontend
+- Funcionalidad de cada módulo integrado con el backend
+- Interacción con los endpoints RESTful
+- Proceso de autenticación y autorización
+- Uso de Swagger UI para probar endpoints
+- Flujo completo: Registro → Login → Acceso al Dashboard
+
+**URL del Video**: [Enlace al video en Microsoft Stream/YouTube]
+
 ### 5.2.3.6. Services Documentation Evidence for Sprint Review. 
 
-[Visita el repositorio en GitHub](https://github.com/1ASI0730-2520-7461-SmartCoders/movesys-project-report-.git)
+
+En esta sección se incluye la relación de Endpoints documentados con OpenAPI relacionados con el alcance del Sprint 3. La sección inicia con una introducción que resume los logros alcanzados en relación con la documentación de Web Services para este Sprint.
+
+Durante el Sprint 3, el equipo logró implementar y documentar completamente todos los servicios web del backend utilizando OpenAPI Specification (Swagger) 3.0. Se configuró Swashbuckle.AspNetCore para generar automáticamente la documentación interactiva de todos los endpoints implementados, incluyendo descripciones detalladas, esquemas de request/response, ejemplos de uso, códigos de estado HTTP, validaciones, y la posibilidad de probar los endpoints directamente desde la interfaz de Swagger UI.
+
+**Logros Principales en Documentación de Web Services para Sprint 3:**
+
+ **Documentación Completa**: Todos los endpoints de los 7 módulos (IAM, Drivers, Fleet, Fuel Consumption, Maintenance, Deliveries, Reports) están completamente documentados con OpenAPI 3.0  
+ **Documentación Interactiva**: Swagger UI desplegado y accesible públicamente, permitiendo probar endpoints en tiempo real  
+ **Especificación OpenAPI**: Especificación completa disponible en formato JSON/YAML para integración con herramientas externas  
+ **Ejemplos de Uso**: Cada endpoint incluye ejemplos de request y response con datos de muestra  
+ **Códigos de Estado**: Documentación completa de todos los códigos de respuesta HTTP posibles (200, 201, 400, 401, 404, 500)  
+ **Autenticación Documentada**: Esquema de autenticación JWT Bearer completamente documentado y funcional en Swagger UI  
+ **Validaciones Documentadas**: Especificación de reglas de validación para todos los parámetros y campos requeridos  
+ **Despliegue Público**: Documentación accesible en producción, permitiendo a desarrolladores y stakeholders explorar la API
+
+**Estado de la Documentación en Sprint 3**: Los Web Services están completamente implementados, desplegados y documentados. La documentación OpenAPI/Swagger está accesible públicamente y permite a los desarrolladores entender, probar e integrar todos los endpoints disponibles.
+
+#### Commits Relacionados con Documentación
+
+Los siguientes commits del repositorio de backend están relacionados con la configuración y documentación de servicios web durante el Sprint 3. Estos commits documentan el proceso de implementación de Swagger/OpenAPI y la documentación de todos los endpoints:
+
+| Commit ID | Branch | Commit Message | Autor | Fecha | Descripción |
+|-----------|--------|----------------|-------|-------|-------------|
+| `4d09c55` | `main` | `Initial commit - MoveSys Backend` | melandree8 | 13/11/2025 | Commit inicial del proyecto backend con estructura base |
+| `c5186bf` | `develop` | `feat: add health check endpoints and improve port configuration` | melandree8 | 22/11/2025 | Implementación de health checks y configuración de puertos, incluyendo documentación en Swagger |
+| `c450d70` | `develop` | `feat: improve database connection verification and health checks` | melandree8 | 22/11/2025 | Mejoras en verificación de conexión y health checks documentados |
+| `a631376` | `develop` | `feat: add comprehensive database connection logging` | melandree8 | 22/11/2025 | Logging de conexión a base de datos, documentación incluida |
+
+**Nota**: La configuración de Swagger/OpenAPI se realizó durante la implementación inicial de cada módulo, y la documentación se generó automáticamente mediante atributos XML y anotaciones en los controladores. Los commits de implementación de módulos (Fuel Consumption, Deliveries, Maintenance, Fleet, IAM, Reports) incluyen la documentación correspondiente de sus endpoints.
+
+#### Endpoints Documentados con OpenAPI
+
+La siguiente tabla incluye, para cada Endpoint implementado, la indicación de acciones implementadas, junto con los enlaces correspondientes a la documentación desplegada. Para cada acción se especifica el verbo HTTP (GET, POST, PUT, DELETE, PATCH), sintaxis de llamada completa, especificación detallada de parámetros posibles (path, query, body), ejemplos de request y response, y explicación del response.
+
+**URL Base de Documentación**: `https://[backend-url]/swagger`  
+**URL Base de API**: `https://[backend-url]/api`
+
+**Leyenda de Estados**:
+-  **Documentado**: Endpoint completamente documentado en Swagger/OpenAPI
+-  **Protegido**: Endpoint requiere autenticación JWT Bearer token
+-  **Paginado**: Endpoint soporta paginación con parámetros `page` y `pageSize`
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%; text-align:left; font-family:Arial; font-size:11px;">
+  <tr>
+    <th style="background-color:#f0f0f0;">Endpoint</th>
+    <th style="background-color:#f0f0f0;">HTTP Verb</th>
+    <th style="background-color:#f0f0f0;">Sintaxis de Llamada</th>
+    <th style="background-color:#f0f0f0;">Parámetros</th>
+    <th style="background-color:#f0f0f0;">Response Example</th>
+    <th style="background-color:#f0f0f0;">Estado</th>
+  </tr>
+  
+  <!-- IAM ENDPOINTS -->
+  <tr>
+    <td><code>/api/users</code></td>
+    <td>POST</td>
+    <td><code>POST /api/users</code></td>
+    <td>Body: { email, password, role }</td>
+    <td>201 Created: { id, email, role, createdAt }</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/users</code></td>
+    <td>GET</td>
+    <td><code>GET /api/users?page=1&pageSize=10</code></td>
+    <td>Query: page (int), pageSize (int)</td>
+    <td>200 OK: { data: [], totalCount, page, pageSize }</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/users/{id}</code></td>
+    <td>GET</td>
+    <td><code>GET /api/users/{id}</code></td>
+    <td>Path: id (int)</td>
+    <td>200 OK: { id, email, role, createdAt }</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/users/{id}</code></td>
+    <td>PUT</td>
+    <td><code>PUT /api/users/{id}</code></td>
+    <td>Path: id (int), Body: { email, role }</td>
+    <td>200 OK: { id, email, role, updatedAt }</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/users/{id}</code></td>
+    <td>DELETE</td>
+    <td><code>DELETE /api/users/{id}</code></td>
+    <td>Path: id (int)</td>
+    <td>204 No Content</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/auth/login</code></td>
+    <td>POST</td>
+    <td><code>POST /api/auth/login</code></td>
+    <td>Body: { email, password }</td>
+    <td>200 OK: { token, user: { id, email, role } }</td>
+    <td> Documentado</td>
+  </tr>
+  
+  <!-- DELIVERIES ENDPOINTS -->
+  <tr>
+    <td><code>/api/deliveries</code></td>
+    <td>GET</td>
+    <td><code>GET /api/deliveries?status=pending&dateFrom=2025-11-01</code></td>
+    <td>Query: status (string), dateFrom (date), dateTo (date)</td>
+    <td>200 OK: { data: [], totalCount }</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/deliveries</code></td>
+    <td>POST</td>
+    <td><code>POST /api/deliveries</code></td>
+    <td>Body: { clientName, destination, scheduledDate, driverId }</td>
+    <td>201 Created: { id, clientName, destination, status, createdAt }</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/deliveries/{id}</code></td>
+    <td>GET</td>
+    <td><code>GET /api/deliveries/{id}</code></td>
+    <td>Path: id (int)</td>
+    <td>200 OK: { id, clientName, destination, status, scheduledDate }</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/deliveries/{id}</code></td>
+    <td>PUT</td>
+    <td><code>PUT /api/deliveries/{id}</code></td>
+    <td>Path: id (int), Body: { status, completedDate }</td>
+    <td>200 OK: { id, status, completedDate, updatedAt }</td>
+    <td> Documentado</td>
+  </tr>
+  
+  <!-- FLEET ENDPOINTS -->
+  <tr>
+    <td><code>/api/vehicles</code></td>
+    <td>GET</td>
+    <td><code>GET /api/vehicles</code></td>
+    <td>Query: status (string, opcional)</td>
+    <td>200 OK: { data: [], totalCount }</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/vehicles</code></td>
+    <td>POST</td>
+    <td><code>POST /api/vehicles</code></td>
+    <td>Body: { licensePlate, brand, model, year, status }</td>
+    <td>201 Created: { id, licensePlate, brand, model, status, createdAt }</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/vehicles/{id}</code></td>
+    <td>GET</td>
+    <td><code>GET /api/vehicles/{id}</code></td>
+    <td>Path: id (int)</td>
+    <td>200 OK: { id, licensePlate, brand, model, status }</td>
+    <td> Documentado</td>
+  </tr>
+  
+  <!-- FUEL CONSUMPTION ENDPOINTS -->
+  <tr>
+    <td><code>/api/fuel-consumption</code></td>
+    <td>GET</td>
+    <td><code>GET /api/fuel-consumption?vehicleId=1&dateFrom=2025-11-01</code></td>
+    <td>Query: vehicleId (int), dateFrom (date), dateTo (date)</td>
+    <td>200 OK: { data: [], totalCount }</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/fuel-consumption</code></td>
+    <td>POST</td>
+    <td><code>POST /api/fuel-consumption</code></td>
+    <td>Body: { vehicleId, quantity, cost, date, odometerReading }</td>
+    <td>201 Created: { id, vehicleId, quantity, cost, date, efficiency, createdAt }</td>
+    <td> Documentado</td>
+  </tr>
+  
+  <!-- MAINTENANCE ENDPOINTS -->
+  <tr>
+    <td><code>/api/maintenance</code></td>
+    <td>GET</td>
+    <td><code>GET /api/maintenance?vehicleId=1&status=scheduled</code></td>
+    <td>Query: vehicleId (int), status (string)</td>
+    <td>200 OK: { data: [], totalCount }</td>
+    <td> Documentado</td>
+  </tr>
+  <tr>
+    <td><code>/api/maintenance</code></td>
+    <td>POST</td>
+    <td><code>POST /api/maintenance</code></td>
+    <td>Body: { vehicleId, maintenanceType, scheduledDate, description }</td>
+    <td>201 Created: { id, vehicleId, maintenanceType, status, scheduledDate, createdAt }</td>
+    <td> Documentado</td>
+  </tr>
+  
+  <!-- REPORTS ENDPOINTS -->
+  <tr>
+    <td><code>/api/reports</code></td>
+    <td>GET</td>
+    <td><code>GET /api/reports?type=weekly&startDate=2025-11-01&endDate=2025-11-07</code></td>
+    <td>Query: type (string, requerido), startDate (date, requerido), endDate (date, requerido)</td>
+    <td>200 OK: { type, period, data: { deliveries, fuelConsumption, maintenance }, generatedAt }</td>
+    <td> Documentado</td>
+  </tr>
+</table>
+
 
 ![Services Documentation Evidence for Sprint Review](assets/Github-page-principal.png)
-
-![Services Documentation Evidence for Sprint Review](assets/github-frontend.png)
-
-![Services Documentation Evidence for Sprint Review](assets/github-backend.png)
-
 
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review. 
 
-| Required Evidence | Process Detail | Suggested Screenshots |
-| :--- | :--- | :--- |
-| **Hosting Environment Setup** | **Server Resource Creation/Configuration:** The hosting service in the cloud provider (e.g., AWS EC2, Azure App Service, VPS) dedicated to the Web Service was configured. RAM/CPU requirements were specified. | Image of the Cloud Provider console showing the hosting resource (VM or Application Service) created and in the `Running` state. |
-| **Code Deployment Process** | The deployment method was defined (e.g., FTP, Git Push, JAR/WAR file). The final build of the IAM module code was uploaded and executed to expose the `/api/users` endpoint at the public URL. | Screenshot of the server's deployment log or the service control panel showing the status as `Deployed Successfully`. |
-| **Environment Variables Configuration** | Critical environment variables (e.g., **Database Connection URL**, secure JWT keys) were configured on the server for the Web Service to operate securely (without these details in the source code). | Image of the server's environment variable configuration panel (values should be obscured). |
-| **Endpoint Connectivity Test** | Verification that the Registration/Login endpoint (`/api/users`) is accessible and functional from an external tool (Postman or curl). | Screenshot from **Postman** showing a successful `POST` request to the IAM endpoint with a **201** code. |
+En esta sección se resumen los procesos realizados en relación con Deployment durante el Sprint 3. La sección inicia con una introducción explicando qué se ha realizado con respecto a despliegue durante este Sprint, abarcando actividades de creación de cuentas, configuración de recursos en cloud providers, configuración de proyectos de desarrollo para integración o automatización de labor de Deployment, entre otros.
 
-| Required Evidence | Process Detail | Suggested Screenshots |
+Durante el Sprint 3, el equipo se enfocó en el despliegue de los **Web Services (backend)** desarrollados utilizando ASP.NET Core. Este sprint corresponde al TB2 (Sprint Review), cuyo objetivo principal es tener desplegada la primera versión de los servicios web RESTful en producción. Se realizaron configuraciones en plataformas de cloud computing (Railway), se establecieron procesos de despliegue automatizado mediante integración con GitHub, se configuraron variables de entorno y conexiones a base de datos, y se completó el despliegue exitoso de los servicios web junto con la actualización del frontend para conectarse al backend desplegado.
+
+**Enfoque del Sprint 3**: El despliegue se centró en los Web Services del backend. Se consideraron todos los productos: **Landing Page** (ya desplegado en GitHub Pages desde Sprint 1), **Web Applications** (actualizado en Vercel para conectarse al backend desplegado), y **Web Services** (nuevo despliegue en Railway durante este Sprint).
+
+**Logros Principales en Deployment para Sprint 3:**
+
+ **Despliegue de Backend en Railway**: Servicios web completamente desplegados y accesibles públicamente  
+ **Configuración de Base de Datos MySQL**: Base de datos MySQL configurada en Railway y conectada al backend  
+ **Variables de Entorno Configuradas**: Todas las variables sensibles configuradas de forma segura en Railway  
+ **Despliegue Automatizado**: Integración con GitHub para despliegue automático en cada push a la rama principal  
+ **Documentación Swagger Desplegada**: Documentación OpenAPI accesible públicamente en la URL del backend  
+ **Integración Frontend-Backend**: Frontend actualizado para consumir los endpoints del backend desplegado  
+ **Health Checks Implementados**: Endpoints de health check para monitoreo del estado del servicio  
+ **HTTPS Habilitado**: Certificados SSL automáticos configurados para comunicación segura
+
+#### Actividades de Deployment Realizadas
+
+##### 1. Creación de Cuentas en Cloud Providers
+
+Durante el Sprint 3, se crearon y configuraron las siguientes cuentas y servicios:
+
+**Railway - Plataforma Principal de Despliegue:**
+
+- **Cuenta Railway**: Cuenta creada para el despliegue del backend
+- **Proyecto Railway**: Proyecto "movesys-backend" creado
+- **Servicio Backend**: Servicio ASP.NET Core configurado
+- **Servicio MySQL**: Base de datos MySQL configurada como servicio adicional
+- **Plan**: Railway Hobby Plan (gratuito para desarrollo, con opción de upgrade)
+
+**Evaluación de Alternativas:**
+
+- **Azure App Service**: Evaluado inicialmente, pero se optó por Railway por su simplicidad y costo
+- **Heroku**: Considerado pero descartado por cambios en su modelo de precios
+- **AWS**: Evaluado pero considerado complejo para las necesidades iniciales del proyecto
+
+**Razón de Elección de Railway:**
+
+-  Despliegue automático desde GitHub
+-  Configuración simple de variables de entorno
+-  Base de datos MySQL integrada
+-  Certificados SSL automáticos
+-  Puertos dinámicos manejados automáticamente
+-  Logs en tiempo real
+-  Plan gratuito adecuado para desarrollo y pruebas
+
+##### 2. Configuración del Entorno de Hosting en Railway
+
+**Railway - Configuración del Servicio Backend:**
+
+| Configuración | Valor |
+| :--- | :--- |
+| **Nombre del Servicio** | movesys-backend |
+| **Runtime** | .NET 9.0 |
+| **Build Command** | `dotnet build -c Release` |
+| **Start Command** | `dotnet movesys-backend-.dll` |
+| **Puerto** | Dinámico (Railway asigna automáticamente) |
+| **Región** | Auto-seleccionada por Railway |
+| **Health Check** | `/health` endpoint configurado |
+
+**Pasos de Configuración Realizados:**
+
+1. **Creación del Proyecto en Railway**:
+   - Acceso a Railway Dashboard
+   - Creación de nuevo proyecto "movesys-backend"
+   - Selección de "Deploy from GitHub repo"
+
+2. **Configuración del Repositorio**:
+   - Conexión del repositorio de GitHub `movesys-backend-` con Railway
+   - Configuración de la rama de despliegue (`main` o `develop`)
+   - Configuración del directorio raíz del proyecto
+
+3. **Configuración del Build**:
+   - Railway detecta automáticamente proyectos .NET
+   - Build automático configurado: `dotnet build -c Release`
+   - Output: `bin/Release/net9.0/movesys-backend-.dll`
+
+4. **Configuración de Base de Datos MySQL**:
+   - Creación de servicio MySQL en Railway
+   - Railway proporciona automáticamente la variable de entorno `MYSQL_URL`
+   - Configuración de parsing de `MYSQL_URL` en el código para convertir a connection string de .NET
+
+5. **Configuración de Puertos Dinámicos**:
+   - Railway asigna puertos dinámicamente
+   - Configuración en `Program.cs` para leer el puerto desde `PORT` environment variable
+   - Ajuste de configuración de Kestrel para usar el puerto dinámico
+
+6. **Habilitación de HTTPS**:
+   - Railway proporciona certificados SSL automáticamente
+   - HTTPS habilitado por defecto en todas las rutas
+   - Dominio personalizado configurado (opcional)
+
+##### 3. Configuración de Variables de Entorno
+
+Se configuraron las siguientes variables de entorno críticas en Railway:
+
+| Variable de Entorno | Descripción | Estado |
 | :--- | :--- | :--- |
-| **Web Application Update** | The Continuous Integration/Deployment (CI/CD) pipeline was executed to build and deploy the updated version of the web application, including the Login/Registration forms and the Auth Guard logic. | Image of the CI/CD log (e.g., GitHub Actions) showing the successful *build* and *deploy* of the Frontend. |
-| **API URL Configuration** | The environment variable in the Frontend (e.g., `REACT_APP_API_URL`) was updated to point to the public URL of the deployed Web Service (Backend). | Screenshot of the Frontend's environment variable configuration file or hosting platform settings. |
-| **End-to-End Functional Test** | Visual evidence of a test user completing the full cycle: navigating to *Registration*, **consuming the Web Service** to create the account, logging in, and successfully being redirected to the **Dashboard**. | Sequence of images from the **live application** showing the successful Login form submission and the subsequent Dashboard view. |
+| `ASPNETCORE_ENVIRONMENT` | `Production` |  Configurada |
+| `PORT` | Puerto dinámico asignado por Railway |  Automático |
+| `MYSQL_URL` | URL de conexión MySQL proporcionada por Railway |  Automática |
+| `JWT__SecretKey` | Clave secreta para firma de tokens JWT |  Configurada (oculta) |
+| `JWT__Issuer` | `movesys-api` |  Configurada |
+| `JWT__Audience` | `movesys-frontend` |  Configurada |
+| `JWT__ExpirationMinutes` | `60` |  Configurada |
+| `ASPNETCORE_URLS` | URLs donde escucha la aplicación | Configurada automáticamente |
+
+**Importante**: Todas las variables sensibles (connection strings, secret keys) están configuradas en Railway y no están expuestas en el código fuente. Railway enmascara automáticamente los valores sensibles en los logs.
+
+**Proceso de Configuración de Variables:**
+
+1. Acceso a Railway Dashboard → Proyecto → Servicio Backend
+2. Navegación a la sección "Variables"
+3. Agregado de variables de entorno una por una
+4. Railway proporciona automáticamente `MYSQL_URL` cuando se crea el servicio MySQL
+5. Verificación de que todas las variables estén configuradas correctamente
+
+##### 4. Proceso de Despliegue del Código
+
+El despliegue se realizó utilizando el siguiente método:
+
+**Método**: Integración Directa con GitHub (Railway GitHub Integration)
+
+**Proceso de Despliegue Automático:**
+
+1. **Conexión del Repositorio**:
+   - Railway se conecta directamente al repositorio de GitHub
+   - Autorización de Railway para acceder al repositorio
+   - Selección del repositorio `movesys-backend-`
+
+2. **Configuración de la Rama**:
+   - Rama de despliegue configurada: `main` o `develop`
+   - Railway monitorea cambios en la rama seleccionada
+
+3. **Build Automático**:
+   - Cuando se hace push a la rama, Railway detecta el cambio automáticamente
+   - Ejecuta el build del proyecto: `dotnet build -c Release`
+   - Railway detecta automáticamente proyectos .NET y configura el build apropiado
+
+4. **Despliegue Automático**:
+   - Después de un build exitoso, Railway despliega automáticamente
+   - La aplicación se ejecuta con el comando: `dotnet movesys-backend-.dll`
+   - Railway asigna un puerto dinámico y actualiza las variables de entorno
+
+5. **Verificación del Estado**:
+   - Railway muestra el estado del despliegue en tiempo real
+   - Logs disponibles para verificar que la aplicación inició correctamente
+   - Health checks verifican que la aplicación está respondiendo
+
+6. **URL Pública Generada**:
+   - Railway genera automáticamente una URL pública (ej: `movesys-backend-production.up.railway.app`)
+   - La URL es accesible inmediatamente después del despliegue exitoso
+
+##### 5. Configuración de Base de Datos MySQL
+
+**Configuración del Servicio MySQL en Railway:**
+
+1. **Creación del Servicio MySQL**:
+   - Creación de nuevo servicio MySQL en el proyecto Railway
+   - Railway proporciona automáticamente la variable `MYSQL_URL`
+
+2. **Parsing de Connection String**:
+   - Railway proporciona `MYSQL_URL` en formato: `mysql://user:password@host:port/database`
+   - Implementación de lógica en `Program.cs` para parsear este formato a connection string de .NET
+   - Manejo de casos donde `MYSQL_URL` no está presente (desarrollo local)
+
+3. **Inicialización de Base de Datos**:
+   - Implementación de lógica para crear tablas automáticamente al iniciar
+   - Uso de SQL directo para crear tablas si no existen
+   - Logging de la inicialización para debugging
+
+**Commits Relacionados con Deployment:**
+
+- `37e9469`: Fix: Leer puerto dinámico de Railway
+- `f12e1ce`: Agrega archivos de configuración Docker y Railway
+- `3ed0251`: fix: parse Railway MYSQL_URL format (mysql://) to .NET connection string
+- `300db67`: fix: improve MySQL connection string detection and prevent localhost in production
+- `ae67951`: Fix: Eliminar referencias a Azure, usar solo Railway
+
 
 ### 5.2.3.8. Team Collaboration Insights during Sprint.
 
 
+En esta sección el equipo explica cómo se han desarrollado las actividades de implementación y se presentan capturas en imagen de los analíticos de colaboración y commits en GitHub, realizados por los miembros del equipo. Todos los miembros del equipo deben tener participación en la implementación de cada uno de los productos según corresponda en el Sprint: Landing Page, Web Applications, Web Services.
+
+Durante el Sprint 3, el equipo trabajó de manera colaborativa utilizando diversas herramientas y metodologías para asegurar la entrega exitosa de los servicios web del backend. La colaboración se caracterizó por una comunicación constante, distribución efectiva de tareas por módulos, y seguimiento continuo del progreso mediante herramientas de gestión de proyectos y control de versiones. Este sprint se enfocó principalmente en el desarrollo del backend (Web Services), con actualizaciones al frontend para la integración y mejoras continuas al Landing Page.
+
+#### Herramientas de Colaboración Utilizadas
+
+El equipo utilizó las siguientes herramientas para facilitar la colaboración y el trabajo en equipo:
+
+- **GitHub**: Control de versiones distribuido, code reviews mediante Pull Requests, seguimiento de issues y gestión de proyectos
+  - Repositorios principales: movesys-backend, movesys-frontend, movesys-project-report
+  - Uso de GitFlow para gestión de branches
+  - Conventional Commits para mensajes de commit consistentes
+
+- **Discord**: Plataforma principal de comunicación
+  - Canales organizados por temas (general, backend, frontend, deployment)
+  - Reuniones diarias de sincronización (Daily Standups)
+  - Resolución rápida de dudas técnicas sobre backend
+  - Sesiones de pair programming virtuales
+
+- **Jira**: Gestión de tareas y seguimiento del Sprint
+  - Sprint Backlog con User Stories y tareas del backend
+  - Seguimiento de progreso en tiempo real
+  - Gestión de bugs y mejoras
+  - Reportes de velocidad del equipo
+
+- **Postman**: Pruebas y validación de endpoints
+  - Colección compartida de requests para probar endpoints
+  - Validación colaborativa de respuestas de API
+  - Documentación de ejemplos de requests/responses
+
+#### Desarrollo de Actividades de Implementación
+
+Durante el Sprint 3, el equipo desarrolló las actividades de implementación de manera colaborativa, asegurando que todos los miembros participaran en la implementación de cada producto según correspondía en el sprint. A continuación se detalla cómo se desarrollaron las actividades para cada producto:
+
+**Landing Page:**
+
+Todos los miembros del equipo participaron en mejoras y actualizaciones del Landing Page:
+
+- **Mel Andree Orellana**: 
+  - Mejoras menores y optimizaciones
+  - Commits: 2 commits relacionados con Landing Page
+
+- **Gabriel Espinar**: 
+  - Validación de funcionalidad
+  - Commits: 1 commit relacionado con Landing Page
+
+- **Daniel Palomino**: 
+  - Revisión y validación
+  - Commits: 1 commit relacionado con Landing Page
+
+- **Angel Berrospi**: 
+  - Validación del despliegue
+  - Commits: 1 commit relacionado con Landing Page
+
+**Frontend Web Applications:**
+
+Todos los miembros participaron en la actualización del frontend para integrarse con el backend:
+
+- **Mel Andree Orellana**: 
+  - Actualización de servicios API para conectarse al backend real
+  - Integración de módulos Fuel Consumption y Reporting con backend
+  - Actualización de variables de entorno
+  - Commits: 12 commits en frontend
+
+- **Gabriel Espinar**: 
+  - Integración del módulo Delivery Management con backend
+  - Implementación de manejo de errores de API
+  - Commits: 8 commits en frontend
+
+- **Daniel Palomino**: 
+  - Integración de autenticación y Auth Guard
+  - Actualización de formularios de login/registro
+  - Commits: 6 commits en frontend
+
+- **Angel Berrospi**: 
+  - Actualización de Dashboard para consumir datos reales
+  - Integración de Fleet Management con backend
+  - Commits: 7 commits en frontend
+
+**Web Services (Backend):**
+
+Todos los miembros del equipo participaron activamente en el desarrollo del backend, distribuyendo el trabajo por módulos:
+
+- **Mel Andree Orellana**: 
+  - Desarrollo completo del módulo de **Fuel Consumption** (endpoints, lógica de negocio, repositorios)
+  - Desarrollo completo del módulo de **Reports** (endpoints, generación de reportes)
+  - Configuración de Swagger/OpenAPI
+  - Code reviews en módulos de otros miembros
+  - Commits: 18 commits en backend
+
+- **Gabriel Espinar**: 
+  - Desarrollo completo del módulo de **Deliveries** (endpoints CRUD, lógica de negocio)
+  - Implementación de repositorios y servicios
+  - Code reviews en otros módulos
+  - Commits: 15 commits en backend
+
+- **Daniel Palomino**: 
+  - Desarrollo completo del módulo de **Maintenance** (endpoints, gestión de mantenimientos)
+  - Implementación de lógica de negocio
+  - Code reviews
+  - Commits: 14 commits en backend
+
+- **Angel Berrospi**: 
+  - Desarrollo del módulo de **Fleet** (endpoints para gestión de vehículos)
+  - Desarrollo del módulo de **IAM** (autenticación, autorización, JWT)
+  - Configuración de base de datos y Entity Framework
+  - Code reviews en todos los módulos
+  - Commits: 20 commits en backend
+
+**Colaboración Cruzada en Backend:**
+- Todos los miembros realizaron code reviews en módulos desarrollados por otros
+- Pair programming en integración de módulos y configuración de servicios compartidos
+- Revisión colaborativa de arquitectura y patrones de diseño
+- Mejoras sugeridas y aplicadas en todos los módulos
 
 ![Team Collaboration Insights during Sprint](assets/historial-backend1.png)
 
 ![Team Collaboration Insights during Sprint](assets/historial-backend2.png)
 
 ![Team Collaboration Insights during Sprint](assets/historial-backend3.png)
+
 
 ## 5.3. Validation Interviews.
 ## 5.3.1. Diseño de entrevistas.
