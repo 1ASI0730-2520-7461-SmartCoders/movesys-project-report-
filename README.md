@@ -1,28 +1,30 @@
 <div align ="center">
 
-# Informe del Trabajo Final
-![Logo Banner](assets/Banner-UPC.png)
+![Logo Banner](assets/UPC-logo.png)
 
-## Universidad Peruana de Ciencias Aplicadas
+### Universidad Peruana de Ciencias Aplicadas
+### Inegeneria de Software
+### 2025-20
 
 ### NRC: 7461
 ### Docente: Ángel Augusto Velásquez Núñez
-### Startup: SmartCoders
-### Producto: MoveSys
+### Informe de Trabajo Final
+
+###  SmartCoders
+###  MoveSys
 
 
 <div align = "left">
-
+   
 * Integrantes
-
-    * U202310436 Ferran Espinar Martínez 
-    * U202114701 Guillermo Berrospi Marin 
-    * U202116018 Rodriguez Mel Andree 
+  
+    * U202116018 - Orellana Rodriguez Mel Andree 
     * U20201B253 Stalin Palomino Murga 
-
 <div>
 
 ### Septiembre 2025
+
+
 
 # **Registro de Versiones del Informe**
 
