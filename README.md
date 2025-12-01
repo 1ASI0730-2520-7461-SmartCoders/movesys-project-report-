@@ -88,22 +88,76 @@
 
 # **Project Report Collaboration Insights**
 
-URL Project Report (Github): (https://github.com/1ASI0730-2520-7461-SmartCoders/movesys-project-report-)
 
+
+**URL del Repositorio**: [https://github.com/1ASI0730-2520-7461-SmartCoders/movesys-project-report-](https://github.com/1ASI0730-2520-7461-SmartCoders/movesys-project-report-)
 
 ## TB1  
 
-Para el desarrollo del informe correspondiente a todas las entregas, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:  
+Para el desarrollo del informe correspondiente a TB1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:  
 
-| Integrante | Tareas Asignadas                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          |
+| Integrante | Tareas Asignadas |
 | :--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Mel Andree Orellana** | Se encargó en el backend de el endpoint **Fuel Consumption** y **Report**, aparte hizo modificaciones de mejora en el backend y su conexión con la base de datos y el frontend. Creación de la estructura del informe, incorporación del *Landing Page UI Design*, desarrollo de *General Style Guidelines* y *Web Style Guidelines*, elaboración de la sección *Information Architecture*, desarrollo de *Organization Systems*, *Labeling Systems*, *SEO Tags and Meta Tags*, *Searching Systems* y *Navigation Systems*. También se encargó de la elaboración del *Segmento Objetivo*. |
-| **Gabriel Ferran Espinar** | Se encargó en el backend de el endpoint **Delivery**, también del reponte uno de los puntos de **validation interviews**. Ejecución del proceso de *Needfinding*, elaboración de *User Personas* y desarrollo de *User Task Matrix*. También trabajó en el *Análisis Competitivo y Estrategia*.                                                                                                                                                                                                                                                                                           |
-| **Daniel Palomino** | Se encargó de el endpoint **Maintenance**, también del reporte uno de los puntos de **validation interviews**. Incorporación de *Web Applications Wireframes*, *Wireflow Diagrams*, *Mock-ups* y *Prototyping*.                                                                                                                                                                                                                                                                                                                                                                           |
-| **Angel Guillermo Berrospi** | Se encargó del endpoint **Fleet** y el **monitoreo del equipo**, la **comunicación** y la **organización**. Incorporación de *Class Diagrams* y *Database Diagram*. Desarrollo de *Software Architecture Context Diagram*, *Container Diagrams* y *Components Diagrams*. Además, participó en la redacción de *Antecedentes y problemática*, *Lean UX Canvas*, *Descripción de la Startup*, *Lean UX Process* y el desarrollo del *Sprint 1*.                                                                                                                                             |
+| **Mel Andree Orellana Rodriguez** | Creación de la estructura del informe, incorporación del *Landing Page UI Design*, desarrollo de *General Style Guidelines* y *Web Style Guidelines*, elaboración de la sección *Information Architecture*, desarrollo de *Organization Systems*, *Labeling Systems*, *SEO Tags and Meta Tags*, *Searching Systems* y *Navigation Systems*. También se encargó de la elaboración del *Segmento Objetivo*. |
+| **Gabriel Ferran Espinar Martínez** | Ejecución del proceso de *Needfinding*, elaboración de *User Personas* y desarrollo de *User Task Matrix*. También trabajó en el *Análisis Competitivo y Estrategia*. |
+| **Daniel Stalin Palomino Murga** | Incorporación de *Web Applications Wireframes*, *Wireflow Diagrams*, *Mock-ups* y *Prototyping*. |
+| **Merly Salon Puerta** | Incorporación de *Web Applications Wireframes*, *Web Applications Wireflow Diagrams*, *Web Applications Mock-ups* y *Web Applications Prototyping*. |
+| **Bryan Felix Martinez** | Elaboración del *User Journey Mapping*, desarrollo del *Empathy Mapping*, desarrollo del Glosario de *Ubiquitous Language* para alinear términos del dominio, desarrollo de *User Stories*, desarrollo de *Impact Mapping* y desarrollo de *Product Backlog*. |
+| **Angel Guillermo Berrospi Marin** | Incorporación de *Class Diagrams* y *Database Diagram*. Desarrollo del *Software Architecture Context Diagram*, *Container Diagrams* y *Components Diagrams*. Además, participó en la redacción de *Antecedentes y problemática*, *Lean UX Canvas*, *Descripción de la Startup*, *Lean UX Process* y el desarrollo del *Sprint 1*. También se encargó del **monitoreo del equipo**, la **comunicación** y la **organización**. |
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización, garantizando el versionamiento adecuado y la integración de cada aporte individual.
+
+![Tb1](assets/tb1.png)
+![Tb1](assets/tb1-1.png)
 
 
-El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización, garantizando el versionamiento adecuado y la integración de cada aporte individual.  
+## TP1  
+
+Para el desarrollo del informe correspondiente a TP1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:  
+
+| Integrante | Tareas Asignadas |
+| :--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Mel Andree Orellana Rodriguez** | Implementación del módulo Fuel Consumption en el frontend, implementación del módulo Reporting en el frontend, desarrollo de vistas y componentes para gestión de consumo de combustible, desarrollo de vistas y componentes para reportes y análisis, configuración de servicios API para Fuel Consumption en el frontend, configuración de servicios API para Report en el frontend, implementación de store y state management para Fuel Consumption, implementación de store y state management para Reporting, mejoras en la integración del frontend con el backend, optimización de componentes frontend y mejoras en la experiencia de usuario. Desarrollo del Dashboard con integración de datos mock, implementación de gráficos y filtros para reportes. Documentación del Sprint 1 y Sprint 2 con todas sus evidencias de desarrollo, ejecución, documentación de servicios, despliegue y colaboración del equipo. |
+| **Gabriel Ferran Espinar Martínez** | Diseño de la vista de reportes, diseño de la interfaz de gestión de entregas, diseño de la vista de gestión de flota, implementación de la lista de entregas con datos mock. Documentación de las secciones de Reporting y Delivery Management en el Sprint 2. |
+| **Daniel Stalin Palomino Murga** | Diseño de la interfaz de gestión de usuarios, implementación de operaciones CRUD para User Management con datos mock. Documentación de las secciones de User Management en el Sprint 2. |
+| **Angel Guillermo Berrospi Marin** | Diseño del layout del panel Dashboard, diseño del módulo de consumo de combustible, diseño de la vista de gestión de flota, implementación de componentes de vehículo y ruta con datos mock. Documentación de las secciones de Dashboard, Fuel Consumption y Fleet Management en el Sprint 2. |
+| **Merly Salon Puerta** | Diseño de la interfaz de gestión de usuarios, implementación de la lista de entregas con datos mock. Documentación de las secciones de User Management y Delivery Management en el Sprint 2. |
+| **Bryan Felix Martinez** | Implementación de operaciones CRUD para User Management con datos mock. Apoyo en la documentación del Sprint 2. |
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización, garantizando el versionamiento adecuado y la integración de cada aporte individual.
+
+![Tb1](assets/tp.png)
+![Tb1](assets/tp-1.png)
+
+## TB2  
+
+Para el desarrollo del informe correspondiente a TB2, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:  
+
+| Integrante | Tareas Asignadas |
+| :--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Mel Andree Orellana Rodriguez** | Implementación del endpoint Fuel Consumption en el backend, implementación del endpoint Report en el backend, modificaciones de mejora en el backend y conexión con la base de datos, mejoras en la integración del backend con el frontend. Configuración de la base de datos MySQL, configuración de Swagger/OpenAPI, configuración del despliegue en Railway, implementación de health checks. Documentación completa del Sprint 3, incluyendo todas las secciones: Sprint Planning, Aspect Leaders and Collaborators, Sprint Backlog, Development Evidence for Sprint Review, Execution Evidence for Sprint Review, Services Documentation Evidence for Sprint Review, Software Deployment Evidence for Sprint Review, y Team Collaboration Insights during Sprint. |
+| **Angel Guillermo Berrospi Marin** | Implementación del endpoint Fleet en el backend, implementación del endpoint Maintenance en el backend, implementación del endpoint Deliveries en el backend. Desarrollo de tests unitarios e integración para los endpoints implementados, implementación de error handling y validación. Documentación de las secciones de arquitectura y diseño técnico en el Sprint 3. |
+| **Gabriel Ferran Espinar Martínez** | Implementación del endpoint Deliveries en el backend, implementación de la autenticación y autorización (IAM) en el frontend, integración del frontend con los endpoints de Deliveries. Documentación de las secciones de Deliveries y autenticación en el Sprint 3. |
+| **Daniel Stalin Palomino Murga** | Implementación del endpoint Maintenance en el backend, implementación de Registration Form y Login Form en el frontend, implementación de Routing & Auth Guard, diseño del Dashboard Layout. Integración del frontend con los endpoints de IAM. Documentación de las secciones de User Management y Maintenance en el Sprint 3. |
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización, garantizando el versionamiento adecuado y la integración de cada aporte individual.
+
+![Tb1](assets/tb2.png)
+![Tb1](assets/tb2-2.png)
+
+
+## TF1  
+
+Para el desarrollo del informe correspondiente a TF1, se estableció la implementación de secciones de la siguiente manera para cada integrante del equipo:  
+
+| Integrante | Tareas Asignadas |
+| :--- |:------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Mel Andree Orellana Rodriguez** | Corrección de bugs y mejoras en la funcionalidad del frontend, refactorización de código frontend para mejor mantenibilidad. Actualización y mejora de todas las secciones del informe, verificación de coherencia con el Registro de Versiones del Informe, mejoras en la estructura y organización del contenido, y preparación del informe final para entrega. |
+| **Daniel Stalin Palomino Murga** | Revisión y validación de las secciones de diseño UX/UI del informe, verificación de coherencia de wireframes, mock-ups y prototipos documentados, colaboración en la revisión final del informe y validación de la documentación de validación de entrevistas. |
+
+El proceso de colaboración en el informe se realizó mediante commits constantes al repositorio de la organización, garantizando el versionamiento adecuado y la integración de cada aporte individual.
+
+
 
 
 
