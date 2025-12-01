@@ -3333,29 +3333,35 @@ Todos los miembros del equipo participaron activamente en el desarrollo del back
 Se diseñó las entrevistas para que los usuarios de los segmentos objetivos después de interactuar con la landing page y con los prototipos
 de experiencias web y mobile, con el fin de obtener retroalimentación sobre la usabilidad, funcionalidad y satisfacción general con el sistema MoveSys.
 
-* Segmento 1: Empresas de transporte de carga (pymes)
+# Segmento 1: Empresas de transporte de carga (pymes)
+- Cuando entras al panel principal, ¿qué parte de la interfaz captó primero tu atención y por qué?  
+- ¿La información del dashboard (entregas, vehículos, conductores, mantenimientos) te ayuda a entender el estado de tu operación de un vistazo?
+- ¿Qué tan fácil te resultó moverte entre los módulos (Entregas, Conductores, Flota activa, Combustible y costos, Mantenimientos, Datos operativos)?  
+- ¿Hubo algún módulo cuyo nombre o contenido no quedó claro al primer uso?
+- ¿El apartado de *Entregas por estado* y *Vehículos por estado* te aporta información útil para tomar decisiones?  
+- En tu operación real, ¿qué tan valiosos serían los indicadores que muestra el panel?  
+- ¿Las funciones relacionadas con gestión de vehículos y conductores cubren lo que esperas para tu empresa?
+- ¿La creación y seguimiento de entregas se siente fluida o hay pasos que podrían simplificarse?  
+- ¿El registro de mantenimientos y costos de combustible se ajusta a los procesos que manejas actualmente?
+- ¿La interfaz transmite orden y confiabilidad para supervisar operaciones en tiempo real?  
+- ¿Hay algún dato o indicador adicional que te gustaría ver para aumentar la sensación de control?
+- ¿Qué mejorarías o agregarías en el dashboard para que represente fielmente la operación de tu empresa?  
+- Si tuvieras que mostrar esta plataforma a un cliente o socio, ¿qué parte reforzarías para que genere mayor impacto?
 
-   * ¿Qué elementos de la landing page llamaron más tu atención al ingresar por primera vez?
-   * ¿La información y los beneficios expuestos en la landing page son claros y relevantes para los retos de tu empresa?
-   * ¿Cómo calificarías la facilidad de navegación y acceso a las distintas secciones (Servicios, Planes, Demo, Contacto)?
-   * ¿El proceso de contacto y la solicitud de información te parece intuitivo y accesible para tu equipo?
-   * ¿La sección de características (trazabilidad, evidencia fotográfica, reportes e indicadores) te parece útil para fortalecer la operación y el servicio a tus clientes?
-   * ¿Te genera confianza la transparencia ofrecida por la plataforma tal como se presenta en la landing page?
-   * ¿Qué tipo de información extra te gustaría ver en la página principal?
-   * ¿Qué mejorarías en el diseño, estructura o contenido para que refleje mejor lo que tu empresa busca?
+---
 
+# Segmento 2: Conductores de unidades de carga
 
-
-
-* Segmento 2: Conductores de unidades de carga
-    * ¿Qué te llamó la atención de la landing page y qué te motivó a explorar la plataforma?
-    * ¿La información que ves sobre las funciones para conductores te resulta clara y relevante?
-    * ¿Te parece sencillo registrar actividades como kilometraje y entregas desde los prototipos web o móviles?
-    * ¿La opción de envío de evidencia fotográfica durante las entregas se ve fácil de usar en la interfaz presentada?
-    * ¿El acceso a la geolocalización en tiempo real es evidente y útil desde la landing page?
-    * ¿Qué aspectos del diseño o estructura de la landing facilitarían tu trabajo diario?
-    * ¿Hay alguna funcionalidad o mensaje en la landing page que te parezca innecesaria o confusa?
-    * ¿Qué cosas mejorarías para que la plataforma web/móvil se adapte mejor a las necesidades del conductor?
+- Al ingresar por primera vez, ¿qué parte de la aplicación te ayudó a entender mejor cómo funciona la plataforma?  
+- ¿La información relacionada con tus tareas (entregas, kilometraje, estado del vehículo) aparece de forma clara?
+- ¿Qué tan sencillo te resultó registrar kilometraje, entregas y actividad operativa desde los módulos disponibles?  
+- ¿Sentiste que las acciones que realizas en tu día a día están bien representadas en la interfaz?
+- ¿El proceso para agregar evidencia fotográfica (por ejemplo, al completar una entrega) te pareció intuitivo?  
+- ¿La información de tu vehículo y su estado te permite detectar problemas o reportarlos fácilmente?
+- ¿Hay momentos donde la plataforma te pide demasiada información o pasos innecesarios?  
+- ¿La navegación en el menú lateral es cómoda mientras estás trabajando en campo?
+- ¿Qué cambios harías para que el sistema sea más práctico mientras estás en ruta?  
+- ¿Hay alguna funcionalidad que te gustaría que se agregue para hacer tu trabajo más rápido o seguro?
 
 
 
