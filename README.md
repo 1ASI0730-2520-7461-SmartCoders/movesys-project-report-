@@ -3580,9 +3580,6 @@ En esta sección, el equipo describe el desarrollo de las actividades de impleme
 
 
 
-
-
-
 ## 5.3. Validation Interviews.
 ## 5.3.1. Diseño de entrevistas.
 Se diseñó las entrevistas para que los usuarios de los segmentos objetivos después de interactuar con la landing page y con los prototipos
@@ -3811,7 +3808,8 @@ Sin embargo, se identifican oportunidades de mejora en **retroalimentación visu
 
 <img src="assets/about-the-product.png"/>
 
-Enlace del video:https://youtu.be/pHDVkNrEIK8 
+[Enlace About the Product](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202116018_upc_edu_pe/IQDxoZP2FuXKQYmojAtK0glPAUQ_YNDy4PVRNntuXGr_n3M?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=R3z6Y3)
+
 
 ## Conclusiones
 - Durante el proceso se evidenció que una coordinación temprana entre las áreas de diseño, desarrollo y análisis de usuarios fue clave para alinear las funcionalidades con las necesidades reales del público objetivo. Esta sinergia permitió implementar de manera integrada tanto el frontend como el backend, logrando una comunicación eficiente entre ambos y una experiencia de usuario fluida.
