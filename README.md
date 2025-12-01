@@ -16,10 +16,11 @@
 
 <div align = "center">
    
-|Integrantes|
-|---------------------|
+|**Code**|**Member**|
+|---------------------|--------------------|
 |U202116018 |Orellana Rodriguez Mel Andree|
 |U20201B253 |Palomino Murga Daniel Stalin| 
+
 <div>
 
 ### Septiembre 2025
