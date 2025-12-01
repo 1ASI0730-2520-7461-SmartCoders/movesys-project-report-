@@ -86,6 +86,8 @@
 |          |   08/11/2025     |   Mel Andree Orellana Rodriguez       | Mejoras en la integración del backend con el frontend |
 | TF1      |   04/12/2025     |   Mel Andree Orellana Rodriguez       | Corrección de bugs y mejoras en la funcionalidad del frontend |
 |          |   05/12/2025     |   Mel Andree Orellana Rodriguez       | Refactorización de código frontend para mejor mantenibilidad |
+|          |   05/12/2025     |   Daniel Stalin Palomino Murga       | Corrección del documento, entrevistas, capturas de github |
+
 
 
 
