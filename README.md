@@ -3631,7 +3631,7 @@ Se realizaron entrevista a empresas de transportes de cargas (pymes) y a conduct
 - **Ocupación:** Jefa de operaciones en empresa de transporte de carga
 - **Inicio:** 00 minuto
 - **Duración:** 5 minutos
-- **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b253_upc_edu_pe/IQD_cSxC8jshSbG6Od29R2vhAQOCwBlzFoo0GUd4YbRxVqE?e=2xzuZZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+- **URL:** [Ver Entrevista 1]( https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b253_upc_edu_pe/IQD_cSxC8jshSbG6Od29R2vhAQOCwBlzFoo0GUd4YbRxVqE?e=2xzuZZ&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 
@@ -3645,8 +3645,7 @@ Se realizaron entrevista a empresas de transportes de cargas (pymes) y a conduct
  - **Ocupación:** Conductor de unidad de carga
  - **Inicio:** 00 minuto
  - **Duración:** 4 minutos
- - **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b253_upc_edu_pe/IQDd9MAULw0STYvPKnJIJOtjAdBFFImV45VtqTFZcn78goQ?e=murjxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
+- **URL:** [Ver Entrevista ]( https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b253_upc_edu_pe/IQDd9MAULw0STYvPKnJIJOtjAdBFFImV45VtqTFZcn78goQ?e=murjxM&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 - **Entrevista 2:**
   <img src="assets/ES2-2.png"/>
@@ -3656,8 +3655,7 @@ Se realizaron entrevista a empresas de transportes de cargas (pymes) y a conduct
  - **Ocupación:** Conductor de unidad de carga
  - **Inicio:** 00 minuto
  - **Duración:** 5 minutos
- - **URL:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b253_upc_edu_pe/IQAjGeXI5UGmT7PUINA_HbTgAfshzVn_DeGY8w323sSymWQ?e=1yZWv1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
-
+- **URL:** [Ver Entrevista 2 ]( https://upcedupe-my.sharepoint.com/:v:/g/personal/u20201b253_upc_edu_pe/IQAjGeXI5UGmT7PUINA_HbTgAfshzVn_DeGY8w323sSymWQ?e=1yZWv1&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 
 
