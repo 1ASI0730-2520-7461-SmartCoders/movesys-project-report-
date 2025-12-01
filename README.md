@@ -27,7 +27,7 @@
 
 <div style="page-break-after: always;"></div>
 
-
+<div align = "left">
 
 # **Registro de Versiones del Informe**
 
@@ -3593,3 +3593,4 @@ Esta diferenciación permitió establecer **flujos específicos para cada segmen
 - Wireframes de la plataforma.  
 - Tablas de historias de usuario y criterios de aceptación.  
 - Capturas de la interfaz de la aplicación para cada segmento.
+</div>
