@@ -3014,8 +3014,6 @@ La siguiente tabla incluye, para cada Endpoint implementado, la indicación de a
 </table>
 
 
-![Services Documentation Evidence for Sprint Review](assets/Github-page-principal.png)
-
 
 ### 5.2.3.7. Software Deployment Evidence for Sprint Review. 
 
