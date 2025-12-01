@@ -21,7 +21,7 @@
 |U202116018 |Orellana Rodriguez Mel Andree|
 |U20201B253 |Palomino Murga Daniel Stalin| 
 
-<div>
+</div>
 
 ### Septiembre 2025
 
