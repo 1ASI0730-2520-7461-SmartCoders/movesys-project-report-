@@ -14,12 +14,12 @@
 ###  MoveSys
 
 
-<div align = "left">
+<div align = "center">
    
-* Integrantes
-  
-    * U202116018 - Orellana Rodriguez Mel Andree 
-    * U20201B253 Stalin Palomino Murga 
+|Integrantes|
+|---------------------|
+|U202116018 |Orellana Rodriguez Mel Andree|
+|U20201B253 |Palomino Murga Daniel Stalin| 
 <div>
 
 ### Septiembre 2025
