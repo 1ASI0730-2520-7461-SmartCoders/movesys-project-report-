@@ -108,6 +108,78 @@ El proceso de colaboración en el informe se realizó mediante commits constante
 
 
 
+# **Student Outcome**
+
+### ABET – EAC - Student Outcome 5  
+**Criterio:** La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos.  
+
+En el siguiente cuadro se presentan las acciones realizadas y las conclusiones formuladas por el grupo, las cuales evidencian y respaldan el cumplimiento de este resultado de aprendizaje.  
+
+<div>
+<table>
+  <thead>
+    <tr>
+      <th>Criterio específico</th>
+      <th>Nombre</th>
+      <th>Acciones realizadas</th>
+      <th>Conclusiones</th>
+    </tr>
+  </thead>
+  <tbody>
+    <!-- Criterio 1 -->
+    <tr>
+      <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td>
+      <td>Mel Andree Orellana Rodriguez</td>
+      <td>
+        TB1: Lideré la estructuración del informe del proyecto y coordiné la organización de las secciones iniciales, facilitando que todos los miembros del equipo tuvieran claridad sobre el alcance y formato del documento. También lideré el desarrollo del Landing Page UI Design y el Segmento Objetivo, estableciendo las bases visuales y estratégicas del proyecto.<br>
+        TP1: Coordiné las reuniones de Sprint Planning y Sprint Review del Sprint 1, facilitando la comunicación entre los miembros del equipo y asegurando que todos participaran activamente en la planificación y revisión de avances. Lideré la implementación del módulo Fuel Consumption en el frontend, guiando las decisiones técnicas del equipo.<br>
+        TB2: Asumí el liderazgo técnico en el desarrollo del backend, implementando los endpoints de Fuel Consumption y Reports, y coordinando la integración frontend-backend. Lideré las sesiones de resolución de problemas técnicos relacionados con la base de datos y el despliegue en Railway.<br>
+        TF1: Lideré la presentación final del proyecto, coordinando la integración de todos los componentes desarrollados y asegurando que cada miembro del equipo contribuyera con sus avances. Dirigí las sesiones de revisión final y validación del sistema completo.
+      </td>
+      <td>He demostrado capacidad para proporcionar liderazgo en forma conjunta a lo largo del proyecto. Mi liderazgo se caracterizó por facilitar la participación de todos los miembros, distribuir responsabilidades de manera equitativa, y tomar decisiones técnicas consensuadas. En cada entregable, asumí roles de coordinación que permitieron al equipo avanzar de manera organizada, estableciendo objetivos claros y planificando tareas de forma colaborativa. El liderazgo compartido se evidenció en las reuniones donde todos los miembros aportaron ideas y decisiones fueron tomadas en conjunto.</td>
+    </tr>
+    <tr>
+      <td>Trabaja en equipo para proporcionar liderazgo en forma conjunta.</td>
+      <td>Daniel Stalin Palomino Murga</td>
+      <td>
+        TB1: Lideré el desarrollo de los Web Applications Wireframes, Wireflow Diagrams, Mock-ups y Prototyping, estableciendo la visión de diseño de la interfaz de usuario. Coordiné las sesiones de diseño con el equipo, facilitando la comprensión de los flujos de usuario y asegurando que todos los miembros participaran en las decisiones de diseño.<br>
+        TP1: Asumí el liderazgo en la implementación del módulo User Management en el frontend, coordinando con otros desarrolladores para la integración. Facilité las reuniones de diseño de interfaces, asegurando que las decisiones de UX/UI fueran tomadas de manera colaborativa.<br>
+        TB2: Lideré el desarrollo del endpoint Maintenance en el backend, coordinando la implementación y asegurando la consistencia técnica con otros módulos. Dirigí las sesiones de integración del módulo de mantenimiento con el frontend, facilitando la comunicación entre desarrolladores.<br>
+        TF1: Coordiné las actividades de Validation Interviews, liderando el proceso de recolección de feedback de usuarios y la implementación de mejoras basadas en las evaluaciones heurísticas. Facilité la integración final de la funcionalidad de mantenimiento en el sistema completo.
+      </td>
+      <td>He proporcionado liderazgo compartido en el equipo, especialmente en aspectos de diseño de interfaces y desarrollo de funcionalidades de usuario. Mi liderazgo se manifestó en la coordinación de decisiones de diseño, la facilitación de discusiones sobre UX/UI, y el apoyo a otros miembros del equipo en la implementación de sus módulos. Trabajé de manera colaborativa, asegurando que el liderazgo fuera compartido y que todos los miembros tuvieran voz en las decisiones importantes del proyecto, especialmente en aspectos relacionados con la experiencia del usuario.</td>
+    </tr>
+    <!-- Criterio 2 -->
+    <tr>
+      <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+      <td>Mel Andree Orellana Rodriguez</td>
+      <td>
+        TB1: Establecí las metas iniciales del proyecto en colaboración con el equipo, definiendo los objetivos para el Landing Page y la estructura del informe. Planifiqué las tareas de diseño y documentación, distribuyéndolas de manera equitativa entre los miembros. Creé un ambiente inclusivo donde todos pudieron aportar ideas para el diseño y la organización del proyecto.<br>
+        TP1: Participé activamente en el Sprint Planning del Sprint 1 y Sprint 2, contribuyendo a establecer metas claras y alcanzables. Planifiqué y ejecuté las tareas de desarrollo del frontend, asegurando la comunicación constante con el equipo sobre el progreso. Fomenté la colaboración mediante code reviews y sesiones de pair programming.<br>
+        TB2: Establecí metas técnicas para el desarrollo del backend, planificando la implementación de módulos de forma incremental. Creé un entorno colaborativo mediante la documentación detallada de los endpoints y la organización de sesiones técnicas. Cumplí los objetivos establecidos para Fuel Consumption y Reports, integrando exitosamente con el frontend.<br>
+        TF1: Coordiné la planificación final del proyecto, estableciendo metas claras para la integración completa y la validación. Organizé sesiones de trabajo colaborativo para resolver problemas pendientes y asegurar el cumplimiento de todos los objetivos del proyecto.
+      </td>
+      <td>He creado y mantenido un entorno colaborativo e inclusivo a lo largo del proyecto. Establecí metas claras en colaboración con el equipo, planifiqué tareas de manera sistemática, y cumplí con los objetivos asignados en cada entregable. Mi contribución se caracterizó por fomentar la participación de todos los miembros, facilitar la comunicación efectiva, y asegurar que las tareas se distribuyeran de manera equitativa. El ambiente colaborativo que ayudé a crear permitió que el equipo trabajara de manera eficiente y alcanzara los objetivos establecidos.</td>
+    </tr>
+    <tr>
+      <td>Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos.</td>
+      <td>Daniel Stalin Palomino Murga</td>
+      <td>
+        TB1: Establecí las metas de diseño de interfaces en colaboración con el equipo, definiendo los objetivos para los wireframes, mock-ups y prototipos. Planifiqué las tareas de diseño UX/UI, coordinando su ejecución y asegurando que todos los miembros pudieran contribuir con ideas y feedback. Creé un ambiente inclusivo mediante la presentación clara de los diseños y la facilitación de discusiones sobre mejoras.<br>
+        TP1: Participé activamente en el establecimiento de metas para los sprints, contribuyendo a la planificación de tareas de desarrollo frontend. Planifiqué y ejecuté las tareas de implementación del módulo User Management, comunicando el progreso regularmente al equipo. Fomenté la colaboración mediante la discusión de decisiones de diseño y la búsqueda de consenso en aspectos de UX/UI.<br>
+        TB2: Establecí metas técnicas para el desarrollo del módulo Maintenance, planificando la implementación del endpoint y la integración con otros módulos. Creé un entorno colaborativo mediante la documentación de decisiones técnicas y la organización de sesiones de desarrollo conjunto. Cumplí los objetivos establecidos, integrando exitosamente el módulo de mantenimiento.<br>
+        TF1: Coordiné la planificación de actividades de validación, estableciendo metas claras para las entrevistas con usuarios y las evaluaciones heurísticas. Organizé sesiones colaborativas de análisis de feedback, asegurando que todos los objetivos de validación fueran cumplidos y que las mejoras identificadas fueran implementadas.
+      </td>
+      <td>He contribuido significativamente a crear un entorno colaborativo e inclusivo, especialmente en procesos de diseño y desarrollo de funcionalidades de usuario. Establecí metas en colaboración con el equipo, planifiqué tareas de manera organizada, y cumplí con los objetivos asignados en cada entregable. Mi contribución se caracterizó por fomentar la participación de todos en procesos de diseño, facilitar la comunicación efectiva sobre avances y desafíos, y asegurar que las tareas se completaran de manera colaborativa. El ambiente inclusivo que ayudé a crear permitió que el equipo trabajara de manera cohesiva hacia objetivos comunes, especialmente en aspectos relacionados con la experiencia del usuario y la validación del producto.</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+
 
 ## Contenido
 
@@ -211,40 +283,6 @@ El proceso de colaboración en el informe se realizó mediante commits constante
     -  [Conclusiones](#Conclusiones)
     -  [Bibliografía](#Bibliografía)
     -  [Anexos](#Anexos)
-
-
-# **Student Outcome**
-
-**ABET – EAC - Student Outcome 5**
-Criterio: La capacidad de funcionar efectivamente en un equipo cuyos miembros juntos proporcionan liderazgo, crean un entorno de colaboración e inclusivo, establecen objetivos, planifican tareas y cumplen objetivos. 
-En el siguiente cuadro se describe las acciones realizadas y enunciados de conclusiones por parte del grupo, que permiten sustentar el haber alcanzado el logro del ABET – EAC - Student Outcome 5. 
-
-## Criterio específico: Comunica oralmente con efectividad a diferentes rangos de audiencia
-
-| Acción Realizada | Participantes | Descripción |
-| :--- | :--- | :--- |
-| Desarrollo de Endpoints: **Fuel Consumption** y **Report** y Tareas de Documentación/Diseño | Mel Andree Orellana | Lideró el desarrollo de los endpoints de **Fuel Consumption** y **Report** en el backend. También se encargó de la **estructura del informe**, el **Landing Page UI Design** y el **Segmento Objetivo**. |
-| Desarrollo de Endpoint: **Delivery** y Tareas de Needfinding | Gabriel Ferran Espinar | Se encargó del desarrollo del endpoint **Delivery**. Presentó hallazgos de entrevistas y encuestas con usuarios, comunicando sus necesidades principales (*Needfinding*) y arquetipos clave (**User Personas**). |
-| Desarrollo de Endpoint: **User** y Tareas de Wireframing/Prototipado | Daniel Palomino | Se encargó del desarrollo del endpoint **User**. Expuso los **wireframes y diagramas de flujo** de las aplicaciones web para mostrar el recorrido de usuario y facilitar la validación con el equipo. |
-| Desarrollo de Endpoint: **Fleet** y Arquitectura del Software | Angel Guillermo Berrospi | Desarrolló el endpoint **Fleet** y se encargó del **monitoreo** del equipo. Comunicó de manera técnica y accesible los **diagramas de clases y base de datos** y los diagramas de **arquitectura de software** (Context y Container Diagram), mostrando la estructura lógica del sistema. |
-
-**Conclusiones**  
-Las presentaciones orales del equipo Movesys permitieron transmitir hallazgos, diseños y propuestas a audiencias diversas (compañeros, docentes y potenciales usuarios), asegurando claridad técnica y estratégica. Esto fortaleció la validación temprana del proyecto y facilitó la alineación del equipo en torno a objetivos comunes.
-
-
----
-
-## Criterio específico: Comunica por escrito con efectividad a diferentes rangos de audiencia
-
-| Acción Realizada | Participantes | Descripción |
-| :--- | :--- | :--- |
-| Desarrollo de Endpoints: **Fuel Consumption** y **Report** y tareas de documentación clave | Mel Andree Orellana | **Desarrollé** los endpoints de **Fuel Consumption** y **Report** en el backend. Además, **documenté** las guías de estilo, la arquitectura de información y el segmento objetivo del proyecto, asegurando consistencia y claridad comunicativa. |
-| Desarrollo de Endpoint: **Delivery** y Tareas de Análisis Estratégico | Gabriel Ferran Espinar | **Me encargué** del endpoint **Delivery**. **Elaboré** la documentación escrita sobre el **Análisis Competitivo** y la **Estrategia**, comunicando *insights* útiles para la toma de decisiones. |
-| Desarrollo de Endpoint: **User** y Tareas de Wireframing/Prototipado | Daniel Palomino | **Me encargué** del endpoint **User**. **Documenté** los **Web Applications Wireframes**, **Wireflow Diagrams**, **Mock-ups** y **Prototyping**, facilitando la comunicación visual de la solución. |
-| Desarrollo de Endpoint: **Fleet** y Arquitectura del Software / Contexto | Angel Guillermo Berrospi | **Desarrollé** el endpoint **Fleet** y **monitoreé** el equipo. **Redacté** los diagramas de **Componentes** de la arquitectura y los apartados de **Antecedentes y problemática**, **Lean UX Canvas** y **Lean UX Process**, comunicando los fundamentos técnicos y de contexto. |
-
-**Conclusiones**  
-La comunicación escrita del equipo Movesys se distinguió por la claridad, precisión y consistencia en la documentación generada. Desde guías de estilo hasta artefactos ágiles y diagramas técnicos, la producción escrita facilitó la colaboración, la comprensión de procesos y la validación de la solución. Además, permitió mantener un registro estructurado y accesible para audiencias técnicas y no técnicas, consolidando la solidez del proyecto.
 
 
 
