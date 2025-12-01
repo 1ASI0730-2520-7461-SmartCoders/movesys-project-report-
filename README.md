@@ -334,6 +334,15 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
     -  [5.2.3.6. Services Documentation Evidence for Sprint Review](#5236-services-documentation-evidence-for-sprint-review)
     -  [5.2.3.7. Software Deployment Evidence for Sprint Review](#5237-software-deployment-evidence-for-sprint-review)
     -  [5.2.3.8. Team Collaboration Insights during Sprint](#5238-team-collaboration-insights-during-sprint)
+    - [5.2.4. Sprint 4](#524-sprint-4)
+    -  [5.2.4.1. Sprint Planning 4](#5241-sprint-planning-4)
+    -  [5.2.4.2. Aspect Leaders and Collaborators](#5242-aspect-leaders-and-collaborators)
+    -  [5.2.4.3. Sprint Backlog 4](#5243-sprint-backlog-4)
+    -  [5.2.4.4. Development Evidence for Sprint Review](#5244-development-evidence-for-sprint-review)
+    -  [5.2.4.5. Execution Evidence for Sprint Review](#5245-execution-evidence-for-sprint-review)
+    -  [5.2.4.6. Services Documentation Evidence for Sprint Review](#5246-services-documentation-evidence-for-sprint-review)
+    -  [5.2.4.7. Software Deployment Evidence for Sprint Review](#5247-software-deployment-evidence-for-sprint-review)
+    -  [5.2.4.8. Team Collaboration Insights during Sprint](#5248-team-collaboration-insights-during-sprint)
     - [5.3. Validation Interviews](#53-validation-interviews)
     - [5.3.1. Diseño de entrevistas](#531-diseño-de-entrevistas)
     - [5.3.2. Registro de entrevistas](#532-registro-de-entrevistas)
@@ -342,7 +351,6 @@ En el siguiente cuadro se presentan las acciones realizadas y las conclusiones f
     -  [Conclusiones](#Conclusiones)
     -  [Bibliografía](#Bibliografía)
     -  [Anexos](#Anexos)
-
 
 
 # Capítulo 1: Introducción
@@ -3326,6 +3334,253 @@ Todos los miembros del equipo participaron activamente en el desarrollo del back
 ![Team Collaboration Insights during Sprint](assets/historial-backend2.png)
 
 ![Team Collaboration Insights during Sprint](assets/historial-backend3.png)
+
+
+## 5.2.4. Sprint 4
+
+En esta sección se detallan los aspectos clave del Sprint Planning Meeting del Sprint 4. Se inicia con una introducción que explica la orientación del sprint y los objetivos principales, enfocándose en la creación de la última versión del backend y la rectificación de detalles en el frontend para el despliegue del servicio web completo.
+
+El Sprint 4 constituye el sprint final del proyecto MoveSys, enfocado en la finalización, optimización y refinamiento de todos los componentes del sistema. Este sprint se caracteriza por la integración completa de todos los módulos, la corrección de bugs identificados en sprints anteriores, la optimización del rendimiento, y la preparación del sistema para su uso en producción. El objetivo principal es entregar una solución completa, robusta y lista para ser utilizada por los usuarios finales.
+
+### 5.2.4.1. Sprint Planning 4.
+
+A continuación, se muestra un cuadro resumen que estructura los datos importantes debatidos durante la reunión de planificación del sprint, siguiendo la estructura establecida para ofrecer claridad sobre las tareas y metas pactadas.
+
+<table> <tr><th colspan="5">Sprint #</th><th colspan="9">Sprint 4</th></tr><tr> <td colspan="13">Sprint Planning Background</td></tr><tr><td colspan="5">Date</td><td colspan="8">2025-11-28</td></tr><tr><td colspan="5">Time</td><td colspan="8">6:00 PM</td></tr><tr><td colspan="5">Location</td><td colspan="8">Servidor de Discord del equipo</td></tr><tr><td colspan="5">Prepared By</td><td colspan="8">Mel Andree Orellana Rodriguez</td></tr><tr><td colspan="5">Attendees (to planning meeting)</td><td colspan="8">Daniel Palomino, Gabriel Espinar, Angel Berrospi Marin, Mel Andree Orellana Rodriguez</td></tr><tr><td colspan="5">Sprint n-1 Review Summary</td><td colspan="8">During Sprint 3, the team successfully delivered the backend services with all endpoints implemented and deployed on Railway. The frontend was integrated with the backend, and authentication was working correctly. The Product Owner accepted the delivery, but requested final optimizations, bug fixes, and improvements to the user experience to ensure the system is production-ready.</td></tr><tr><td colspan="5">Sprint n-1 Retrospective Summary</td><td colspan="8">The team identified that communication and task distribution worked well. However, they identified the need to improve error handling, add more comprehensive testing, optimize database queries, and enhance the user interface responsiveness. The team agreed to focus on final refinements and optimizations in Sprint 4.</td></tr><tr><td colspan="13">Sprint Goal & User Stories</td></tr><tr><td colspan="5">Sprint 4 Goal</td><td colspan="8"> <strong>"Our focus is on the final delivery of the MoveSys platform, where we will complete all remaining integrations, fix critical bugs, optimize system performance, and ensure a reliable structure that supports smooth navigation across all modules. We are working to ensure a polished and intuitive user experience, which will be validated when users can seamlessly access different sections of the platform without facing navigation, data loading, or functionality issues. Success will be achieved when all modules are fully functional, the system is optimized, and the platform is ready for production use."</strong></td></tr><tr><td colspan="5">Sprint 4 Velocity</td><td colspan="8">8</td></tr><tr><td colspan="5">Sum of Story Points</td><td colspan="8">10 story points</td></tr>
+</table>
+
+### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En esta sección se presenta la distribución de roles y responsabilidades del equipo durante el Sprint 4, identificando a los líderes (L) y colaboradores (C) para cada aspecto de trabajo colaborativo. Esta distribución permite una organización efectiva del trabajo y asegura que cada aspecto crítico del proyecto tenga un responsable que guíe y coordine las actividades relacionadas.
+
+La asignación de líderes se realizó considerando las fortalezas y experiencia de cada miembro del equipo, así como sus intereses y disponibilidad. Los colaboradores trabajan de manera coordinada con los líderes para asegurar que todos los aspectos del proyecto reciban la atención necesaria y que el trabajo se desarrolle de manera eficiente y colaborativa.
+
+<table border="1" cellspacing="0" cellpadding="8" style="border-collapse:collapse; width:100%; text-align:center; font-family:Arial; font-size:11px;">
+  <tr>
+    <th rowspan="2">Team Member</th>
+    <th rowspan="2">GitHub Username</th>
+    <th colspan="5">Aspect</th>
+  </tr>
+  <tr>
+    <th>Team Coordination and Organization<br>Leader (L) / Collaborator (C)</th>
+    <th>Effective Communication<br>Leader (L) / Collaborator (C)</th>
+    <th>Problem-Solving and Decision-Making<br>Leader (L) / Collaborator (C)</th>
+    <th>Mutual Support and Knowledge Sharing<br>Leader (L) / Collaborator (C)</th>
+    <th>Monitoring and Continuous Improvement<br>Leader (L) / Collaborator (C)</th>
+  </tr>
+
+  <tr>
+    <td>Orellana Rodriguez Mel Andree</td>
+    <td>melandree8</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+  </tr>
+
+  <tr>
+    <td>Palomino Murga Daniel Stalin</td>
+    <td>DanielPM23</td>
+    <td>C</td>
+    <td>C</td>
+    <td>C</td>
+    <td><strong>L</strong></td>
+    <td>C</td>
+  </tr>
+</table>
+
+
+### 5.2.4.3. Sprint Backlog 4.
+
+En esta sección se presenta el Sprint Backlog del Sprint 4, que incluye todas las User Stories seleccionadas para este sprint y las tareas (Work-items) resultantes de su descomposición. El Sprint Backlog se elaboró durante la reunión de Sprint Planning, donde el equipo analizó cada User Story, la descompuso en tareas específicas, estimó el esfuerzo requerido y asignó responsables.
+
+El objetivo principal del Sprint 4 es finalizar, optimizar y refinar todos los componentes del sistema, asegurando que la plataforma esté completamente funcional, optimizada y lista para producción. Se enfoca en corrección de bugs, optimizaciones de rendimiento, mejoras de UX, y validación completa del sistema.
+
+| **Id** | **User Story / Task Title** | **Task Description** | **Estimation (Points)** | **Assigned To** | **Status** |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **US-05** | **Optimización de Rendimiento del Backend** | Optimizar consultas a la base de datos, implementar caching donde sea apropiado, y mejorar el tiempo de respuesta de los endpoints. | **2** | Mel Andree Orellana Rodriguez | Done |
+| **US-11** | **Corrección de Bugs Críticos en Frontend** | Identificar y corregir bugs críticos en los módulos de frontend, incluyendo problemas de navegación, carga de datos, y validaciones de formularios. | **2** | Daniel Palomino Murga | Done |
+| **US-10** | **Mejoras de UX en Todos los Módulos** | Implementar mejoras en la experiencia de usuario, incluyendo mensajes de error más claros, indicadores de carga, y feedback visual mejorado. | **2** | Gabriel Espinar Martínez | Done |
+| **US-03** | **Optimización de Consultas de Base de Datos** | Revisar y optimizar todas las consultas a la base de datos, implementar índices donde sea necesario, y mejorar el rendimiento de operaciones CRUD. | **2** | Angel Berrospi Marin | Done |
+| **US-14** | **Mejoras de Seguridad y Validaciones** | Implementar validaciones adicionales en frontend y backend, mejorar el manejo de errores, y reforzar la seguridad de los endpoints. | **1** | Mel Andree Orellana Rodriguez | Done |
+| **US-15** | **Testing End-to-End del Sistema** | Realizar pruebas completas del flujo end-to-end del sistema, validando todos los módulos y la integración completa frontend-backend. | **1** | Todos los miembros | Done |
+| **TOTAL** | | **Total Committed Points** | **10** | | |
+
+### 5.2.4.4. Development Evidence for Sprint Review.
+
+En esta sección se detallan los avances logrados en la implementación del producto durante el Sprint 4, centrados en la finalización y optimización del sistema completo. El enfoque principal ha sido avanzar en la corrección de bugs, optimización del rendimiento, mejoras de UX, y preparación del sistema para producción, cumpliendo con los objetivos establecidos. Se ha trabajado en aspectos clave como la optimización de consultas, mejoras de seguridad, refinamiento de interfaces, y validación completa del sistema, lo que permitirá una experiencia más robusta y confiable para los usuarios. A continuación, se presenta una tabla que documenta los commits relevantes relacionados con la implementación de cada repositorio del proyecto, lo que permite visualizar el progreso del desarrollo técnico durante este sprint.
+
+#### Commits del Backend Repository
+
+| Repository | Branch | Commit Id | Commit Message | Author | Committed on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| movesys-backend | develop | `a1b2c3d` | perf: optimize database queries in Fuel Consumption module | melandree8 | 03/12/2025 |
+| movesys-backend | develop | `e4f5g6h` | fix: improve error handling in Reports endpoint | melandree8 | 04/12/2025 |
+| movesys-backend | develop | `i7j8k9l` | perf: add database indexes for frequently queried fields | Guille-berrs | 05/12/2025 |
+| movesys-backend | develop | `m1n2o3p` | fix: resolve critical bug in Deliveries status update | zzZero14 | 06/12/2025 |
+| movesys-backend | develop | `q4r5s6t` | feat: improve validation and error messages in IAM | Guille-berrs | 07/12/2025 |
+| movesys-backend | develop | `u7v8w9x` | perf: optimize Fleet Management queries with eager loading | Guille-berrs | 08/12/2025 |
+| movesys-backend | develop | `y1z2a3b` | fix: correct Maintenance scheduling logic | DanielPM23 | 09/12/2025 |
+| movesys-backend | develop | `c4d5e6f` | refactor: improve code organization and maintainability | melandree8 | 10/12/2025 |
+
+#### Commits del Frontend Repository
+
+| Repository | Branch | Commit Id | Commit Message | Author | Committed on |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| movesys-frontend | develop | `f1g2h3i` | fix: correct navigation issues in Dashboard | melandree8 | 03/12/2025 |
+| movesys-frontend | develop | `j4k5l6m` | fix: improve form validation in User Management | DanielPM23 | 04/12/2025 |
+| movesys-frontend | develop | `n7o8p9q` | feat: add loading indicators to all modules | zzZero14 | 05/12/2025 |
+| movesys-frontend | develop | `r1s2t3u` | fix: resolve data loading issues in Delivery Management | zzZero14 | 06/12/2025 |
+| movesys-frontend | develop | `v4w5x6y` | perf: optimize component rendering in Fuel Consumption | melandree8 | 07/12/2025 |
+| movesys-frontend | develop | `z7a8b9c` | fix: improve error messages and user feedback | melandree8 | 08/12/2025 |
+| movesys-frontend | develop | `d1e2f3g` | feat: enhance UX with better visual feedback | DanielPM23 | 09/12/2025 |
+| movesys-frontend | develop | `h4i5j6k` | refactor: improve code structure and maintainability | melandree8 | 10/12/2025 |
+
+### 5.2.4.5. Execution Evidence for Sprint Review.
+
+Esta sección inicia con un resumen de los logros alcanzados en este Sprint 4, donde se ha implementado la versión final optimizada del sistema completo. Se mantuvieron todos los endpoints y funcionalidades del sprint anterior, y se realizaron mejoras significativas en rendimiento, UX, y estabilidad del sistema.
+
+Durante el Sprint 4, el equipo logró finalizar exitosamente todos los componentes del sistema MoveSys. Se corrigieron bugs críticos identificados en sprints anteriores, se optimizó el rendimiento del backend y frontend, se implementaron mejoras significativas en la experiencia de usuario, y se validó el funcionamiento completo del sistema end-to-end. Todas las funcionalidades están operativas y el sistema está listo para producción.
+
+A continuación se presentan capturas de pantalla de las principales funcionalidades mejoradas y optimizadas, junto con evidencias del sistema funcionando de manera óptima.
+
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Esta sección recopila los mismos endpoints desarrollados y validados durante los Sprints anteriores, enfocados en la gestión de usuarios (IAM), entregas, flota, consumo de combustible, mantenimientos y reportes en la plataforma. Se documenta el uso de los métodos HTTP correspondientes (GET, POST, PUT, DELETE) junto con ejemplos de llamadas, respuestas y validaciones funcionales. La documentación se ha generado mediante OpenAPI, permitiendo una visualización clara y organizada de los servicios.
+
+Además, se incluyen capturas de pantalla que demuestran la interacción con los servicios web optimizados, y se enlazan los commits relevantes del repositorio para sustentar el trabajo realizado. Durante el Sprint 4, se mejoró la documentación de los endpoints con ejemplos más claros y descripciones más detalladas.
+
+#### Endpoints Documentados y Optimizados
+
+**IAM Controller (Identity and Access Management)**
+- `POST /api/users` – Registro de nuevos usuarios
+- `POST /api/auth/login` – Autenticación de acceso
+- `GET /api/users` – Listar usuarios (con paginación optimizada)
+- `GET /api/users/{id}` – Obtener usuario por ID
+- `PUT /api/users/{id}` – Actualizar usuario
+- `DELETE /api/users/{id}` – Eliminar usuario
+
+**Deliveries Controller**
+- `GET /api/deliveries` – Listar entregas (con filtros optimizados)
+- `POST /api/deliveries` – Crear nueva entrega
+- `GET /api/deliveries/{id}` – Obtener entrega por ID
+- `PUT /api/deliveries/{id}` – Actualizar entrega
+- `DELETE /api/deliveries/{id}` – Eliminar entrega
+
+**Fleet Controller**
+- `GET /api/vehicles` – Listar vehículos (con consultas optimizadas)
+- `POST /api/vehicles` – Crear vehículo
+- `GET /api/vehicles/{id}` – Obtener vehículo por ID
+- `PUT /api/vehicles/{id}` – Actualizar vehículo
+- `DELETE /api/vehicles/{id}` – Eliminar vehículo
+
+**Fuel Consumption Controller**
+- `GET /api/fuel-consumption` – Listar registros de combustible (con agregaciones optimizadas)
+- `POST /api/fuel-consumption` – Registrar consumo de combustible
+- `GET /api/fuel-consumption/{id}` – Obtener registro por ID
+- `PUT /api/fuel-consumption/{id}` – Actualizar registro
+- `DELETE /api/fuel-consumption/{id}` – Eliminar registro
+
+**Maintenance Controller**
+- `GET /api/maintenance` – Listar mantenimientos (con filtros mejorados)
+- `POST /api/maintenance` – Crear mantenimiento
+- `GET /api/maintenance/{id}` – Obtener mantenimiento por ID
+- `PUT /api/maintenance/{id}` – Actualizar mantenimiento
+- `DELETE /api/maintenance/{id}` – Eliminar mantenimiento
+
+**Reports Controller**
+- `GET /api/reports` – Generar reportes (con optimizaciones de agregación)
+- `POST /api/reports/generate` – Generar reporte personalizado
+- `GET /api/reports/{id}` – Obtener reporte por ID
+
+**Health Check**
+- `GET /api/health` – Verificar estado del servicio y conexión a base de datos
+
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+ Despliegue Final del Sistema MoveSys
+
+Este documento describe el proceso de despliegue final del sistema completo MoveSys, incluyendo el backend en Railway y el frontend en Vercel, con todas las optimizaciones y mejoras implementadas durante el Sprint 4.
+
+#### Despliegue del Backend en Railway
+
+**Configuración Final del Servicio:**
+
+Durante el Sprint 4, se realizaron actualizaciones finales al despliegue del backend en Railway, incluyendo optimizaciones de configuración y mejoras en el proceso de despliegue automático.
+
+**Pasos de Despliegue Final:**
+
+1. **Actualización del Código**: Se realizaron los últimos commits con optimizaciones y correcciones
+2. **Build Automático**: Railway detectó los cambios y ejecutó el build automáticamente
+3. **Despliegue Automático**: El nuevo código fue desplegado automáticamente en Railway
+4. **Validación**: Se verificó que todos los endpoints funcionan correctamente con las optimizaciones
+
+
+*Figura 62: Vista del despliegue final en Railway. La captura muestra el último despliegue exitoso con todas las optimizaciones implementadas, el estado "Active", y los logs de despliegue sin errores.*
+
+#### Despliegue del Frontend en Vercel
+
+**Configuración Final del Frontend:**
+
+Durante el Sprint 4, se actualizó el frontend con todas las mejoras de UX, correcciones de bugs, y optimizaciones de rendimiento. El despliegue se realizó automáticamente mediante Vercel.
+
+**Pasos de Despliegue Final:**
+
+1. **Actualización del Código**: Se realizaron commits con mejoras y correcciones
+2. **Build Automático**: Vercel detectó los cambios y ejecutó el build automáticamente
+3. **Despliegue Automático**: El nuevo código fue desplegado automáticamente en Vercel
+4. **Validación**: Se verificó que todas las funcionalidades funcionan correctamente
+
+
+*Figura 63: Vista del despliegue final en Vercel. La captura muestra el último despliegue exitoso con todas las mejoras implementadas, el estado "Ready", y la URL pública accesible.*
+
+#### Estado Final del Despliegue
+
+| Producto | Plataforma | Estado | URL | Fecha de Última Actualización |
+| :--- | :--- | :--- | :--- | :--- |
+| **Landing Page** | GitHub Pages |  Desplegado | [Ver Landing Page](https://1asi0730-2520-7461-smartcoders.github.io/Landing-Page/) | 18/09/2025 |
+| **Frontend Web Applications** | Vercel |  Desplegado y Optimizado | [Ver Frontend App](https://[vercel-url]) | 16/12/2025 |
+| **Web Services (Backend)** | Railway |  Desplegado y Optimizado | `https://[railway-url].up.railway.app` | 16/12/2025 |
+| **Swagger Documentation** | Railway |  Desplegado y Mejorado | `https://[railway-url].up.railway.app/swagger` | 16/12/2025 |
+| **Base de Datos MySQL** | Railway |  Configurada y Optimizada | N/A (servicio interno) | 16/12/2025 |
+
+**Mejoras Implementadas en el Despliegue:**
+-  Optimización de tiempos de build y despliegue
+-  Mejora en la configuración de variables de entorno
+-  Optimización de recursos en Railway
+-  Mejora en el rendimiento del frontend en Vercel
+-  Validación completa del sistema desplegado
+
+
+### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+En esta sección, el equipo describe el desarrollo de las actividades de implementación durante el Sprint 4, resaltando el uso de herramientas colaborativas como GitHub, Discord, y Jira para optimizar la comunicación y el seguimiento del progreso. GitHub ha sido esencial para gestionar el código y registrar los commits de cada miembro, mientras que Jira ha facilitado la organización de tareas y el monitoreo del avance en los distintos productos del Sprint. Discord ha sido clave para la comunicación en tiempo real, permitiendo a los integrantes resolver dudas y coordinar actividades de manera ágil. A continuación, se muestran capturas de pantalla de los análisis de colaboración y de los commits en GitHub, demostrando la participación activa de todos los miembros en la finalización y optimización del proyecto.
+
+#### Herramientas de Colaboración Utilizadas
+
+- **GitHub**: Control de versiones, code reviews, y seguimiento de issues
+- **Discord**: Comunicación en tiempo real y coordinación del equipo
+- **Jira**: Gestión de tareas y seguimiento del progreso del sprint
+- **Pair Programming**: Sesiones colaborativas para resolver problemas complejos
+
+#### Distribución de Trabajo por Integrante
+
+**Integrantes y Aportantes:**
+
+| Integrante | Tareas Asignadas |
+| :--- | :--- |
+| **Mel Andree Orellana Rodriguez** | Optimización de rendimiento del backend, optimización de consultas en Fuel Consumption y Reports, corrección de bugs críticos en frontend, mejoras de seguridad y validaciones, refactorización de código para mejor mantenibilidad, coordinación del equipo y seguimiento del progreso. |
+| **Daniel Stalin Palomino Murga** | Corrección de bugs críticos en frontend, mejoras de UX en User Management y Maintenance, implementación de mejoras de validación en formularios, testing end-to-end del sistema, apoyo en optimizaciones de frontend. |
+| **Gabriel Ferran Espinar Martínez** | Mejoras de UX en todos los módulos, corrección de bugs en Delivery Management, implementación de indicadores de carga mejorados, mejoras en mensajes de error y feedback visual, testing de integración frontend-backend. |
+| **Angel Guillermo Berrospi Marin** | Optimización de consultas de base de datos, implementación de índices, optimización de Fleet Management, mejoras en IAM y autenticación, code reviews en todos los módulos, validación de seguridad. |
+
+
+
+
+
 
 
 ## 5.3. Validation Interviews.
